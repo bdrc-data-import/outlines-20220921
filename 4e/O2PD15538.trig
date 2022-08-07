@@ -1,0 +1,216 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O2PD15538 {
+    bda:LG19DBAE5967C66B3B
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2014-07-21T14:28:26.963Z"^^xsd:dateTime ;
+        adm:logMessage      "gsar du las"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O2PD15538  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O2PD15538 ;
+        adm:facetIndex      17 ;
+        adm:gitPath         "4e/O2PD15538.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O2PD15538 ;
+        adm:logEntry        bda:LG19DBAE5967C66B3B ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL2C35E787039F3DB2
+        a                   :ContentLocation ;
+        :contentLocationEndPage  4 ;
+        :contentLocationInstance  bdr:W2PD15535 ;
+        :contentLocationPage  3 .
+    
+    bdr:CL88DAEF7EB46FFE65
+        a                   :ContentLocation ;
+        :contentLocationEndPage  128 ;
+        :contentLocationInstance  bdr:W2PD15535 ;
+        :contentLocationPage  5 .
+    
+    bdr:CL92B3450002263CB6
+        a                   :ContentLocation ;
+        :contentLocationEndPage  312 ;
+        :contentLocationInstance  bdr:W2PD15535 ;
+        :contentLocationPage  253 .
+    
+    bdr:CL9337E9059AB8E178
+        a                   :ContentLocation ;
+        :contentLocationEndPage  680 ;
+        :contentLocationInstance  bdr:W2PD15535 ;
+        :contentLocationPage  367 .
+    
+    bdr:CL9A03CB90C10793B1
+        a                   :ContentLocation ;
+        :contentLocationEndPage  176 ;
+        :contentLocationInstance  bdr:W2PD15535 ;
+        :contentLocationPage  129 .
+    
+    bdr:CLAA9087BB032EEF2D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  366 ;
+        :contentLocationInstance  bdr:W2PD15535 ;
+        :contentLocationPage  313 .
+    
+    bdr:CLB2A869E29FB4160A
+        a                   :ContentLocation ;
+        :contentLocationEndPage  252 ;
+        :contentLocationInstance  bdr:W2PD15535 ;
+        :contentLocationPage  177 .
+    
+    bdr:CR8B3997586C272CE7
+        a                   :AgentAsCreator ;
+        :agent              bdr:P227 ;
+        :role               bdr:R0ER0015 .
+    
+    bdr:MW2PD15535  :hasPart  bdr:MW2PD15535_3442D3 , bdr:MW2PD15535_4BD780 , bdr:MW2PD15535_690ED5 , bdr:MW2PD15535_79874E , bdr:MW2PD15535_9295F1 , bdr:MW2PD15535_A98062 , bdr:MW2PD15535_F91E16 .
+    
+    bdr:MW2PD15535_3442D3
+        a                   :Instance ;
+        skos:prefLabel      "sman sbyor gyi nus pa phyogs bsdus phan bde'i legs bshad/"@bo-x-ewts ;
+        :authorshipStatement  "largely the work of mkhyen rab nor bu"@en ;
+        :contentLocation    bdr:CL9A03CB90C10793B1 ;
+        :contentLocationStatement  "24 ff. (pp. 127-174)" ;
+        :hasTitle           bdr:TT299F40B7A0A61914 ;
+        :inRootInstance     bdr:MW2PD15535 ;
+        :instanceOf         bdr:WA0XL34FF551E43D7 ;
+        :legacyOutlineNodeRID  "O2PD155382PD15541" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW2PD15535 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW2PD15535_4BD780
+        a                   :Instance ;
+        skos:prefLabel      "sman gyi byin rlabs phud mchod nyung ngu/"@bo-x-ewts ;
+        :contentLocation    bdr:CL9337E9059AB8E178 ;
+        :contentLocationStatement  "10 ff. (pp. 365-384)" ;
+        :hasTitle           bdr:TT77C979F1643C8179 ;
+        :inRootInstance     bdr:MW2PD15535 ;
+        :instanceOf         bdr:WA0XL4BD78015A716 ;
+        :legacyOutlineNodeRID  "O2PD155382PD155432PD15551" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW2PD15535 ;
+        :partTreeIndex      "7" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW2PD15535_690ED5
+        a                   :Instance ;
+        skos:prefLabel      "lag len nyer mkho'i sman sbyor 'chi med bdud rtsi'i bum bzang /"@bo-x-ewts ;
+        :authorshipStatement  "compiled by mkhyen rab nor bu"@en ;
+        :contentLocation    bdr:CL88DAEF7EB46FFE65 ;
+        :contentLocationStatement  "62 ff. (pp. 3-126)" ;
+        :creator            bdr:CR8B3997586C272CE7 ;
+        :hasTitle           bdr:TT810D79BAF51169B5 ;
+        :inRootInstance     bdr:MW2PD15535 ;
+        :instanceOf         bdr:WA0XL690ED5542FFC ;
+        :legacyOutlineNodeRID  "O2PD155382PD15539" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW2PD15535 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW2PD15535_79874E
+        a                   :Instance ;
+        skos:prefLabel      "sman sbyor bdud rtsi'i thig le/"@bo-x-ewts ;
+        :authorshipStatement  "written by 'jam mgon mi pham rgya mtsho"@en ;
+        :contentLocation    bdr:CLB2A869E29FB4160A ;
+        :contentLocationStatement  "38 ff. (pp. 175-250)" ;
+        :hasTitle           bdr:TT94A59CF350623676 ;
+        :inRootInstance     bdr:MW2PD15535 ;
+        :instanceOf         bdr:WA8LS18157 ;
+        :legacyOutlineNodeRID  "O2PD155382PD15540" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW2PD15535 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW2PD15535_9295F1
+        a                   :Instance ;
+        skos:prefLabel      "dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CL2C35E787039F3DB2 ;
+        :contentLocationStatement  "1 ff. (pp. 1-2)" ;
+        :hasTitle           bdr:TT8360B68193C842E3 ;
+        :inRootInstance     bdr:MW2PD15535 ;
+        :legacyOutlineNodeRID  "O2PD155382PD155392PD15544" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW2PD15535 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW2PD15535_A98062
+        a                   :Instance ;
+        skos:prefLabel      "gangs ljongs sman pa'i grong khyer lcags ri baiDur gling gi sngo'i sman gyi 'khrugns dpe bsdus pa ngo mthar gser gyi snye ma/"@bo-x-ewts ;
+        :contentLocation    bdr:CL92B3450002263CB6 ;
+        :contentLocationStatement  "30 ff. (pp. 251-310)" ;
+        :hasTitle           bdr:TT9436B2D2F0821A9A ;
+        :inRootInstance     bdr:MW2PD15535 ;
+        :instanceOf         bdr:WA0XLA9806202822D ;
+        :legacyOutlineNodeRID  "O2PD155382PD155402PD15549" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW2PD15535 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW2PD15535_F91E16
+        a                   :Instance ;
+        skos:prefLabel      "nad sman sprod pa'i nyams yig"@bo-x-ewts ;
+        :authorshipStatement  "written by chos grags rgya mtsho"@en ;
+        :contentLocation    bdr:CLAA9087BB032EEF2D ;
+        :contentLocationStatement  "27 ff. (pp. 311-364)" ;
+        :hasTitle           bdr:TTF97689B38A6425DE ;
+        :inRootInstance     bdr:MW2PD15535 ;
+        :instanceOf         bdr:WA0XLF91E16E52357 ;
+        :legacyOutlineNodeRID  "O2PD155382PD15542" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW2PD15535 ;
+        :partTreeIndex      "6" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O2PD15538  a        :Outline ;
+        :authorshipStatement  "Paldor"@en ;
+        :legacyOutlineNodeRID  "O2PD15538" ;
+        :outlineOf          bdr:MW2PD15535 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT299F40B7A0A61914
+        a                   :Title ;
+        rdfs:label          "sman sbyor gyi nus pa phyogs bsdus phan bde'i legs bshad/"@bo-x-ewts .
+    
+    bdr:TT77C979F1643C8179
+        a                   :Title ;
+        rdfs:label          "sman gyi byin rlabs phud mchod nyung ngu/"@bo-x-ewts .
+    
+    bdr:TT810D79BAF51169B5
+        a                   :Title ;
+        rdfs:label          "lag len nyer mkho'i sman sbyor 'chi med bdud rtsi'i bum bzang /"@bo-x-ewts .
+    
+    bdr:TT8360B68193C842E3
+        a                   :Title ;
+        rdfs:label          "dkar chag"@bo-x-ewts .
+    
+    bdr:TT9436B2D2F0821A9A
+        a                   :Title ;
+        rdfs:label          "gangs ljongs sman pa'i grong khyer lcags ri baiDur gling gi sngo'i sman gyi 'khrugns dpe bsdus pa ngo mthar gser gyi snye ma/"@bo-x-ewts .
+    
+    bdr:TT94A59CF350623676
+        a                   :Title ;
+        rdfs:label          "sman sbyor bdud rtsi'i thig le/"@bo-x-ewts .
+    
+    bdr:TTF97689B38A6425DE
+        a                   :Title ;
+        rdfs:label          "nad sman sprod pa'i nyams yig"@bo-x-ewts .
+}

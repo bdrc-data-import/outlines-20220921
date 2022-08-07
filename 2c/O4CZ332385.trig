@@ -1,0 +1,97 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ332385 {
+    bda:LG289389CF416933E7
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2019-04-01T10:48:44.319Z"^^xsd:dateTime ;
+        adm:logMessage      "new outline for usaid"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:LGAC0578C562849EF1
+        a                   adm:UpdateData ;
+        adm:logDate         "2019-04-01T14:17:01.025Z"^^xsd:dateTime ;
+        adm:logMessage      "added info"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:O4CZ332385  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ332385 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "2c/O4CZ332385.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ332385 ;
+        adm:logEntry        bda:LG289389CF416933E7 , bda:LGAC0578C562849EF1 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL38D491BF52A7DCCA
+        a                   :ContentLocation ;
+        :contentLocationEndPage  "0" ;
+        :contentLocationInstance  bdr:W4CZ332267 ;
+        :contentLocationPage  "0" .
+    
+    bdr:CL80847A405BD89D02
+        a                   :ContentLocation ;
+        :contentLocationEndPage  "0" ;
+        :contentLocationInstance  bdr:W4CZ332267 ;
+        :contentLocationPage  3 .
+    
+    bdr:MW4CZ332267  :hasPart  bdr:MW4CZ332267_234D43 , bdr:MW4CZ332267_4154AC .
+    
+    bdr:MW4CZ332267_234D43
+        a                   :Instance ;
+        skos:prefLabel      "bon gyi lung ston gyi mdo/"@bo-x-ewts ;
+        :contentLocation    bdr:CL38D491BF52A7DCCA ;
+        :contentLocationStatement  "227 ff." ;
+        :hasTitle           bdr:TT14D385D3668E9F6F , bdr:TTAE2AB7E121685838 ;
+        :inRootInstance     bdr:MW4CZ332267 ;
+        :instanceOf         bdr:WA0XL234D43793822 ;
+        :legacyOutlineNodeRID  "O4CZ3323854CZ332387" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW4CZ332267 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW4CZ332267_4154AC
+        a                   :Instance ;
+        skos:prefLabel      "bstan pa'i rnam bshad dar rgyas gsal ba'i sgron me/"@bo-x-ewts ;
+        :contentLocation    bdr:CL80847A405BD89D02 ;
+        :contentLocationStatement  "770 p." ;
+        :hasTitle           bdr:TT3FEAB2F25398B566 ;
+        :inRootInstance     bdr:MW4CZ332267 ;
+        :instanceOf         bdr:WA0XL4154AC9E9405 ;
+        :legacyOutlineNodeRID  "O4CZ3323854CZ332386" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW4CZ332267 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O4CZ332385  a       :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ332385" ;
+        :outlineOf          bdr:MW4CZ332267 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT14D385D3668E9F6F
+        a                   :Title ;
+        rdfs:label          "bon gyi lung ston gyi mdo/"@bo-x-ewts .
+    
+    bdr:TT3FEAB2F25398B566
+        a                   :Title ;
+        rdfs:label          "bstan pa'i rnam bshad dar rgyas gsal ba'i sgron me/"@bo-x-ewts .
+    
+    bdr:TTAE2AB7E121685838
+        a                   :TitlePageTitle ;
+        rdfs:label          "'phrul ngag g.yung drung bon gyi lung ston gyi mdo/"@bo-x-ewts .
+}

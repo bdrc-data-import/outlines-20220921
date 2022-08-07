@@ -1,0 +1,237 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O3CN22879 {
+    bda:LG60328764A1C339B1
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2020-05-28T19:08:21.952Z"^^xsd:dateTime ;
+        adm:logMessage      "finished outline"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LG6590C8CF69FADA67
+        a                   adm:UpdateData ;
+        adm:logDate         "2020-06-02T10:10:09.003Z"^^xsd:dateTime ;
+        adm:logMessage      "corrected typo"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LG7D52F62F80A9771F
+        a                   adm:UpdateData ;
+        adm:logDate         "2020-06-02T13:44:51.738Z"^^xsd:dateTime ;
+        adm:logMessage      "added colophon"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:O3CN22879  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O3CN22879 ;
+        adm:facetIndex      20 ;
+        adm:gitPath         "6f/O3CN22879.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O3CN22879 ;
+        adm:logEntry        bda:LG60328764A1C339B1 , bda:LG6590C8CF69FADA67 , bda:LG7D52F62F80A9771F ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL104638B76EBB528D
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W3CN22843 ;
+        :contentLocationPage  3 .
+    
+    bdr:CL1AF4BAC5DA0EEC5E
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W3CN22843 .
+    
+    bdr:CL30E52831C72C6F79
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W3CN22843 .
+    
+    bdr:CL5139D67CD975D8CF
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W3CN22843 .
+    
+    bdr:CL8C968BAAB1E837F7
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W3CN22843 .
+    
+    bdr:CL91F74766B0231561
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W3CN22843 .
+    
+    bdr:CLA02CBFC3DFAE161B
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W3CN22843 .
+    
+    bdr:CLF69B965541651929
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W3CN22843 .
+    
+    bdr:MW3CN22843  :hasPart  bdr:MW3CN22843_34B5C5 , bdr:MW3CN22843_6A81B5 , bdr:MW3CN22843_821487 , bdr:MW3CN22843_8858EA , bdr:MW3CN22843_BBC825 , bdr:MW3CN22843_CFA045 , bdr:MW3CN22843_D82A20 , bdr:MW3CN22843_F66134 .
+    
+    bdr:MW3CN22843_34B5C5
+        a                   :Instance ;
+        skos:prefLabel      "rgyal tshab gnas brtan chen po bcu drug gi rnam thar rtogs brjod bsam 'phel gter gyi sgo 'byed/"@bo-x-ewts ;
+        :authorshipStatement  "paN chen legs bshad 'tshol gyis sbyar/"@bo-x-ewts ;
+        :contentLocation    bdr:CL5139D67CD975D8CF ;
+        :contentLocationStatement  "1-9 ff." ;
+        :hasTitle           bdr:TT6D4B226F42B076F5 ;
+        :inRootInstance     bdr:MW3CN22843 ;
+        :instanceOf         bdr:WA0XL34B5C5947A65 ;
+        :legacyOutlineNodeRID  "O3CN228793CN22885" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW3CN22843 ;
+        :partTreeIndex      "7" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3CN22843_6A81B5
+        a                   :Instance ;
+        skos:prefLabel      "'phags pa'i gnas brtan chen po bcu drug gi rtogs pa brjod pa nor bu'i phreng ba/"@bo-x-ewts ;
+        :authorshipStatement  "dge slong chos kyi rgyal po/"@bo-x-ewts ;
+        :contentLocation    bdr:CL8C968BAAB1E837F7 ;
+        :contentLocationStatement  "1-19 ff." ;
+        :hasTitle           bdr:TTB5E8FF3ACE1F2645 ;
+        :inRootInstance     bdr:MW3CN22843 ;
+        :instanceOf         bdr:WA0XL6A81B5FB33B3 ;
+        :legacyOutlineNodeRID  "O3CN228793CN22884" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW3CN22843 ;
+        :partTreeIndex      "6" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3CN22843_821487
+        a                   :Instance ;
+        skos:prefLabel      "'phags pa'i gnas brtan bcu drug gi rnam par thar pa/"@bo-x-ewts ;
+        :colophon           "bkra shis lhun grub chos gwa cher/ chos sbyin 'dzad med dal 'gro'i rgyun 'di spel/"@bo-x-ewts ;
+        :contentLocation    bdr:CLA02CBFC3DFAE161B ;
+        :contentLocationStatement  "1-9 ff." ;
+        :hasTitle           bdr:TT44E992AF2A5D67F5 ;
+        :inRootInstance     bdr:MW3CN22843 ;
+        :instanceOf         bdr:WA0XL821487B70668 ;
+        :legacyOutlineNodeRID  "O3CN228793CN22886" ;
+        :partIndex          8 ;
+        :partOf             bdr:MW3CN22843 ;
+        :partTreeIndex      "8" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3CN22843_8858EA
+        a                   :Instance ;
+        skos:prefLabel      "thub pa'i dbang po 'phags pa gnas brtan bcu drug dang bcas pa'i rtogs pa brjod pa rgyal bstan rin po che'i mdzes rgyan phul byung gser gyi phreng ba/"@bo-x-ewts ;
+        :authorshipStatement  "mdzad byang ma gsal/"@bo-x-ewts ;
+        :contentLocation    bdr:CL104638B76EBB528D ;
+        :contentLocationStatement  "1-216 ff." ;
+        :hasTitle           bdr:TTEB9DD55CD851AFB8 ;
+        :inRootInstance     bdr:MW3CN22843 ;
+        :instanceOf         bdr:WA0XL8858EA581CCC ;
+        :legacyOutlineNodeRID  "O3CN228793CN22880" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW3CN22843 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3CN22843_BBC825
+        a                   :Instance ;
+        skos:prefLabel      "ston pa shAkya thub pa'i nyan thos chen po rnams kyi rnam par thar pa rin po che'i phreng ba rnam par bkod pa/"@bo-x-ewts ;
+        :authorshipStatement  "dge slong tshul khrims seng+ge"@bo-x-ewts ;
+        :colophon           "dpal dge ye'i gtsug lag khang chen por par du bsgrubs/"@bo-x-ewts ;
+        :contentLocation    bdr:CL1AF4BAC5DA0EEC5E ;
+        :contentLocationStatement  "1-98 ff." ;
+        :hasTitle           bdr:TTC61E372B3EFE2BD2 ;
+        :inRootInstance     bdr:MW3CN22843 ;
+        :instanceOf         bdr:WA0XLBBC825AEE221 ;
+        :legacyOutlineNodeRID  "O3CN228793CN22882" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW3CN22843 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3CN22843_CFA045
+        a                   :Instance ;
+        skos:prefLabel      "'phags pa'i gnas brtan bcu drug gi lo rgyus rnam par thar pa rmad du byung ba'i tshul/"@bo-x-ewts ;
+        :authorshipStatement  "mdzad byang mi gsal/"@bo-x-ewts ;
+        :contentLocation    bdr:CL30E52831C72C6F79 ;
+        :contentLocationStatement  "1-18 ff." ;
+        :hasTitle           bdr:TT21D2B007794C9DB7 ;
+        :inRootInstance     bdr:MW3CN22843 ;
+        :instanceOf         bdr:WA0XLCFA0455DD599 ;
+        :legacyOutlineNodeRID  "O3CN228793CN22883" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW3CN22843 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3CN22843_D82A20
+        a                   :Instance ;
+        skos:prefLabel      "rgyal ba'i bstan skyong 'phags pa gnas brtan chen po bcu drug gi rtogs pa brjod pa dzam+bu'i snye ma/"@bo-x-ewts ;
+        :authorshipStatement  "dge slong mi pham ngag dbang snyan grags dpal bzang po/"@bo-x-ewts ;
+        :contentLocation    bdr:CL91F74766B0231561 ;
+        :contentLocationStatement  "1-25 ff." ;
+        :hasTitle           bdr:TT1A09B889BA024227 ;
+        :inRootInstance     bdr:MW3CN22843 ;
+        :instanceOf         bdr:WA0XLD82A20DA819F ;
+        :legacyOutlineNodeRID  "O3CN228793CN22881" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW3CN22843 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3CN22843_F66134
+        a                   :Instance ;
+        skos:prefLabel      "'phags pa'i gnas brtan bcu drug gi rnam par thar pa mkhas pa dgyes byed/"@bo-x-ewts ;
+        :authorshipStatement  "mkhan chen grub pa'i shes rab/"@bo-x-ewts ;
+        :contentLocation    bdr:CLF69B965541651929 ;
+        :contentLocationStatement  "1-16 ff." ;
+        :hasTitle           bdr:TT0AA3B853FE4FDEA9 ;
+        :inRootInstance     bdr:MW3CN22843 ;
+        :instanceOf         bdr:WA0XLF66134704392 ;
+        :legacyOutlineNodeRID  "O3CN228793CN22887" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW3CN22843 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O3CN22879  a        :Outline ;
+        :authorshipStatement  "Chungdak Nangpa"@en ;
+        :legacyOutlineNodeRID  "O3CN22879" ;
+        :outlineOf          bdr:MW3CN22843 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+    
+    bdr:TT0AA3B853FE4FDEA9
+        a                   :TitlePageTitle ;
+        rdfs:label          "'phags pa'i gnas brtan bcu drug gi rnam par thar pa mkhas pa dgyes byed/"@bo-x-ewts .
+    
+    bdr:TT1A09B889BA024227
+        a                   :TitlePageTitle ;
+        rdfs:label          "rgyal ba'i bstan skyong 'phags pa gnas brtan chen po bcu drug gi rtogs pa brjod pa dzam+bu'i snye ma/"@bo-x-ewts .
+    
+    bdr:TT21D2B007794C9DB7
+        a                   :TitlePageTitle ;
+        rdfs:label          "'phags pa'i gnas brtan bcu drug gi lo rgyus rnam par thar pa rmad du byung ba'i tshul/"@bo-x-ewts .
+    
+    bdr:TT44E992AF2A5D67F5
+        a                   :TitlePageTitle ;
+        rdfs:label          "'phags pa'i gnas brtan bcu drug gi rnam par thar pa/"@bo-x-ewts .
+    
+    bdr:TT6D4B226F42B076F5
+        a                   :TitlePageTitle ;
+        rdfs:label          "rgyal tshab gnas brtan chen po bcu drug gi rnam thar rtogs brjod bsam 'phel gter gyi sgo 'byed/"@bo-x-ewts .
+    
+    bdr:TTB5E8FF3ACE1F2645
+        a                   :TitlePageTitle ;
+        rdfs:label          "'phags pa'i gnas brtan chen po bcu drug gi rtogs pa brjod pa nor bu'i phreng ba/"@bo-x-ewts .
+    
+    bdr:TTC61E372B3EFE2BD2
+        a                   :TitlePageTitle ;
+        rdfs:label          "ston pa shAkya thub pa'i nyan thos chen po rnams kyi rnam par thar pa rin po che'i phreng ba rnam par bkod pa/"@bo-x-ewts .
+    
+    bdr:TTEB9DD55CD851AFB8
+        a                   :TitlePageTitle ;
+        rdfs:label          "thub pa'i dbang po 'phags pa gnas brtan bcu drug dang bcas pa'i rtogs pa brjod pa rgyal bstan rin po che'i mdzes rgyan phul byung gser gyi phreng ba/"@bo-x-ewts .
+}

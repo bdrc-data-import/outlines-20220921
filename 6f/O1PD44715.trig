@@ -1,0 +1,49 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD44715 {
+    bda:LG47736A6A6E6460B7
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-09-26T15:03:03.414Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00003 .
+    
+    bda:LG84C9AB382D94C284
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-03-10T10:12:26.504Z"^^xsd:dateTime ;
+        adm:logMessage      "added created with the generous support of the Dzongsar Khyentse Foundation"@en ;
+        adm:logWho          bdu:U00003 .
+    
+    bda:LGCEAAA2AD54D90CD0
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2008-09-26T15:00:13.073Z"^^xsd:dateTime ;
+        adm:logMessage      "gsar du bcug"@en ;
+        adm:logWho          bdu:U00003 .
+    
+    bda:O1PD44715  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD44715 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "6f/O1PD44715.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD44715 ;
+        adm:logEntry        bda:LG47736A6A6E6460B7 , bda:LG84C9AB382D94C284 , bda:LGCEAAA2AD54D90CD0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:O1PD44715  a        :Outline ;
+        :authorshipStatement  "Dega Bumu; created with the generous support of the Dzongsar Khyentse Foundation"@en ;
+        :legacyOutlineNodeRID  "O1PD44715" ;
+        :outlineOf          bdr:MW1PD44712 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+}

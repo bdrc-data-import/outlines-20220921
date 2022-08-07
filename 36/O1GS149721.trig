@@ -1,0 +1,91 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS149721 {
+    bda:LGCF7D3E13EDFB3FC3
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-07-07T15:27:01.734Z"^^xsd:dateTime ;
+        adm:logMessage      "outline completed"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS149721  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS149721 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "36/O1GS149721.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS149721 ;
+        adm:logEntry        bda:LGCF7D3E13EDFB3FC3 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL16BAD60DABDC007B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  164 ;
+        :contentLocationInstance  bdr:W23875 ;
+        :contentLocationPage  7 .
+    
+    bdr:CL30BE2887B8BD52FA
+        a                   :ContentLocation ;
+        :contentLocationEndPage  216 ;
+        :contentLocationInstance  bdr:W23875 ;
+        :contentLocationPage  165 .
+    
+    bdr:MW23875  :hasPart   bdr:MW23875_930882 , bdr:MW23875_C1D8D7 .
+    
+    bdr:MW23875_930882
+        a                   :Instance ;
+        skos:prefLabel      "dpal rdo rje 'jigs byed kyi rim pa gnyis pa'i lam la ji ltar bgrod pa'i tshul gyi zin bris gsang chen myur lam ('jigs rdzogs kha)"@bo-x-ewts ;
+        :authorshipStatement  "notes written by rje drung blo bzang tshe ring and subsequently revised by dbyangs can grub pa'i rdo rje after 1831 of the lectures of dngul chu d+harma b+hadra"@en ;
+        :colophon           "ces dpal rdo rje 'jigs byed kyi rim pa gnyis pa'i lam la ji ltar bgrod pa'i tshul gyi zin bris gsang chen myur lam zhes bya ba 'di ni bshad sgrub bstan pa'i srog shing rje btsun dngul chu ba chen po d+harma b+ha dra dpal bzang pos skal ldan gyi gdul bya mang po zhig la rtsa tshig dangs sa bcad 'dzin chos dang 'brel ba'i zab bshad nyin brgyad kyi ring stsal ba'i brjed byang la gzhi byas/ lcags yos hor zla bcu pa'i nang nye char zhal zung par sprul bas kyang brgyan te bka' 'bangs pa rje drung tshe rin ming can gyis bkod pa'o/ /slar yang dbyangs can grub pa'i rdo rjes zhus dag par byas pa'o"@bo-x-ewts , "mkhas mchog dngul chu ba d+harma b+ha dra'i gsung zin 'jigs mdzad rdo rje'i rim gnyis kyi khrid yig 'di bzhin man ngag 'dus che zing/ zhal gsal ba bcas legs bshad kyi gter du mchis kyang/ sngar phan dbus 'gyur 'dir spar med stabs/ rab byung bcu drug pa'i me khyi lor 7 skyabs mgon srid skyong yongs 'dzin stag brag paN+Di ta chen po'i bstan 'gror sman pa'i bka' dgongs bla med dang 'brel/ gzhung sa mchog nas spar du bskun gnang mdzad de/ pho brang po ta la'i zhol spar khang chen mor bzhugs pa 'gro don 'phel/"@bo-x-ewts ;
+        :contentLocation    bdr:CL30BE2887B8BD52FA ;
+        :contentLocationStatement  "pp. 1-210" ;
+        :hasTitle           bdr:TTED17727882FDF106 ;
+        :inRootInstance     bdr:MW23875 ;
+        :instanceOf         bdr:WA0XL930882913B35 ;
+        :legacyOutlineNodeRID  "O1GS1497211GS149723" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW23875 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23875_C1D8D7
+        a                   :Instance ;
+        skos:prefLabel      "dpal rdo rje 'jigs byed lha bcu gsum ma'i bskyed rim gyi zin bris drang srong bla ma'i zhal lung ('jigs bskyed ka)"@bo-x-ewts ;
+        :authorshipStatement  "notes made in 1825 by rje drung blo bzang tshe ring and revised in 1858 by dbyangs can grub pa'i rdo rje of lectures made by dngul chu d+harma b+ha dra"@en ;
+        :colophon           "ces pa 'di yang bdag cag rnams la bka' drin mtshungs med skyabs mchog dam pa d+haram b+ha dra zhes mtshan yongs su grags pa'i mkhas grub chen po gang gi bka' 'bangs su chud pa'i gyi na ba rje drung tshe ring ming can gyis brjed byang zin bris su bkod pa lags so/ /slar yang shing bya hor zla bcu gcig pa'i tshes gnyis nas bzung nyin bcu'i bar du bskyed rim gyi zab khrid stsal ba'i skabs 'chos dgos dang gsar bkod gang grub bgyis pa'o/ /slar yang bstan pa'i gsal byed dam pa bla ma bskal bzang dar rgyas lags brgyud bstan pa'i sbyin bdag dpal mi'i dbang phyug gung bshad sgra dbang phyug rgyal po'i bkas tsig don la zhus dag dang/ rje btsun gong ma'i gsung blo yul du yod pa snon pa bcas gyis shig ces spyi bo'i mdzes rgyan du phebs pa dang/ rje btsun bla ma de nyid nas kyang lam rim gyi bka' 'khrid stsol skabs shig bdag nas chos bshad pa la gzhan gyis zin bris byas pa mang po 'dug par/ bdag rang nas smra nges kyi legs bahd kyang mang po 'dug/ nor ba mang po 'dug/ /res 'ga' bdag nas gtad nas ma smra ba'i 'ol tshod byas pas yang mang po 'dug pas mtha' gcig tu nges bzung bya mi rung tshul bcas phebs par brten nges par dpyad pa zhig bya dgos yod kyang/ da lam bar yig bri gtugs kyis ha cang zhib pa ma grub kyang tshig don la zhus dag lam pa dang/ 'go mjug gi tshigs bcad dang/ rje btsun bla ma de nyid kyi gsung blo yul du bcags pa kha shas gsar bsnan thog drangs srong bla ma'i zhal lung zhes pa'i mtshan gsol dang bcas/ mgon po gang gi dbon rigs dbyangs can grub pa'i rdo rjes dus kyi pho nya'i lo bzhad dngul chu ri khrod ga' ldan rtse'i gzim khang rangs sras nor bu'i gling du bgyis pas..."@bo-x-ewts , "rgyal bstan spyi dang 'jam mgon bshad sgrub bstan/ /'phel rgyas 'gro la bde skyid 'byung ba'i slad/ /dga' ba brgya ldan pho brang gan mdzod nas/ /chos sbyin 'dzad med gang+gA'i rgyun 'di spel/"@bo-x-ewts ;
+        :contentLocation    bdr:CL16BAD60DABDC007B ;
+        :contentLocationStatement  "pp. 1-158" ;
+        :hasTitle           bdr:TTBA2DC237BD78F412 ;
+        :inRootInstance     bdr:MW23875 ;
+        :instanceOf         bdr:WA0XLC1D8D7BE2131 ;
+        :legacyOutlineNodeRID  "O1GS1497211GS149722" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW23875 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS149721  a       :Outline ;
+        :authorshipStatement  "genesmith: outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS149721" ;
+        :outlineOf          bdr:MW23875 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TTBA2DC237BD78F412
+        a                   :Title ;
+        rdfs:label          "dpal rdo rje 'jigs byed lha bcu gsum ma'i bskyed rim gyi zin bris drang srong bla ma'i zhal lung ('jigs bskyed ka)"@bo-x-ewts .
+    
+    bdr:TTED17727882FDF106
+        a                   :Title ;
+        rdfs:label          "dpal rdo rje 'jigs byed kyi rim pa gnyis pa'i lam la ji ltar bgrod pa'i tshul gyi zin bris gsang chen myur lam ('jigs rdzogs kha)"@bo-x-ewts .
+}

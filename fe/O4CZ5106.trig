@@ -1,0 +1,210 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ5106 {
+    bda:LG60800B9C49C68DF5
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2011-03-16T10:53:26.011Z"^^xsd:dateTime ;
+        adm:logMessage      "new and rdza drag"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:LGBEAB15A1C1E7F9BC
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-03-16T10:56:30.549Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:LGC8CFDC7210F242F9
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-03-17T10:05:18.206Z"^^xsd:dateTime ;
+        adm:logMessage      "Reviewed and released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O4CZ5106  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ5106 ;
+        adm:facetIndex      18 ;
+        adm:gitPath         "fe/O4CZ5106.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ5106 ;
+        adm:logEntry        bda:LG60800B9C49C68DF5 , bda:LGBEAB15A1C1E7F9BC , bda:LGC8CFDC7210F242F9 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:CL286E13571F4FC625
+        a                   :ContentLocation ;
+        :contentLocationEndPage  87 ;
+        :contentLocationInstance  bdr:W4CZ1116 ;
+        :contentLocationPage  62 .
+    
+    bdr:CL2926AE7C315E4F9B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  41 ;
+        :contentLocationInstance  bdr:W4CZ1116 ;
+        :contentLocationPage  3 .
+    
+    bdr:CL3E2CA91B1FFEB4CB
+        a                   :ContentLocation ;
+        :contentLocationEndPage  190 ;
+        :contentLocationInstance  bdr:W4CZ1116 ;
+        :contentLocationPage  163 .
+    
+    bdr:CL89316FDF7893D8F2
+        a                   :ContentLocation ;
+        :contentLocationEndPage  111 ;
+        :contentLocationInstance  bdr:W4CZ1116 ;
+        :contentLocationPage  87 .
+    
+    bdr:CL9B6FCFF520A277A8
+        a                   :ContentLocation ;
+        :contentLocationEndPage  62 ;
+        :contentLocationInstance  bdr:W4CZ1116 ;
+        :contentLocationPage  41 .
+    
+    bdr:CLB7632B6AF8B5279C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  163 ;
+        :contentLocationInstance  bdr:W4CZ1116 ;
+        :contentLocationPage  137 .
+    
+    bdr:CLFCF80802C82A5B24
+        a                   :ContentLocation ;
+        :contentLocationEndPage  137 ;
+        :contentLocationInstance  bdr:W4CZ1116 ;
+        :contentLocationPage  111 .
+    
+    bdr:MW4CZ1116  :hasPart  bdr:MW4CZ1116_0827C6 , bdr:MW4CZ1116_158312 , bdr:MW4CZ1116_74803B , bdr:MW4CZ1116_78C0C6 , bdr:MW4CZ1116_A6288A , bdr:MW4CZ1116_B47A71 , bdr:MW4CZ1116_E78917 .
+    
+    bdr:MW4CZ1116_0827C6
+        a                   :Instance ;
+        skos:prefLabel      "bam po bzhi pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL89316FDF7893D8F2 ;
+        :contentLocationStatement  "ff. 43vr-55r" ;
+        :hasTitle           bdr:TT30F6261974098C40 ;
+        :inRootInstance     bdr:MW4CZ1116 ;
+        :legacyOutlineNodeRID  "O4CZ51064CZ5115" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW4CZ1116 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW4CZ1116_158312
+        a                   :Instance ;
+        skos:prefLabel      "bam po dang po/"@bo-x-ewts ;
+        :contentLocation    bdr:CL2926AE7C315E4F9B ;
+        :contentLocationStatement  "ff. 1-20r" ;
+        :hasTitle           bdr:TTB90EB81A6D718DAC ;
+        :inRootInstance     bdr:MW4CZ1116 ;
+        :legacyOutlineNodeRID  "O4CZ51064CZ5107" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW4CZ1116 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW4CZ1116_74803B
+        a                   :Instance ;
+        skos:prefLabel      "bam po bdun pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL3E2CA91B1FFEB4CB ;
+        :contentLocationStatement  "ff. 81r-94r" ;
+        :hasTitle           bdr:TTAABD41B82706CCCF ;
+        :inRootInstance     bdr:MW4CZ1116 ;
+        :legacyOutlineNodeRID  "O4CZ51064CZ5118" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW4CZ1116 ;
+        :partTreeIndex      "7" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW4CZ1116_78C0C6
+        a                   :Instance ;
+        skos:prefLabel      "bam po lnga pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLFCF80802C82A5B24 ;
+        :contentLocationStatement  "ff. 55r-68r" ;
+        :hasTitle           bdr:TT6B2F12352E08F009 ;
+        :inRootInstance     bdr:MW4CZ1116 ;
+        :legacyOutlineNodeRID  "O4CZ51064CZ5116" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW4CZ1116 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW4CZ1116_A6288A
+        a                   :Instance ;
+        skos:prefLabel      "bam po gnyis pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL9B6FCFF520A277A8 ;
+        :hasTitle           bdr:TT2966348B2CA76CC3 ;
+        :inRootInstance     bdr:MW4CZ1116 ;
+        :legacyOutlineNodeRID  "O4CZ51064CZ5108" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW4CZ1116 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW4CZ1116_B47A71
+        a                   :Instance ;
+        skos:prefLabel      "bam po drug pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLB7632B6AF8B5279C ;
+        :contentLocationStatement  "ff. 68r-81r" ;
+        :hasTitle           bdr:TT146CDC2FB9475A69 ;
+        :inRootInstance     bdr:MW4CZ1116 ;
+        :legacyOutlineNodeRID  "O4CZ51064CZ5117" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW4CZ1116 ;
+        :partTreeIndex      "6" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW4CZ1116_E78917
+        a                   :Instance ;
+        skos:prefLabel      "bam po gsum pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL286E13571F4FC625 ;
+        :contentLocationStatement  "ff. 30v-43r" ;
+        :hasTitle           bdr:TTB3A6CB8E2AF8869C ;
+        :inRootInstance     bdr:MW4CZ1116 ;
+        :legacyOutlineNodeRID  "O4CZ51064CZ5109" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW4CZ1116 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:O4CZ5106  a         :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ5106" ;
+        :outlineOf          bdr:MW4CZ1116 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT146CDC2FB9475A69
+        a                   :Title ;
+        rdfs:label          "bam po drug pa/"@bo-x-ewts .
+    
+    bdr:TT2966348B2CA76CC3
+        a                   :Title ;
+        rdfs:label          "bam po gnyis pa/"@bo-x-ewts .
+    
+    bdr:TT30F6261974098C40
+        a                   :Title ;
+        rdfs:label          "bam po bzhi pa/"@bo-x-ewts .
+    
+    bdr:TT6B2F12352E08F009
+        a                   :Title ;
+        rdfs:label          "bam po lnga pa/"@bo-x-ewts .
+    
+    bdr:TTAABD41B82706CCCF
+        a                   :Title ;
+        rdfs:label          "bam po bdun pa/"@bo-x-ewts .
+    
+    bdr:TTB3A6CB8E2AF8869C
+        a                   :Title ;
+        rdfs:label          "bam po gsum pa/"@bo-x-ewts .
+    
+    bdr:TTB90EB81A6D718DAC
+        a                   :Title ;
+        rdfs:label          "bam po dang po/"@bo-x-ewts .
+}

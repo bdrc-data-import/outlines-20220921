@@ -1,0 +1,140 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD93134 {
+    bda:LGB4C35BDD78D71886
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-09-18T09:57:39.628Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00003 .
+    
+    bda:LGEE169FED8F6742AC
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-09-17T12:16:06.982Z"^^xsd:dateTime ;
+        adm:logMessage      "gsar du bcug"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LGFBA611261E9C50CD
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-10-20T10:34:45.442Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD93134  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD93134 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "5f/O1PD93134.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD93134 ;
+        adm:logEntry        bda:LGB4C35BDD78D71886 , bda:LGEE169FED8F6742AC , bda:LGFBA611261E9C50CD ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL07C42EC9CCF4064A
+        a                   :ContentLocation ;
+        :contentLocationEndPage  5 ;
+        :contentLocationInstance  bdr:W00CHZ0103344 ;
+        :contentLocationPage  4 .
+    
+    bdr:CL1E31729888C20EB4
+        a                   :ContentLocation ;
+        :contentLocationEndPage  52 ;
+        :contentLocationInstance  bdr:W00CHZ0103344 ;
+        :contentLocationPage  5 .
+    
+    bdr:CL28F0FE49F00F6F2C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  147 ;
+        :contentLocationInstance  bdr:W00CHZ0103344 ;
+        :contentLocationPage  52 .
+    
+    bdr:CL5399EDD498859F4B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  222 ;
+        :contentLocationInstance  bdr:W00CHZ0103344 ;
+        :contentLocationPage  216 .
+    
+    bdr:CL9100E68A4BB97E5F
+        a                   :ContentLocation ;
+        :contentLocationEndPage  216 ;
+        :contentLocationInstance  bdr:W00CHZ0103344 ;
+        :contentLocationPage  147 .
+    
+    bdr:MW00CHZ0103344
+        :hasPart            bdr:MW00CHZ0103344_075CD8 , bdr:MW00CHZ0103344_1508DF , bdr:MW00CHZ0103344_31128D , bdr:MW00CHZ0103344_C7570F , bdr:MW00CHZ0103344_E1EB9F .
+    
+    bdr:MW00CHZ0103344_075CD8
+        a                   :Instance ;
+        skos:prefLabel      "dus gang dag la bstan 'dzin gyi skyes bu su dag byung ba che long smos pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL28F0FE49F00F6F2C ;
+        :contentLocationStatement  "ff. 25v-73r" ;
+        :inRootInstance     bdr:MW00CHZ0103344 ;
+        :legacyOutlineNodeRID  "O1PD932441PD93273" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW00CHZ0103344 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW00CHZ0103344_1508DF
+        a                   :Instance ;
+        skos:prefLabel      "mjug byang /"@bo-x-ewts ;
+        :contentLocation    bdr:CL5399EDD498859F4B ;
+        :contentLocationStatement  "ff. 107v-110v" ;
+        :inRootInstance     bdr:MW00CHZ0103344 ;
+        :legacyOutlineNodeRID  "O1PD932441PD93275" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW00CHZ0103344 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW00CHZ0103344_31128D
+        a                   :Instance ;
+        skos:prefLabel      "de dag gis rim pa ltar spel ba'i dngos gzhi chos kyi ming gi rnam grangs bstan pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL9100E68A4BB97E5F ;
+        :contentLocationStatement  "ff. 73r-107v" ;
+        :inRootInstance     bdr:MW00CHZ0103344 ;
+        :legacyOutlineNodeRID  "O1PD932441PD93274" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW00CHZ0103344 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW00CHZ0103344_C7570F
+        a                   :Instance ;
+        skos:prefLabel      "spyir rgya nag po'i yul gyi rten dang brten pa'i bkod pa dang lo rgyus rags rim tsam brjod pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL1E31729888C20EB4 ;
+        :contentLocationStatement  "ff. 2r-25v" ;
+        :inRootInstance     bdr:MW00CHZ0103344 ;
+        :legacyOutlineNodeRID  "O1PD932441PD93272" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW00CHZ0103344 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW00CHZ0103344_E1EB9F
+        a                   :Instance ;
+        skos:prefLabel      "mchod brjod dang brtsam pa dam bca' ba/"@bo-x-ewts ;
+        :contentLocation    bdr:CL07C42EC9CCF4064A ;
+        :contentLocationStatement  "ff. 1v-2r" ;
+        :inRootInstance     bdr:MW00CHZ0103344 ;
+        :legacyOutlineNodeRID  "O1PD932441PD93271" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW00CHZ0103344 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:O1PD93134  a        :Outline ;
+        :authorshipStatement  "paldor; outlined with the generous support of the Khyentse Foundation"@en ;
+        :legacyOutlineNodeRID  "O1PD93134" ;
+        :outlineOf          bdr:MW00CHZ0103344 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+}

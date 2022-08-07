@@ -1,0 +1,95 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS48188 {
+    bda:LG716A6A4E0CCD25BD
+        a                   adm:UpdateData ;
+        adm:logDate         "2007-06-05T12:13:59.348Z"^^xsd:dateTime ;
+        adm:logMessage      "fullaccess"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG7E6904392FB448BB
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2007-06-05T10:53:30.283Z"^^xsd:dateTime ;
+        adm:logMessage      "outline completed"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS48188  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS48188 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "73/O1GS48188.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS48188 ;
+        adm:logEntry        bda:LG716A6A4E0CCD25BD , bda:LG7E6904392FB448BB ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CLA17E6362C90A4837
+        a                   :ContentLocation ;
+        :contentLocationEndPage  276 ;
+        :contentLocationInstance  bdr:W30540 ;
+        :contentLocationPage  181 .
+    
+    bdr:CLBE3A72108B2A5447
+        a                   :ContentLocation ;
+        :contentLocationEndPage  180 ;
+        :contentLocationInstance  bdr:W30540 ;
+        :contentLocationPage  7 .
+    
+    bdr:MW30540  :hasPart   bdr:MW30540_3C6489 , bdr:MW30540_408D1B .
+    
+    bdr:MW30540_3C6489
+        a                   :Instance ;
+        skos:prefLabel      "rgyal ba'i dbang po karma pa mi bskyod rdo rjes gsang sngags rnying ma ba rnams la dri ba'i chab shog gnang ba'i dris lan lung dang rigs pa'i 'brug sgra (mi bskyod rtsod len)"@bo-x-ewts ;
+        :authorshipStatement  "sog bzlog pa blo gros rgyal mtshan"@en ;
+        :contentLocation    bdr:CLBE3A72108B2A5447 ;
+        :contentLocationStatement  "87 ff. (pp. 1-174)" ;
+        :hasTitle           bdr:TT0C35E53488C14C00 ;
+        :inRootInstance     bdr:MW30540 ;
+        :instanceOf         bdr:WA0XL3C6489F5AA92 ;
+        :legacyOutlineNodeRID  "O1GS481881GS48189" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW30540 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30540_408D1B
+        a                   :Instance ;
+        skos:prefLabel      "gsang sngags rnying ma ba'i ring lugs pa rnams la rtsod pa'i lan legs par bshad pa dri med gang+gA'i chu rgyun/"@bo-x-ewts ;
+        :authorshipStatement  "by bkra shis rnam rgyal, the third klong chen rab 'byams pa"@en ;
+        :contentLocation    bdr:CLA17E6362C90A4837 ;
+        :contentLocationStatement  "48 ff. (pp. 1-276)" ;
+        :hasTitle           bdr:TTF2C52FBFFC9DF668 ;
+        :inRootInstance     bdr:MW30540 ;
+        :instanceOf         bdr:WA0XL408D1B371193 ;
+        :legacyOutlineNodeRID  "O1GS481881GS48190" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW30540 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS48188  a        :Outline ;
+        :authorshipStatement  "Gene Smith"@en ;
+        :legacyOutlineNodeRID  "O1GS48188" ;
+        :outlineOf          bdr:MW30540 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT0C35E53488C14C00
+        a                   :Title ;
+        rdfs:label          "rgyal ba'i dbang po karma pa mi bskyod rdo rjes gsang sngags rnying ma ba rnams la dri ba'i chab shog gnang ba'i dris lan lung dang rigs pa'i 'brug sgra (mi bskyod rtsod len)"@bo-x-ewts .
+    
+    bdr:TTF2C52FBFFC9DF668
+        a                   :Title ;
+        rdfs:label          "gsang sngags rnying ma ba'i ring lugs pa rnams la rtsod pa'i lan legs par bshad pa dri med gang+gA'i chu rgyun/"@bo-x-ewts .
+}

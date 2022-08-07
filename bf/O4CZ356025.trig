@@ -1,0 +1,119 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ356025 {
+    bda:LG39592F113798FD98
+        a                   adm:UpdateData ;
+        adm:logDate         "2020-05-05T12:55:42.005Z"^^xsd:dateTime ;
+        adm:logMessage      "added amage number"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:LG87365AAE473A8C14
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2020-02-26T10:16:54.983Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:O4CZ356025  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ356025 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "bf/O4CZ356025.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ356025 ;
+        adm:logEntry        bda:LG39592F113798FD98 , bda:LG87365AAE473A8C14 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CLA3A433DA725EB778
+        a                   :ContentLocation ;
+        :contentLocationEndPage  417 ;
+        :contentLocationInstance  bdr:W4CZ355758 ;
+        :contentLocationPage  293 .
+    
+    bdr:CLB643A4039942A61C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  695 ;
+        :contentLocationInstance  bdr:W4CZ355758 ;
+        :contentLocationPage  418 .
+    
+    bdr:CLC8B6D33F02E89FCE
+        a                   :ContentLocation ;
+        :contentLocationEndPage  292 ;
+        :contentLocationInstance  bdr:W4CZ355758 ;
+        :contentLocationPage  3 .
+    
+    bdr:MW4CZ355758  :hasPart  bdr:MW4CZ355758_245D38 , bdr:MW4CZ355758_6DE882 , bdr:MW4CZ355758_AD744B .
+    
+    bdr:MW4CZ355758_245D38
+        a                   :Instance ;
+        skos:prefLabel      "dam tshig gi rnam bshd/"@bo-x-ewts ;
+        :contentLocation    bdr:CLB643A4039942A61C ;
+        :contentLocationStatement  "ff.209-345 (135 ff.)" ;
+        :hasTitle           bdr:TTB170E74DD53E97CA ;
+        :inRootInstance     bdr:MW4CZ355758 ;
+        :legacyOutlineNodeRID  "O4CZ3560254CZ357353" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW4CZ355758 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW4CZ355758_6DE882
+        a                   :Instance ;
+        skos:prefLabel      "spyod pa'i rnam bshad/"@bo-x-ewts ;
+        :colophon           "spyod pa'i skabs bshad zin to/"@bo-x-ewts ;
+        :contentLocation    bdr:CLA3A433DA725EB778 ;
+        :contentLocationStatement  "ff.1-208" ;
+        :hasTitle           bdr:TT4D10B8752BE2E635 ;
+        :inRootInstance     bdr:MW4CZ355758 ;
+        :legacyOutlineNodeRID  "O4CZ3560254CZ357352" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW4CZ355758 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW4CZ355758_AD744B
+        a                   :Instance ;
+        skos:prefLabel      "sgrub thabs rnam bshad/"@bo-x-ewts ;
+        :colophon           "ji ltar sgrub pa'i thabs legs par bshad zin to/"@bo-x-ewts ;
+        :contentLocation    bdr:CLC8B6D33F02E89FCE ;
+        :contentLocationStatement  "ff.1-146" ;
+        :hasTitle           bdr:TTA3AD0D2759B43382 , bdr:TTCDC14A72F672FDA3 ;
+        :inRootInstance     bdr:MW4CZ355758 ;
+        :legacyOutlineNodeRID  "O4CZ3560254CZ357351" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW4CZ355758 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:O4CZ356025  a       :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ356025" ;
+        :outlineOf          bdr:MW4CZ355758 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+    
+    bdr:TT4D10B8752BE2E635
+        a                   :Title ;
+        rdfs:label          "spyod pa'i rnam bshad/"@bo-x-ewts .
+    
+    bdr:TTA3AD0D2759B43382
+        a                   :TitlePageTitle ;
+        rdfs:label          "sgrub pa'i thabs legs par bshad pa/"@bo-x-ewts .
+    
+    bdr:TTB170E74DD53E97CA
+        a                   :Title ;
+        rdfs:label          "dam tshig gi rnam bshd/"@bo-x-ewts .
+    
+    bdr:TTCDC14A72F672FDA3
+        a                   :Title ;
+        rdfs:label          "sgrub thabs rnam bshad/"@bo-x-ewts .
+}

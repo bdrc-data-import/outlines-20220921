@@ -1,0 +1,157 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS47725 {
+    bda:LG24579A8028693A46
+        a                   adm:UpdateData ;
+        adm:logDate         "2007-06-03T18:11:22.453Z"^^xsd:dateTime ;
+        adm:logMessage      "changed to absolute"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGC5977338B156B0C4
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2007-06-03T17:41:46.234Z"^^xsd:dateTime ;
+        adm:logMessage      "first published"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGED1CCFBBA35A32C8
+        a                   adm:UpdateData ;
+        adm:logDate         "2007-06-03T18:15:43.421Z"^^xsd:dateTime ;
+        adm:logMessage      "revised pagination"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS47725  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS47725 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "62/O1GS47725.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS47725 ;
+        adm:logEntry        bda:LG24579A8028693A46 , bda:LGC5977338B156B0C4 , bda:LGED1CCFBBA35A32C8 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL00423E6D919C5B16
+        a                   :ContentLocation ;
+        :contentLocationEndPage  564 ;
+        :contentLocationInstance  bdr:W30460 ;
+        :contentLocationPage  475 .
+    
+    bdr:CL13B1204AA728F3E3
+        a                   :ContentLocation ;
+        :contentLocationEndPage  338 ;
+        :contentLocationInstance  bdr:W30460 ;
+        :contentLocationPage  301 .
+    
+    bdr:CL2DCEE503FC92C59B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  474 ;
+        :contentLocationInstance  bdr:W30460 ;
+        :contentLocationPage  339 .
+    
+    bdr:CL4D132136EE4D8125
+        a                   :ContentLocation ;
+        :contentLocationEndPage  300 ;
+        :contentLocationInstance  bdr:W30460 ;
+        :contentLocationPage  7 .
+    
+    bdr:CR140D722834DA90B6
+        a                   :AgentAsCreator ;
+        :agent              bdr:P6891 ;
+        :role               bdr:R0ER0015 .
+    
+    bdr:MW30460  :hasPart   bdr:MW30460_0AF53A , bdr:MW30460_3A0373 , bdr:MW30460_3ADE02 , bdr:MW30460_466892 .
+    
+    bdr:MW30460_0AF53A
+        a                   :Instance ;
+        skos:prefLabel      "'brug pa rgyal dbang rje'i gsung 'gur che ba/"@bo-x-ewts ;
+        :authorshipStatement  "by rgyal dbang rje kun dga' dpal 'byor"@en ;
+        :contentLocation    bdr:CL00423E6D919C5B16 ;
+        :contentLocationStatement  "pp. 469-558" ;
+        :hasTitle           bdr:TT168E4CDE46816BC0 ;
+        :inRootInstance     bdr:MW30460 ;
+        :instanceOf         bdr:WA0XL0AF53A9997DD ;
+        :legacyOutlineNodeRID  "O1GS477251GS47729" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW30460 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30460_3A0373
+        a                   :Instance ;
+        skos:prefLabel      "paN chen nA ro pa'i rnam thar ngo mtshar smad 'byung /"@bo-x-ewts ;
+        :authorshipStatement  "written by lha btsun rin chen rnam rgyal"@en ;
+        :contentLocation    bdr:CL2DCEE503FC92C59B ;
+        :contentLocationStatement  "pp. 333-467" ;
+        :hasTitle           bdr:TT2F20BF3ED0EE7EAB ;
+        :inRootInstance     bdr:MW30460 ;
+        :instanceOf         bdr:WA0XL3A037364A48F ;
+        :legacyOutlineNodeRID  "O1GS477251GS47728" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW30460 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30460_3ADE02
+        a                   :Instance ;
+        skos:prefLabel      "rje btsun khyab bdag chen po rang rig ras chen gyi gsung 'gur dang zhal gdams 'chi med bdud rtsi'i rlabs 'phreng (kha)"@bo-x-ewts ;
+        :authorshipStatement  "rang rig ras pa"@en ;
+        :contentLocation    bdr:CL4D132136EE4D8125 ;
+        :contentLocationStatement  "pp. 1-293" ;
+        :hasTitle           bdr:TTF6F71AE1CFEC579F ;
+        :inRootInstance     bdr:MW30460 ;
+        :instanceOf         bdr:WA0XL3ADE023F687A ;
+        :legacyOutlineNodeRID  "O1GS477251GS47726" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW30460 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30460_466892
+        a                   :Instance ;
+        skos:prefLabel      "rje btsun rang rig ras pa'i gsung mgur zhal gdams 'ga' zhig (nga)"@bo-x-ewts ;
+        :authorshipStatement  "songs of rang rig ras pa arranged by his disciple nas lung pa ngag dbang rdo rje"@en ;
+        :contentLocation    bdr:CL13B1204AA728F3E3 ;
+        :contentLocationStatement  "pp. 296-331" ;
+        :creator            bdr:CR140D722834DA90B6 ;
+        :hasTitle           bdr:TT4F38ED2C1D962D00 ;
+        :inRootInstance     bdr:MW30460 ;
+        :instanceOf         bdr:WA0XL4668921CB3C5 ;
+        :legacyOutlineNodeRID  "O1GS477251GS47727" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW30460 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS47725  a        :Outline ;
+        :authorshipStatement  "genesmith"@en ;
+        :legacyOutlineNodeRID  "O1GS47725" ;
+        :outlineOf          bdr:MW30460 ;
+        :outlineType        bdr:OutlineTypeCompositeVolume ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT168E4CDE46816BC0
+        a                   :Title ;
+        rdfs:label          "'brug pa rgyal dbang rje'i gsung 'gur che ba/"@bo-x-ewts .
+    
+    bdr:TT2F20BF3ED0EE7EAB
+        a                   :Title ;
+        rdfs:label          "paN chen nA ro pa'i rnam thar ngo mtshar smad 'byung /"@bo-x-ewts .
+    
+    bdr:TT4F38ED2C1D962D00
+        a                   :Title ;
+        rdfs:label          "rje btsun rang rig ras pa'i gsung mgur zhal gdams 'ga' zhig (nga)"@bo-x-ewts .
+    
+    bdr:TTF6F71AE1CFEC579F
+        a                   :Title ;
+        rdfs:label          "rje btsun khyab bdag chen po rang rig ras chen gyi gsung 'gur dang zhal gdams 'chi med bdud rtsi'i rlabs 'phreng (kha)"@bo-x-ewts .
+}

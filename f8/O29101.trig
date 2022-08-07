@@ -1,0 +1,127 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O29101 {
+    bda:LGAE3F75B779BEDBC9
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-04-10T11:09:13.261Z"^^xsd:dateTime ;
+        adm:logMessage      "Reviewed and released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LGC8C9EDC3BA048AF2
+        a                   adm:InitialDataCreation ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGD0E65DE6D4AF5191
+        a                   adm:InitialDataImport ;
+        adm:logAgent        "Convert2Outline version 1.4.2" ;
+        adm:logDate         "2012-04-03T16:28:57.67Z"^^xsd:dateTime ;
+        adm:logWhoStr       "Tserings Wangdag and Dhondup" .
+    
+    bda:LGD73E7B50998A6AA0
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-04-10T11:18:22.927Z"^^xsd:dateTime ;
+        adm:logMessage      "bskyar zhus byas"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O29101  a           adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O29101 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "f8/O29101.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O29101 ;
+        adm:logEntry        bda:LGAE3F75B779BEDBC9 , bda:LGC8C9EDC3BA048AF2 , bda:LGD0E65DE6D4AF5191 , bda:LGD73E7B50998A6AA0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL5EB9FFF0253C5534
+        a                   :ContentLocation ;
+        :contentLocationEndPage  804 ;
+        :contentLocationInstance  bdr:W29101 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL90A0EACBB46010A6
+        a                   :ContentLocation ;
+        :contentLocationEndPage  980 ;
+        :contentLocationInstance  bdr:W29101 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  2 .
+    
+    bdr:MW29101  :hasPart   bdr:MW29101_1DBED5 , bdr:MW29101_FAEB0F .
+    
+    bdr:MW29101_1DBED5
+        a                   :Instance ;
+        skos:prefLabel      "pod gnyis pa/（2）"@bo-x-ewts ;
+        :hasPart            bdr:MW29101_766379 ;
+        :inRootInstance     bdr:MW29101 ;
+        :legacyOutlineNodeRID  "O29101C2O0004" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW29101 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW29101_766379
+        a                   :Instance ;
+        skos:prefLabel      "gtan tshig rig pa'i rnam bzhag gsal bar bshad pa rab gsal nor bu'i sgron me/（pod gnyis pa/）"@bo-x-ewts ;
+        :contentLocation    bdr:CL90A0EACBB46010A6 ;
+        :contentLocationStatement  "489 ff. (pp. 1-982)" ;
+        :hasTitle           bdr:TT160832981B0C83DB ;
+        :inRootInstance     bdr:MW29101 ;
+        :instanceOf         bdr:WA0XL7663798306DA ;
+        :legacyOutlineNodeRID  "O29101C2O0005" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW29101_1DBED5 ;
+        :partTreeIndex      "2.1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW29101_DE3577
+        a                   :Instance ;
+        skos:prefLabel      "gtan tshigs rig pa'i rnam bzhag gsal bar bshad pa rab gsal nor bu'i sgron me/_（pod dang po/）"@bo-x-ewts ;
+        :contentLocation    bdr:CL5EB9FFF0253C5534 ;
+        :contentLocationStatement  "401 ff. (pp. 1-802)" ;
+        :hasTitle           bdr:TT18C239D248554FB7 ;
+        :inRootInstance     bdr:MW29101 ;
+        :instanceOf         bdr:WA0XLDE35773DC8B5 ;
+        :legacyOutlineNodeRID  "O29101C2O0002" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW29101_FAEB0F ;
+        :partTreeIndex      "1.1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW29101_FAEB0F
+        a                   :Instance ;
+        skos:prefLabel      "pod dang po/（1）"@bo-x-ewts ;
+        :hasPart            bdr:MW29101_DE3577 ;
+        :inRootInstance     bdr:MW29101 ;
+        :legacyOutlineNodeRID  "O29101C2O0001" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW29101 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:O29101  a           :Outline ;
+        :authorshipStatement  "Tserings Wangdag and Dhondup via TBRC Convert2Outline version: 1.4.2"@en ;
+        :legacyOutlineNodeRID  "O29101" ;
+        :outlineOf          bdr:MW29101 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT160832981B0C83DB
+        a                   :Title ;
+        rdfs:label          "gtan tshig rig pa'i rnam bzhag gsal bar bshad pa rab gsal nor bu'i sgron me/（pod gnyis pa/）"@bo-x-ewts .
+    
+    bdr:TT18C239D248554FB7
+        a                   :Title ;
+        rdfs:label          "gtan tshigs rig pa'i rnam bzhag gsal bar bshad pa rab gsal nor bu'i sgron me/_（pod dang po/）"@bo-x-ewts .
+}

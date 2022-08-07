@@ -1,0 +1,204 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS151902 {
+    bda:LG2870EC0DA0644CF9
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-07-20T16:48:08.734Z"^^xsd:dateTime ;
+        adm:logMessage      "TYPOCORRECTED"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LG898EC1732D105915
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-07-20T16:41:32.906Z"^^xsd:dateTime ;
+        adm:logMessage      "checked pagination"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LG9D6269AF1B551733
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-07-20T16:27:28.687Z"^^xsd:dateTime ;
+        adm:logMessage      "outline completed"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS151902  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS151902 ;
+        adm:facetIndex      21 ;
+        adm:gitPath         "1a/O1GS151902.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS151902 ;
+        adm:logEntry        bda:LG2870EC0DA0644CF9 , bda:LG898EC1732D105915 , bda:LG9D6269AF1B551733 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL39B2A8C33F4A90D0
+        a                   :ContentLocation ;
+        :contentLocationEndPage  278 ;
+        :contentLocationInstance  bdr:W23190 ;
+        :contentLocationPage  203 .
+    
+    bdr:CL5BB5F92FA7748F3F
+        a                   :ContentLocation ;
+        :contentLocationEndPage  202 ;
+        :contentLocationInstance  bdr:W23190 ;
+        :contentLocationPage  119 .
+    
+    bdr:CL842DCE45867AB9AA
+        a                   :ContentLocation ;
+        :contentLocationEndPage  376 ;
+        :contentLocationInstance  bdr:W23190 ;
+        :contentLocationPage  279 .
+    
+    bdr:CL90BFD1A4A39F3926
+        a                   :ContentLocation ;
+        :contentLocationEndPage  118 ;
+        :contentLocationInstance  bdr:W23190 ;
+        :contentLocationPage  3 .
+    
+    bdr:CLFFE26E5985A0D1EF
+        a                   :ContentLocation ;
+        :contentLocationEndPage  419 ;
+        :contentLocationInstance  bdr:W23190 ;
+        :contentLocationPage  377 .
+    
+    bdr:MW23190  :hasPart   bdr:MW23190_19CB5D , bdr:MW23190_AC2375 , bdr:MW23190_AEB880 , bdr:MW23190_DEB76B , bdr:MW23190_F36588 .
+    
+    bdr:MW23190_19CB5D
+        a                   :Instance ;
+        skos:prefLabel      "sgom rim dang po/"@bo-x-ewts , "bhavanakrama"@sa-alalc97 ;
+        :colophon           "sa'i mnga' bdag dpal lha btsan pos bka' stsal nas ka ma la shI las bsgom pa'i rim pa mdor bsdus pa 'di bgyis so/ bsgom rim dang po rdzogs so/ /rgya gar gyi mkhan po pradz+nyA warma dang/ zhu chen gyi lo tsA ba ban+de ye shes sde la sogs pas bsgyur cing zhus te gtan la phab pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL90BFD1A4A39F3926 ;
+        :contentLocationStatement  "58 ff. (pp. 1-116)" ;
+        :hasTitle           bdr:TT49DDE4602D8F1AC7 , bdr:TT8BF83F3E209C0C3B , bdr:TTA350438AFE84C52D ;
+        :inRootInstance     bdr:MW23190 ;
+        :instanceOf         bdr:WA0XL19CB5D2F98DF ;
+        :legacyOutlineNodeRID  "O1GS1519021GS151903" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW23190 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23190_AC2375
+        a                   :Instance ;
+        skos:prefLabel      "sgom rim tha ma/"@bo-x-ewts , "bhavanakrama"@sa-alalc97 ;
+        :colophon           "bsgoms pa'i rim pa slob dpon A tsa rya ka ma la shI las tha mar mdzad pa rdzogs so/ /rgya gar gyi mkhan po pra dz+nyA warma dang/ zhu chen gyi lo tsA ba ban+de ye shes sde la sogs pas bsgyur cing zhus te gtan la phab pa'o/ /slob dpon pad+ma'i ngang tshul gyi/ mkhyen rab yangs pa'i lha lam la/ sgom rim gsum gyi 'od stong gsal/ log smrai mun btsil lo bzang snang/ gang de mi nus 'phel ba'i gzhi/ glegs bam mdzad me spar gyi 'phrul/ thub bstan chos kyi rdo rjes bsgrub/ dge des bstan 'gros sman gyur cig/ sarba mang+ga laM/ dge'o"@bo-x-ewts ;
+        :contentLocation    bdr:CL39B2A8C33F4A90D0 ;
+        :contentLocationStatement  "38 ff. (pp. 201-276)" ;
+        :hasTitle           bdr:TT35D02FF607A40E08 , bdr:TT5A14C750FB6B045D , bdr:TTB76DED3C2D06A112 ;
+        :inRootInstance     bdr:MW23190 ;
+        :instanceOf         bdr:WA0XLAC2375898BA4 ;
+        :legacyOutlineNodeRID  "O1GS1519021GS151905" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW23190 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23190_AEB880
+        a                   :Instance ;
+        skos:prefLabel      "sgom rim bar ba/"@bo-x-ewts , "bhavanakrama"@sa-alalc97 ;
+        :colophon           "bsgom pa'i rim pa A tsA rya ka ma la shI las bar du mdza pa rdzogs so/ /rgya gar gyi mkhan po para dz+nyA warma dang/ lo tsA ba ye shes sdes bsgyur cing zhus te gtan la phab pa'o"@bo-x-ewts ;
+        :contentLocation    bdr:CL5BB5F92FA7748F3F ;
+        :contentLocationStatement  "42 ff. (pp. 117-200)" ;
+        :hasTitle           bdr:TTB84764876BFF3577 , bdr:TTD21ABB28691DE827 , bdr:TTEC008E21E8727B86 ;
+        :inRootInstance     bdr:MW23190 ;
+        :instanceOf         bdr:WA0XLAEB88095410B ;
+        :legacyOutlineNodeRID  "O1GS1519021GS151904" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW23190 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23190_DEB76B
+        a                   :Instance ;
+        skos:prefLabel      "cig car ba'i sgom rim/"@bo-x-ewts ;
+        :colophon           "cig car 'jug pa'i rnam par mi rtog pa'i bsgom don slob dpon chen po bi ma la mi tras mdzad pa rdzogs so/ /rgya gar gyi mkhan po d+harma tA shI la dang/ zhu chen gyi lo tsA ba ban+de ye shes sdes bsgyur cing zhus te gtan la phab pa'o/ /dge'o/ dge'o"@bo-x-ewts ;
+        :contentLocation    bdr:CLFFE26E5985A0D1EF ;
+        :contentLocationStatement  "22 ff. (pp. 375-418)" ;
+        :hasTitle           bdr:TT4EF3DA3B24959B68 , bdr:TT860A6B77AC324837 ;
+        :inRootInstance     bdr:MW23190 ;
+        :instanceOf         bdr:WA0XLDEB76B8DEA71 ;
+        :legacyOutlineNodeRID  "O1GS1519021GS151907" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW23190 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23190_F36588
+        a                   :Instance ;
+        skos:prefLabel      "rim gyis 'jug pa'i bsgom don/"@bo-x-ewts ;
+        :colophon           "rim gyis 'jug pa'i bsgom don slob dpon bi ma la mi tras mdzad pa rdzogs so// rgya gar gyi mkhan po pra dz+nyA warma dang zhu chen gyi lo tsA ba baN+de ye shes sdes bsgyur te kwa chur gtan la phab pa/ /dge'o"@bo-x-ewts ;
+        :contentLocation    bdr:CL842DCE45867AB9AA ;
+        :contentLocationStatement  "49 ff. (pp. 277-374)" ;
+        :hasTitle           bdr:TT7EC49688FC9B2DD6 ;
+        :inRootInstance     bdr:MW23190 ;
+        :instanceOf         bdr:WA1TLMTGA001863 ;
+        :legacyOutlineNodeRID  "O1GS1519021GS151906" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW23190 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS151902  a       :Outline ;
+        :authorshipStatement  "genesmith; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS151902" ;
+        :outlineOf          bdr:MW23190 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT35D02FF607A40E08
+        a                   :TitlePageTitle ;
+        rdfs:label          "slob dpon ka ma la shI las mdzad pa'i sgom rim tha ma/"@bo-x-ewts .
+    
+    bdr:TT49DDE4602D8F1AC7
+        a                   :Title ;
+        rdfs:label          "sgom rim dang po/"@bo-x-ewts .
+    
+    bdr:TT4EF3DA3B24959B68
+        a                   :Title ;
+        rdfs:label          "cig car ba'i sgom rim/"@bo-x-ewts .
+    
+    bdr:TT5A14C750FB6B045D
+        a                   :OtherTitle ;
+        rdfs:label          "bhavanakrama"@sa-alalc97 .
+    
+    bdr:TT7EC49688FC9B2DD6
+        a                   :Title ;
+        rdfs:label          "rim gyis 'jug pa'i bsgom don/"@bo-x-ewts .
+    
+    bdr:TT860A6B77AC324837
+        a                   :TitlePageTitle ;
+        rdfs:label          "mi rtog pa'i bsgom don/"@bo-x-ewts .
+    
+    bdr:TT8BF83F3E209C0C3B
+        a                   :TitlePageTitle ;
+        rdfs:label          "slob dpon ka ma la shi las mdzad pa'i sgom rim dang po/"@bo-x-ewts .
+    
+    bdr:TTA350438AFE84C52D
+        a                   :OtherTitle ;
+        rdfs:label          "bhavanakrama"@sa-alalc97 .
+    
+    bdr:TTB76DED3C2D06A112
+        a                   :Title ;
+        rdfs:label          "sgom rim tha ma/"@bo-x-ewts .
+    
+    bdr:TTB84764876BFF3577
+        a                   :OtherTitle ;
+        rdfs:label          "bhavanakrama"@sa-alalc97 .
+    
+    bdr:TTD21ABB28691DE827
+        a                   :TitlePageTitle ;
+        rdfs:label          "slob dpon ka ma la shi las mdzad pa'i sgom rim bar ba/"@bo-x-ewts .
+    
+    bdr:TTEC008E21E8727B86
+        a                   :Title ;
+        rdfs:label          "sgom rim bar ba/"@bo-x-ewts .
+}

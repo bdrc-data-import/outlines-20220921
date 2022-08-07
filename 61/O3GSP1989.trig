@@ -1,0 +1,96 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O3GSP1989 {
+    bda:LGIMA2E7A6CED0
+        a                   adm:InitialDataImport ;
+        adm:logDate         "2012-03-30T11:00:49.672Z"^^xsd:dateTime ;
+        adm:logMessage      "generated from legacy\n                entries of Gene Smith"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWhoStr       "Legacy Converter" .
+    
+    bda:O3GSP1989  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O3GSP1989 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "61/O3GSP1989.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O3GSP1989 ;
+        adm:logEntry        bda:LGIMA2E7A6CED0 ;
+        adm:status          bda:StatusOnHold .
+    
+    bdr:MW3GSP1989  :hasPart  bdr:MW3GSP1989_12968C , bdr:MW3GSP1989_854121 , bdr:MW3GSP1989_E81758 .
+    
+    bdr:MW3GSP1989_12968C
+        a                   :Instance ;
+        skos:prefLabel      "ngag dbang chos 'phel gyi rnam thar/"@bo-x-ewts ;
+        :hasTitle           bdr:TT0E77DF00F6BF48B9 , bdr:TT961BB842BCC642D5 ;
+        :inRootInstance     bdr:MW3GSP1989 ;
+        :instanceOf         bdr:WA0XL12968CFD3A63 ;
+        :legacyOutlineNodeRID  "O3GSP1989W14070" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW3GSP1989 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP1989_854121
+        a                   :Instance ;
+        skos:prefLabel      "'khrungs rabs gsol 'debs gsang ba dri med/"@bo-x-ewts ;
+        :hasTitle           bdr:TT204D898CA0BA9011 ;
+        :inRootInstance     bdr:MW3GSP1989 ;
+        :instanceOf         bdr:WA0XL8541211470E4 ;
+        :legacyOutlineNodeRID  "O3GSP1989W14069" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW3GSP1989 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP1989_E81758
+        a                   :Instance ;
+        skos:prefLabel      "'chal gtam tshig la mgur btags tshig phreng /"@bo-x-ewts ;
+        :hasTitle           bdr:TT687514EC03F63B94 , bdr:TT74D85051753723CC ;
+        :inRootInstance     bdr:MW3GSP1989 ;
+        :instanceOf         bdr:WA0XLE81758BA2E93 ;
+        :legacyOutlineNodeRID  "O3GSP1989W14071" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW3GSP1989 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O3GSP1989  a        :Outline ;
+        :authorshipStatement  "Works to Outline generator"@en ;
+        :legacyOutlineNodeRID  "O3GSP1989" ;
+        :outlineOf          bdr:MW3GSP1989 ;
+        :outlineType        bdr:OutlineTypeGsungBum ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT0E77DF00F6BF48B9
+        a                   :Title ;
+        rdfs:label          "ngag dbang chos 'phel gyi rnam thar/"@bo-x-ewts .
+    
+    bdr:TT204D898CA0BA9011
+        a                   :Title ;
+        rdfs:label          "'khrungs rabs gsol 'debs gsang ba dri med/"@bo-x-ewts .
+    
+    bdr:TT687514EC03F63B94
+        a                   :TitlePageTitle ;
+        rdfs:label          "'chal gtam tshig la mgur btags tshig phreng las shing byi mtshams sgo ldag 'byar la bzhugs skabs rang gi sems nyid dga' ba'i glu dang /_bu slob/_sbyin bdag bcas la zhal gdams bslab bya/"@bo-x-ewts .
+    
+    bdr:TT74D85051753723CC
+        a                   :Title ;
+        rdfs:label          "'chal gtam tshig la mgur btags tshig phreng /"@bo-x-ewts .
+    
+    bdr:TT961BB842BCC642D5
+        a                   :TitlePageTitle ;
+        rdfs:label          "ngo mtshar med kyang ngag dbang chos 'phel gyi bya phran khyung rjes rnyog 'dra'i rnam thar/"@bo-x-ewts .
+}

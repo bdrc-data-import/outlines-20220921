@@ -1,0 +1,114 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD82086 {
+    bda:LG11CF02E92DDE75BD
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-03-10T11:05:27.235Z"^^xsd:dateTime ;
+        adm:logMessage      "added created with the generous support of the Dzongsar Khyentse Foundation"@en ;
+        adm:logWho          bdu:U00003 .
+    
+    bda:LG553A92FE52506C38
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-02-17T14:23:47.526Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG57EB6B5589FC886C
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-02-13T11:39:47.206Z"^^xsd:dateTime ;
+        adm:logMessage      "gsar du bcug"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG8ECD2DB6973F625F
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-02-17T14:21:41.151Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LGE4A153246AA961A4
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-02-17T14:26:51.136Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD82086  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD82086 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "2d/O1PD82086.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD82086 ;
+        adm:logEntry        bda:LG11CF02E92DDE75BD , bda:LG553A92FE52506C38 , bda:LG57EB6B5589FC886C , bda:LG8ECD2DB6973F625F , bda:LGE4A153246AA961A4 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL0AE2B38708E6A794
+        a                   :ContentLocation ;
+        :contentLocationEndPage  8 ;
+        :contentLocationInstance  bdr:W7732 ;
+        :contentLocationPage  7 .
+    
+    bdr:CLD3A16CD652D08918
+        a                   :ContentLocation ;
+        :contentLocationEndPage  106 ;
+        :contentLocationInstance  bdr:W7732 ;
+        :contentLocationPage  9 .
+    
+    bdr:MW7732  :hasPart    bdr:MW7732_1F74A5 , bdr:MW7732_3F4AE0 .
+    
+    bdr:MW7732_1F74A5
+        a                   :Instance ;
+        skos:prefLabel      "dpe skrun gsal bshad/"@bo-x-ewts ;
+        :contentLocation    bdr:CL0AE2B38708E6A794 ;
+        :contentLocationStatement  "1 (1st group)" ;
+        :hasTitle           bdr:TTDD2C6ED7E40940F4 ;
+        :inRootInstance     bdr:MW7732 ;
+        :legacyOutlineNodeRID  "O1PD820861PD82087" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW7732 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW7732_3F4AE0
+        a                   :Instance ;
+        skos:prefLabel      "sum pa ye shes dpal 'byor gyi rang rnam/"@bo-x-ewts ;
+        :contentLocation    bdr:CLD3A16CD652D08918 ;
+        :contentLocationStatement  "1 (p. 2nd group)" ;
+        :hasTitle           bdr:TT58D3037314107B46 , bdr:TT6D2CBD050B5B5FCD ;
+        :inRootInstance     bdr:MW7732 ;
+        :instanceOf         bdr:WA0XL3F4AE0F4E3B1 ;
+        :legacyOutlineNodeRID  "O1PD820861PD82088" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW7732 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1PD82086  a        :Outline ;
+        :authorshipStatement  "paldor; created with the generous support of the Dzongsar Khyentse Foundation"@en ;
+        :legacyOutlineNodeRID  "O1PD82086" ;
+        :outlineOf          bdr:MW7732 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT58D3037314107B46
+        a                   :TitlePageTitle ;
+        rdfs:label          "sum pa ye shes dpal 'byor gyi rnam thar nyid kyis mdzad pa/"@bo-x-ewts .
+    
+    bdr:TT6D2CBD050B5B5FCD
+        a                   :Title ;
+        rdfs:label          "sum pa ye shes dpal 'byor gyi rang rnam/"@bo-x-ewts .
+    
+    bdr:TTDD2C6ED7E40940F4
+        a                   :Title ;
+        rdfs:label          "dpe skrun gsal bshad/"@bo-x-ewts .
+}

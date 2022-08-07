@@ -1,0 +1,122 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O2DB4734 {
+    bda:LG21D0C5905C4C0023
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2007-07-30T09:18:04.104Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00003 .
+    
+    bda:LG76E01882EFB2BEFB
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-09-17T12:39:39.525Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O2DB4734  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O2DB4734 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "8c/O2DB4734.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O2DB4734 ;
+        adm:logEntry        bda:LG21D0C5905C4C0023 , bda:LG76E01882EFB2BEFB ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL34B07638AAB13A75
+        a                   :ContentLocation ;
+        :contentLocationEndPage  92 ;
+        :contentLocationInstance  bdr:W1KG3537 ;
+        :contentLocationPage  30 .
+    
+    bdr:CL3F57644947111877
+        a                   :ContentLocation ;
+        :contentLocationEndPage  30 ;
+        :contentLocationInstance  bdr:W1KG3537 ;
+        :contentLocationPage  7 .
+    
+    bdr:CL5A647C25880AA536
+        a                   :ContentLocation ;
+        :contentLocationEndPage  5 ;
+        :contentLocationInstance  bdr:W1KG3537 ;
+        :contentLocationPage  5 .
+    
+    bdr:MW1KG3537  :hasPart  bdr:MW1KG3537_447995 , bdr:MW1KG3537_A319A6 , bdr:MW1KG3537_E1E5B5 .
+    
+    bdr:MW1KG3537_447995
+        a                   :Instance ;
+        skos:prefLabel      "pad+ma dbang chen bstan 'dzin phrin las kyi rtogs brjod/"@bo-x-ewts ;
+        :contentLocation    bdr:CL3F57644947111877 ;
+        :contentLocationStatement  "ff. 1r-12v" ;
+        :hasTitle           bdr:TT8B8AFDCE7FBE4491 , bdr:TTA5429F1DBEEDE390 ;
+        :inRootInstance     bdr:MW1KG3537 ;
+        :instanceOf         bdr:WA1KG3537 ;
+        :legacyOutlineNodeRID  "O2DB47341PD107992" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1KG3537 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1KG3537_A319A6
+        a                   :Instance ;
+        skos:prefLabel      "introduction"@en ;
+        :contentLocation    bdr:CL5A647C25880AA536 ;
+        :hasTitle           bdr:TTD7AC843B946D5F8F ;
+        :inRootInstance     bdr:MW1KG3537 ;
+        :legacyOutlineNodeRID  "O2DB47341PD107991" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1KG3537 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1KG3537_E1E5B5
+        a                   :Instance ;
+        skos:prefLabel      "pad+ma dbang chen bstan 'dzin phrin las kyi nang gi nyams snang 'char tshul chu zla'i zlos gar/"@bo-x-ewts ;
+        :contentLocation    bdr:CL34B07638AAB13A75 ;
+        :contentLocationStatement  "ff. 12v-43v" ;
+        :hasTitle           bdr:TT10DC5EE0715CC41A , bdr:TT1F31EBA889BCF60F ;
+        :inRootInstance     bdr:MW1KG3537 ;
+        :instanceOf         bdr:WA0XLE1E5B5D2A0D7 ;
+        :legacyOutlineNodeRID  "O2DB47341PD107993" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1KG3537 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O2DB4734  a         :Outline ;
+        :authorshipStatement  "pal dor/"@bo-x-ewts ;
+        :legacyOutlineNodeRID  "O2DB4734" ;
+        :outlineOf          bdr:MW1KG3537 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT10DC5EE0715CC41A
+        a                   :TitlePageTitle ;
+        rdfs:label          "kho bo pad+ma dbang chen bstan 'dzin phrin las kyi nang gi nyams snang 'char tshul chu zla'i zlos gar/"@bo-x-ewts .
+    
+    bdr:TT1F31EBA889BCF60F
+        a                   :Title ;
+        rdfs:label          "pad+ma dbang chen bstan 'dzin phrin las kyi nang gi nyams snang 'char tshul chu zla'i zlos gar/"@bo-x-ewts .
+    
+    bdr:TT8B8AFDCE7FBE4491
+        a                   :TitlePageTitle ;
+        rdfs:label          "kho bo pad+ma dbang chen bstan 'dzin phrin las kyi rtogs brjod mdor bsdus snying por dril ba/"@bo-x-ewts .
+    
+    bdr:TTA5429F1DBEEDE390
+        a                   :Title ;
+        rdfs:label          "pad+ma dbang chen bstan 'dzin phrin las kyi rtogs brjod/"@bo-x-ewts .
+    
+    bdr:TTD7AC843B946D5F8F
+        a                   :Title ;
+        rdfs:label          "introduction"@en .
+}

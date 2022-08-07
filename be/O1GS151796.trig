@@ -1,0 +1,117 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS151796 {
+    bda:LG2F53A8F6839219B9
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-07-19T13:17:09.515Z"^^xsd:dateTime ;
+        adm:logMessage      "outline completed"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS151796  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS151796 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "be/O1GS151796.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS151796 ;
+        adm:logEntry        bda:LG2F53A8F6839219B9 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL1371B7F0BBE0AE1E
+        a                   :ContentLocation ;
+        :contentLocationEndPage  166 ;
+        :contentLocationInstance  bdr:W00EGS1016259 ;
+        :contentLocationPage  7 .
+    
+    bdr:CL9C6F08906E9E09A4
+        a                   :ContentLocation ;
+        :contentLocationEndPage  194 ;
+        :contentLocationInstance  bdr:W00EGS1016259 ;
+        :contentLocationPage  169 .
+    
+    bdr:CLC6343EAB7EF95C03
+        a                   :ContentLocation ;
+        :contentLocationEndPage  168 ;
+        :contentLocationInstance  bdr:W00EGS1016259 ;
+        :contentLocationPage  167 .
+    
+    bdr:MW00EGS1016259
+        :hasPart            bdr:MW00EGS1016259_4A3791 , bdr:MW00EGS1016259_6B3748 , bdr:MW00EGS1016259_A73E9A .
+    
+    bdr:MW00EGS1016259_4A3791
+        a                   :Instance ;
+        skos:prefLabel      "gser skyems dang bsangs yig dgos 'dod kun 'grub/"@bo-x-ewts ;
+        :contentLocation    bdr:CL1371B7F0BBE0AE1E ;
+        :contentLocationStatement  "pp. 1-160" ;
+        :hasTitle           bdr:TT33C9132BDD97DEF9 , bdr:TT4DD410ADAFB98765 ;
+        :inRootInstance     bdr:MW00EGS1016259 ;
+        :instanceOf         bdr:WA0XL4A3791102A63 ;
+        :legacyOutlineNodeRID  "O1GS1517961GS151797" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW00EGS1016259 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1016259_6B3748
+        a                   :Instance ;
+        skos:prefLabel      "bla bslu 'chi bdag g.yul las rgyal ba'i go mtshon/"@bo-x-ewts ;
+        :colophon           "zhes bla sbslu 'chi bdag g.yul las rgyal ba'i go mtshon 'di ni/ dpal sa skya pa yab sras kun dga' blo gros kyi phyag bzhes zhal rgyun mdzad pa la sde dge sa skyong ma hA ra dza;i gtsug gi rigs bdag gu ru shrI dz+nya nas 'di la bla 'gugs dmigs bzlas bla bslu bcu gsum nas kha skong sde 'di ltar bsgrub pa mdzad pa brtags thon mang po byung ba'i myong bas grub pa can yin na'ang sngon chad phyag len zhal shes kyis brgyan pa ma gtogs 'don cha'i gzhung sdum sdum las zhal gsal med pas dus dbang gi phyag len 'khyer gyi dgos nas sngags btsun wa gin+dra rang gi nyams len dang/ rang 'dra'i thos chung gzhan la phan pa'i ched du gong gi phyag len phra zhib tshun chad ma 'khrul ba byas te mthar brtags yin rnams bla bslu bcu gsum nas kha skong sde gsal bar bkod pa 'di la nyams pa'i tshogs mchis na rtsa gsum srung ma'i tshogs la bshags shisng dge bas 'gro kun 'chi bdag gi g.yul las rgyal bar gyur cig/ sarba mang+ga lam/"@bo-x-ewts ;
+        :contentLocation    bdr:CL9C6F08906E9E09A4 ;
+        :contentLocationStatement  "13 ff. (pp. 163-188)" ;
+        :hasTitle           bdr:TTCD24A841819E252F ;
+        :inRootInstance     bdr:MW00EGS1016259 ;
+        :instanceOf         bdr:WA0XL6B3748BDE9D6 ;
+        :legacyOutlineNodeRID  "O1GS1517961GS151799" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW00EGS1016259 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1016259_A73E9A
+        a                   :Instance ;
+        skos:prefLabel      "sa bsang gi tho yig"@bo-x-ewts ;
+        :contentLocation    bdr:CLC6343EAB7EF95C03 ;
+        :contentLocationStatement  "pp. 161-162" ;
+        :hasTitle           bdr:TTF3C8DE48FA2E92A2 ;
+        :inRootInstance     bdr:MW00EGS1016259 ;
+        :instanceOf         bdr:WA0XLA73E9A68317A ;
+        :legacyOutlineNodeRID  "O1GS1517961GS151798" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW00EGS1016259 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS151796  a       :Outline ;
+        :authorshipStatement  "genesmith; outlined with the gracious suppot of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS151796" ;
+        :outlineOf          bdr:MW00EGS1016259 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT33C9132BDD97DEF9
+        a                   :Title ;
+        rdfs:label          "gser skyems dang bsangs yig dgos 'dod kun 'grub/"@bo-x-ewts .
+    
+    bdr:TT4DD410ADAFB98765
+        a                   :ToCTitle ;
+        rdfs:label          "slob dpon pad+mas mdzad pa'i gser skyems dang bdag chen rgya gar pas mdzad pa'i bsangs yig dgos 'dod kun 'grub/"@bo-x-ewts .
+    
+    bdr:TTCD24A841819E252F
+        a                   :Title ;
+        rdfs:label          "bla bslu 'chi bdag g.yul las rgyal ba'i go mtshon/"@bo-x-ewts .
+    
+    bdr:TTF3C8DE48FA2E92A2
+        a                   :RunningTitle ;
+        rdfs:label          "sa bsang gi tho yig"@bo-x-ewts .
+}

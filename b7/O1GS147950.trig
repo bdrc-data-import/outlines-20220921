@@ -1,0 +1,201 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS147950 {
+    bda:LG056388EC644B9830
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-06-01T10:55:55.114Z"^^xsd:dateTime ;
+        adm:logMessage      "added page numbers"@en ;
+        adm:logWho          bdu:U00016 .
+    
+    bda:LG6102B31FF21D53B8
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-06-01T11:05:24.724Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00016 .
+    
+    bda:LG7EEE21285ECE85FF
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-06-02T10:03:56.437Z"^^xsd:dateTime ;
+        adm:logMessage      "made full access"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGFAA09408140E2667
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-06-01T09:19:31.437Z"^^xsd:dateTime ;
+        adm:logMessage      "created outline"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS147950  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS147950 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "b7/O1GS147950.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS147950 ;
+        adm:logEntry        bda:LG056388EC644B9830 , bda:LG6102B31FF21D53B8 , bda:LG7EEE21285ECE85FF , bda:LGFAA09408140E2667 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL110FC3BC7FD8974D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  90 ;
+        :contentLocationInstance  bdr:W1KG1249 ;
+        :contentLocationPage  3 .
+    
+    bdr:CL24C229F5468B4CD0
+        a                   :ContentLocation ;
+        :contentLocationEndPage  191 ;
+        :contentLocationInstance  bdr:W1KG1249 ;
+        :contentLocationPage  190 .
+    
+    bdr:CL28883F6FB6B8A7CB
+        a                   :ContentLocation ;
+        :contentLocationEndPage  111 ;
+        :contentLocationInstance  bdr:W1KG1249 ;
+        :contentLocationPage  90 .
+    
+    bdr:CL305602AD7337E3CF
+        a                   :ContentLocation ;
+        :contentLocationEndPage  190 ;
+        :contentLocationInstance  bdr:W1KG1249 ;
+        :contentLocationPage  163 .
+    
+    bdr:CL977973D885C168B0
+        a                   :ContentLocation ;
+        :contentLocationEndPage  163 ;
+        :contentLocationInstance  bdr:W1KG1249 ;
+        :contentLocationPage  122 .
+    
+    bdr:CLBE2EEE2EEDB0FF2A
+        a                   :ContentLocation ;
+        :contentLocationEndPage  193 ;
+        :contentLocationInstance  bdr:W1KG1249 ;
+        :contentLocationPage  191 .
+    
+    bdr:CLD1C9CD33C3248BD5
+        a                   :ContentLocation ;
+        :contentLocationEndPage  200 ;
+        :contentLocationInstance  bdr:W1KG1249 ;
+        :contentLocationPage  193 .
+    
+    bdr:CLD4DCD34EF1982C17
+        a                   :ContentLocation ;
+        :contentLocationEndPage  122 ;
+        :contentLocationInstance  bdr:W1KG1249 ;
+        :contentLocationPage  111 .
+    
+    bdr:MW1KG1249  :hasPart  bdr:MW1KG1249_663AB0 , bdr:MW1KG1249_BFC064 , bdr:MW1KG1249_CC7E89 , bdr:MW1KG1249_CCBE81 , bdr:MW1KG1249_D3B3BE , bdr:MW1KG1249_E3019D , bdr:MW1KG1249_F6B49B , bdr:MW1KG1249_F6B757 .
+    
+    bdr:MW1KG1249_663AB0
+        a                   :Instance ;
+        skos:prefLabel      "lam shes bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL28883F6FB6B8A7CB ;
+        :contentLocationStatement  "44v-55r" ;
+        :inRootInstance     bdr:MW1KG1249 ;
+        :legacyOutlineNodeRID  "O1GS1479501GS147954" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1KG1249 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW1KG1249_BFC064
+        a                   :Instance ;
+        skos:prefLabel      "rtse sbyor bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL305602AD7337E3CF ;
+        :contentLocationStatement  "81r-94v" ;
+        :inRootInstance     bdr:MW1KG1249 ;
+        :legacyOutlineNodeRID  "O1GS1479501GS147957" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW1KG1249 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW1KG1249_CC7E89
+        a                   :Instance ;
+        skos:prefLabel      "rnam mkhyen bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL110FC3BC7FD8974D ;
+        :contentLocationStatement  "1r-44v" ;
+        :inRootInstance     bdr:MW1KG1249 ;
+        :legacyOutlineNodeRID  "O1GS1479501GS147951" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1KG1249 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW1KG1249_CCBE81
+        a                   :Instance ;
+        skos:prefLabel      "gzhi shes bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLD4DCD34EF1982C17 ;
+        :contentLocationStatement  "55r-60v" ;
+        :inRootInstance     bdr:MW1KG1249 ;
+        :legacyOutlineNodeRID  "O1GS1479501GS147955" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1KG1249 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW1KG1249_D3B3BE
+        a                   :Instance ;
+        skos:prefLabel      "chos sku bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLD1C9CD33C3248BD5 ;
+        :contentLocationStatement  "96r-99v" ;
+        :inRootInstance     bdr:MW1KG1249 ;
+        :legacyOutlineNodeRID  "O1GS1479501GS147960" ;
+        :partIndex          8 ;
+        :partOf             bdr:MW1KG1249 ;
+        :partTreeIndex      "8" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW1KG1249_E3019D
+        a                   :Instance ;
+        skos:prefLabel      "rnam rdzogs sbyor ba bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL977973D885C168B0 ;
+        :contentLocationStatement  "60v-81r" ;
+        :inRootInstance     bdr:MW1KG1249 ;
+        :legacyOutlineNodeRID  "O1GS1479501GS147956" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1KG1249 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW1KG1249_F6B49B
+        a                   :Instance ;
+        skos:prefLabel      "mthar sbyor bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL24C229F5468B4CD0 ;
+        :contentLocationStatement  "94v-95r" ;
+        :inRootInstance     bdr:MW1KG1249 ;
+        :legacyOutlineNodeRID  "O1GS1479501GS147958" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW1KG1249 ;
+        :partTreeIndex      "6" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW1KG1249_F6B757
+        a                   :Instance ;
+        skos:altLabel       "skad cig ma'i sbyor ba bshad pa/"@bo-x-ewts ;
+        skos:prefLabel      "skad cig gcig la mngon par rdzogs par byang chub pa bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLBE2EEE2EEDB0FF2A ;
+        :contentLocationStatement  "95r-96r" ;
+        :inRootInstance     bdr:MW1KG1249 ;
+        :legacyOutlineNodeRID  "O1GS1479501GS147959" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW1KG1249 ;
+        :partTreeIndex      "7" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:O1GS147950  a       :Outline ;
+        :authorshipStatement  "genesmith; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS147950" ;
+        :outlineOf          bdr:MW1KG1249 ;
+        :outlineType        bdr:OutlineTypeSaBcad ;
+        :paginationType     bdr:PaginationAbsolute .
+}

@@ -1,0 +1,104 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1LS5306 {
+    bda:LG0F5C4649285C6466
+        a                   adm:UpdateData ;
+        adm:logDate         "2017-03-24T11:35:43.927Z"^^xsd:dateTime ;
+        adm:logMessage      "chaged G# in the outline"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LG4EB5AF32B9B0B3DB
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-08-16T10:08:29.633Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LGCCD32C42E2FF365B
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-08-05T12:58:59.886Z"^^xsd:dateTime ;
+        adm:logMessage      "edited and released"@en ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:LGDF81FC9548B903DB
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-02-09T14:51:06.235Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:O1LS5306  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1LS5306 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "3d/O1LS5306.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1LS5306 ;
+        adm:logEntry        bda:LG0F5C4649285C6466 , bda:LG4EB5AF32B9B0B3DB , bda:LGCCD32C42E2FF365B , bda:LGDF81FC9548B903DB ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL242001F21D046A20
+        a                   :ContentLocation ;
+        :contentLocationEndPage  50 ;
+        :contentLocationInstance  bdr:W19831 ;
+        :contentLocationPage  31 .
+    
+    bdr:CL552EAE04F50BDD72
+        a                   :ContentLocation ;
+        :contentLocationEndPage  30 ;
+        :contentLocationInstance  bdr:W19831 ;
+        :contentLocationPage  29 .
+    
+    bdr:MW19831  :hasPart   bdr:MW19831_55AA19 , bdr:MW19831_CFB59D .
+    
+    bdr:MW19831_55AA19
+        a                   :Instance ;
+        skos:prefLabel      "rgya yi skad yig thog phab bsgyur zhus pa/"@bo-x-ewts ;
+        :authorshipStatement  "skal bzang chos 'phel (translator)"@en ;
+        :contentLocation    bdr:CL242001F21D046A20 ;
+        :contentLocationStatement  "pp. 1-36" ;
+        :hasTitle           bdr:TT27444CFD92916FEF ;
+        :inRootInstance     bdr:MW19831 ;
+        :instanceOf         bdr:WA0XL55AA19CF4E8B ;
+        :legacyOutlineNodeRID  "O1LS53061LS5309" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW19831 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW19831_CFB59D
+        a                   :Instance ;
+        skos:prefLabel      "sprul sku shes rab 'od zer gyi mdzad rnam/"@bo-x-ewts ;
+        :contentLocation    bdr:CL552EAE04F50BDD72 ;
+        :contentLocationStatement  "pp. 45-47" ;
+        :hasTitle           bdr:TTBEFAD6813A57B438 ;
+        :inRootInstance     bdr:MW19831 ;
+        :instanceOf         bdr:WA0XLCFB59D90E852 ;
+        :legacyOutlineNodeRID  "O1LS53061LS5308" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW19831 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1LS5306  a         :Outline ;
+        :authorshipStatement  "lobsang shastri created with the generous support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1LS5306" ;
+        :outlineOf          bdr:MW19831 ;
+        :outlineType        bdr:OutlineTypeCompositeVolume ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT27444CFD92916FEF
+        a                   :TitlePageTitle ;
+        rdfs:label          "rgya yi skad yig thog phab bsgyur zhus pa/"@bo-x-ewts .
+    
+    bdr:TTBEFAD6813A57B438
+        a                   :TitlePageTitle ;
+        rdfs:label          "sprul sku shes rab 'od zer gyi mdzad rnam/"@bo-x-ewts .
+}

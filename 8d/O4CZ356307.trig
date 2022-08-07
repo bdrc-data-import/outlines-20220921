@@ -1,0 +1,243 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ356307 {
+    bda:LG36168C3EE97AB59B
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2020-03-25T09:58:44.997Z"^^xsd:dateTime ;
+        adm:logMessage      "full catalog , outline and released"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:O4CZ356307  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ356307 ;
+        adm:facetIndex      21 ;
+        adm:gitPath         "8d/O4CZ356307.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ356307 ;
+        adm:logEntry        bda:LG36168C3EE97AB59B ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL0F853719C878CE45
+        a                   :ContentLocation ;
+        :contentLocationEndPage  155 ;
+        :contentLocationInstance  bdr:W1NLM925 ;
+        :contentLocationPage  140 .
+    
+    bdr:CL4B4A7B4AB24D4697
+        a                   :ContentLocation ;
+        :contentLocationEndPage  139 ;
+        :contentLocationInstance  bdr:W1NLM925 ;
+        :contentLocationPage  94 .
+    
+    bdr:CL74787806CA128CC9
+        a                   :ContentLocation ;
+        :contentLocationEndPage  93 ;
+        :contentLocationInstance  bdr:W1NLM925 ;
+        :contentLocationPage  66 .
+    
+    bdr:CL88D0147428F232F4
+        a                   :ContentLocation ;
+        :contentLocationEndPage  171 ;
+        :contentLocationInstance  bdr:W1NLM925 ;
+        :contentLocationPage  156 .
+    
+    bdr:CLA2051F31731F3B29
+        a                   :ContentLocation ;
+        :contentLocationEndPage  187 ;
+        :contentLocationInstance  bdr:W1NLM925 ;
+        :contentLocationPage  182 .
+    
+    bdr:CLACA41DD5777839C8
+        a                   :ContentLocation ;
+        :contentLocationEndPage  41 ;
+        :contentLocationInstance  bdr:W1NLM925 ;
+        :contentLocationPage  2 .
+    
+    bdr:CLB82956CF4D517556
+        a                   :ContentLocation ;
+        :contentLocationEndPage  181 ;
+        :contentLocationInstance  bdr:W1NLM925 ;
+        :contentLocationPage  172 .
+    
+    bdr:CLF5B54F24463DC18A
+        a                   :ContentLocation ;
+        :contentLocationEndPage  65 ;
+        :contentLocationInstance  bdr:W1NLM925 ;
+        :contentLocationPage  42 .
+    
+    bdr:MW1NLM925  :hasPart  bdr:MW1NLM925_2F1660 , bdr:MW1NLM925_3201FB , bdr:MW1NLM925_70298F , bdr:MW1NLM925_A9096F , bdr:MW1NLM925_AE3C58 , bdr:MW1NLM925_B58345 , bdr:MW1NLM925_D98C8B , bdr:MW1NLM925_EAE5A3 .
+    
+    bdr:MW1NLM925_2F1660
+        a                   :Instance ;
+        skos:prefLabel      "kun rig gi bum bskyed/"@bo-x-ewts ;
+        :contentLocation    bdr:CL88D0147428F232F4 ;
+        :contentLocationStatement  "8 ff." ;
+        :hasTitle           bdr:TT2A926BFC98F4EDAC ;
+        :inRootInstance     bdr:MW1NLM925 ;
+        :instanceOf         bdr:WA0XLAE3C58466E0C ;
+        :legacyOutlineNodeRID  "O4CZ3563074CZ356313" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW1NLM925 ;
+        :partTreeIndex      "6" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM925_3201FB
+        a                   :Instance ;
+        skos:prefLabel      "kun rig gi bum chog lha lnga ma/"@bo-x-ewts ;
+        :contentLocation    bdr:CLB82956CF4D517556 ;
+        :contentLocationStatement  "5 ff." ;
+        :hasTitle           bdr:TTACF0F3BFF280464C , bdr:TTE1705375A2EFF2CD ;
+        :inRootInstance     bdr:MW1NLM925 ;
+        :instanceOf         bdr:WA0XL3201FB5F875B ;
+        :legacyOutlineNodeRID  "O4CZ3563074CZ356314" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW1NLM925 ;
+        :partTreeIndex      "7" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM925_70298F
+        a                   :Instance ;
+        skos:prefLabel      "kun rig gi dbang chog"@bo-x-ewts ;
+        :contentLocation    bdr:CL74787806CA128CC9 ;
+        :contentLocationStatement  "14 ff." ;
+        :hasTitle           bdr:TTAC9EB2382F7411F9 ;
+        :inRootInstance     bdr:MW1NLM925 ;
+        :instanceOf         bdr:WA0XL70298F0F62CA ;
+        :legacyOutlineNodeRID  "O4CZ3563074CZ356310" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1NLM925 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM925_A9096F
+        a                   :Instance ;
+        skos:prefLabel      "kun rig gi chog bsgrigs ngag 'don bya tshul 'jug ngogs bde ba'i lam/"@bo-x-ewts ;
+        :contentLocation    bdr:CLACA41DD5777839C8 ;
+        :contentLocationStatement  "20 ff." ;
+        :hasTitle           bdr:TTDDAE1C13A5E9B9AE ;
+        :inRootInstance     bdr:MW1NLM925 ;
+        :instanceOf         bdr:WA0XLA9096FC77FC7 ;
+        :legacyOutlineNodeRID  "O4CZ3563074CZ356308" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1NLM925 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM925_AE3C58
+        a                   :Instance ;
+        skos:prefLabel      "kun rig gi bum bskyed/"@bo-x-ewts ;
+        :contentLocation    bdr:CL0F853719C878CE45 ;
+        :contentLocationStatement  "8 ff." ;
+        :hasTitle           bdr:TT7D57A370C8DA61F4 ;
+        :inRootInstance     bdr:MW1NLM925 ;
+        :instanceOf         bdr:WA0XLAE3C58466E0C ;
+        :legacyOutlineNodeRID  "O4CZ3563074CZ356312" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW1NLM925 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM925_B58345
+        a                   :Instance ;
+        skos:prefLabel      "gshin po rjes 'dzin lho sgo'i cho ga'i ngag 'don/"@bo-x-ewts ;
+        :contentLocation    bdr:CLF5B54F24463DC18A ;
+        :contentLocationStatement  "12 ff." ;
+        :hasTitle           bdr:TT84F787D85CAAFAE4 , bdr:TTBEE1CB57E62E180B ;
+        :inRootInstance     bdr:MW1NLM925 ;
+        :instanceOf         bdr:WA0XLB58345237D26 ;
+        :legacyOutlineNodeRID  "O4CZ3563074CZ356309" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1NLM925 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM925_D98C8B
+        a                   :Instance ;
+        skos:prefLabel      "kun rig gi mdun bskyed/"@bo-x-ewts ;
+        :contentLocation    bdr:CL4B4A7B4AB24D4697 ;
+        :contentLocationStatement  "23 ff." ;
+        :hasTitle           bdr:TTA7C26517C4D4BF28 ;
+        :inRootInstance     bdr:MW1NLM925 ;
+        :instanceOf         bdr:WA0XLD98C8B4AA54B ;
+        :legacyOutlineNodeRID  "O4CZ3563074CZ356311" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1NLM925 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM925_EAE5A3
+        a                   :Instance ;
+        skos:prefLabel      "kun rig gi bla brgyud/"@bo-x-ewts ;
+        :contentLocation    bdr:CLA2051F31731F3B29 ;
+        :contentLocationStatement  "3 ff." ;
+        :hasTitle           bdr:TT51606811B8AE2777 , bdr:TTEA4032CA66CD1B35 ;
+        :inRootInstance     bdr:MW1NLM925 ;
+        :instanceOf         bdr:WA0XLEAE5A35F1C51 ;
+        :legacyOutlineNodeRID  "O4CZ3563074CZ356315" ;
+        :partIndex          8 ;
+        :partOf             bdr:MW1NLM925 ;
+        :partTreeIndex      "8" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O4CZ356307  a       :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ356307" ;
+        :outlineOf          bdr:MW1NLM925 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+    
+    bdr:TT2A926BFC98F4EDAC
+        a                   :Title ;
+        rdfs:label          "kun rig gi bum bskyed/"@bo-x-ewts .
+    
+    bdr:TT51606811B8AE2777
+        a                   :TitlePageTitle ;
+        rdfs:label          "bcom ldan 'das thams cad rig pa'i kun rig rnam par snang mdzad kyi bla brgyud/"@bo-x-ewts .
+    
+    bdr:TT7D57A370C8DA61F4
+        a                   :Title ;
+        rdfs:label          "kun rig gi bum bskyed/"@bo-x-ewts .
+    
+    bdr:TT84F787D85CAAFAE4
+        a                   :TitlePageTitle ;
+        rdfs:label          "bcom ldan 'das kun rig rnam par snang mdzad kyi sgo nas gshin po rjes 'dzin lho sgo'i cho ga'i ngag 'don/"@bo-x-ewts .
+    
+    bdr:TTA7C26517C4D4BF28
+        a                   :Title ;
+        rdfs:label          "kun rig gi mdun bskyed/"@bo-x-ewts .
+    
+    bdr:TTAC9EB2382F7411F9
+        a                   :Title ;
+        rdfs:label          "kun rig gi dbang chog"@bo-x-ewts .
+    
+    bdr:TTACF0F3BFF280464C
+        a                   :Title ;
+        rdfs:label          "kun rig gi bum chog lha lnga ma/"@bo-x-ewts .
+    
+    bdr:TTBEE1CB57E62E180B
+        a                   :Title ;
+        rdfs:label          "gshin po rjes 'dzin lho sgo'i cho ga'i ngag 'don/"@bo-x-ewts .
+    
+    bdr:TTDDAE1C13A5E9B9AE
+        a                   :Title ;
+        rdfs:label          "kun rig gi chog bsgrigs ngag 'don bya tshul 'jug ngogs bde ba'i lam/"@bo-x-ewts .
+    
+    bdr:TTE1705375A2EFF2CD
+        a                   :TitlePageTitle ;
+        rdfs:label          "bcom ldan 'das thams cad rig pa'i kun rig gi bum chog lha lnga ma/"@bo-x-ewts .
+    
+    bdr:TTEA4032CA66CD1B35
+        a                   :Title ;
+        rdfs:label          "kun rig gi bla brgyud/"@bo-x-ewts .
+}

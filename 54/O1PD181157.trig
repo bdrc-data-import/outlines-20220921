@@ -1,0 +1,169 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD181157 {
+    bda:LG9DFEFF320239149E
+        a                   adm:InitialDataImport ;
+        adm:logAgent        "Convert2Outline version 1.5.5" ;
+        adm:logDate         "2015-02-02T11:12:44.95Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00051 .
+    
+    bda:LGBB4F61CE5B6DB0AB
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-02-02T13:40:54.184Z"^^xsd:dateTime ;
+        adm:logMessage      "reviewed and released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD181157  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD181157 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "54/O1PD181157.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD181157 ;
+        adm:logEntry        bda:LG9DFEFF320239149E , bda:LGBB4F61CE5B6DB0AB ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL74CE023333B49B9E
+        a                   :ContentLocation ;
+        :contentLocationEndPage  154 ;
+        :contentLocationInstance  bdr:W1PD181157 ;
+        :contentLocationPage  93 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL8D6710BE7405B68C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  8 ;
+        :contentLocationInstance  bdr:W1PD181157 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL8F6CBD13C70D2133
+        a                   :ContentLocation ;
+        :contentLocationEndPage  176 ;
+        :contentLocationInstance  bdr:W1PD181157 ;
+        :contentLocationPage  175 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLAC33DF726B827AC6
+        a                   :ContentLocation ;
+        :contentLocationEndPage  92 ;
+        :contentLocationInstance  bdr:W1PD181157 ;
+        :contentLocationPage  9 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLAD5EFB2B6C9FAE53
+        a                   :ContentLocation ;
+        :contentLocationEndPage  174 ;
+        :contentLocationInstance  bdr:W1PD181157 ;
+        :contentLocationPage  155 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW1PD181157  :hasPart  bdr:MW1PD181157_67D3CC , bdr:MW1PD181157_8A8FFF , bdr:MW1PD181157_8FAA93 , bdr:MW1PD181157_CCF7FD , bdr:MW1PD181157_D095EB .
+    
+    bdr:MW1PD181157_67D3CC
+        a                   :Instance ;
+        skos:prefLabel      "dpal he ru ka yang dag gi sgrub thabs bde chen thig le/"@bo-x-ewts ;
+        :contentLocation    bdr:CLAC33DF726B827AC6 ;
+        :contentLocationStatement  "42 ff. (pp. 7-90)" ;
+        :hasTitle           bdr:TTA3D2A41FE67C07D8 ;
+        :inRootInstance     bdr:MW1PD181157 ;
+        :instanceOf         bdr:WA0XL8A8FFF9F2E48 ;
+        :legacyOutlineNodeRID  "O1PD181157C2O0004" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1PD181157 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD181157_8A8FFF
+        a                   :Instance ;
+        skos:prefLabel      "dpal he ru ka yang dag gi sgrub thabs bde chen thig le/"@bo-x-ewts ;
+        :contentLocation    bdr:CL8D6710BE7405B68C ;
+        :contentLocationStatement  "3 ff. (pp. 1-6)" ;
+        :hasTitle           bdr:TT42727EEDE65E6448 ;
+        :inRootInstance     bdr:MW1PD181157 ;
+        :instanceOf         bdr:WA0XL8A8FFF9F2E48 ;
+        :legacyOutlineNodeRID  "O1PD181157C2O0003" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1PD181157 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD181157_8FAA93
+        a                   :Instance ;
+        skos:prefLabel      "yang dag bde chen thig le las dbang gi sbyin bsregs/"@bo-x-ewts ;
+        :contentLocation    bdr:CLAD5EFB2B6C9FAE53 ;
+        :contentLocationStatement  "10 ff. (pp. 153-172)" ;
+        :hasTitle           bdr:TT0AF9A5CE15F0E06F ;
+        :inRootInstance     bdr:MW1PD181157 ;
+        :instanceOf         bdr:WA0XL8FAA93348379 ;
+        :legacyOutlineNodeRID  "O1PD181157C2O0006" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1PD181157 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD181157_CCF7FD
+        a                   :Instance ;
+        skos:prefLabel      "yang dag bde chen thig le'i dkyil chog"@bo-x-ewts ;
+        :contentLocation    bdr:CL74CE023333B49B9E ;
+        :contentLocationStatement  "31 ff. (pp. 91-152)" ;
+        :hasTitle           bdr:TT88087BD19C322FFC ;
+        :inRootInstance     bdr:MW1PD181157 ;
+        :instanceOf         bdr:WA0XLCCF7FDDDD965 ;
+        :legacyOutlineNodeRID  "O1PD181157C2O0005" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1PD181157 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD181157_D095EB
+        a                   :Instance ;
+        skos:prefLabel      "sngon gtor/"@bo-x-ewts ;
+        :contentLocation    bdr:CL8F6CBD13C70D2133 ;
+        :contentLocationStatement  "1 ff. (pp. 173-174)" ;
+        :hasTitle           bdr:TT3B4A3B86CA38F251 ;
+        :inRootInstance     bdr:MW1PD181157 ;
+        :legacyOutlineNodeRID  "O1PD181157C2O0007" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW1PD181157 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1PD181157  a       :Outline ;
+        :authorshipStatement  "chengdu via TBRC Convert2Outline version: 1.5.5"@en ;
+        :legacyOutlineNodeRID  "O1PD181157" ;
+        :outlineOf          bdr:MW1PD181157 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT0AF9A5CE15F0E06F
+        a                   :Title ;
+        rdfs:label          "yang dag bde chen thig le las dbang gi sbyin bsregs/"@bo-x-ewts .
+    
+    bdr:TT3B4A3B86CA38F251
+        a                   :Title ;
+        rdfs:label          "sngon gtor/"@bo-x-ewts .
+    
+    bdr:TT42727EEDE65E6448
+        a                   :Title ;
+        rdfs:label          "dpal he ru ka yang dag gi sgrub thabs bde chen thig le/"@bo-x-ewts .
+    
+    bdr:TT88087BD19C322FFC
+        a                   :Title ;
+        rdfs:label          "yang dag bde chen thig le'i dkyil chog"@bo-x-ewts .
+    
+    bdr:TTA3D2A41FE67C07D8
+        a                   :Title ;
+        rdfs:label          "dpal he ru ka yang dag gi sgrub thabs bde chen thig le/"@bo-x-ewts .
+}

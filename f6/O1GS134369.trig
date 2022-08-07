@@ -1,0 +1,120 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS134369 {
+    bda:LG0FD78E5D5B1C9B20
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2008-11-10T12:09:47.17Z"^^xsd:dateTime ;
+        adm:logMessage      "outline created"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LG228847E9907F3C56
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-11-10T13:44:53.753Z"^^xsd:dateTime ;
+        adm:logMessage      "checking"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS134369  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS134369 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "f6/O1GS134369.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS134369 ;
+        adm:logEntry        bda:LG0FD78E5D5B1C9B20 , bda:LG228847E9907F3C56 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL3873FF39A893554F
+        a                   :ContentLocation ;
+        :contentLocationEndPage  106 ;
+        :contentLocationInstance  bdr:W30335 ;
+        :contentLocationPage  11 .
+    
+    bdr:CL77308D50CFF25E7C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  442 ;
+        :contentLocationInstance  bdr:W30335 ;
+        :contentLocationPage  107 .
+    
+    bdr:CL88BD0FD5F5D1D80C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  584 ;
+        :contentLocationInstance  bdr:W30335 ;
+        :contentLocationPage  443 .
+    
+    bdr:MW30335  :hasPart   bdr:MW30335_15FD49 , bdr:MW30335_48EB22 , bdr:MW30335_F25D43 .
+    
+    bdr:MW30335_15FD49
+        a                   :Instance ;
+        skos:prefLabel      "shes rig rdo rje rnon po'i rgyud kyi 'grel chung don gsal snying po/"@bo-x-ewts ;
+        :authorshipStatement  "written by one pad+ma bkra shis on the basis of the explanations of his guru"@en ;
+        :contentLocation    bdr:CL88BD0FD5F5D1D80C ;
+        :contentLocationStatement  "pp. 433-574" ;
+        :hasTitle           bdr:TTE8B36F00689CCFE6 ;
+        :inRootInstance     bdr:MW30335 ;
+        :instanceOf         bdr:WA0XL15FD49A39C63 ;
+        :legacyOutlineNodeRID  "O1GS1343691GS134372" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW30335 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30335_48EB22
+        a                   :Instance ;
+        skos:prefLabel      "rang bzhin rdzogs pa chen po'i rang zhal mngon du byed pa'i gdams pa zab gsang snying po/"@bo-x-ewts ;
+        :authorshipStatement  "bdud 'joms gling pa; this teachings was set down at the behest of his disciples sprul sku pad+ma lung rtogs rgya mtsho and mkhyen rab rgya mtsho"@en ;
+        :contentLocation    bdr:CL3873FF39A893554F ;
+        :contentLocationStatement  "pp. 1-96" ;
+        :hasTitle           bdr:TTB6EF00AF715B763B ;
+        :inRootInstance     bdr:MW30335 ;
+        :instanceOf         bdr:WA1KG2818 ;
+        :legacyOutlineNodeRID  "O1GS1343691GS134370" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW30335 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30335_F25D43
+        a                   :Instance ;
+        skos:prefLabel      "rang bzhin rdzogs pa chen po ma bsgom sangs rgyas kyi zin bris dpal ldan bla ma'i zhal rgyun nag 'gros su bkod pa tshig don rab gsal skal ldan dgyes pa'i mgul rgyan/"@bo-x-ewts ;
+        :authorshipStatement  "written by se ra mkha' 'gro bde chen bde ba'i rdo rje alias kun bzang bde skyong dbang mol; this work is based on the explanations of the son of bdud 'joms gling pa, gter ston dri med, the mkha' 'gro's guru and consort"@en ;
+        :contentLocation    bdr:CL77308D50CFF25E7C ;
+        :contentLocationStatement  "pp. 97-432" ;
+        :hasTitle           bdr:TT24AD364CCE3C1BC4 ;
+        :inRootInstance     bdr:MW30335 ;
+        :instanceOf         bdr:WA28858 ;
+        :legacyOutlineNodeRID  "O1GS1343691GS134371" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW30335 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS134369  a       :Outline ;
+        :authorshipStatement  "genesmith; outlined with the gracious support of the trace foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS134369" ;
+        :outlineOf          bdr:MW30335 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT24AD364CCE3C1BC4
+        a                   :Title ;
+        rdfs:label          "rang bzhin rdzogs pa chen po ma bsgom sangs rgyas kyi zin bris dpal ldan bla ma'i zhal rgyun nag 'gros su bkod pa tshig don rab gsal skal ldan dgyes pa'i mgul rgyan/"@bo-x-ewts .
+    
+    bdr:TTB6EF00AF715B763B
+        a                   :Title ;
+        rdfs:label          "rang bzhin rdzogs pa chen po'i rang zhal mngon du byed pa'i gdams pa zab gsang snying po/"@bo-x-ewts .
+    
+    bdr:TTE8B36F00689CCFE6
+        a                   :Title ;
+        rdfs:label          "shes rig rdo rje rnon po'i rgyud kyi 'grel chung don gsal snying po/"@bo-x-ewts .
+}

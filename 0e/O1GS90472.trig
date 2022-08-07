@@ -1,0 +1,49 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS90472 {
+    bda:LG3F7FA6FCC9C5E8BA
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-08-12T13:11:55.017Z"^^xsd:dateTime ;
+        adm:logMessage      "marked as editing"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG8543C9199DE91097
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-06-08T05:08:04.031Z"^^xsd:dateTime ;
+        adm:logMessage      "checkin"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGA433C0DDAB94092F
+        a                   adm:WithdrawData ;
+        adm:logDate         "2012-09-17T13:33:21.109Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawned"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1GS90472  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS90472 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "0e/O1GS90472.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS90472 ;
+        adm:logEntry        bda:LG3F7FA6FCC9C5E8BA , bda:LG8543C9199DE91097 , bda:LGA433C0DDAB94092F ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:O1GS90472  a        :Outline ;
+        :authorshipStatement  "genesmith; outlined with the support of the trace foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS90472" ;
+        :outlineOf          bdr:MW19229 ;
+        :outlineType        bdr:OutlineTypeMultivolumeCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+}

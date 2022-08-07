@@ -1,0 +1,79 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O3GSP2129 {
+    bda:LGA519EDF4FF109E4B
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2012-03-30T10:55:09.99Z"^^xsd:dateTime ;
+        adm:logMessage      "generated from legacy\n                entries of Gene Smith"@en ;
+        adm:logWhoStr       "Legacy Converter" .
+    
+    bda:O3GSP2129  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O3GSP2129 ;
+        adm:facetIndex      6 ;
+        adm:gitPath         "f1/O3GSP2129.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O3GSP2129 ;
+        adm:logEntry        bda:LGA519EDF4FF109E4B ;
+        adm:status          bda:StatusOnHold .
+    
+    bdr:MW3GSP2129  :hasPart  bdr:MW3GSP2129_5C3EFC , bdr:MW3GSP2129_D651E4 .
+    
+    bdr:MW3GSP2129_5C3EFC
+        a                   :Instance ;
+        skos:prefLabel      "lam rim khrid yig skyes bu chen por blo sbyong /"@bo-x-ewts ;
+        :hasTitle           bdr:TT94952B0EB9CEBDB0 , bdr:TT98846544B781CC28 ;
+        :inRootInstance     bdr:MW3GSP2129 ;
+        :instanceOf         bdr:WA0XL5C3EFC5F296A ;
+        :legacyOutlineNodeRID  "O3GSP2129W14268" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW3GSP2129 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP2129_D651E4
+        a                   :Instance ;
+        skos:prefLabel      "lam rim khrid yig zhal shes man ngag"@bo-x-ewts ;
+        :hasTitle           bdr:TT521C1F54754599EA , bdr:TTB6A29F646367DF87 ;
+        :inRootInstance     bdr:MW3GSP2129 ;
+        :instanceOf         bdr:WA0XLD651E40A2FC2 ;
+        :legacyOutlineNodeRID  "O3GSP2129W14266" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW3GSP2129 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O3GSP2129  a        :Outline ;
+        :authorshipStatement  "Works to Outline generator"@en ;
+        :legacyOutlineNodeRID  "O3GSP2129" ;
+        :outlineOf          bdr:MW3GSP2129 ;
+        :outlineType        bdr:OutlineTypeGsungBum ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT521C1F54754599EA
+        a                   :Title ;
+        rdfs:label          "lam rim khrid yig zhal shes man ngag"@bo-x-ewts .
+    
+    bdr:TT94952B0EB9CEBDB0
+        a                   :Title ;
+        rdfs:label          "lam rim khrid yig skyes bu chen por blo sbyong /"@bo-x-ewts .
+    
+    bdr:TT98846544B781CC28
+        a                   :TitlePageTitle ;
+        rdfs:label          "byang chub lam rim gyi khrid yig las/_skyes bu chen por blo sbyong ba'i spyod pa spyi la bslab pa'i skor/"@bo-x-ewts .
+    
+    bdr:TTB6A29F646367DF87
+        a                   :TitlePageTitle ;
+        rdfs:label          "byang chub lam gyi rim pa'i khrid yig chen mo dben sa bka' brgyud kyi zhal shes man ngag"@bo-x-ewts .
+}

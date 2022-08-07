@@ -1,0 +1,105 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD98542 {
+    bda:LG1C43D78C449187F9
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-09-04T12:39:25.161Z"^^xsd:dateTime ;
+        adm:logMessage      "added T# for kajur"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LG48BAF0331614A9A1
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-05-07T14:13:02.165Z"^^xsd:dateTime ;
+        adm:logMessage      "removed T1129"@en ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:LGA5AD37FFD9DBE560
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-04-30T16:01:55.222Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD98542  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD98542 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "15/O1PD98542.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD98542 ;
+        adm:logEntry        bda:LG1C43D78C449187F9 , bda:LG48BAF0331614A9A1 , bda:LGA5AD37FFD9DBE560 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL45E2A58A630E7A9D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  92 ;
+        :contentLocationInstance  bdr:W27919 ;
+        :contentLocationPage  35 .
+    
+    bdr:CLB2764C2D9E5C0480
+        a                   :ContentLocation ;
+        :contentLocationEndPage  34 ;
+        :contentLocationInstance  bdr:W27919 ;
+        :contentLocationPage  5 .
+    
+    bdr:MW27919  :hasPart   bdr:MW27919_156D81 , bdr:MW27919_316CE2 .
+    
+    bdr:MW27919_156D81
+        a                   :Instance ;
+        skos:prefLabel      "a mdo rwa rgya'i bka' 'gyur gyi dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CL45E2A58A630E7A9D ;
+        :contentLocationStatement  "29 ff. (pp. 1-58)" ;
+        :hasTitle           bdr:TTE54CD58B595247EA , bdr:TTF1DEF6306892EC56 ;
+        :inRootInstance     bdr:MW27919 ;
+        :legacyOutlineNodeRID  "O1PD985421PD98545" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW27919 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW27919_316CE2
+        a                   :Instance ;
+        skos:prefLabel      "a mdo rwa rgya'i bka' 'gyur dpar ma'i gleng brjod/"@bo-x-ewts ;
+        :contentLocation    bdr:CLB2764C2D9E5C0480 ;
+        :contentLocationStatement  "15 ff." ;
+        :hasTitle           bdr:TTB3B9464FC5299EF1 , bdr:TTE5198F7A631A13C4 ;
+        :inRootInstance     bdr:MW27919 ;
+        :instanceOf         bdr:WA0XL316CE2C0596F ;
+        :legacyOutlineNodeRID  "O1PD985421PD98543" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW27919 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1PD98542  a        :Outline ;
+        :authorshipStatement  "paldor"@en ;
+        :legacyOutlineNodeRID  "O1PD98542" ;
+        :outlineOf          bdr:MW27919 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TTB3B9464FC5299EF1
+        a                   :Title ;
+        rdfs:label          "a mdo rwa rgya'i bka' 'gyur dpar ma'i gleng brjod/"@bo-x-ewts .
+    
+    bdr:TTE5198F7A631A13C4
+        a                   :TitlePageTitle ;
+        rdfs:label          "gleng brjod/"@bo-x-ewts .
+    
+    bdr:TTE54CD58B595247EA
+        a                   :Title ;
+        rdfs:label          "a mdo rwa rgya'i bka' 'gyur gyi dkar chag"@bo-x-ewts .
+    
+    bdr:TTF1DEF6306892EC56
+        a                   :TitlePageTitle ;
+        rdfs:label          "bde bar gshegs pa'i gsung rab gangs can gyi skad du 'gyur ro cog gi phyi mo par du bskrun pa'i dkar chag mdo rgyud chos kyi sgo brgya cig car 'byed pa'i lde mig"@bo-x-ewts .
+}

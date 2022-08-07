@@ -1,0 +1,663 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1MM2 {
+    bda:LG5C342329F8C0CF51
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-06-08T16:37:41.402Z"^^xsd:dateTime ;
+        adm:logMessage      "editing"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG5F6CA204713DD364
+        a                   adm:WithdrawData ;
+        adm:logDate         "2012-09-17T13:22:14.529Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawned"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG7E1528252D97C513
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-01-20T11:16:58.609Z"^^xsd:dateTime ;
+        adm:logMessage      "first publish"@en ;
+        adm:logWhoStr       "Michael Monhart" .
+    
+    bda:O1MM2  a            adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1MM2 ;
+        adm:facetIndex      42 ;
+        adm:gitPath         "ec/O1MM2.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1MM2 ;
+        adm:logEntry        bda:LG5C342329F8C0CF51 , bda:LG5F6CA204713DD364 , bda:LG7E1528252D97C513 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:CL0598641D6AAD19B6
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  31 .
+    
+    bdr:CL16F47297254B76A1
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  28 .
+    
+    bdr:CL1DC52251F7FB897C
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  29 .
+    
+    bdr:CL1E1C1CFA074723F3
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  13 .
+    
+    bdr:CL2E416999B6ACA7C6
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  5 .
+    
+    bdr:CL2F6EF2F88C74D3F1
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  23 .
+    
+    bdr:CL303F2E3E8C13FD79
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  20 .
+    
+    bdr:CL367E64BCFA44FE5C
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  26 .
+    
+    bdr:CL3A95EB9EA49F7ECC
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  24 .
+    
+    bdr:CL3B1D769CA4A4F492
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL3EB328DA38F0AC29
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  16 .
+    
+    bdr:CL3F6E391579F85683
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  21 .
+    
+    bdr:CL4E0445A28531B96C
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  17 .
+    
+    bdr:CL577C433DA8027051
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  4 .
+    
+    bdr:CL5B32FBFAD76C7266
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  12 .
+    
+    bdr:CL647A3AA7B252E96C
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL6CE1F393845C9920
+        a                   :ContentLocation ;
+        :contentLocationEndPage  125 ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL6F04C7C287B26D64
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  6 .
+    
+    bdr:CL6FA15F8B0C13D6B9
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL77FA079DDF0AE3FC
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  11 .
+    
+    bdr:CL7A37EC17DB32811D
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  30 .
+    
+    bdr:CL8B14E3C68D903061
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  9 .
+    
+    bdr:CL8D0AA49041F99B0C
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  18 .
+    
+    bdr:CL9222E7B5C0BF77CE
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  19 .
+    
+    bdr:CL99AEA760D5682F99
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CLA09DEF469A0F055E
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLA6F8578CE04771CE
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  3 .
+    
+    bdr:CLAA62CD8EC53299AD
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  25 .
+    
+    bdr:CLAAA5542A4474174E
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  7 .
+    
+    bdr:CLB5F0F12792ABFC73
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLBC63FB1D88D71DE4
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  8 .
+    
+    bdr:CLD3C1676AF4ED3B1E
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLD3C44359C4D8E462
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  15 .
+    
+    bdr:CLEED59947CE324839
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  10 .
+    
+    bdr:CLF085B2D2D9E70E60
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  22 .
+    
+    bdr:CLF37126C9E2365CCC
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  27 .
+    
+    bdr:CLF45ECA537000491F
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLFBA61AC33836C0CA
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W20821 ;
+        :contentLocationVolume  14 .
+    
+    bdr:MW20821  :hasPart   bdr:MW20821_071D1E , bdr:MW20821_232170 , bdr:MW20821_2B4A91 , bdr:MW20821_339A69 , bdr:MW20821_342CB5 , bdr:MW20821_372354 , bdr:MW20821_440F49 , bdr:MW20821_44D0DF , bdr:MW20821_583862 , bdr:MW20821_61ADD0 , bdr:MW20821_61DC23 , bdr:MW20821_6BAC44 , bdr:MW20821_6D7977 , bdr:MW20821_6E6B29 , bdr:MW20821_70DB9C , bdr:MW20821_74E552 , bdr:MW20821_95044A , bdr:MW20821_969A5A , bdr:MW20821_A17A6E , bdr:MW20821_A3BC85 , bdr:MW20821_AAFA0A , bdr:MW20821_BB9B02 , bdr:MW20821_C1B5F9 , bdr:MW20821_C36806 , bdr:MW20821_C78679 , bdr:MW20821_CF6D8C , bdr:MW20821_D6DA4E , bdr:MW20821_DD6008 , bdr:MW20821_DDC9A8 , bdr:MW20821_F9A7C1 , bdr:MW20821_FA67A3 .
+    
+    bdr:MW20821_071D1E
+        a                   :Instance ;
+        skos:prefLabel      "25 (ra)"@bo-x-ewts ;
+        :contentLocation    bdr:CLAA62CD8EC53299AD ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM27" ;
+        :partIndex          25 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "25" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_1522CA
+        a                   :Instance ;
+        skos:prefLabel      "2"@bo-x-ewts , "2"@en ;
+        :contentLocation    bdr:CL3B1D769CA4A4F492 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM35" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW20821_D6DA4E ;
+        :partTreeIndex      "01.2" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW20821_232170
+        a                   :Instance ;
+        skos:prefLabel      "19 (dza)"@bo-x-ewts ;
+        :contentLocation    bdr:CL9222E7B5C0BF77CE ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM21" ;
+        :partIndex          19 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "19" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_26AFED
+        a                   :Instance ;
+        skos:prefLabel      "3"@bo-x-ewts , "3"@en ;
+        :contentLocation    bdr:CL6FA15F8B0C13D6B9 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM36" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW20821_D6DA4E ;
+        :partTreeIndex      "01.3" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW20821_2B4A91
+        a                   :Instance ;
+        skos:prefLabel      "5 (ca)"@bo-x-ewts ;
+        :contentLocation    bdr:CL2E416999B6ACA7C6 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM7" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "05" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_339A69
+        a                   :Instance ;
+        skos:prefLabel      "28 (sa)"@bo-x-ewts ;
+        :contentLocation    bdr:CL16F47297254B76A1 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM30" ;
+        :partIndex          28 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "28" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_342CB5
+        a                   :Instance ;
+        skos:prefLabel      "15 (ba)"@bo-x-ewts ;
+        :contentLocation    bdr:CLD3C44359C4D8E462 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM17" ;
+        :partIndex          15 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "15" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_372354
+        a                   :Instance ;
+        skos:prefLabel      "13 (pa)"@bo-x-ewts ;
+        :contentLocation    bdr:CL1E1C1CFA074723F3 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM15" ;
+        :partIndex          13 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "13" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_440F49
+        a                   :Instance ;
+        skos:prefLabel      "12 (na)"@bo-x-ewts ;
+        :contentLocation    bdr:CL5B32FBFAD76C7266 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM14" ;
+        :partIndex          12 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "12" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_44D0DF
+        a                   :Instance ;
+        skos:prefLabel      "24 (ya)"@bo-x-ewts ;
+        :contentLocation    bdr:CL3A95EB9EA49F7ECC ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM26" ;
+        :partIndex          24 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "24" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_583862
+        a                   :Instance ;
+        skos:prefLabel      "4 (nga)"@bo-x-ewts ;
+        :contentLocation    bdr:CL577C433DA8027051 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM6" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "04" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_61ADD0
+        a                   :Instance ;
+        skos:prefLabel      "21 (zha)"@bo-x-ewts ;
+        :contentLocation    bdr:CL3F6E391579F85683 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM23" ;
+        :partIndex          21 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "21" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_61DC23
+        a                   :Instance ;
+        skos:prefLabel      "29 (ha)"@bo-x-ewts ;
+        :contentLocation    bdr:CL1DC52251F7FB897C ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM31" ;
+        :partIndex          29 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "29" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_69D5B0
+        a                   :Instance ;
+        skos:prefLabel      "6"@bo-x-ewts , "6"@en ;
+        :contentLocation    bdr:CLF45ECA537000491F ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM39" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW20821_D6DA4E ;
+        :partTreeIndex      "01.6" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW20821_6BAC44
+        a                   :Instance ;
+        skos:prefLabel      "7 (ja)"@bo-x-ewts ;
+        :contentLocation    bdr:CLAAA5542A4474174E ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM9" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "07" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_6D7977
+        a                   :Instance ;
+        skos:prefLabel      "17 (tsa)"@bo-x-ewts ;
+        :contentLocation    bdr:CL4E0445A28531B96C ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM19" ;
+        :partIndex          17 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "17" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_6E6B29
+        a                   :Instance ;
+        skos:prefLabel      "2 (kha)"@bo-x-ewts ;
+        :contentLocation    bdr:CL99AEA760D5682F99 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM4" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "02" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_6E93FF
+        a                   :Instance ;
+        skos:prefLabel      "1"@bo-x-ewts , "1"@en ;
+        :contentLocation    bdr:CL6CE1F393845C9920 ;
+        :contentLocationStatement  "page 3 - 125" ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM34" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW20821_D6DA4E ;
+        :partTreeIndex      "01.1" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW20821_70DB9C
+        a                   :Instance ;
+        skos:prefLabel      "16 (ma)"@bo-x-ewts ;
+        :contentLocation    bdr:CL3EB328DA38F0AC29 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM18" ;
+        :partIndex          16 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "16" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_74E552
+        a                   :Instance ;
+        skos:prefLabel      "10 (tha)"@bo-x-ewts ;
+        :contentLocation    bdr:CLEED59947CE324839 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM12" ;
+        :partIndex          10 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "10" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_95044A
+        a                   :Instance ;
+        skos:prefLabel      "8 (nya)"@bo-x-ewts ;
+        :contentLocation    bdr:CLBC63FB1D88D71DE4 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM10" ;
+        :partIndex          8 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "08" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_969A5A
+        a                   :Instance ;
+        skos:prefLabel      "6 (cha)"@bo-x-ewts ;
+        :contentLocation    bdr:CL6F04C7C287B26D64 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM8" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "06" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_9C6D62
+        a                   :Instance ;
+        skos:prefLabel      "7"@bo-x-ewts , "7"@en ;
+        :contentLocation    bdr:CL647A3AA7B252E96C ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM40" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW20821_D6DA4E ;
+        :partTreeIndex      "01.7" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW20821_A17A6E
+        a                   :Instance ;
+        skos:prefLabel      "27 (sha)"@bo-x-ewts ;
+        :contentLocation    bdr:CLF37126C9E2365CCC ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM29" ;
+        :partIndex          27 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "27" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_A3BC85
+        a                   :Instance ;
+        skos:prefLabel      "18 (tsha)"@bo-x-ewts ;
+        :contentLocation    bdr:CL8D0AA49041F99B0C ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM20" ;
+        :partIndex          18 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "18" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_AAFA0A
+        a                   :Instance ;
+        skos:prefLabel      "3 (ga)"@bo-x-ewts ;
+        :contentLocation    bdr:CLA6F8578CE04771CE ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM5" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "03" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_BB9B02
+        a                   :Instance ;
+        skos:prefLabel      "9 (ta)"@bo-x-ewts ;
+        :contentLocation    bdr:CL8B14E3C68D903061 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM11" ;
+        :partIndex          9 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "09" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_C1B5F9
+        a                   :Instance ;
+        skos:prefLabel      "31 (a)"@bo-x-ewts ;
+        :contentLocation    bdr:CL0598641D6AAD19B6 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM33" ;
+        :partIndex          31 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "31" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_C36806
+        a                   :Instance ;
+        skos:prefLabel      "11 (da)"@bo-x-ewts ;
+        :contentLocation    bdr:CL77FA079DDF0AE3FC ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM13" ;
+        :partIndex          11 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "11" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_C78679
+        a                   :Instance ;
+        skos:prefLabel      "20 (wa)"@bo-x-ewts ;
+        :contentLocation    bdr:CL303F2E3E8C13FD79 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM22" ;
+        :partIndex          20 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "20" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_CF6D8C
+        a                   :Instance ;
+        skos:prefLabel      "23 ('a)"@bo-x-ewts ;
+        :contentLocation    bdr:CL2F6EF2F88C74D3F1 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM25" ;
+        :partIndex          23 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "23" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_D6DA4E
+        a                   :Instance ;
+        skos:prefLabel      "1 (ka)"@bo-x-ewts ;
+        :contentLocation    bdr:CLB5F0F12792ABFC73 ;
+        :hasPart            bdr:MW20821_1522CA , bdr:MW20821_26AFED , bdr:MW20821_69D5B0 , bdr:MW20821_6E93FF , bdr:MW20821_9C6D62 , bdr:MW20821_F83038 , bdr:MW20821_FF6D8C ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM3" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "01" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_DD6008
+        a                   :Instance ;
+        skos:prefLabel      "26 (la)"@bo-x-ewts ;
+        :contentLocation    bdr:CL367E64BCFA44FE5C ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM28" ;
+        :partIndex          26 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "26" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_DDC9A8
+        a                   :Instance ;
+        skos:prefLabel      "22 (za)"@bo-x-ewts ;
+        :contentLocation    bdr:CLF085B2D2D9E70E60 ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM24" ;
+        :partIndex          22 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "22" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_F83038
+        a                   :Instance ;
+        skos:prefLabel      "5"@bo-x-ewts , "5"@en ;
+        :contentLocation    bdr:CLA09DEF469A0F055E ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM38" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW20821_D6DA4E ;
+        :partTreeIndex      "01.5" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW20821_F9A7C1
+        a                   :Instance ;
+        skos:prefLabel      "14 (pha)"@bo-x-ewts ;
+        :contentLocation    bdr:CLFBA61AC33836C0CA ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM16" ;
+        :partIndex          14 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "14" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_FA67A3
+        a                   :Instance ;
+        skos:prefLabel      "30 (a)"@bo-x-ewts ;
+        :contentLocation    bdr:CL7A37EC17DB32811D ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM32" ;
+        :partIndex          30 ;
+        :partOf             bdr:MW20821 ;
+        :partTreeIndex      "30" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW20821_FF6D8C
+        a                   :Instance ;
+        skos:prefLabel      "4"@bo-x-ewts , "4"@en ;
+        :contentLocation    bdr:CLD3C1676AF4ED3B1E ;
+        :inRootInstance     bdr:MW20821 ;
+        :legacyOutlineNodeRID  "O1MM21MM37" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW20821_D6DA4E ;
+        :partTreeIndex      "01.4" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:O1MM2  a            :Outline ;
+        :authorshipStatement  "Michael Monhart"@en ;
+        :legacyOutlineNodeRID  "O1MM2" ;
+        :outlineOf          bdr:MW20821 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+}

@@ -1,0 +1,139 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1KG9039 {
+    bda:LG65B0358744EFAC29
+        a                   adm:InitialDataImport ;
+        adm:logAgent        "Convert2Outline version 1.8.0" ;
+        adm:logDate         "2019-08-28T11:50:27.797Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00053 .
+    
+    bda:O1KG9039  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1KG9039 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "72/O1KG9039.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1KG9039 ;
+        adm:logEntry        bda:LG65B0358744EFAC29 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL490714C67CC88823
+        a                   :ContentLocation ;
+        :contentLocationEndPage  115 ;
+        :contentLocationInstance  bdr:W1KG9039 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL79C895FFC37C98FF
+        a                   :ContentLocation ;
+        :contentLocationEndPage  196 ;
+        :contentLocationInstance  bdr:W1KG9039 ;
+        :contentLocationPage  117 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL7F74F64F021FFF76
+        a                   :ContentLocation ;
+        :contentLocationEndPage  571 ;
+        :contentLocationInstance  bdr:W1KG9039 ;
+        :contentLocationPage  197 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLF68B9929F721C19A
+        a                   :ContentLocation ;
+        :contentLocationEndPage  787 ;
+        :contentLocationInstance  bdr:W1KG9039 ;
+        :contentLocationPage  573 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW1KG9039  :hasPart  bdr:MW1KG9039_5F77F0 , bdr:MW1KG9039_B8D3EE , bdr:MW1KG9039_D12AE8 , bdr:MW1KG9039_E57275 .
+    
+    bdr:MW1KG9039_5F77F0
+        a                   :Instance ;
+        skos:prefLabel      "rje shes rab dbang po'i dbu ma dgongs pa yang gsal/_(dbu ma la 'jug pa'i rnam bshad dgongs pa rab gsal gyi dka' gnad gtan la 'bebs pa dgongs pa yang gsal/)"@bo-x-ewts ;
+        :contentLocation    bdr:CL7F74F64F021FFF76 ;
+        :contentLocationStatement  "188 ff. (pp. 195-569)" ;
+        :hasTitle           bdr:TT77136F001CB0D05E ;
+        :inRootInstance     bdr:MW1KG9039 ;
+        :instanceOf         bdr:WA0XL5F77F094A396 ;
+        :legacyOutlineNodeRID  "O1KG9039C2O29844" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1KG9039 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1KG9039_B8D3EE
+        a                   :Instance ;
+        skos:prefLabel      "paN chen bsod nams rgyal mtshan gyi rnam 'grel le'u dang po rnam bshad skal bzang mdzes rgyan/ (ma dpe'i nang du mjug mi 'dug)"@bo-x-ewts ;
+        :contentLocation    bdr:CL79C895FFC37C98FF ;
+        :contentLocationStatement  "40 ff. (pp. 115-194)" ;
+        :hasTitle           bdr:TT7C163121F75EE1FA ;
+        :inRootInstance     bdr:MW1KG9039 ;
+        :instanceOf         bdr:WA0XLB8D3EED688B4 ;
+        :legacyOutlineNodeRID  "O1KG9039C2O29843" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1KG9039 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1KG9039_D12AE8
+        a                   :Instance ;
+        skos:prefLabel      "chos rje ngag dbang dpal ldan gyi mngon pa mdzod kyi dogs slong /_(mngon pa mdzod kyi don la dogs pa bcad pa blo gsar rol rtsed/)"@bo-x-ewts ;
+        :contentLocation    bdr:CLF68B9929F721C19A ;
+        :contentLocationStatement  "108 ff. (pp. 571-785)" ;
+        :hasTitle           bdr:TTF0D45838C9B0D9B2 ;
+        :inRootInstance     bdr:MW1KG9039 ;
+        :instanceOf         bdr:WA0XLD12AE8B017F7 ;
+        :legacyOutlineNodeRID  "O1KG9039C2O29845" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1KG9039 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1KG9039_E57275
+        a                   :Instance ;
+        skos:prefLabel      "yongs 'dzin dpal 'byor rgya mtsho'i dbu ma/"@bo-x-ewts ;
+        :contentLocation    bdr:CL490714C67CC88823 ;
+        :contentLocationStatement  "57 ff. (pp. 1-113)" ;
+        :hasTitle           bdr:TT9D204FC1C05351D9 ;
+        :inRootInstance     bdr:MW1KG9039 ;
+        :instanceOf         bdr:WA0XLE5727589942D ;
+        :legacyOutlineNodeRID  "O1KG9039C2O29842" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1KG9039 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1KG9039  a         :Outline ;
+        :authorshipStatement  "Provided by Esukhia ; via TBRC Convert2OutlineXml version 1.8.0"@en ;
+        :legacyOutlineNodeRID  "O1KG9039" ;
+        :outlineOf          bdr:MW1KG9039 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT77136F001CB0D05E
+        a                   :Title ;
+        rdfs:label          "rje shes rab dbang po'i dbu ma dgongs pa yang gsal/_(dbu ma la 'jug pa'i rnam bshad dgongs pa rab gsal gyi dka' gnad gtan la 'bebs pa dgongs pa yang gsal/)"@bo-x-ewts .
+    
+    bdr:TT7C163121F75EE1FA
+        a                   :Title ;
+        rdfs:label          "paN chen bsod nams rgyal mtshan gyi rnam 'grel le'u dang po rnam bshad skal bzang mdzes rgyan/ (ma dpe'i nang du mjug mi 'dug)"@bo-x-ewts .
+    
+    bdr:TT9D204FC1C05351D9
+        a                   :Title ;
+        rdfs:label          "yongs 'dzin dpal 'byor rgya mtsho'i dbu ma/"@bo-x-ewts .
+    
+    bdr:TTF0D45838C9B0D9B2
+        a                   :Title ;
+        rdfs:label          "chos rje ngag dbang dpal ldan gyi mngon pa mdzod kyi dogs slong /_(mngon pa mdzod kyi don la dogs pa bcad pa blo gsar rol rtsed/)"@bo-x-ewts .
+}

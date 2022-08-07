@@ -1,0 +1,139 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ364063 {
+    bda:LG59763FF266F8DE61
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2020-11-03T11:37:33.147Z"^^xsd:dateTime ;
+        adm:logMessage      "full cataloged"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:O4CZ364063  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ364063 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "95/O4CZ364063.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ364063 ;
+        adm:logEntry        bda:LG59763FF266F8DE61 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL061250A842A55E7D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  220 ;
+        :contentLocationInstance  bdr:W1NLM1908 ;
+        :contentLocationPage  197 .
+    
+    bdr:CLA49666378C27C236
+        a                   :ContentLocation ;
+        :contentLocationEndPage  196 ;
+        :contentLocationInstance  bdr:W1NLM1908 ;
+        :contentLocationPage  176 .
+    
+    bdr:CLC70890FAD68746CF
+        a                   :ContentLocation ;
+        :contentLocationEndPage  300 ;
+        :contentLocationInstance  bdr:W1NLM1908 ;
+        :contentLocationPage  221 .
+    
+    bdr:CLF3027B0AD11975D0
+        a                   :ContentLocation ;
+        :contentLocationEndPage  166 ;
+        :contentLocationInstance  bdr:W1NLM1908 ;
+        :contentLocationPage  1 .
+    
+    bdr:MW1NLM1908  :hasPart  bdr:MW1NLM1908_1E5787 , bdr:MW1NLM1908_3B466F , bdr:MW1NLM1908_697A33 , bdr:MW1NLM1908_E5ECF8 .
+    
+    bdr:MW1NLM1908_1E5787
+        a                   :Instance ;
+        skos:prefLabel      "bde mchog gi sgrub thabs bla ma'i rnal 'byorgtor 'bul dang bcas pa nyams su len tshul/"@bo-x-ewts ;
+        :contentLocation    bdr:CL061250A842A55E7D ;
+        :contentLocationStatement  "10 ff." ;
+        :hasTitle           bdr:TT4EAE4CC82671CAAD , bdr:TT6E5BE4FF3D2501EC ;
+        :inRootInstance     bdr:MW1NLM1908 ;
+        :instanceOf         bdr:WA0XL1E578767F384 ;
+        :legacyOutlineNodeRID  "O4CZ3640634CZ364066" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1NLM1908 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM1908_3B466F
+        a                   :Instance ;
+        skos:prefLabel      "rgya nag skag bzlog"@bo-x-ewts ;
+        :contentLocation    bdr:CLA49666378C27C236 ;
+        :contentLocationStatement  "15 ff." ;
+        :hasTitle           bdr:TT1AC7D5686EAEBABB ;
+        :inRootInstance     bdr:MW1NLM1908 ;
+        :instanceOf         bdr:WA0XL3B466FA33189 ;
+        :legacyOutlineNodeRID  "O4CZ3640634CZ364065" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1NLM1908 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM1908_697A33
+        a                   :Instance ;
+        skos:prefLabel      "gza' skar 'phrod sbyor sogs la nye bar mkho ba'i re'u mig 'tshol sla ba/"@bo-x-ewts ;
+        :contentLocation    bdr:CLC70890FAD68746CF ;
+        :contentLocationStatement  "40 ff." ;
+        :hasTitle           bdr:TT1D809CF8790E5A76 ;
+        :inRootInstance     bdr:MW1NLM1908 ;
+        :instanceOf         bdr:WA0XL697A3368FA40 ;
+        :legacyOutlineNodeRID  "O4CZ3640634CZ364067" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1NLM1908 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM1908_E5ECF8
+        a                   :Instance ;
+        skos:prefLabel      "theg pa chen po rgyud bla ma'i bstan bcos/"@bo-x-ewts ;
+        :contentLocation    bdr:CLF3027B0AD11975D0 ;
+        :contentLocationStatement  "80 ff." ;
+        :hasTitle           bdr:TTD0C641A747C0399F ;
+        :inRootInstance     bdr:MW1NLM1908 ;
+        :instanceOf         bdr:WA0XLE5ECF822CBFD ;
+        :legacyOutlineNodeRID  "O4CZ3640634CZ364064" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1NLM1908 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O4CZ364063  a       :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ364063" ;
+        :outlineOf          bdr:MW1NLM1908 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+    
+    bdr:TT1AC7D5686EAEBABB
+        a                   :Title ;
+        rdfs:label          "rgya nag skag bzlog"@bo-x-ewts .
+    
+    bdr:TT1D809CF8790E5A76
+        a                   :Title ;
+        rdfs:label          "gza' skar 'phrod sbyor sogs la nye bar mkho ba'i re'u mig 'tshol sla ba/"@bo-x-ewts .
+    
+    bdr:TT4EAE4CC82671CAAD
+        a                   :TitlePageTitle ;
+        rdfs:label          "dpal 'khor lo bde mchog gi sgrub thabs bla ma'i rnal 'byorgtor 'bul dang bcas pa nyams su len tshul zab gsang gdams pa'i nying khu/"@bo-x-ewts .
+    
+    bdr:TT6E5BE4FF3D2501EC
+        a                   :Title ;
+        rdfs:label          "bde mchog gi sgrub thabs bla ma'i rnal 'byorgtor 'bul dang bcas pa nyams su len tshul/"@bo-x-ewts .
+    
+    bdr:TTD0C641A747C0399F
+        a                   :Title ;
+        rdfs:label          "theg pa chen po rgyud bla ma'i bstan bcos/"@bo-x-ewts .
+}

@@ -1,0 +1,198 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O3JT2207 {
+    bda:LGB906E65E77703733
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-10-20T11:49:33.376Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00013 .
+    
+    bda:LGFB7E84E16FC4A782
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-11-11T11:13:35.32Z"^^xsd:dateTime ;
+        adm:logMessage      "edited and released"@en ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:O3JT2207  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O3JT2207 ;
+        adm:facetIndex      15 ;
+        adm:gitPath         "50/O3JT2207.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O3JT2207 ;
+        adm:logEntry        bda:LGB906E65E77703733 , bda:LGFB7E84E16FC4A782 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL36E3C7EDFEBB6B3C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  8 ;
+        :contentLocationInstance  bdr:W23564 ;
+        :contentLocationPage  7 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL5E25930F99811CD2
+        a                   :ContentLocation ;
+        :contentLocationEndPage  454 ;
+        :contentLocationInstance  bdr:W23564 ;
+        :contentLocationPage  261 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL6BD17D14D79092C7
+        a                   :ContentLocation ;
+        :contentLocationEndPage  36 ;
+        :contentLocationInstance  bdr:W23564 ;
+        :contentLocationPage  9 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLBA23B89878F50904
+        a                   :ContentLocation ;
+        :contentLocationEndPage  6 ;
+        :contentLocationInstance  bdr:W23564 ;
+        :contentLocationPage  5 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLC5740F94573865CB
+        a                   :ContentLocation ;
+        :contentLocationEndPage  144 ;
+        :contentLocationInstance  bdr:W23564 ;
+        :contentLocationPage  37 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLC782B8CEBD943B81
+        a                   :ContentLocation ;
+        :contentLocationEndPage  260 ;
+        :contentLocationInstance  bdr:W23564 ;
+        :contentLocationPage  145 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW23564  :hasPart   bdr:MW23564_049E83 , bdr:MW23564_08AC2B , bdr:MW23564_74E781 , bdr:MW23564_A75A55 , bdr:MW23564_DAFB95 , bdr:MW23564_F94EFD .
+    
+    bdr:MW23564_049E83
+        a                   :Instance ;
+        skos:prefLabel      "rje btsun tai lo'i rnam par thar pa/"@bo-x-ewts ;
+        :authorshipStatement  "written by dbang phyug rgyal mtshan in 1523 at rdza ri bsam gtan gling"@en ;
+        :colophon           "mkhas grub mnyam med gtsang pa he ru ka'i bu slob tha shal/ ser gzugs 'dzin pa'i spang po dbang phyug rgyal mtshan gyis bsam sbyor bzang pos/ nyi ma zhes pa chu mo lug gi lo/ mnyam med thub pa'i dbang po mngon par byang chub pa'i dus chen/ sa ga zla ba'i yar ngo'i tshes bco lnga la mjug rdzogs par/ rdza ri bsam gtan gyi dgon par sbyar ba'i yi ge pa ni/ g+hu ru d+hwa ts+tsha yin/ 'dis kyang lung rtogs kyi bstan pa dar zhing rgyas la yun ring du gnas par gyur cig"@bo-x-ewts ;
+        :contentLocation    bdr:CLC5740F94573865CB ;
+        :contentLocationStatement  "54 ff. (pp. 29-136)" ;
+        :hasTitle           bdr:TTFDA59D68116ED956 ;
+        :inRootInstance     bdr:MW23564 ;
+        :instanceOf         bdr:WA0XL049E83B9CAC4 ;
+        :legacyOutlineNodeRID  "O3JT22073JT2212" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW23564 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23564_08AC2B
+        a                   :Instance ;
+        skos:prefLabel      "sngon brjod/"@bo-x-ewts ;
+        :contentLocation    bdr:CLBA23B89878F50904 ;
+        :contentLocationStatement  "1 f." ;
+        :hasTitle           bdr:TT4137506B0DCDA229 ;
+        :inRootInstance     bdr:MW23564 ;
+        :legacyOutlineNodeRID  "O3JT22073JT2209" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW23564 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23564_74E781
+        a                   :Instance ;
+        skos:prefLabel      "rgyal ba rdo rje 'chang gi rnam thar/"@bo-x-ewts ;
+        :colophon           "rdo rje 'chang gi rnam thar zur tsam 'di/ brgyud 'dzin rnams kyis rtogs par bya ba'i phyir/ ku sa li'i sprang po smog cog pas /gong ma rnams kyi gsung la brten nas sbyar /dge ba 'di yis bdag sogs 'gro ba kun/ rdo rje 'chang gi go 'phang myur thob shog/ rdo rje 'chang dang ni gu ma'i/ yi ge thung rdzogs sha 'gyur can/ snyings pas thugs rje skyabs pa yin/ rkos byed DA ki mang thos so/ mkha' mnyam sems can tshogs rdzogs shog"@bo-x-ewts ;
+        :contentLocation    bdr:CL6BD17D14D79092C7 ;
+        :contentLocationStatement  "14 ff. (pp. 1-28)" ;
+        :hasTitle           bdr:TTB672EEC62E6F3AC4 ;
+        :inRootInstance     bdr:MW23564 ;
+        :instanceOf         bdr:WA0XL74E7815EE07F ;
+        :legacyOutlineNodeRID  "O3JT22073JT2211" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW23564 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23564_A75A55
+        a                   :Instance ;
+        skos:prefLabel      "rje btsun mar pa'i rnam par thar pa/"@bo-x-ewts ;
+        :colophon           "dur khrod myul ba'i rnal 'byor pa khrag 'thung rgyal pos/ dbang phyug mi la ras pa mngon par rdzogs par sangs rgyas pa'i gnas mchog chu bar sprul sku'i pho brang du/ yi ger bkod pa'i yi ge pa ni shri ri lo paN 'jam dpal chos lha'o"@bo-x-ewts ;
+        :contentLocation    bdr:CL5E25930F99811CD2 ;
+        :contentLocationStatement  "97 ff. (pp. 253-446)" ;
+        :hasTitle           bdr:TTE86AF81BBFEF3FD1 ;
+        :inRootInstance     bdr:MW23564 ;
+        :instanceOf         bdr:WA0XLA75A55193A5F ;
+        :legacyOutlineNodeRID  "O3JT22073JT2214" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW23564 ;
+        :partTreeIndex      "6" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23564_DAFB95
+        a                   :Instance ;
+        skos:prefLabel      "dpal nA ro pa'i rnam par thar pa/"@bo-x-ewts ;
+        :authorshipStatement  "written by dbang phyug rgyal mtshan about 1523 at rdza ri bsam gtan gling"@en ;
+        :colophon           "mkhas grub gtsang pa'i sras kyi mtha' ma bas mtha'i ri khrod 'dzin pa'i ku su lu/ shAkya'i btsun pa dbang phyug rgyal mtshan gyis/ /bka' brgyud bstan pa gus zhen che grags pas/ /bstan chos rtsom pa'i spobs pa cher med na'ang / /yi dam lha la gnang ba zhus nas su/ /dben pa'i bsti gnas rdza ri bsam gling du/ /sbyar ba'i dge bas bla ma 'grub par shog"@bo-x-ewts ;
+        :contentLocation    bdr:CLC782B8CEBD943B81 ;
+        :contentLocationStatement  "58 ff. (pp. 137-252)" ;
+        :hasTitle           bdr:TT4B43D996F7A93247 ;
+        :inRootInstance     bdr:MW23564 ;
+        :instanceOf         bdr:WA0XLDAFB9573B0DF ;
+        :legacyOutlineNodeRID  "O3JT22073JT2213" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW23564 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23564_F94EFD
+        a                   :Instance ;
+        skos:prefLabel      "dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CL36E3C7EDFEBB6B3C ;
+        :contentLocationStatement  "1 f." ;
+        :hasTitle           bdr:TTD63EA9D0E1F8613E ;
+        :inRootInstance     bdr:MW23564 ;
+        :legacyOutlineNodeRID  "O3JT22073JT2210" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW23564 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:O3JT2207  a         :Outline ;
+        :authorshipStatement  "jigme namgyal with the generous support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O3JT2207" ;
+        :outlineOf          bdr:MW23564 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT4137506B0DCDA229
+        a                   :Title ;
+        rdfs:label          "sngon brjod/"@bo-x-ewts .
+    
+    bdr:TT4B43D996F7A93247
+        a                   :Title ;
+        rdfs:label          "dpal nA ro pa'i rnam par thar pa/"@bo-x-ewts .
+    
+    bdr:TTB672EEC62E6F3AC4
+        a                   :Title ;
+        rdfs:label          "rgyal ba rdo rje 'chang gi rnam thar/"@bo-x-ewts .
+    
+    bdr:TTD63EA9D0E1F8613E
+        a                   :Title ;
+        rdfs:label          "dkar chag"@bo-x-ewts .
+    
+    bdr:TTE86AF81BBFEF3FD1
+        a                   :Title ;
+        rdfs:label          "rje btsun mar pa'i rnam par thar pa/"@bo-x-ewts .
+    
+    bdr:TTFDA59D68116ED956
+        a                   :Title ;
+        rdfs:label          "rje btsun tai lo'i rnam par thar pa/"@bo-x-ewts .
+}

@@ -1,0 +1,139 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS47745 {
+    bda:LG3FDAB670374ADC19
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2007-06-04T10:39:10.358Z"^^xsd:dateTime ;
+        adm:logMessage      "first published"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS47745  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS47745 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "10/O1GS47745.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS47745 ;
+        adm:logEntry        bda:LG3FDAB670374ADC19 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL11BB42F52CC610B9
+        a                   :ContentLocation ;
+        :contentLocationEndPage  670 ;
+        :contentLocationInstance  bdr:W30537 ;
+        :contentLocationPage  577 .
+    
+    bdr:CL87148D866DC038FA
+        a                   :ContentLocation ;
+        :contentLocationEndPage  576 ;
+        :contentLocationInstance  bdr:W30537 ;
+        :contentLocationPage  495 .
+    
+    bdr:CLB4543DE20AF2848E
+        a                   :ContentLocation ;
+        :contentLocationEndPage  494 ;
+        :contentLocationInstance  bdr:W30537 ;
+        :contentLocationPage  11 .
+    
+    bdr:CLF9A6A3EAD1F9F6CE
+        a                   :ContentLocation ;
+        :contentLocationEndPage  706 ;
+        :contentLocationInstance  bdr:W30537 ;
+        :contentLocationPage  671 .
+    
+    bdr:MW30537  :hasPart   bdr:MW30537_353440 , bdr:MW30537_6BF1D5 , bdr:MW30537_72C50C , bdr:MW30537_F29DDB .
+    
+    bdr:MW30537_353440
+        a                   :Instance ;
+        skos:prefLabel      "dbu za'i shi log 'jig rten mi yul du bstel bder gshegs rigs 'dzin mkha' 'gro rnams dang mjal ba'i lo rgyus/"@bo-x-ewts ;
+        :authorshipStatement  "dbu za rin chen sgron gsal"@en ;
+        :contentLocation    bdr:CLF9A6A3EAD1F9F6CE ;
+        :contentLocationStatement  "pp. 659-694" ;
+        :hasTitle           bdr:TTEF8DA9FB82ED041E ;
+        :inRootInstance     bdr:MW30537 ;
+        :instanceOf         bdr:WA0XL353440B79744 ;
+        :legacyOutlineNodeRID  "O1GS477451GS47749" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW30537 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30537_6BF1D5
+        a                   :Instance ;
+        skos:prefLabel      "la phyi sprul sku'i shi log dmyal khams lo rgyus/"@bo-x-ewts ;
+        :authorshipStatement  "la phyi sprul sku"@en ;
+        :contentLocation    bdr:CL87148D866DC038FA ;
+        :contentLocationStatement  "pp. 483-564" ;
+        :hasTitle           bdr:TT52CEE7EFD0EC2376 ;
+        :inRootInstance     bdr:MW30537 ;
+        :instanceOf         bdr:WA0XL6BF1D566211E ;
+        :legacyOutlineNodeRID  "O1GS477451GS47747" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW30537 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30537_72C50C
+        a                   :Instance ;
+        skos:prefLabel      "'khor 'das gnyis kyi grol 'khrul dge sdig 'bras bu'i rnam dbye mi rtag 'chi ba dran bskul (nyams shar)"@bo-x-ewts ;
+        :authorshipStatement  "gshen sprul thugs rje nyi ma, a disciple of sgo ston nyi ma rgyal mtshan dbang gi rgyal po; written in 1927 as a result of meditative experiences gained in 1922"@en ;
+        :contentLocation    bdr:CLB4543DE20AF2848E ;
+        :contentLocationStatement  "pp. 1-482" ;
+        :hasTitle           bdr:TT976F47D0980D4741 ;
+        :inRootInstance     bdr:MW30537 ;
+        :instanceOf         bdr:WA0XL72C50CA2EE54 ;
+        :legacyOutlineNodeRID  "O1GS477451GS47746" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW30537 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30537_F29DDB
+        a                   :Instance ;
+        skos:prefLabel      "dbu za rin chen sgron gsal gyis shi log dge sdig gal byed 'phrul gyi me long /"@bo-x-ewts ;
+        :authorshipStatement  "dbu za rin chen sgron gsal"@en ;
+        :contentLocation    bdr:CL11BB42F52CC610B9 ;
+        :contentLocationStatement  "pp. 565-658" ;
+        :hasTitle           bdr:TT6C3E60741D45A606 ;
+        :inRootInstance     bdr:MW30537 ;
+        :instanceOf         bdr:WA0XLF29DDBD552D4 ;
+        :legacyOutlineNodeRID  "O1GS477451GS47748" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW30537 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS47745  a        :Outline ;
+        :authorshipStatement  "genesmith"@en ;
+        :legacyOutlineNodeRID  "O1GS47745" ;
+        :outlineOf          bdr:MW30537 ;
+        :outlineType        bdr:OutlineTypeCompositeVolume ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT52CEE7EFD0EC2376
+        a                   :Title ;
+        rdfs:label          "la phyi sprul sku'i shi log dmyal khams lo rgyus/"@bo-x-ewts .
+    
+    bdr:TT6C3E60741D45A606
+        a                   :Title ;
+        rdfs:label          "dbu za rin chen sgron gsal gyis shi log dge sdig gal byed 'phrul gyi me long /"@bo-x-ewts .
+    
+    bdr:TT976F47D0980D4741
+        a                   :Title ;
+        rdfs:label          "'khor 'das gnyis kyi grol 'khrul dge sdig 'bras bu'i rnam dbye mi rtag 'chi ba dran bskul (nyams shar)"@bo-x-ewts .
+    
+    bdr:TTEF8DA9FB82ED041E
+        a                   :Title ;
+        rdfs:label          "dbu za'i shi log 'jig rten mi yul du bstel bder gshegs rigs 'dzin mkha' 'gro rnams dang mjal ba'i lo rgyus/"@bo-x-ewts .
+}

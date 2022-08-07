@@ -1,0 +1,48 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O2GS302 {
+    bda:LG3A6C1DB639D985C5
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-05-27T11:55:16.488Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:LG4E8CC6596FF2DBBD
+        a                   adm:WithdrawData ;
+        adm:logDate         "2012-08-13T16:17:15.051Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawned 0"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG73CF39E1CCB5E57C
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-04-16T09:28:44.216Z"^^xsd:dateTime ;
+        adm:logMessage      "none"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O2GS302  a          adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O2GS302 ;
+        adm:facetIndex      4 ;
+        adm:gitPath         "a2/O2GS302.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O2GS302 ;
+        adm:logEntry        bda:LG3A6C1DB639D985C5 , bda:LG4E8CC6596FF2DBBD , bda:LG73CF39E1CCB5E57C ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:O2GS302  a          :Outline ;
+        :authorshipStatement  "genesmith: outlined with the gracious support of the trace foundation"@en ;
+        :legacyOutlineNodeRID  "O2GS302" ;
+        :outlineOf          bdr:MW29227 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+}

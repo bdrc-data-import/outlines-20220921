@@ -1,0 +1,261 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS88397 {
+    bda:LG8A515BF7A9F2F775
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-05-09T13:06:09.25Z"^^xsd:dateTime ;
+        adm:logMessage      "isiao and toh numbers added"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGA1589A1AA225BB46
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-01-08T15:14:30.014Z"^^xsd:dateTime ;
+        adm:logMessage      "changed spelling in node 3"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGA2A22C34BD2A710A
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-01-08T14:44:23.862Z"^^xsd:dateTime ;
+        adm:logMessage      "page number changed"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGE9B46F3059534105
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2008-01-08T14:27:22.836Z"^^xsd:dateTime ;
+        adm:logMessage      "outline completed"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS88397  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS88397 ;
+        adm:facetIndex      29 ;
+        adm:gitPath         "7d/O1GS88397.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS88397 ;
+        adm:logEntry        bda:LG8A515BF7A9F2F775 , bda:LGA1589A1AA225BB46 , bda:LGA2A22C34BD2A710A , bda:LGE9B46F3059534105 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL139308DB146E7787
+        a                   :ContentLocation ;
+        :contentLocationEndPage  492 ;
+        :contentLocationInstance  bdr:W6113 ;
+        :contentLocationPage  363 .
+    
+    bdr:CL13F3ED95D2990A5B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  168 ;
+        :contentLocationInstance  bdr:W6113 ;
+        :contentLocationPage  3 .
+    
+    bdr:CL1A2772A1BDA9466D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  522 ;
+        :contentLocationInstance  bdr:W6113 ;
+        :contentLocationPage  493 .
+    
+    bdr:CL20EFC5F52624613C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  362 ;
+        :contentLocationInstance  bdr:W6113 ;
+        :contentLocationPage  265 .
+    
+    bdr:CLC873E8E9DEAC21E0
+        a                   :ContentLocation ;
+        :contentLocationEndPage  264 ;
+        :contentLocationInstance  bdr:W6113 ;
+        :contentLocationPage  169 .
+    
+    bdr:CLF267B3CB88770A90
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W6113 .
+    
+    bdr:ID03AC53BB5B1FBE7A
+        a                   bdr:KaTenSiglaD ;
+        rdf:value           "6566" .
+    
+    bdr:ID0D911189A56C582E
+        a                   bdr:KaTenSiglaD ;
+        rdf:value           "6563" .
+    
+    bdr:ID1494B50614F13698
+        a                   bdr:RefIsIAO ;
+        rdf:value           "312-5; the IsIAO example contains two copies of this section" .
+    
+    bdr:ID2944898AA60433EA
+        a                   bdr:KaTenSiglaD ;
+        rdf:value           "6562" .
+    
+    bdr:ID47CA5BEA311642DD
+        a                   bdr:RefIsIAO ;
+        rdf:value           "312-1" .
+    
+    bdr:ID597B9D490252E94C
+        a                   bdr:RefIsIAO ;
+        rdf:value           "312-4" .
+    
+    bdr:ID5B876DCA999D843A
+        a                   bdr:RefIsIAO ;
+        rdf:value           "312; the IsIAO example of the gsung 'bum contains five sections and a dkar chag; it is missing the chu bzang gsan yig found in the tohoku collection; the copy of the gsung 'bum scanned by tbrc is missing the chu bzang gsan yig and the dkar chag to the collection" .
+    
+    bdr:ID6AD7076033336D5E
+        a                   bdr:KaTenSiglaD ;
+        rdf:value           "6565" .
+    
+    bdr:ID75FB6B634B839B54
+        a                   bdr:KaTenSiglaD ;
+        rdf:value           "6564" .
+    
+    bdr:ID9EA49BD4712DC24B
+        a                   bdr:RefIsIAO ;
+        rdf:value           "deest" .
+    
+    bdr:IDDA5405939642B9E3
+        a                   bdr:RefIsIAO ;
+        rdf:value           "312-2" .
+    
+    bdr:IDFE0BBFC73606ABEC
+        a                   bdr:RefIsIAO ;
+        rdf:value           "312-3" .
+    
+    bdr:MW6113  :hasPart    bdr:MW6113_00B426 , bdr:MW6113_4A7FD4 , bdr:MW6113_5132DF , bdr:MW6113_62516D , bdr:MW6113_6AC8D6 , bdr:MW6113_7E0D5F .
+    
+    bdr:MW6113_00B426
+        a                   :Instance ;
+        skos:prefLabel      "bla ma'i rnal 'byor dngos grub kun 'byung (kha)"@bo-x-ewts ;
+        <http://id.loc.gov/ontologies/bibframe/identifiedBy>
+            bdr:ID0D911189A56C582E , bdr:IDDA5405939642B9E3 ;
+        :contentLocation    bdr:CLC873E8E9DEAC21E0 ;
+        :contentLocationStatement  "48 ff." ;
+        :hasTitle           bdr:TTF8DEA20FA7C84D4C ;
+        :inRootInstance     bdr:MW6113 ;
+        :instanceOf         bdr:WA0XL7EEB7BC76BA1 ;
+        :legacyOutlineNodeRID  "O1GS883971GS88399" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW6113 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW6113_4A7FD4
+        a                   :Instance ;
+        skos:prefLabel      "ma gcig grub pa'i rgyal mo'i lugs kyi tshe dbang bskur ba'i cho ga ji ltar bya tshul khyer bde bar bkod pa (nga)"@bo-x-ewts ;
+        <http://id.loc.gov/ontologies/bibframe/identifiedBy>
+            bdr:ID597B9D490252E94C , bdr:ID6AD7076033336D5E ;
+        :contentLocation    bdr:CL139308DB146E7787 ;
+        :contentLocationStatement  "65 ff." ;
+        :hasTitle           bdr:TT4ED22871A0645B4F ;
+        :inRootInstance     bdr:MW6113 ;
+        :instanceOf         bdr:WA0XL4A7FD4EA3B16 ;
+        :legacyOutlineNodeRID  "O1GS883971GS88401" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW6113 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW6113_5132DF
+        a                   :Instance ;
+        skos:prefLabel      "bstan bsrung chen po btsan rgod yam shud dmar po gtso 'khor gyi bskang chog dngos grub bdud rtsi 'khyil ba'i rin chen 'bum bzang /"@bo-x-ewts ;
+        <http://id.loc.gov/ontologies/bibframe/identifiedBy>
+            bdr:ID03AC53BB5B1FBE7A , bdr:ID1494B50614F13698 ;
+        :contentLocation    bdr:CL1A2772A1BDA9466D ;
+        :hasTitle           bdr:TT0B13FE101D8E7DAE ;
+        :inRootInstance     bdr:MW6113 ;
+        :instanceOf         bdr:WA0XL5132DFA09460 ;
+        :legacyOutlineNodeRID  "O1GS883971GS88402" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW6113 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW6113_62516D
+        a                   :Instance ;
+        skos:prefLabel      "tshe gcig gi nyams len nyin zhag phrugs gcig la sbyar te lag len du bstan pa'i rim pa mdor bsdus (ga)"@bo-x-ewts ;
+        <http://id.loc.gov/ontologies/bibframe/identifiedBy>
+            bdr:ID75FB6B634B839B54 , bdr:IDFE0BBFC73606ABEC ;
+        :contentLocation    bdr:CL20EFC5F52624613C ;
+        :contentLocationStatement  "49 ff." ;
+        :hasTitle           bdr:TT5747FDE27A85732F ;
+        :inRootInstance     bdr:MW6113 ;
+        :instanceOf         bdr:WA0XL62516D49EBB7 ;
+        :legacyOutlineNodeRID  "O1GS883971GS88400" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW6113 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW6113_6AC8D6
+        a                   :Instance ;
+        skos:prefLabel      "chu bzang gsan yig"@bo-x-ewts ;
+        <http://id.loc.gov/ontologies/bibframe/identifiedBy>
+            bdr:ID9EA49BD4712DC24B ;
+        :contentLocation    bdr:CLF267B3CB88770A90 ;
+        :contentLocationStatement  "missing from this example of the gsung 'bum" ;
+        :hasTitle           bdr:TT2714CE767FDF75F7 ;
+        :inRootInstance     bdr:MW6113 ;
+        :instanceOf         bdr:WA0XL6AC8D6D62D17 ;
+        :legacyOutlineNodeRID  "O1GS883971GS88403" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW6113 ;
+        :partTreeIndex      "6" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW6113_7E0D5F
+        a                   :Instance ;
+        skos:prefLabel      "byang chub lam rim chen mo'i sa bcad kyi thog nas skyes bu gsum gyi lam gyi rim pa'i man ngag gi gnad bsdus gsal ba'i sgron me (ka)"@bo-x-ewts ;
+        <http://id.loc.gov/ontologies/bibframe/identifiedBy>
+            bdr:ID2944898AA60433EA , bdr:ID47CA5BEA311642DD ;
+        :colophon           "ces byang chub lam rim chen mo'i sa bcad kyi thog nas skyes bu gsum gyi lam gyi rim pa'i man ngag gi gnad bsdus gsal ba'i sgron me zhes bya ba 'di ni/ dge slong byang chub yon tan dang/ rme ru dge slong ngag dbang bstan dar gnyis nas/ gong sa rgyal dbang mchog gi mtshan zhabs mkhan po tshe dbang bsam 'grub rin po cher 'di lta bu mdzad dgos zhes bskul ma zhus rung dam pa nyid sku bsnyung tshul bstan nas gnang ma grub par dgongs pa rdzogs par phran la lam rim chen mo'i spros bshad sogs dor nas sa bcad cha tshang ba'i snying po'i don la shar bsgom byed tshul nag 'gros su 'khod pa zhig ci nas kyang 'bri dgos zhes zhal chem gyi tshul du bka' gnang bar brten/ rang nyid la 'di ltar bsgrig pa'i spobs pa ma mchis kyang dam pa de nyid kyi dgongs bzhed skongs pa dang/ tshe rabs kun tu lam mchog 'di la bag chags 'jog pa skal mnyam gzhan la'ang sman pa'i rgyur gyur na ci ma rung snyam pas khur blangs te/ dge slong dz+nyA na'i ming can gyis dben gnas chu bzang ri khrod du bsgrigs pa'o"@en ;
+        :contentLocation    bdr:CL13F3ED95D2990A5B ;
+        :contentLocationStatement  "83 ff." ;
+        :hasTitle           bdr:TTA956567E7DA83729 ;
+        :inRootInstance     bdr:MW6113 ;
+        :instanceOf         bdr:WA0XL7E0D5F3C926A ;
+        :legacyOutlineNodeRID  "O1GS883971GS88398" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW6113 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS88397  a        :Outline ;
+        <http://id.loc.gov/ontologies/bibframe/identifiedBy>
+            bdr:ID5B876DCA999D843A ;
+        :authorshipStatement  "genesmith; outline created with the gracious support of the trace foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS88397" ;
+        :outlineOf          bdr:MW6113 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT0B13FE101D8E7DAE
+        a                   :Title ;
+        rdfs:label          "bstan bsrung chen po btsan rgod yam shud dmar po gtso 'khor gyi bskang chog dngos grub bdud rtsi 'khyil ba'i rin chen 'bum bzang /"@bo-x-ewts .
+    
+    bdr:TT2714CE767FDF75F7
+        a                   :Title ;
+        rdfs:label          "chu bzang gsan yig"@bo-x-ewts .
+    
+    bdr:TT4ED22871A0645B4F
+        a                   :Title ;
+        rdfs:label          "ma gcig grub pa'i rgyal mo'i lugs kyi tshe dbang bskur ba'i cho ga ji ltar bya tshul khyer bde bar bkod pa (nga)"@bo-x-ewts .
+    
+    bdr:TT5747FDE27A85732F
+        a                   :Title ;
+        rdfs:label          "tshe gcig gi nyams len nyin zhag phrugs gcig la sbyar te lag len du bstan pa'i rim pa mdor bsdus (ga)"@bo-x-ewts .
+    
+    bdr:TTA956567E7DA83729
+        a                   :Title ;
+        rdfs:label          "byang chub lam rim chen mo'i sa bcad kyi thog nas skyes bu gsum gyi lam gyi rim pa'i man ngag gi gnad bsdus gsal ba'i sgron me (ka)"@bo-x-ewts .
+    
+    bdr:TTF8DEA20FA7C84D4C
+        a                   :Title ;
+        rdfs:label          "bla ma'i rnal 'byor dngos grub kun 'byung (kha)"@bo-x-ewts .
+}

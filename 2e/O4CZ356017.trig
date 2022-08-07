@@ -1,0 +1,126 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ356017 {
+    bda:LG1EA15C96E1F52031
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2020-02-26T10:16:54.252Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:LG634E01D58B9EE418
+        a                   adm:UpdateData ;
+        adm:logDate         "2020-05-05T12:55:41.351Z"^^xsd:dateTime ;
+        adm:logMessage      "added amage number"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:O4CZ356017  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ356017 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "2e/O4CZ356017.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ356017 ;
+        adm:logEntry        bda:LG1EA15C96E1F52031 , bda:LG634E01D58B9EE418 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL0C6158DF2E70ACD2
+        a                   :ContentLocation ;
+        :contentLocationEndPage  840 ;
+        :contentLocationInstance  bdr:W4CZ355757 ;
+        :contentLocationPage  809 .
+    
+    bdr:CL6401422D091F7014
+        a                   :ContentLocation ;
+        :contentLocationEndPage  808 ;
+        :contentLocationInstance  bdr:W4CZ355757 ;
+        :contentLocationPage  515 .
+    
+    bdr:CL8D6B9E075EDFA860
+        a                   :ContentLocation ;
+        :contentLocationEndPage  514 ;
+        :contentLocationInstance  bdr:W4CZ355757 ;
+        :contentLocationPage  3 .
+    
+    bdr:MW4CZ355757  :hasPart  bdr:MW4CZ355757_2A5D9C , bdr:MW4CZ355757_751591 , bdr:MW4CZ355757_B09CF1 .
+    
+    bdr:MW4CZ355757_2A5D9C
+        a                   :Instance ;
+        skos:prefLabel      "rnal 'byor ma'i gsang ba'i sgrub thabs kyi rnam bshad zab mo rnam 'byed/"@bo-x-ewts ;
+        :colophon           "dpal ldan lhan cig skyes ma'i gsang ba'i sgrub thabs zhal gdams dang yan lag gis brgyan ste gsal bar phye ba 'di ni rdo rje slob ma'i don du rnal 'byor gyi dbang phyug gtsug lag phreng bas grub pa'i pho brang tsA ri tra ye shes kyi 'khor lor sbyar ba bde legs su grub pa'o"@bo-x-ewts ;
+        :contentLocation    bdr:CL8D6B9E075EDFA860 ;
+        :contentLocationStatement  "254 ff." ;
+        :hasTitle           bdr:TT4E8A8FBB4CA2AF50 , bdr:TT5C34C248B4D071A8 ;
+        :inRootInstance     bdr:MW4CZ355757 ;
+        :instanceOf         bdr:WA0XL2A5D9C723BE4 ;
+        :legacyOutlineNodeRID  "O4CZ3560174CZ356018" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW4CZ355757 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW4CZ355757_751591
+        a                   :Instance ;
+        skos:prefLabel      "'khor lo sdom pa lha lnga'i sgrub thabs kyi rnam bshad/"@bo-x-ewts ;
+        :contentLocation    bdr:CL6401422D091F7014 ;
+        :contentLocationStatement  "146 ff." ;
+        :hasTitle           bdr:TT69222F6B5C0535B7 , bdr:TTE312E131FD06225D ;
+        :inRootInstance     bdr:MW4CZ355757 ;
+        :instanceOf         bdr:WA0XL75159185507B ;
+        :legacyOutlineNodeRID  "O4CZ3560174CZ3560184CZ356019" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW4CZ355757 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW4CZ355757_B09CF1
+        a                   :Instance ;
+        skos:prefLabel      "rje btsun ma'i rdzogs rim zab mo rlung sems gnyis med kyi zin bris/"@bo-x-ewts ;
+        :colophon           "dpal ldan bla ma mkha' spyod dbang po'i gsung las ji ltar yon pa lha'i ming can gyis zin bris su btab cing / slar yang dpal ldan bla ma de nyid kyi phyag tu phul te zhus dag legs par byas pa re zhig rdzogs so/"@bo-x-ewts ;
+        :contentLocation    bdr:CL0C6158DF2E70ACD2 ;
+        :contentLocationStatement  "16 ff." ;
+        :hasTitle           bdr:TT306B80B9DF767E33 ;
+        :inRootInstance     bdr:MW4CZ355757 ;
+        :instanceOf         bdr:WA0XLB09CF1251FFD ;
+        :legacyOutlineNodeRID  "O4CZ3560174CZ3560184CZ356021" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW4CZ355757 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O4CZ356017  a       :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ356017" ;
+        :outlineOf          bdr:MW4CZ355757 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+    
+    bdr:TT306B80B9DF767E33
+        a                   :Title ;
+        rdfs:label          "rje btsun ma'i rdzogs rim zab mo rlung sems gnyis med kyi zin bris/"@bo-x-ewts .
+    
+    bdr:TT4E8A8FBB4CA2AF50
+        a                   :Title ;
+        rdfs:label          "rnal 'byor ma'i gsang ba'i sgrub thabs kyi rnam bshad zab mo rnam 'byed/"@bo-x-ewts .
+    
+    bdr:TT5C34C248B4D071A8
+        a                   :TitlePageTitle ;
+        rdfs:label          "dpal rdo rje rnal 'byor ma'i gsang ba'i sgrub thabs kyi rnam par bshad pa zab mo rnam 'byed/"@bo-x-ewts .
+    
+    bdr:TT69222F6B5C0535B7
+        a                   :TitlePageTitle ;
+        rdfs:label          "'khor lo sdom pa lha lnga'i sgrub thabs kyi rnam bshad yid bzhin 'dod 'byung gsang chen dbang gi rgyal po'i bang mdzod/"@bo-x-ewts .
+    
+    bdr:TTE312E131FD06225D
+        a                   :Title ;
+        rdfs:label          "'khor lo sdom pa lha lnga'i sgrub thabs kyi rnam bshad/"@bo-x-ewts .
+}

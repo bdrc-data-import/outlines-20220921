@@ -1,0 +1,129 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD98512 {
+    bda:LG3ED5B931E5E79434
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-09-17T15:23:10.831Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG4F2BF7A11E7FFA64
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-04-30T16:01:54.37Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LGA2BC75560AA83FCE
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-09-17T15:06:02.726Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD98512  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD98512 ;
+        adm:facetIndex      12 ;
+        adm:gitPath         "0e/O1PD98512.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD98512 ;
+        adm:logEntry        bda:LG3ED5B931E5E79434 , bda:LG4F2BF7A11E7FFA64 , bda:LGA2BC75560AA83FCE ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL2662BDFDF567DFE2
+        a                   :ContentLocation ;
+        :contentLocationEndPage  258 ;
+        :contentLocationInstance  bdr:W2CZ6653 ;
+        :contentLocationPage  71 .
+    
+    bdr:CL5A076273AC6EA074
+        a                   :ContentLocation ;
+        :contentLocationEndPage  70 ;
+        :contentLocationInstance  bdr:W2CZ6653 ;
+        :contentLocationPage  7 .
+    
+    bdr:CL73D931425DCBE2A2
+        a                   :ContentLocation ;
+        :contentLocationEndPage  5 ;
+        :contentLocationInstance  bdr:W2CZ6653 ;
+        :contentLocationPage  5 .
+    
+    bdr:MW2CZ6653  :hasPart  bdr:MW2CZ6653_47D0E0 , bdr:MW2CZ6653_DD1E47 , bdr:MW2CZ6653_DD54A1 .
+    
+    bdr:MW2CZ6653_47D0E0
+        a                   :Instance ;
+        skos:prefLabel      "preface"@en ;
+        :contentLocation    bdr:CL73D931425DCBE2A2 ;
+        :hasTitle           bdr:TTF44A65C702C437CE ;
+        :inRootInstance     bdr:MW2CZ6653 ;
+        :legacyOutlineNodeRID  "O1PD985121PD107994" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW2CZ6653 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW2CZ6653_DD1E47
+        a                   :Instance ;
+        skos:prefLabel      "gter bdag gling pa rig 'dzin 'gyur med rdo rje'i 'khrul snang rdzun ris chu zla'i rol rtsed/"@bo-x-ewts ;
+        :biblioNote         "ces 'gyur med rdo rjes bris pa'o"@bo-x-ewts ;
+        :contentLocation    bdr:CL2662BDFDF567DFE2 ;
+        :contentLocationStatement  "pp. 65-251" ;
+        :hasTitle           bdr:TT926EC836911679D3 , bdr:TTF96EDBE374BF0DC2 ;
+        :inRootInstance     bdr:MW2CZ6653 ;
+        :instanceOf         bdr:WA0XLDD1E475BD97D ;
+        :legacyOutlineNodeRID  "O1PD985121PD107996" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW2CZ6653 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW2CZ6653_DD54A1
+        a                   :Instance ;
+        skos:prefLabel      "gter bdag gling pa rig 'dzin 'gyur med rdo rje'i shin tu gsang ba nyams snang gi rtogs brjod sgyu 'phrul rdo rje'i rol mo/"@bo-x-ewts ;
+        :biblioNote         "rig pa 'dzin pa 'gyur med rdo rje'i shin tu gsang ba nyams snang gi rtogs brjod sgyu 'phrul rdo rje'i rol mo zhes bya ba 'di ni/_bla ma thams cad mkhyen pa'i sku'i srid zhu pa sdom brtson ngag dbang dkon cog dang gzhung lugs rab 'byams smra ba'i spobs pa mchog tu grub pa bshes gnyen gzhon nu chags pa chos 'phel bzang pos nan chen po'i gsung gis snga phyir bskul ba dang /_rang dang lhan cig spyod pa'i gcung kun dga' tshul khrims rgya mtsho dang /_dge slong blo gsal rgya mtshos kyang rna ba'i bu ga yang yang btser ba'i rgyu las/_chu mo bya'i lo sa gas nya ba'i dus dge bar yi ger spel ba ste/_chos kyi rjes su 'brang ba'i dad pa'i blo can rnams la mos pa'i mthun rkyen du 'gyur ba srid/_gzhan du sgro bskur gyi gzhir 'gyur ba'i phyir gsang zhing sba ba la nan tan du bya'o/_/sa ma yA/_rgya rgya rgya/"@bo-x-ewts ;
+        :contentLocation    bdr:CL5A076273AC6EA074 ;
+        :contentLocationStatement  "pp. 1-63" ;
+        :hasTitle           bdr:TT5F38E13A17ED9A10 , bdr:TT8EA6A5290F95C3E3 ;
+        :inRootInstance     bdr:MW2CZ6653 ;
+        :instanceOf         bdr:WA2CZ6653 ;
+        :legacyOutlineNodeRID  "O1PD985121PD107995" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW2CZ6653 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1PD98512  a        :Outline ;
+        :authorshipStatement  "paldor"@en ;
+        :legacyOutlineNodeRID  "O1PD98512" ;
+        :outlineOf          bdr:MW2CZ6653 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT5F38E13A17ED9A10
+        a                   :Title ;
+        rdfs:label          "gter bdag gling pa rig 'dzin 'gyur med rdo rje'i shin tu gsang ba nyams snang gi rtogs brjod sgyu 'phrul rdo rje'i rol mo/"@bo-x-ewts .
+    
+    bdr:TT8EA6A5290F95C3E3
+        a                   :TitlePageTitle ;
+        rdfs:label          "rig pa 'dzin pa 'gyur med rdo rje'i shin tu gsang ba nyams snang gi rtogs brjod sgyu 'phrul rdo rje'i rol mo/"@bo-x-ewts .
+    
+    bdr:TT926EC836911679D3
+        a                   :Title ;
+        rdfs:label          "gter bdag gling pa rig 'dzin 'gyur med rdo rje'i 'khrul snang rdzun ris chu zla'i rol rtsed/"@bo-x-ewts .
+    
+    bdr:TTF44A65C702C437CE
+        a                   :Title ;
+        rdfs:label          "preface"@en .
+    
+    bdr:TTF96EDBE374BF0DC2
+        a                   :TitlePageTitle ;
+        rdfs:label          "rig pa 'dzin pa 'gyur med rdo rje'i 'khrul snang rdzun ris chu zla'i rol rtsed/"@bo-x-ewts .
+}

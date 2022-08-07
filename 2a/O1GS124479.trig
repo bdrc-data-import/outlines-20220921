@@ -1,0 +1,200 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS124479 {
+    bda:LG179DE0A801964D2F
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-01-16T10:36:23.138Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG8D94086CF52D1669
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-09-02T12:26:39.613Z"^^xsd:dateTime ;
+        adm:logMessage      "web accessibility set to full access"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG9FB12F216016381A
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-09-02T12:25:05.645Z"^^xsd:dateTime ;
+        adm:logMessage      "added volume 1 to texts"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LGCD1921AAF53C6991
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2008-09-02T11:37:55.059Z"^^xsd:dateTime ;
+        adm:logMessage      "completed v. 1"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS124479  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS124479 ;
+        adm:facetIndex      16 ;
+        adm:gitPath         "2a/O1GS124479.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS124479 ;
+        adm:logEntry        bda:LG179DE0A801964D2F , bda:LG8D94086CF52D1669 , bda:LG9FB12F216016381A , bda:LGCD1921AAF53C6991 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:CL07F4203AD3E7A278
+        a                   :ContentLocation ;
+        :contentLocationEndPage  22 ;
+        :contentLocationInstance  bdr:W00EGS1017245 ;
+        :contentLocationPage  7 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL24DC5D01BA825FAF
+        a                   :ContentLocation ;
+        :contentLocationEndPage  30 ;
+        :contentLocationInstance  bdr:W00EGS1017245 ;
+        :contentLocationPage  23 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL33D2169C8B290389
+        a                   :ContentLocation ;
+        :contentLocationEndPage  36 ;
+        :contentLocationInstance  bdr:W00EGS1017245 ;
+        :contentLocationPage  31 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL761695DB2B74E949
+        a                   :ContentLocation ;
+        :contentLocationEndPage  594 ;
+        :contentLocationInstance  bdr:W00EGS1017245 ;
+        :contentLocationPage  23 .
+    
+    bdr:CLA9FC87274D90953D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  6 ;
+        :contentLocationInstance  bdr:W00EGS1017245 ;
+        :contentLocationPage  5 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLD6566241A1D23B12
+        a                   :ContentLocation ;
+        :contentLocationEndPage  594 ;
+        :contentLocationInstance  bdr:W00EGS1017245 ;
+        :contentLocationPage  37 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW00EGS1017245
+        :hasPart            bdr:MW00EGS1017245_0B018E , bdr:MW00EGS1017245_8B3FF5 , bdr:MW00EGS1017245_B369B6 .
+    
+    bdr:MW00EGS1017245_0B018E
+        a                   :Instance ;
+        skos:prefLabel      "sprul pa'i gter chen o rgyan mchog gyur bde chen zhig po gling pa'i zab gter chos mdzod chen mo (mchog gling zab gter sngon brjod)"@bo-x-ewts ;
+        :authorshipStatement  "written by the 4th rdzi ke mchog gling skyes sprul mi 'gyur bde ba'i rdo rje in 2003 at bka' rnying bshad sgrub gling"@en ;
+        :contentLocation    bdr:CL07F4203AD3E7A278 ;
+        :contentLocationStatement  "8 ff." ;
+        :hasTitle           bdr:TT2230147BC33AA7A3 ;
+        :inRootInstance     bdr:MW00EGS1017245 ;
+        :instanceOf         bdr:WA0XL0B018E875306 ;
+        :legacyOutlineNodeRID  "O1GS1244791GS124483" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW00EGS1017245 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1017245_3C230A
+        a                   :Instance ;
+        skos:prefLabel      "yon tan mchog gi gnas zla nyin kha la rong sgo'i dkar chag (thugs sgrub kha la rong sgo'i dkar chag)"@bo-x-ewts ;
+        :contentLocation    bdr:CL24DC5D01BA825FAF ;
+        :contentLocationStatement  "4 ff." ;
+        :hasTitle           bdr:TTA5486A8B53E50B4D ;
+        :inRootInstance     bdr:MW00EGS1017245 ;
+        :legacyOutlineNodeRID  "O1GS1244791GS124485" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW00EGS1017245_B369B6 ;
+        :partTreeIndex      "3.1" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW00EGS1017245_8AF3FB
+        a                   :Instance ;
+        skos:prefLabel      "bla ma'i thugs grub bar chad kun sel las: lo rgyus chos kyi mdo byang (thugs sgrub mdo byang)"@bo-x-ewts ;
+        :contentLocation    bdr:CL33D2169C8B290389 ;
+        :contentLocationStatement  "3 ff." ;
+        :hasTitle           bdr:TTD9C0FFEA2FED189B ;
+        :inRootInstance     bdr:MW00EGS1017245 ;
+        :instanceOf         bdr:WA0XL8AF3FB523A53 ;
+        :legacyOutlineNodeRID  "O1GS1244791GS124486" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW00EGS1017245_B369B6 ;
+        :partTreeIndex      "3.2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1017245_8B3FF5
+        a                   :Instance ;
+        skos:prefLabel      "sprul pa'i gter chen o rgyan bde chen zhig po gling pa 'phrin las 'gro 'dul rtsal gyi zab gter chos mdzod chen po'i glegs bam dang po (ka)"@bo-x-ewts ;
+        :contentLocation    bdr:CLA9FC87274D90953D ;
+        :contentLocationStatement  "1 f." ;
+        :hasTitle           bdr:TT53FA8945B7841F9E ;
+        :inRootInstance     bdr:MW00EGS1017245 ;
+        :instanceOf         bdr:WA0XL8B3FF52F9EDA ;
+        :legacyOutlineNodeRID  "O1GS1244791GS124480" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW00EGS1017245 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1017245_B369B6
+        a                   :Instance ;
+        skos:prefLabel      "nyin zla kha la rong sgo'i gter ma/"@bo-x-ewts ;
+        :contentLocation    bdr:CL761695DB2B74E949 ;
+        :hasPart            bdr:MW00EGS1017245_3C230A , bdr:MW00EGS1017245_8AF3FB , bdr:MW00EGS1017245_F065CA ;
+        :inRootInstance     bdr:MW00EGS1017245 ;
+        :legacyOutlineNodeRID  "O1GS1244791GS124484" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW00EGS1017245 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW00EGS1017245_F065CA
+        a                   :Instance ;
+        skos:prefLabel      "bla ma'i thugs sgrub bar chad kun sel las: zhal gdams snying byang yid bzhin nor bu (thugs sgrub zhal gdams snying byang)"@bo-x-ewts ;
+        :contentLocation    bdr:CLD6566241A1D23B12 ;
+        :contentLocationStatement  "279 ff." ;
+        :hasTitle           bdr:TT8EB90B71E9CE5564 ;
+        :inRootInstance     bdr:MW00EGS1017245 ;
+        :instanceOf         bdr:WA0XLF065CAA947CF ;
+        :legacyOutlineNodeRID  "O1GS1244791GS124487" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW00EGS1017245_B369B6 ;
+        :partTreeIndex      "3.3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS124479  a       :Outline ;
+        :authorshipStatement  "genesmith; outlined with the gracious support of the trace foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS124479" ;
+        :outlineOf          bdr:MW00EGS1017245 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT2230147BC33AA7A3
+        a                   :Title ;
+        rdfs:label          "sprul pa'i gter chen o rgyan mchog gyur bde chen zhig po gling pa'i zab gter chos mdzod chen mo (mchog gling zab gter sngon brjod)"@bo-x-ewts .
+    
+    bdr:TT53FA8945B7841F9E
+        a                   :Title ;
+        rdfs:label          "sprul pa'i gter chen o rgyan bde chen zhig po gling pa 'phrin las 'gro 'dul rtsal gyi zab gter chos mdzod chen po'i glegs bam dang po (ka)"@bo-x-ewts .
+    
+    bdr:TT8EB90B71E9CE5564
+        a                   :Title ;
+        rdfs:label          "bla ma'i thugs sgrub bar chad kun sel las: zhal gdams snying byang yid bzhin nor bu (thugs sgrub zhal gdams snying byang)"@bo-x-ewts .
+    
+    bdr:TTA5486A8B53E50B4D
+        a                   :Title ;
+        rdfs:label          "yon tan mchog gi gnas zla nyin kha la rong sgo'i dkar chag (thugs sgrub kha la rong sgo'i dkar chag)"@bo-x-ewts .
+    
+    bdr:TTD9C0FFEA2FED189B
+        a                   :Title ;
+        rdfs:label          "bla ma'i thugs grub bar chad kun sel las: lo rgyus chos kyi mdo byang (thugs sgrub mdo byang)"@bo-x-ewts .
+}

@@ -1,0 +1,194 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1KG5808 {
+    bda:LG0EE516658F3C6B06
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-02-07T15:52:11.372Z"^^xsd:dateTime ;
+        adm:logMessage      "reviewed and released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG960E513D08326D89
+        a                   adm:InitialDataImport ;
+        adm:logAgent        "Convert2Outline version 1.5.5" ;
+        adm:logDate         "2014-02-06T16:16:25.469Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00051 .
+    
+    bda:O1KG5808  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1KG5808 ;
+        adm:facetIndex      15 ;
+        adm:gitPath         "e8/O1KG5808.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1KG5808 ;
+        adm:logEntry        bda:LG0EE516658F3C6B06 , bda:LG960E513D08326D89 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL20495A3D4EB4C942
+        a                   :ContentLocation ;
+        :contentLocationEndPage  319 ;
+        :contentLocationInstance  bdr:W1KG5808 ;
+        :contentLocationPage  229 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL5A42B7C86311CE50
+        a                   :ContentLocation ;
+        :contentLocationEndPage  24 ;
+        :contentLocationInstance  bdr:W1KG5808 ;
+        :contentLocationPage  13 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL6B67942EE6700A2C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  404 ;
+        :contentLocationInstance  bdr:W1KG5808 ;
+        :contentLocationPage  320 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLA08FFDD08F117639
+        a                   :ContentLocation ;
+        :contentLocationEndPage  228 ;
+        :contentLocationInstance  bdr:W1KG5808 ;
+        :contentLocationPage  37 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLC1751257AB091EE9
+        a                   :ContentLocation ;
+        :contentLocationEndPage  12 ;
+        :contentLocationInstance  bdr:W1KG5808 ;
+        :contentLocationPage  7 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLD234EBE28A884C56
+        a                   :ContentLocation ;
+        :contentLocationEndPage  36 ;
+        :contentLocationInstance  bdr:W1KG5808 ;
+        :contentLocationPage  25 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW1KG5808  :hasPart  bdr:MW1KG5808_1AD467 , bdr:MW1KG5808_6329FF , bdr:MW1KG5808_9DC2AB , bdr:MW1KG5808_B1F6A8 , bdr:MW1KG5808_C01108 , bdr:MW1KG5808_E34EAE .
+    
+    bdr:MW1KG5808_1AD467
+        a                   :Instance ;
+        skos:prefLabel      "dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CLD234EBE28A884C56 ;
+        :contentLocationStatement  "pp. 1-12" ;
+        :hasTitle           bdr:TT29B4CCE1199298BD ;
+        :inRootInstance     bdr:MW1KG5808 ;
+        :legacyOutlineNodeRID  "O1KG5808C2O0004" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1KG5808 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW1KG5808_6329FF
+        a                   :Instance ;
+        skos:prefLabel      "ngag dbang tshogs gnyis rgya mtsho'i ngo sprod mdor bsdus/"@bo-x-ewts ;
+        :contentLocation    bdr:CL5A42B7C86311CE50 ;
+        :contentLocationStatement  "pp. 1-11" ;
+        :hasTitle           bdr:TTC94BAA288F656724 ;
+        :inRootInstance     bdr:MW1KG5808 ;
+        :instanceOf         bdr:WA0XL6329FF129FAF ;
+        :legacyOutlineNodeRID  "O1KG5808C2O0003" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1KG5808 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1KG5808_9DC2AB
+        a                   :Instance ;
+        skos:prefLabel      "kun mkhyen jo nang pa chen po'i dgongs pa gzhan stong dbu ma'i tshul legs par bshad pa mthar 'dzin gdung 'phrog"@bo-x-ewts ;
+        :contentLocation    bdr:CLA08FFDD08F117639 ;
+        :contentLocationStatement  "pp. 1-192" ;
+        :hasTitle           bdr:TT563E8CFCEB744B99 ;
+        :inRootInstance     bdr:MW1KG5808 ;
+        :instanceOf         bdr:WA0XL9DC2ABBF7D77 ;
+        :legacyOutlineNodeRID  "O1KG5808C2O0005" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1KG5808 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1KG5808_B1F6A8
+        a                   :Instance ;
+        skos:prefLabel      "kun mkhyen chen pos mdzad pa'i grub mtha'i rnam bzhag don gsal gyi 'grel pa phyogs lhung mun sel/"@bo-x-ewts ;
+        :contentLocation    bdr:CL6B67942EE6700A2C ;
+        :contentLocationStatement  "pp. 283-368" ;
+        :hasTitle           bdr:TT7CADA76E321D989D ;
+        :inRootInstance     bdr:MW1KG5808 ;
+        :instanceOf         bdr:WA0XLB1F6A8FEB58E ;
+        :legacyOutlineNodeRID  "O1KG5808C2O0007" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW1KG5808 ;
+        :partTreeIndex      "6" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1KG5808_C01108
+        a                   :Instance ;
+        skos:prefLabel      "kun mkhyen jo nang pa'i bzhed dgongs dbu tshad spyi dang gung bsgrigs te dpyod pa'i spyi don rab gsal snang ba/"@bo-x-ewts ;
+        :contentLocation    bdr:CL20495A3D4EB4C942 ;
+        :contentLocationStatement  "pp. 193-282" ;
+        :hasTitle           bdr:TT1E89F00AD7B81A6E ;
+        :inRootInstance     bdr:MW1KG5808 ;
+        :instanceOf         bdr:WA0XLC01108ED74D4 ;
+        :legacyOutlineNodeRID  "O1KG5808C2O0006" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW1KG5808 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1KG5808_E34EAE
+        a                   :Instance ;
+        skos:prefLabel      "The zhentong Mandhyamaka Writings of Ngawang Tsoknyi Gyatso"@en ;
+        :contentLocation    bdr:CLC1751257AB091EE9 ;
+        :contentLocationStatement  "pp. 1-6" ;
+        :hasTitle           bdr:TTD44EE7C1277AD46D ;
+        :inRootInstance     bdr:MW1KG5808 ;
+        :instanceOf         bdr:WA0XLE34EAE2524FF ;
+        :legacyOutlineNodeRID  "O1KG5808C2O0002" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1KG5808 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1KG5808  a         :Outline ;
+        :authorshipStatement  "chengdu via TBRC Convert2Outline version: 1.5.5"@en ;
+        :legacyOutlineNodeRID  "O1KG5808" ;
+        :outlineOf          bdr:MW1KG5808 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT1E89F00AD7B81A6E
+        a                   :Title ;
+        rdfs:label          "kun mkhyen jo nang pa'i bzhed dgongs dbu tshad spyi dang gung bsgrigs te dpyod pa'i spyi don rab gsal snang ba/"@bo-x-ewts .
+    
+    bdr:TT29B4CCE1199298BD
+        a                   :Title ;
+        rdfs:label          "dkar chag"@bo-x-ewts .
+    
+    bdr:TT563E8CFCEB744B99
+        a                   :Title ;
+        rdfs:label          "kun mkhyen jo nang pa chen po'i dgongs pa gzhan stong dbu ma'i tshul legs par bshad pa mthar 'dzin gdung 'phrog"@bo-x-ewts .
+    
+    bdr:TT7CADA76E321D989D
+        a                   :Title ;
+        rdfs:label          "kun mkhyen chen pos mdzad pa'i grub mtha'i rnam bzhag don gsal gyi 'grel pa phyogs lhung mun sel/"@bo-x-ewts .
+    
+    bdr:TTC94BAA288F656724
+        a                   :Title ;
+        rdfs:label          "ngag dbang tshogs gnyis rgya mtsho'i ngo sprod mdor bsdus/"@bo-x-ewts .
+    
+    bdr:TTD44EE7C1277AD46D
+        a                   :Title ;
+        rdfs:label          "The zhentong Mandhyamaka Writings of Ngawang Tsoknyi Gyatso"@en .
+}

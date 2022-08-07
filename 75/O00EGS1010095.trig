@@ -1,0 +1,138 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O00EGS1010095 {
+    bda:LG064BBC7408558DF9
+        a                   adm:UpdateData ;
+        adm:logDate         "2006-10-17T10:22:17.578Z"^^xsd:dateTime ;
+        adm:logMessage      "released"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGEA2292286EA72307
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2006-09-22T11:53:57.375Z"^^xsd:dateTime ;
+        adm:logMessage      "new outline added"@en .
+    
+    bda:O00EGS1010095
+        a                   adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O00EGS1010095 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "75/O00EGS1010095.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O00EGS1010095 ;
+        adm:logEntry        bda:LG064BBC7408558DF9 , bda:LGEA2292286EA72307 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL1118B04241DFFD48
+        a                   :ContentLocation ;
+        :contentLocationEndPage  460 ;
+        :contentLocationInstance  bdr:W20905 ;
+        :contentLocationPage  350 ;
+        :contentLocationVolume  4 .
+    
+    bdr:CL1A8A784EAAD9E8E2
+        a                   :ContentLocation ;
+        :contentLocationEndPage  101 ;
+        :contentLocationInstance  bdr:W20905 ;
+        :contentLocationPage  6 ;
+        :contentLocationVolume  4 .
+    
+    bdr:CL95E1191F9CBCF80C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  349 ;
+        :contentLocationInstance  bdr:W20905 ;
+        :contentLocationPage  102 ;
+        :contentLocationVolume  4 .
+    
+    bdr:MW20905  :hasPart   bdr:MW20905_15A7EC , bdr:MW20905_9C9A88 , bdr:MW20905_EB9C6D .
+    
+    bdr:MW20905_15A7EC
+        a                   :Instance ;
+        skos:prefLabel      "mi pham dbang po'i rnam thar 'phros cha tsam brjod pa gsang gsum gzhom med rdo rje'i zlos gar/"@bo-x-ewts ;
+        :contentLocation    bdr:CL1118B04241DFFD48 ;
+        :contentLocationStatement  "pp. 345-455" ;
+        :hasTitle           bdr:TT46E6E0B55EE4E670 , bdr:TTBA405C6459BC4496 ;
+        :inRootInstance     bdr:MW20905 ;
+        :instanceOf         bdr:WA0XL15A7EC2658F5 ;
+        :legacyOutlineNodeRID  "O00EGS101009510101" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW20905 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW20905_9C9A88
+        a                   :Instance ;
+        skos:prefLabel      "mi pham dbang po'i rnam thar kun tu bzang po'i yon tan gyi me long /"@bo-x-ewts ;
+        :contentLocation    bdr:CL95E1191F9CBCF80C ;
+        :contentLocationStatement  "pp. 97-344" ;
+        :hasTitle           bdr:TT61575DC5AF18D527 , bdr:TTE2F0341183A3B287 ;
+        :inRootInstance     bdr:MW20905 ;
+        :instanceOf         bdr:WA0XL9C9A888B92F2 ;
+        :legacyOutlineNodeRID  "O00EGS101009510100" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW20905 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW20905_EB9C6D
+        a                   :Instance ;
+        skos:prefLabel      "dpag bsam dbang po thub bstan yongs 'du'i dpal gyi sde'i skyes rabs kyi 'phreng ba ngo mtshar rtse dga'i 'khri shing /"@bo-x-ewts ;
+        :contentLocation    bdr:CL1A8A784EAAD9E8E2 ;
+        :contentLocationStatement  "pp. 1-95" ;
+        :hasTitle           bdr:TTE9A8EDD61FF47D6F , bdr:TTFEC4625F1D042573 ;
+        :inRootInstance     bdr:MW20905 ;
+        :instanceOf         bdr:WA0XLEB9C6DFEAEDA ;
+        :legacyOutlineNodeRID  "O00EGS101009510099" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW20905 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:NT7F6DD78878624CDF
+        a                   :Note ;
+        :noteText           "only volume 4 ever published"@en .
+    
+    bdr:O00EGS1010095
+        a                   :Outline ;
+        :authorshipStatement  "genesmith"@en ;
+        :legacyOutlineNodeRID  "O00EGS1010095" ;
+        :note               bdr:NT7F6DD78878624CDF ;
+        :outlineOf          bdr:MW20905 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT46E6E0B55EE4E670
+        a                   :Title ;
+        rdfs:label          "mi pham dbang po'i rnam thar 'phros cha tsam brjod pa gsang gsum gzhom med rdo rje'i zlos gar/"@bo-x-ewts .
+    
+    bdr:TT61575DC5AF18D527
+        a                   :TitlePageTitle ;
+        rdfs:label          "rgyal dbang a dzi ten+dra'i rnam par thar pa kun tu bzang po'i yon tan gyi me long /"@bo-x-ewts .
+    
+    bdr:TTBA405C6459BC4496
+        a                   :TitlePageTitle ;
+        rdfs:label          "kun mkhyen dam pa ngag gi dbang phyug rdo rje can dngos mi pham dbang po'i rnam par thar pa 'phros cha tsam brjod pa gsang gsum gzhom med rdo rje'i zlos gar/"@bo-x-ewts .
+    
+    bdr:TTE2F0341183A3B287
+        a                   :Title ;
+        rdfs:label          "mi pham dbang po'i rnam thar kun tu bzang po'i yon tan gyi me long /"@bo-x-ewts .
+    
+    bdr:TTE9A8EDD61FF47D6F
+        a                   :Title ;
+        rdfs:label          "dpag bsam dbang po thub bstan yongs 'du'i dpal gyi sde'i skyes rabs kyi 'phreng ba ngo mtshar rtse dga'i 'khri shing /"@bo-x-ewts .
+    
+    bdr:TTFEC4625F1D042573
+        a                   :TitlePageTitle ;
+        rdfs:label          "thams cad mkhyen pa dpag bsam dbang po'i thub bstan yongs 'du'i spal gyi sde'i skyes rabs kyi 'phreng ba ngo mtshar rtse dga'i 'khri shing /"@bo-x-ewts .
+}

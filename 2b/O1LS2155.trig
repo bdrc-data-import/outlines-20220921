@@ -1,0 +1,62 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1LS2155 {
+    bda:LG3A33492CDBCFD045
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-10-07T10:45:16.499Z"^^xsd:dateTime ;
+        adm:logMessage      "image number fixed"@en ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LG523A549A97F34D71
+        a                   adm:UpdateData ;
+        adm:logDate         "2017-06-23T15:57:52.371Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LG73A7DFF4FA51F779
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-10-05T16:57:58.918Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LGA70B25597143289E
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-04-30T16:52:23.009Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LGD3CA2731BB1B4409
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-04-30T17:02:57.466Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LGE345897003137BCE
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-03-09T09:13:14.389Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:O1LS2155  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1LS2155 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "2b/O1LS2155.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1LS2155 ;
+        adm:logEntry        bda:LG3A33492CDBCFD045 , bda:LG523A549A97F34D71 , bda:LG73A7DFF4FA51F779 , bda:LGA70B25597143289E , bda:LGD3CA2731BB1B4409 , bda:LGE345897003137BCE ;
+        adm:status          bda:StatusEditing .
+    
+    bdr:O1LS2155  a         :Outline ;
+        :authorshipStatement  "Lobsang Shastri : created with the generous support of Dzongsar Khyentse Foundation"@en ;
+        :legacyOutlineNodeRID  "O1LS2155" ;
+        :outlineOf          bdr:MW00KG0541 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+}

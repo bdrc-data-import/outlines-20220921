@@ -1,0 +1,328 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD155720 {
+    bda:LG86BFC7D2A84A8654
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2013-01-03T15:18:08.486Z"^^xsd:dateTime ;
+        adm:logMessage      "new created"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG9739D98B7B4A01F6
+        a                   adm:UpdateData ;
+        adm:logDate         "2013-01-03T15:20:31.151Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD155720  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD155720 ;
+        adm:facetIndex      25 ;
+        adm:gitPath         "13/O1PD155720.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD155720 ;
+        adm:logEntry        bda:LG86BFC7D2A84A8654 , bda:LG9739D98B7B4A01F6 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL0591B717681A63F3
+        a                   :ContentLocation ;
+        :contentLocationEndPage  490 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CL1FBEE3542D8F2D97
+        a                   :ContentLocation ;
+        :contentLocationEndPage  622 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  581 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL35C546EE9B6C632F
+        a                   :ContentLocation ;
+        :contentLocationEndPage  302 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  5 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL3CAD78CED748BB2D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  520 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  491 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CL505F9B5BB2C1BE45
+        a                   :ContentLocation ;
+        :contentLocationEndPage  4 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL57FF144BF5691B7B
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CL7BA75F9E8B34D115
+        a                   :ContentLocation ;
+        :contentLocationEndPage  586 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  521 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CL7E8A118B866B3449
+        a                   :ContentLocation ;
+        :contentLocationEndPage  600 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  587 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CL87F74D8EFACACC8F
+        a                   :ContentLocation ;
+        :contentLocationEndPage  494 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  303 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL9FAB0CCFABDA7D65
+        a                   :ContentLocation ;
+        :contentLocationEndPage  4 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CLCDF982BCA1F21A56
+        a                   :ContentLocation ;
+        :contentLocationEndPage  580 ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationPage  497 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLF9BA22B9A9838ED2
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W00EGS1016273 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW00EGS1016273
+        :hasPart            bdr:MW00EGS1016273_0F2238 , bdr:MW00EGS1016273_396F14 .
+    
+    bdr:MW00EGS1016273_01F981
+        a                   :Instance ;
+        skos:prefLabel      "sngags kyi sa lam gyi rim pa'i sdom/"@bo-x-ewts ;
+        :contentLocation    bdr:CLCDF982BCA1F21A56 ;
+        :contentLocationStatement  "42 ff. (pp. 1-84)" ;
+        :hasTitle           bdr:TT2F40080A4C08CCE6 ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :instanceOf         bdr:WA0XL01F9812475AB ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155725" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW00EGS1016273_396F14 ;
+        :partTreeIndex      "1.4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1016273_0F2238
+        a                   :Instance ;
+        skos:prefLabel      "pod gnyis pa/ (2)"@bo-x-ewts ;
+        :contentLocation    bdr:CL57FF144BF5691B7B ;
+        :hasPart            bdr:MW00EGS1016273_0FC4C7 , bdr:MW00EGS1016273_296062 , bdr:MW00EGS1016273_6B37A8 , bdr:MW00EGS1016273_ECA2AD , bdr:MW00EGS1016273_FFB33A ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155722" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW00EGS1016273 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW00EGS1016273_0FC4C7
+        a                   :Instance ;
+        skos:prefLabel      "'gal rtags kyi rnam gzhag"@bo-x-ewts ;
+        :contentLocation    bdr:CL7E8A118B866B3449 ;
+        :contentLocationStatement  "7 ff. (pp. 1-14)" ;
+        :hasTitle           bdr:TT7DF3B6399C6528F6 ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :instanceOf         bdr:WA0XL0FC4C72775B5 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155729" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW00EGS1016273_0F2238 ;
+        :partTreeIndex      "2.5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1016273_1AC87E
+        a                   :Instance ;
+        skos:prefLabel      "phar phyin skabs bzhi pa'i bsdus don gyi 'grel pa blo gsal mgrin rgyan skal bzang re ba kun skong /"@bo-x-ewts ;
+        :contentLocation    bdr:CL87F74D8EFACACC8F ;
+        :contentLocationStatement  "95 ff. (pp. 1-189)" ;
+        :hasTitle           bdr:TTC7B91BF97457CB68 ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :instanceOf         bdr:WA0XL1AC87E61CE89 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155724" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW00EGS1016273_396F14 ;
+        :partTreeIndex      "1.3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1016273_2454CE
+        a                   :Instance ;
+        skos:prefLabel      "bsam gzugs kyi mtha' dpyod legs bshad mdzod kyi sgo byed/"@bo-x-ewts ;
+        :contentLocation    bdr:CL35C546EE9B6C632F ;
+        :contentLocationStatement  "149 ff. (pp. 1-298)" ;
+        :hasTitle           bdr:TT7AEF5CC5F8EB1DBC ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :instanceOf         bdr:WA0XLFFCEC92E51C3 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155723" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW00EGS1016273_396F14 ;
+        :partTreeIndex      "1.2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1016273_296062
+        a                   :Instance ;
+        skos:prefLabel      "pod gnyis pa'i dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CL9FAB0CCFABDA7D65 ;
+        :contentLocationStatement  "1 ff. (pp. 1-2)" ;
+        :hasTitle           bdr:TTD0973FBB6F9FFC50 ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155748" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW00EGS1016273_0F2238 ;
+        :partTreeIndex      "2.1" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW00EGS1016273_396F14
+        a                   :Instance ;
+        skos:prefLabel      "pod dang po/ (1)"@bo-x-ewts ;
+        :contentLocation    bdr:CLF9BA22B9A9838ED2 ;
+        :hasPart            bdr:MW00EGS1016273_01F981 , bdr:MW00EGS1016273_1AC87E , bdr:MW00EGS1016273_2454CE , bdr:MW00EGS1016273_6EB76C , bdr:MW00EGS1016273_CED9E4 ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155721" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW00EGS1016273 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW00EGS1016273_6B37A8
+        a                   :Instance ;
+        skos:prefLabel      "byang chub lam gi rim pa'i gdams pa rang rgyud blang smyon 'dul ba'i lcags kyu/"@bo-x-ewts ;
+        :contentLocation    bdr:CL7BA75F9E8B34D115 ;
+        :contentLocationStatement  "32 ff. (pp. 1-64)" ;
+        :hasTitle           bdr:TT4E98D02A537FF802 ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :instanceOf         bdr:WA0XL6B37A8D66ABC ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155728" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW00EGS1016273_0F2238 ;
+        :partTreeIndex      "2.4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1016273_6EB76C
+        a                   :Instance ;
+        skos:prefLabel      "'jam mgon chos kyi rgyal po tsong kha pa chen po'i bla ma'i rnal 'byor dang 'brel ba'i dmigs brtse ma'i bsnyen yig dang sbyin sreg bya tshul dngos grub nor bu'i gter mdzod/"@bo-x-ewts ;
+        :contentLocation    bdr:CL1FBEE3542D8F2D97 ;
+        :contentLocationStatement  "21 ff. (pp. 1-42)" ;
+        :hasTitle           bdr:TTF98461C324A3FA4F ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :instanceOf         bdr:WA0XL6EB76C715E52 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155742" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW00EGS1016273_396F14 ;
+        :partTreeIndex      "1.5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1016273_CED9E4
+        a                   :Instance ;
+        skos:prefLabel      "pod dang po'i dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CL505F9B5BB2C1BE45 ;
+        :contentLocationStatement  "1 ff. (pp. 1-2)" ;
+        :hasTitle           bdr:TT33BD1D804C565FF7 ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155747" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW00EGS1016273_396F14 ;
+        :partTreeIndex      "1.1" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW00EGS1016273_ECA2AD
+        a                   :Instance ;
+        skos:prefLabel      "zab mo rten cing 'brel bar 'byung ba'i mtha' dpyod legs par bshad pa'i rgya mtsho/"@bo-x-ewts ;
+        :contentLocation    bdr:CL0591B717681A63F3 ;
+        :contentLocationStatement  "243 ff. (pp. 1-486)" ;
+        :hasTitle           bdr:TTC6E9D1FF20930E65 ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :instanceOf         bdr:WA0XLECA2ADE0E263 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155726" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW00EGS1016273_0F2238 ;
+        :partTreeIndex      "2.2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00EGS1016273_FFB33A
+        a                   :Instance ;
+        skos:prefLabel      "yid dang kun gzhi'i rtsa ba'i mchan 'grel/"@bo-x-ewts ;
+        :contentLocation    bdr:CL3CAD78CED748BB2D ;
+        :contentLocationStatement  "15 ff. (pp. 1-30)" ;
+        :hasTitle           bdr:TT8382A47CE51E7CA1 ;
+        :inRootInstance     bdr:MW00EGS1016273 ;
+        :instanceOf         bdr:WA0XLFFB33A9D99B0 ;
+        :legacyOutlineNodeRID  "O1PD1557201PD155727" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW00EGS1016273_0F2238 ;
+        :partTreeIndex      "2.3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1PD155720  a       :Outline ;
+        :authorshipStatement  "Paldor"@en ;
+        :legacyOutlineNodeRID  "O1PD155720" ;
+        :outlineOf          bdr:MW00EGS1016273 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+    
+    bdr:TT2F40080A4C08CCE6
+        a                   :Title ;
+        rdfs:label          "sngags kyi sa lam gyi rim pa'i sdom/"@bo-x-ewts .
+    
+    bdr:TT33BD1D804C565FF7
+        a                   :Title ;
+        rdfs:label          "pod dang po'i dkar chag"@bo-x-ewts .
+    
+    bdr:TT4E98D02A537FF802
+        a                   :Title ;
+        rdfs:label          "byang chub lam gi rim pa'i gdams pa rang rgyud blang smyon 'dul ba'i lcags kyu/"@bo-x-ewts .
+    
+    bdr:TT7AEF5CC5F8EB1DBC
+        a                   :Title ;
+        rdfs:label          "bsam gzugs kyi mtha' dpyod legs bshad mdzod kyi sgo byed/"@bo-x-ewts .
+    
+    bdr:TT7DF3B6399C6528F6
+        a                   :Title ;
+        rdfs:label          "'gal rtags kyi rnam gzhag"@bo-x-ewts .
+    
+    bdr:TT8382A47CE51E7CA1
+        a                   :Title ;
+        rdfs:label          "yid dang kun gzhi'i rtsa ba'i mchan 'grel/"@bo-x-ewts .
+    
+    bdr:TTC6E9D1FF20930E65
+        a                   :Title ;
+        rdfs:label          "zab mo rten cing 'brel bar 'byung ba'i mtha' dpyod legs par bshad pa'i rgya mtsho/"@bo-x-ewts .
+    
+    bdr:TTC7B91BF97457CB68
+        a                   :Title ;
+        rdfs:label          "phar phyin skabs bzhi pa'i bsdus don gyi 'grel pa blo gsal mgrin rgyan skal bzang re ba kun skong /"@bo-x-ewts .
+    
+    bdr:TTD0973FBB6F9FFC50
+        a                   :Title ;
+        rdfs:label          "pod gnyis pa'i dkar chag"@bo-x-ewts .
+    
+    bdr:TTF98461C324A3FA4F
+        a                   :Title ;
+        rdfs:label          "'jam mgon chos kyi rgyal po tsong kha pa chen po'i bla ma'i rnal 'byor dang 'brel ba'i dmigs brtse ma'i bsnyen yig dang sbyin sreg bya tshul dngos grub nor bu'i gter mdzod/"@bo-x-ewts .
+}

@@ -1,0 +1,135 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1LS5363 {
+    bda:LG02F65E2692AF10B5
+        a                   adm:WithdrawData ;
+        adm:logDate         "2010-02-23T12:39:59.107Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawn"@en ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LG6345379F0A8A7D17
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-06-27T12:46:44.628Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1LS5363  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1LS5363 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "e0/O1LS5363.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1LS5363 ;
+        adm:logEntry        bda:LG02F65E2692AF10B5 , bda:LG6345379F0A8A7D17 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:CL55FAA798773AE682
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W5488 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CL95A35C65F3447367
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W5488 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLBD7AF23ADFE30CC2
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W5488 ;
+        :contentLocationVolume  4 .
+    
+    bdr:CLBF19DD1326025106
+        a                   :ContentLocation ;
+        :contentLocationEndPage  617 ;
+        :contentLocationInstance  bdr:W5488 ;
+        :contentLocationPage  13 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLD371556928ADA1BC
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W5488 ;
+        :contentLocationVolume  3 .
+    
+    bdr:MW5488  :hasPart    bdr:MW5488_16CCC7 , bdr:MW5488_5D7850 , bdr:MW5488_84C977 , bdr:MW5488_901114 .
+    
+    bdr:MW5488_16CCC7
+        a                   :Instance ;
+        skos:prefLabel      "4 (a)"@bo-x-ewts ;
+        :contentLocation    bdr:CLBD7AF23ADFE30CC2 ;
+        :inRootInstance     bdr:MW5488 ;
+        :legacyOutlineNodeRID  "O1LS53631LS5367" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW5488 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW5488_5D7850
+        a                   :Instance ;
+        skos:prefLabel      "2 (kha)"@bo-x-ewts ;
+        :contentLocation    bdr:CL55FAA798773AE682 ;
+        :inRootInstance     bdr:MW5488 ;
+        :legacyOutlineNodeRID  "O1LS53631LS5365" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW5488 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW5488_84C977
+        a                   :Instance ;
+        skos:prefLabel      "3 (ga)"@bo-x-ewts ;
+        :contentLocation    bdr:CLD371556928ADA1BC ;
+        :inRootInstance     bdr:MW5488 ;
+        :legacyOutlineNodeRID  "O1LS53631LS5366" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW5488 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW5488_901114
+        a                   :Instance ;
+        skos:prefLabel      "1 (ka)"@bo-x-ewts ;
+        :contentLocation    bdr:CL95A35C65F3447367 ;
+        :hasPart            bdr:MW5488_A3EE78 ;
+        :inRootInstance     bdr:MW5488 ;
+        :legacyOutlineNodeRID  "O1LS53631LS5364" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW5488 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW5488_A3EE78
+        a                   :Instance ;
+        skos:prefLabel      "theg pa'i sgo kun las btus pa gsung rab rin po che'i mdzod bslab pa gsum legs par ston pa'i bstan bcos shes bya kun khyab/"@bo-x-ewts ;
+        :authorshipStatement  "blo gros mtha' yas"@en ;
+        :contentLocation    bdr:CLBF19DD1326025106 ;
+        :contentLocationStatement  "ff. 1-225 ( pp. 1-605)" ;
+        :hasTitle           bdr:TTC8EDB24167A778BD ;
+        :inRootInstance     bdr:MW5488 ;
+        :instanceOf         bdr:WA0XLA3EE78DC1926 ;
+        :legacyOutlineNodeRID  "O1LS53631LS5368" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW5488_901114 ;
+        :partTreeIndex      "1.1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1LS5363  a         :Outline ;
+        :authorshipStatement  "Lobsang Shastri"@en ;
+        :legacyOutlineNodeRID  "O1LS5363" ;
+        :outlineOf          bdr:MW5488 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+    
+    bdr:TTC8EDB24167A778BD
+        a                   :TitlePageTitle ;
+        rdfs:label          "theg pa'i sgo kun las btus pa gsung rab rin po che'i mdzod bslab pa gsum legs par ston pa'i bstan bcos shes bya kun khyab/"@bo-x-ewts .
+}

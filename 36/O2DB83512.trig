@@ -1,0 +1,444 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O2DB83512 {
+    bda:LG88209CFDA84F625D
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-05-24T16:24:18.97Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG8D2DE981E81BF4D3
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2011-03-30T16:02:03.185Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O2DB83512  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O2DB83512 ;
+        adm:facetIndex      41 ;
+        adm:gitPath         "36/O2DB83512.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O2DB83512 ;
+        adm:logEntry        bda:LG88209CFDA84F625D , bda:LG8D2DE981E81BF4D3 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL110A7610B5FB064E
+        a                   :ContentLocation ;
+        :contentLocationEndPage  38 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  37 .
+    
+    bdr:CL32F1F16639A1CB87
+        a                   :ContentLocation ;
+        :contentLocationEndPage  46 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  42 .
+    
+    bdr:CL3765AE06700B4496
+        a                   :ContentLocation ;
+        :contentLocationEndPage  20 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  19 .
+    
+    bdr:CL490531EA50912959
+        a                   :ContentLocation ;
+        :contentLocationEndPage  18 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  15 .
+    
+    bdr:CL4C6E389AA250A723
+        a                   :ContentLocation ;
+        :contentLocationEndPage  26 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  24 .
+    
+    bdr:CL560DF258CEC2334A
+        a                   :ContentLocation ;
+        :contentLocationEndPage  75 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  57 .
+    
+    bdr:CL78374CA43A075626
+        a                   :ContentLocation ;
+        :contentLocationEndPage  5 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  5 .
+    
+    bdr:CL79E0F275AA64A51F
+        a                   :ContentLocation ;
+        :contentLocationEndPage  28 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  26 .
+    
+    bdr:CL876A2ACEAA95C52F
+        a                   :ContentLocation ;
+        :contentLocationEndPage  56 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  46 .
+    
+    bdr:CLA4FB17F23C2B5651
+        a                   :ContentLocation ;
+        :contentLocationEndPage  37 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  33 .
+    
+    bdr:CLAB2589A9A44F62CA
+        a                   :ContentLocation ;
+        :contentLocationEndPage  15 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  6 .
+    
+    bdr:CLAD82702095483939
+        a                   :ContentLocation ;
+        :contentLocationEndPage  76 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  76 .
+    
+    bdr:CLD904E484BD71E3BD
+        a                   :ContentLocation ;
+        :contentLocationEndPage  31 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  28 .
+    
+    bdr:CLD9D2812E357FD8ED
+        a                   :ContentLocation ;
+        :contentLocationEndPage  42 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  38 .
+    
+    bdr:CLE93EB46DC2E7AC10
+        a                   :ContentLocation ;
+        :contentLocationEndPage  23 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  20 .
+    
+    bdr:CLEDAA4AB989F2E6A6
+        a                   :ContentLocation ;
+        :contentLocationEndPage  33 ;
+        :contentLocationInstance  bdr:W1PD5299 ;
+        :contentLocationPage  31 .
+    
+    bdr:MW1PD5299  :hasPart  bdr:MW1PD5299_1C556F , bdr:MW1PD5299_200E11 , bdr:MW1PD5299_33F2A1 , bdr:MW1PD5299_3F5D9A , bdr:MW1PD5299_4BA77C , bdr:MW1PD5299_524E22 , bdr:MW1PD5299_573B00 , bdr:MW1PD5299_57E556 , bdr:MW1PD5299_7115A7 , bdr:MW1PD5299_867BDA , bdr:MW1PD5299_9E0C24 , bdr:MW1PD5299_AFE184 , bdr:MW1PD5299_C6340E , bdr:MW1PD5299_CEC123 , bdr:MW1PD5299_D575DB , bdr:MW1PD5299_F6C00C .
+    
+    bdr:MW1PD5299_1C556F
+        a                   :Instance ;
+        skos:prefLabel      "卓尼县柳林小学校发展史"@zh-hans ;
+        :contentLocation    bdr:CL560DF258CEC2334A ;
+        :contentLocationStatement  "p. 102" ;
+        :hasTitle           bdr:TTE3E3DB6404AA8B81 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83527" ;
+        :partIndex          15 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "15" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_200E11
+        a                   :Instance ;
+        skos:prefLabel      "编后记"@zh-hans ;
+        :contentLocation    bdr:CLAD82702095483939 ;
+        :contentLocationStatement  "p. 140" ;
+        :hasTitle           bdr:TTD3A1373EA72DF1AF ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83528" ;
+        :partIndex          16 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "16" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_33F2A1
+        a                   :Instance ;
+        skos:prefLabel      "卓尼农村人民公社化运动纪实"@zh-hans ;
+        :contentLocation    bdr:CLE93EB46DC2E7AC10 ;
+        :contentLocationStatement  "p. 29" ;
+        :hasTitle           bdr:TTC1315860431C0ACB ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83517" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "05" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_3F5D9A
+        a                   :Instance ;
+        skos:prefLabel      "解放初期卓尼地区剿匪始末"@zh-hans ;
+        :contentLocation    bdr:CL3765AE06700B4496 ;
+        :contentLocationStatement  "p. 26" ;
+        :hasTitle           bdr:TT7F49D3D32EECB74A ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83516" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "04" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_4BA77C
+        a                   :Instance ;
+        skos:prefLabel      "'dul 'dzin sho ba rin po che blo bzang rnam rgyal/"@bo-x-ewts , "持戒师杓哇 . 洛桑南吉"@zh-hans ;
+        :contentLocation    bdr:CLEDAA4AB989F2E6A6 ;
+        :contentLocationStatement  "p. 51" ;
+        :hasTitle           bdr:TT18D04BD52DD1E7D9 , bdr:TTDECA3C0F34DC18B2 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :instanceOf         bdr:WA0XL4BA77CA9FEA0 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83521" ;
+        :partIndex          9 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "09" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_524E22
+        a                   :Instance ;
+        skos:prefLabel      "洮砚石门寺见闻"@zh-hans ;
+        :contentLocation    bdr:CL79E0F275AA64A51F ;
+        :contentLocationStatement  "p. 41" ;
+        :hasTitle           bdr:TTA1209D186EDE3381 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83519" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "07" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_573B00
+        a                   :Instance ;
+        skos:prefLabel      "dkar chag"@bo-x-ewts , "目录"@zh-hans ;
+        :contentLocation    bdr:CL78374CA43A075626 ;
+        :contentLocationStatement  "p. 1 (1st group)" ;
+        :hasTitle           bdr:TT2EFD15844E46EE46 , bdr:TTF63D70B4F7D912CE ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83513" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "01" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW1PD5299_57E556
+        a                   :Instance ;
+        skos:prefLabel      "co ne blo bzang don 'grub/"@bo-x-ewts , "阿子塘大菩提宝塔"@zh-hans ;
+        :contentLocation    bdr:CL110A7610B5FB064E ;
+        :contentLocationStatement  "p. 63" ;
+        :hasTitle           bdr:TT31C84594AFED1322 , bdr:TT4542E2FDF6A5BB49 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :instanceOf         bdr:WA0XL57E556E69CEC ;
+        :legacyOutlineNodeRID  "O2DB835122DB83523" ;
+        :partIndex          11 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "11" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_7115A7
+        a                   :Instance ;
+        skos:prefLabel      "卓尼县文化馆馆藏文物概述"@zh-hans ;
+        :contentLocation    bdr:CL876A2ACEAA95C52F ;
+        :contentLocationStatement  "p. 81" ;
+        :hasTitle           bdr:TT1BE0BBB397BD09D4 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83526" ;
+        :partIndex          14 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "14" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_867BDA
+        a                   :Instance ;
+        skos:prefLabel      "co ne shar ba chos rje sbyin pa dar rgyas/"@bo-x-ewts , "卓尼厦哇曲结 . 金巴达吉"@zh-hans ;
+        :contentLocation    bdr:CLD904E484BD71E3BD ;
+        :contentLocationStatement  "p. 45" ;
+        :hasTitle           bdr:TT46FA3E5D54DCC07E , bdr:TTE595EED5B01F94B3 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :instanceOf         bdr:WA0XL867BDA53A008 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83520" ;
+        :partIndex          8 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "08" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_9E0C24
+        a                   :Instance ;
+        skos:prefLabel      "sa dmar bzhugs khri thang /"@bo-x-ewts , "沙冒宝座概述"@zh-hans ;
+        :contentLocation    bdr:CLA4FB17F23C2B5651 ;
+        :contentLocationStatement  "p. 55" ;
+        :hasTitle           bdr:TT88F77C541D306BBB , bdr:TTDCCC9EFD967B6189 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :instanceOf         bdr:WA0XL9E0C24D916CB ;
+        :legacyOutlineNodeRID  "O2DB835122DB83522" ;
+        :partIndex          10 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "10" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_AFE184
+        a                   :Instance ;
+        skos:prefLabel      "卓尼藏族“提提玛” 初探"@zh-hans ;
+        :contentLocation    bdr:CL32F1F16639A1CB87 ;
+        :contentLocationStatement  "p. 73" ;
+        :hasTitle           bdr:TT7F9A4DF8397213FA ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83525" ;
+        :partIndex          13 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "13" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_C6340E
+        a                   :Instance ;
+        skos:prefLabel      "mar lhung byams pa gling /"@bo-x-ewts , "马奴寺"@zh-hans ;
+        :contentLocation    bdr:CLD9D2812E357FD8ED ;
+        :contentLocationStatement  "p. 65" ;
+        :hasTitle           bdr:TT1DC66A11A1AF5A1D , bdr:TTC47262BCCC0DF6AB ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :instanceOf         bdr:WA0XLC6340E0637DC ;
+        :legacyOutlineNodeRID  "O2DB835122DB83524" ;
+        :partIndex          12 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "12" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_CEC123
+        a                   :Instance ;
+        skos:prefLabel      "卓尼县农牧业互助化合作经过"@zh-hans ;
+        :contentLocation    bdr:CL490531EA50912959 ;
+        :contentLocationStatement  "p. 1 (3rd group)" ;
+        :hasTitle           bdr:TT9F042F89BC174180 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :legacyOutlineNodeRID  "O2DB835122DB83515" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "03" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_D575DB
+        a                   :Instance ;
+        skos:prefLabel      "《 班禅副委员长视察卓尼 》后记"@zh-hans ;
+        :contentLocation    bdr:CL4C6E389AA250A723 ;
+        :contentLocationStatement  "p. 36" ;
+        :hasTitle           bdr:TT22BF07FEFBCB22A0 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :instanceOf         bdr:WA0XLD575DB7F849C ;
+        :legacyOutlineNodeRID  "O2DB835122DB83518" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "06" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD5299_F6C00C
+        a                   :Instance ;
+        skos:prefLabel      "sa dmar bzhugs khri thang gi lo rgyus mdor bsdus/"@bo-x-ewts ;
+        :biblioNote         "dge slong bskal bzang nyi mas sbyar ba dbang rgyal gyis zhus/"@bo-x-ewts ;
+        :contentLocation    bdr:CLAB2589A9A44F62CA ;
+        :contentLocationStatement  "p. 1 (2nd group)" ;
+        :hasTitle           bdr:TT8A862AB4AF0B4743 ;
+        :inRootInstance     bdr:MW1PD5299 ;
+        :instanceOf         bdr:WA0XLF6C00C38AFDA ;
+        :legacyOutlineNodeRID  "O2DB835122DB83514" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1PD5299 ;
+        :partTreeIndex      "02" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O2DB83512  a        :Outline ;
+        :authorshipStatement  "paldor; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O2DB83512" ;
+        :outlineOf          bdr:MW1PD5299 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT18D04BD52DD1E7D9
+        a                   :OtherTitle ;
+        rdfs:label          "'dul 'dzin sho ba rin po che blo bzang rnam rgyal/"@bo-x-ewts .
+    
+    bdr:TT1BE0BBB397BD09D4
+        a                   :Title ;
+        rdfs:label          "卓尼县文化馆馆藏文物概述"@zh-hans .
+    
+    bdr:TT1DC66A11A1AF5A1D
+        a                   :Title ;
+        rdfs:label          "马奴寺"@zh-hans .
+    
+    bdr:TT22BF07FEFBCB22A0
+        a                   :Title ;
+        rdfs:label          "《 班禅副委员长视察卓尼 》后记"@zh-hans .
+    
+    bdr:TT2EFD15844E46EE46
+        a                   :Title ;
+        rdfs:label          "目录"@zh-hans .
+    
+    bdr:TT31C84594AFED1322
+        a                   :OtherTitle ;
+        rdfs:label          "co ne blo bzang don 'grub/"@bo-x-ewts .
+    
+    bdr:TT4542E2FDF6A5BB49
+        a                   :Title ;
+        rdfs:label          "阿子塘大菩提宝塔"@zh-hans .
+    
+    bdr:TT46FA3E5D54DCC07E
+        a                   :Title ;
+        rdfs:label          "卓尼厦哇曲结 . 金巴达吉"@zh-hans .
+    
+    bdr:TT7F49D3D32EECB74A
+        a                   :Title ;
+        rdfs:label          "解放初期卓尼地区剿匪始末"@zh-hans .
+    
+    bdr:TT7F9A4DF8397213FA
+        a                   :Title ;
+        rdfs:label          "卓尼藏族“提提玛” 初探"@zh-hans .
+    
+    bdr:TT88F77C541D306BBB
+        a                   :OtherTitle ;
+        rdfs:label          "sa dmar bzhugs khri thang /"@bo-x-ewts .
+    
+    bdr:TT8A862AB4AF0B4743
+        a                   :Title ;
+        rdfs:label          "sa dmar bzhugs khri thang gi lo rgyus mdor bsdus/"@bo-x-ewts .
+    
+    bdr:TT9F042F89BC174180
+        a                   :Title ;
+        rdfs:label          "卓尼县农牧业互助化合作经过"@zh-hans .
+    
+    bdr:TTA1209D186EDE3381
+        a                   :Title ;
+        rdfs:label          "洮砚石门寺见闻"@zh-hans .
+    
+    bdr:TTC1315860431C0ACB
+        a                   :Title ;
+        rdfs:label          "卓尼农村人民公社化运动纪实"@zh-hans .
+    
+    bdr:TTC47262BCCC0DF6AB
+        a                   :OtherTitle ;
+        rdfs:label          "mar lhung byams pa gling /"@bo-x-ewts .
+    
+    bdr:TTD3A1373EA72DF1AF
+        a                   :Title ;
+        rdfs:label          "编后记"@zh-hans .
+    
+    bdr:TTDCCC9EFD967B6189
+        a                   :Title ;
+        rdfs:label          "沙冒宝座概述"@zh-hans .
+    
+    bdr:TTDECA3C0F34DC18B2
+        a                   :Title ;
+        rdfs:label          "持戒师杓哇 . 洛桑南吉"@zh-hans .
+    
+    bdr:TTE3E3DB6404AA8B81
+        a                   :Title ;
+        rdfs:label          "卓尼县柳林小学校发展史"@zh-hans .
+    
+    bdr:TTE595EED5B01F94B3
+        a                   :OtherTitle ;
+        rdfs:label          "co ne shar ba chos rje sbyin pa dar rgyas/"@bo-x-ewts .
+    
+    bdr:TTF63D70B4F7D912CE
+        a                   :Title ;
+        rdfs:label          "dkar chag"@bo-x-ewts .
+}

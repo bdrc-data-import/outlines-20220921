@@ -1,0 +1,156 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ327700 {
+    bda:LG36325CB6B46BA8E7
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2019-03-06T10:08:29.149Z"^^xsd:dateTime ;
+        adm:logMessage      "released"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:LG4214F52E1E38EAF4
+        a                   adm:UpdateData ;
+        adm:logDate         "2019-04-15T16:20:27.399Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:LG6095603CE181E384
+        a                   adm:WithdrawData ;
+        adm:logDate         "2021-08-18T11:47:01.961Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawn in favor of O4CZ333128"@en ;
+        adm:logWho          bdu:U00016 .
+    
+    bda:O4CZ327700  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ327700 ;
+        adm:facetIndex      15 ;
+        adm:gitPath         "1a/O4CZ327700.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ327700 ;
+        adm:logEntry        bda:LG36325CB6B46BA8E7 , bda:LG4214F52E1E38EAF4 , bda:LG6095603CE181E384 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:CL1BADAEC96AC89B96
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W1NLM31 ;
+        :contentLocationPage  1 .
+    
+    bdr:CL56DD848787CE5D0A
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W1NLM31 .
+    
+    bdr:CLC8CBB7726336CCC3
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W1NLM31 .
+    
+    bdr:CLD00B15520522F3E2
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W1NLM31 .
+    
+    bdr:CLD7E578565D29C79D
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W1NLM31 .
+    
+    bdr:MW1NLM31  :hasPart  bdr:MW1NLM31_18642E , bdr:MW1NLM31_1A5E08 , bdr:MW1NLM31_561887 , bdr:MW1NLM31_75269C , bdr:MW1NLM31_DCE790 .
+    
+    bdr:MW1NLM31_18642E
+        a                   :Instance ;
+        skos:prefLabel      "ca/"@bo-x-ewts ;
+        :contentLocation    bdr:CLC8CBB7726336CCC3 ;
+        :hasTitle           bdr:TT1D57467511495BA1 ;
+        :inRootInstance     bdr:MW1NLM31 ;
+        :legacyOutlineNodeRID  "O4CZ3277004CZ333141" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW1NLM31 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM31_1A5E08
+        a                   :Instance ;
+        skos:prefLabel      "ga"@bo-x-ewts ;
+        :contentLocation    bdr:CLD7E578565D29C79D ;
+        :hasTitle           bdr:TT8F5DCBB57A38BB3E ;
+        :inRootInstance     bdr:MW1NLM31 ;
+        :legacyOutlineNodeRID  "O4CZ3277004CZ333139" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1NLM31 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM31_561887
+        a                   :Instance ;
+        skos:prefLabel      "kha/"@bo-x-ewts ;
+        :contentLocation    bdr:CLD00B15520522F3E2 ;
+        :hasTitle           bdr:TT87E9D99758F4EAB0 ;
+        :inRootInstance     bdr:MW1NLM31 ;
+        :legacyOutlineNodeRID  "O4CZ3277004CZ333138" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1NLM31 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM31_75269C
+        a                   :Instance ;
+        skos:prefLabel      "rgyud sde bzhi'i sa lam rnam gzhag"@bo-x-ewts ;
+        :contentLocation    bdr:CL1BADAEC96AC89B96 ;
+        :hasTitle           bdr:TT6196DE34E0C5EEB8 , bdr:TTC7764E14573449EE ;
+        :inRootInstance     bdr:MW1NLM31 ;
+        :instanceOf         bdr:WA0XL75269CD9CE06 ;
+        :legacyOutlineNodeRID  "O4CZ3277004CZ333137" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1NLM31 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1NLM31_DCE790
+        a                   :Instance ;
+        skos:prefLabel      "nga /"@bo-x-ewts ;
+        :contentLocation    bdr:CL56DD848787CE5D0A ;
+        :hasTitle           bdr:TT62F9BEEF08E02898 ;
+        :inRootInstance     bdr:MW1NLM31 ;
+        :legacyOutlineNodeRID  "O4CZ3277004CZ333140" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1NLM31 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O4CZ327700  a       :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ327700" ;
+        :outlineOf          bdr:MW1NLM31 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+    
+    bdr:TT1D57467511495BA1
+        a                   :Title ;
+        rdfs:label          "ca/"@bo-x-ewts .
+    
+    bdr:TT6196DE34E0C5EEB8
+        a                   :Title ;
+        rdfs:label          "rgyud sde bzhi'i sa lam rnam gzhag"@bo-x-ewts .
+    
+    bdr:TT62F9BEEF08E02898
+        a                   :Title ;
+        rdfs:label          "nga /"@bo-x-ewts .
+    
+    bdr:TT87E9D99758F4EAB0
+        a                   :Title ;
+        rdfs:label          "kha/"@bo-x-ewts .
+    
+    bdr:TT8F5DCBB57A38BB3E
+        a                   :Title ;
+        rdfs:label          "ga"@bo-x-ewts .
+    
+    bdr:TTC7764E14573449EE
+        a                   :TitlePageTitle ;
+        rdfs:label          "gsang chen rgyud sde bzhi'i sa lam rnam gzhag rgyud gzhung gsal byed/"@bo-x-ewts .
+}

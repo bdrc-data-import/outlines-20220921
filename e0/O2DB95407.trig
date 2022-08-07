@@ -1,0 +1,164 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O2DB95407 {
+    bda:LGC8011A57B67E894B
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-10-20T15:48:45.932Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LGD5EE78FEE0D5E121
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-04-30T15:56:59.657Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00003 .
+    
+    bda:O2DB95407  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O2DB95407 ;
+        adm:facetIndex      17 ;
+        adm:gitPath         "e0/O2DB95407.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O2DB95407 ;
+        adm:logEntry        bda:LGC8011A57B67E894B , bda:LGD5EE78FEE0D5E121 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL2979E539AD091165
+        a                   :ContentLocation ;
+        :contentLocationEndPage  45 ;
+        :contentLocationInstance  bdr:W23937 ;
+        :contentLocationPage  26 .
+    
+    bdr:CL2F426218C5705644
+        a                   :ContentLocation ;
+        :contentLocationEndPage  47 ;
+        :contentLocationInstance  bdr:W23937 ;
+        :contentLocationPage  46 .
+    
+    bdr:CL852361E149762619
+        a                   :ContentLocation ;
+        :contentLocationEndPage  12 ;
+        :contentLocationInstance  bdr:W23937 ;
+        :contentLocationPage  7 .
+    
+    bdr:CLFA86D7A4A589A55F
+        a                   :ContentLocation ;
+        :contentLocationEndPage  25 ;
+        :contentLocationInstance  bdr:W23937 ;
+        :contentLocationPage  13 .
+    
+    bdr:CRB9711951C0928E34
+        a                   :AgentAsCreator ;
+        :agent              bdr:P6079 ;
+        :role               bdr:R0ER0015 .
+    
+    bdr:MW23937  :hasPart   bdr:MW23937_162A1B , bdr:MW23937_583E0B , bdr:MW23937_6B466F , bdr:MW23937_7416CA .
+    
+    bdr:MW23937_162A1B
+        a                   :Instance ;
+        skos:prefLabel      "ne rings pa'i gsung thor bu nang brnyed phyogs gcig tu bsdus pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL2F426218C5705644 ;
+        :contentLocationStatement  "pp. 34" ;
+        :creator            bdr:CRB9711951C0928E34 ;
+        :hasTitle           bdr:TTC0F3A243D51AF5E6 ;
+        :inRootInstance     bdr:MW23937 ;
+        :legacyOutlineNodeRID  "O2DB954071PD108399" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW23937 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23937_583E0B
+        a                   :Instance ;
+        skos:prefLabel      "mgo brjod/"@bo-x-ewts ;
+        :contentLocation    bdr:CL852361E149762619 ;
+        :contentLocationStatement  "p. i-vi" ;
+        :hasTitle           bdr:TT2FC42D610754AFFB , bdr:TT57256C8F6C48800F ;
+        :inRootInstance     bdr:MW23937 ;
+        :legacyOutlineNodeRID  "O2DB954071PD108396" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW23937 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23937_6B466F
+        a                   :Instance ;
+        skos:prefLabel      "rje rin po che'i rnam thar nor bu'i bang mdzod/"@bo-x-ewts ;
+        :contentLocation    bdr:CLFA86D7A4A589A55F ;
+        :contentLocationStatement  "pp. 1 (1st group)" ;
+        :hasTitle           bdr:TT11F827E0757293B6 , bdr:TT6C7974232D911B61 , bdr:TT9CEF9FF413EFD68D ;
+        :inRootInstance     bdr:MW23937 ;
+        :instanceOf         bdr:WA0XL6B466FF098FB ;
+        :legacyOutlineNodeRID  "O2DB954071PD108397" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW23937 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23937_7416CA
+        a                   :Instance ;
+        skos:prefLabel      "rje rin po che'i rnam thar gser gyi mchod sdong /"@bo-x-ewts ;
+        :contentLocation    bdr:CL2979E539AD091165 ;
+        :contentLocationStatement  "pp. 14" ;
+        :hasTitle           bdr:TT217582B61C057B0F , bdr:TT6D4EA840F03D267D , bdr:TTBF42B917DE205DF9 ;
+        :inRootInstance     bdr:MW23937 ;
+        :instanceOf         bdr:WA0XL7416CA00FF34 ;
+        :legacyOutlineNodeRID  "O2DB954071PD108398" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW23937 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O2DB95407  a        :Outline ;
+        :authorshipStatement  "bumu dega; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O2DB95407" ;
+        :outlineOf          bdr:MW23937 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT11F827E0757293B6
+        a                   :OtherTitle ;
+        rdfs:label          "rje tsong kha pa'i rnam thar nor bu'i bang mdzod/"@bo-x-ewts .
+    
+    bdr:TT217582B61C057B0F
+        a                   :TitlePageTitle ;
+        rdfs:label          "zang zang ne rings pa 'chi med rab rgyas kyis mdzad pa'i rje tsong kha pa'i rnam thar gser gyi mchod sdong /"@bo-x-ewts .
+    
+    bdr:TT2FC42D610754AFFB
+        a                   :Title ;
+        rdfs:label          "mgo brjod/"@bo-x-ewts .
+    
+    bdr:TT57256C8F6C48800F
+        a                   :TitlePageTitle ;
+        rdfs:label          "ka"@bo-x-ewts .
+    
+    bdr:TT6C7974232D911B61
+        a                   :Title ;
+        rdfs:label          "rje rin po che'i rnam thar nor bu'i bang mdzod/"@bo-x-ewts .
+    
+    bdr:TT6D4EA840F03D267D
+        a                   :Title ;
+        rdfs:label          "rje rin po che'i rnam thar gser gyi mchod sdong /"@bo-x-ewts .
+    
+    bdr:TT9CEF9FF413EFD68D
+        a                   :TitlePageTitle ;
+        rdfs:label          "rje rin po che la mkhas btsun bzang gsum gyi yon tan mnga' tshul rnam thar nor bu'i bang mdzod/"@bo-x-ewts .
+    
+    bdr:TTBF42B917DE205DF9
+        a                   :OtherTitle ;
+        rdfs:label          "rje tsong kha pa'i rnam thar gser gyi mchod sdong /"@bo-x-ewts .
+    
+    bdr:TTC0F3A243D51AF5E6
+        a                   :Title ;
+        rdfs:label          "ne rings pa'i gsung thor bu nang brnyed phyogs gcig tu bsdus pa/"@bo-x-ewts .
+}

@@ -1,0 +1,170 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS58442 {
+    bda:LG31F1E535B15FDDA5
+        a                   adm:InitialDataImport ;
+        adm:logAgent        "Convert2Outline version 1.4.2" ;
+        adm:logDate         "2012-04-03T16:28:57.751Z"^^xsd:dateTime ;
+        adm:logWhoStr       "Tserings Wangdag and Dhondup" .
+    
+    bda:LG9F2A93DBA265FBEE
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-04-10T11:36:04.157Z"^^xsd:dateTime ;
+        adm:logMessage      "Reviewed and released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1GS58442  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS58442 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "28/O1GS58442.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS58442 ;
+        adm:logEntry        bda:LG31F1E535B15FDDA5 , bda:LG9F2A93DBA265FBEE ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL64389EDFC3198017
+        a                   :ContentLocation ;
+        :contentLocationEndPage  174 ;
+        :contentLocationInstance  bdr:W1GS58442 ;
+        :contentLocationPage  167 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLBE05E94D57AAB95B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  316 ;
+        :contentLocationInstance  bdr:W1GS58442 ;
+        :contentLocationPage  291 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLDDDA1CD52EC2E663
+        a                   :ContentLocation ;
+        :contentLocationEndPage  166 ;
+        :contentLocationInstance  bdr:W1GS58442 ;
+        :contentLocationPage  13 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLE4B0783C1ED7D101
+        a                   :ContentLocation ;
+        :contentLocationEndPage  246 ;
+        :contentLocationInstance  bdr:W1GS58442 ;
+        :contentLocationPage  175 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLECDCB17649BAD27E
+        a                   :ContentLocation ;
+        :contentLocationEndPage  290 ;
+        :contentLocationInstance  bdr:W1GS58442 ;
+        :contentLocationPage  247 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW1GS58442  :hasPart  bdr:MW1GS58442_466299 , bdr:MW1GS58442_A3E976 , bdr:MW1GS58442_DC59B8 , bdr:MW1GS58442_F5DCD8 , bdr:MW1GS58442_FCD0BE .
+    
+    bdr:MW1GS58442_466299
+        a                   :Instance ;
+        skos:prefLabel      "dri ba rnam par rgyal ba'i khang bzang gi dris lan lha'i dbang po brgya byin gyi skyo bsangs rtse dga'i rol mo/"@bo-x-ewts ;
+        :contentLocation    bdr:CLE4B0783C1ED7D101 ;
+        :contentLocationStatement  "pp. 163-234" ;
+        :hasTitle           bdr:TT0E1CD57E9FA38102 ;
+        :inRootInstance     bdr:MW1GS58442 ;
+        :instanceOf         bdr:WA0XL46629957D68E ;
+        :legacyOutlineNodeRID  "O1GS58442C2O0004" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1GS58442 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1GS58442_A3E976
+        a                   :Instance ;
+        skos:prefLabel      "chos kyi dri ba rnam par rgyal ba'i khang bzang /"@bo-x-ewts ;
+        :contentLocation    bdr:CL64389EDFC3198017 ;
+        :contentLocationStatement  "pp. 155-162" ;
+        :hasTitle           bdr:TT93E32FD5E112EB97 ;
+        :inRootInstance     bdr:MW1GS58442 ;
+        :instanceOf         bdr:WA0XLA3E976A68C2B ;
+        :legacyOutlineNodeRID  "O1GS58442C2O0003" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1GS58442 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1GS58442_DC59B8
+        a                   :Instance ;
+        skos:prefLabel      "theg pa'i rnam par 'byed pa dri med shel gyi mchod sdong rin chen sil ma/"@bo-x-ewts ;
+        :contentLocation    bdr:CLBE05E94D57AAB95B ;
+        :contentLocationStatement  "pp. 279-304" ;
+        :hasTitle           bdr:TTD66DC43DB623CB05 ;
+        :inRootInstance     bdr:MW1GS58442 ;
+        :instanceOf         bdr:WA0XLDC59B8E173C7 ;
+        :legacyOutlineNodeRID  "O1GS58442C2O0006" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW1GS58442 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1GS58442_F5DCD8
+        a                   :Instance ;
+        skos:prefLabel      "gu ru rat+na gling pa'i gter 'byung chen mo gsal ba'i sgron me/"@bo-x-ewts ;
+        :contentLocation    bdr:CLDDDA1CD52EC2E663 ;
+        :contentLocationStatement  "pp. 1-154" ;
+        :hasTitle           bdr:TTB4E7F317E7074723 ;
+        :inRootInstance     bdr:MW1GS58442 ;
+        :instanceOf         bdr:WA0XLF5DCD828561C ;
+        :legacyOutlineNodeRID  "O1GS58442C2O0002" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1GS58442 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1GS58442_FCD0BE
+        a                   :Instance ;
+        skos:prefLabel      "dri ba rnam par rgyal ba'i khang bzang gi dris lan gyi yang lan don gsal nyi ma'i 'od zer/"@bo-x-ewts ;
+        :contentLocation    bdr:CLECDCB17649BAD27E ;
+        :contentLocationStatement  "pp. 235-278" ;
+        :hasTitle           bdr:TTFF1576F6289995BD ;
+        :inRootInstance     bdr:MW1GS58442 ;
+        :instanceOf         bdr:WA0XLFCD0BE88654D ;
+        :legacyOutlineNodeRID  "O1GS58442C2O0005" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1GS58442 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS58442  a        :Outline ;
+        :authorshipStatement  "Tserings Wangdag and Dhondup via TBRC Convert2Outline version: 1.4.2"@en ;
+        :legacyOutlineNodeRID  "O1GS58442" ;
+        :outlineOf          bdr:MW1GS58442 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT0E1CD57E9FA38102
+        a                   :Title ;
+        rdfs:label          "dri ba rnam par rgyal ba'i khang bzang gi dris lan lha'i dbang po brgya byin gyi skyo bsangs rtse dga'i rol mo/"@bo-x-ewts .
+    
+    bdr:TT93E32FD5E112EB97
+        a                   :Title ;
+        rdfs:label          "chos kyi dri ba rnam par rgyal ba'i khang bzang /"@bo-x-ewts .
+    
+    bdr:TTB4E7F317E7074723
+        a                   :Title ;
+        rdfs:label          "gu ru rat+na gling pa'i gter 'byung chen mo gsal ba'i sgron me/"@bo-x-ewts .
+    
+    bdr:TTD66DC43DB623CB05
+        a                   :Title ;
+        rdfs:label          "theg pa'i rnam par 'byed pa dri med shel gyi mchod sdong rin chen sil ma/"@bo-x-ewts .
+    
+    bdr:TTFF1576F6289995BD
+        a                   :Title ;
+        rdfs:label          "dri ba rnam par rgyal ba'i khang bzang gi dris lan gyi yang lan don gsal nyi ma'i 'od zer/"@bo-x-ewts .
+}

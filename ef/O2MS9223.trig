@@ -1,0 +1,318 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O2MS9223 {
+    bda:LG72B245359F0195E9
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-01-05T15:33:57.211Z"^^xsd:dateTime ;
+        adm:logMessage      "made individual outline"@en ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:LG79639D97537961CF
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-01-06T16:42:32.254Z"^^xsd:dateTime ;
+        adm:logMessage      "edited title and creator"@en ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:O2MS9223  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O2MS9223 ;
+        adm:facetIndex      27 ;
+        adm:gitPath         "ef/O2MS9223.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O2MS9223 ;
+        adm:logEntry        bda:LG72B245359F0195E9 , bda:LG79639D97537961CF ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL149189C7D1B69505
+        a                   :ContentLocation ;
+        :contentLocationEndPage  395 ;
+        :contentLocationInstance  bdr:W24767 ;
+        :contentLocationPage  191 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL28DAB5B10618AA5D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  529 ;
+        :contentLocationInstance  bdr:W24767 ;
+        :contentLocationPage  397 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL2A10DAF795A09145
+        a                   :ContentLocation ;
+        :contentLocationEndPage  491 ;
+        :contentLocationInstance  bdr:W24767 ;
+        :contentLocationPage  149 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CL396ED538CA04652A
+        a                   :ContentLocation ;
+        :contentLocationEndPage  159 ;
+        :contentLocationInstance  bdr:W24767 ;
+        :contentLocationPage  1 ;
+        :contentLocationVolume  3 .
+    
+    bdr:CL7DE6C3E20FC4C352
+        a                   :ContentLocation ;
+        :contentLocationEndPage  189 ;
+        :contentLocationInstance  bdr:W24767 ;
+        :contentLocationPage  1 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL81B03058C802B631
+        a                   :ContentLocation ;
+        :contentLocationEndPage  295 ;
+        :contentLocationInstance  bdr:W24767 ;
+        :contentLocationPage  161 ;
+        :contentLocationVolume  3 .
+    
+    bdr:CLDAB6A1AED2CE2F86
+        a                   :ContentLocation ;
+        :contentLocationEndPage  497 ;
+        :contentLocationInstance  bdr:W24767 ;
+        :contentLocationPage  297 ;
+        :contentLocationVolume  3 .
+    
+    bdr:CLE7AC0D12B20BED60
+        a                   :ContentLocation ;
+        :contentLocationEndPage  148 ;
+        :contentLocationInstance  bdr:W24767 ;
+        :contentLocationPage  1 ;
+        :contentLocationVolume  2 .
+    
+    bdr:MW24767  :hasPart   bdr:MW24767_160989 , bdr:MW24767_233455 , bdr:MW24767_E68008 .
+    
+    bdr:MW24767_009088
+        a                   :Instance ;
+        skos:prefLabel      "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la khams pa sga theng gis zhus pa/"@bo-x-ewts ;
+        :biblioNote         "(gzhung bshad sga theng ma)"@bo-x-ewts ;
+        :contentLocation    bdr:CL2A10DAF795A09145 ;
+        :contentLocationStatement  "v.29, ff. 1r-172r" ;
+        :hasTitle           bdr:TT0E6AD7E6CEC9857B , bdr:TT3148048585B59FDC ;
+        :inRootInstance     bdr:MW24767 ;
+        :instanceOf         bdr:WA0XL009088803BD5 ;
+        :legacyOutlineNodeRID  "O2MS92232MS9502" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW24767_E68008 ;
+        :partTreeIndex      "2.2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW24767_0E51B4
+        a                   :Instance ;
+        skos:prefLabel      "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la jo gdan ldan bu mas zhus pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLDAB6A1AED2CE2F86 ;
+        :contentLocationStatement  "v.30, ff. 1r-100r" ;
+        :hasTitle           bdr:TT48ACF5EC793049D5 , bdr:TTAF28C25418AA5A8A ;
+        :inRootInstance     bdr:MW24767 ;
+        :instanceOf         bdr:WA0XL0E51B4B541A3 ;
+        :legacyOutlineNodeRID  "O2MS92232MS9506" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW24767_233455 ;
+        :partTreeIndex      "3.3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW24767_0E5343
+        a                   :Instance ;
+        skos:prefLabel      "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la klog skya dbang phyug grags kyis zhus pa/"@bo-x-ewts ;
+        :biblioNote         "(gzhung bshad klog skya ma)"@bo-x-ewts ;
+        :contentLocation    bdr:CL149189C7D1B69505 ;
+        :contentLocationStatement  "v.28, ff. 1r-103r" ;
+        :hasTitle           bdr:TT442C73A8A0FFBA7D , bdr:TTF278AE14C4365016 ;
+        :inRootInstance     bdr:MW24767 ;
+        :instanceOf         bdr:WA0XL8C9AB000F0F3 ;
+        :legacyOutlineNodeRID  "O2MS92232MS9498" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW24767_160989 ;
+        :partTreeIndex      "1.2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW24767_160989
+        a                   :Instance ;
+        skos:prefLabel      "Volume 28"@en ;
+        :biblioNote         "sa skya lam 'bras literaturate series: volume 28. volume 1 in printing lam 'bras gzhung rdo rje'i tshig rkang gi rnam 'grel bcu gcig, the eight commentaries on the rdo rje'i tshig rkang, the root text of the lam 'bras cycle of practice, of Virūpa were written by the great master, sa chen kun dga' snying po at the beest of eleven students whose names they bear. three of the eleven commentaries have been published elsewhere in the sa skya lam 'bras literature series and not repeated here. the first volume contains: 1) the zhu byas ma, written for zhu byas dngos grub, the guru of 'gro mgon zhan rin po che; 2) the klog skya ma, composed at the behest of klog skya of gtsang; 3) the zla rgyal ma, written for mnga' ris pa byang sems zla ba rgyal mtshan"@en ;
+        :hasPart            bdr:MW24767_0E5343 , bdr:MW24767_4CB24D , bdr:MW24767_B381D7 ;
+        :inRootInstance     bdr:MW24767 ;
+        :legacyOutlineNodeRID  "O2MS92232MS9496" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW24767 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW24767_233455
+        a                   :Instance ;
+        skos:prefLabel      "Volume 30"@en ;
+        :biblioNote         "sa skya lam 'bras literaturate series: volume 30. volume 3 in printing 'bras gzhung rdo rje'i tshig rkang gi rnam 'grel bcu gcig, the third volume begins with 1) the yum don ma, written for his own mother, ma gcig zhang mo. this is followed by the 2) 'A 'u ma, written at the behest of G'ya' lung jo mo, and 3) the jo gdan ldan bu ma, composed at the request of jo gdan ldan bu. the remaining three of the eleven rnam 'grel, i.e. the skya ra A seng ma, the sras don ma, and the Gñags ma (written for dge bshes gnyan gnyags dabang rgyal) are available elsewhere in the series."@en ;
+        :hasPart            bdr:MW24767_0E51B4 , bdr:MW24767_7F1CA8 , bdr:MW24767_E52BC2 ;
+        :inRootInstance     bdr:MW24767 ;
+        :legacyOutlineNodeRID  "O2MS92232MS9503" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW24767 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW24767_3A7CAE
+        a                   :Instance ;
+        skos:prefLabel      "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la bande gshen rje mas zhus pa/"@bo-x-ewts ;
+        :biblioNote         "(gzhung bshad bande ma)"@en ;
+        :contentLocation    bdr:CLE7AC0D12B20BED60 ;
+        :contentLocationStatement  "v.29, ff. 1r-74v" ;
+        :hasTitle           bdr:TT581A46F767D50053 , bdr:TTA89850E8ACC23B52 ;
+        :inRootInstance     bdr:MW24767 ;
+        :instanceOf         bdr:WA0XL3A7CAE79157D ;
+        :legacyOutlineNodeRID  "O2MS92232MS9501" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW24767_E68008 ;
+        :partTreeIndex      "2.1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW24767_4CB24D
+        a                   :Instance ;
+        skos:prefLabel      "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la byang chub sems dpa' zla ba rgyal mtshan gyis zhus pa/"@bo-x-ewts ;
+        :biblioNote         "(gzhung bshad zla rgyanl ma)"@en ;
+        :contentLocation    bdr:CL28DAB5B10618AA5D ;
+        :contentLocationStatement  "v.28, ff. 1r-67r" ;
+        :hasTitle           bdr:TT36048E7918E89416 , bdr:TTABC0A779A0F47256 ;
+        :inRootInstance     bdr:MW24767 ;
+        :instanceOf         bdr:WA0XL4CB24DD2C65F ;
+        :legacyOutlineNodeRID  "O2MS92232MS9499" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW24767_160989 ;
+        :partTreeIndex      "1.3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW24767_7F1CA8
+        a                   :Instance ;
+        skos:prefLabel      "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la jo mo 'a 'u mas zhus pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL81B03058C802B631 ;
+        :contentLocationStatement  "v.30, ff. 1r-68r" ;
+        :hasTitle           bdr:TT77002197629392EC , bdr:TTE266AA85FE75DADB ;
+        :inRootInstance     bdr:MW24767 ;
+        :instanceOf         bdr:WA0XLC4FF71AD0CDA ;
+        :legacyOutlineNodeRID  "O2MS92232MS9505" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW24767_233455 ;
+        :partTreeIndex      "3.2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW24767_B381D7
+        a                   :Instance ;
+        skos:prefLabel      "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor gyi dbang phyug dpal sa skya pa chen po la zhu byas dngos grub kyis zhus pa/"@bo-x-ewts ;
+        :biblioNote         "(gzhung bshad zhu byas ma)"@bo-x-ewts ;
+        :contentLocation    bdr:CL7DE6C3E20FC4C352 ;
+        :contentLocationStatement  "v.28, ff. 1r-95r" ;
+        :hasTitle           bdr:TTC193A2A042A4AB5D , bdr:TTEE788AB054F98B25 ;
+        :inRootInstance     bdr:MW24767 ;
+        :instanceOf         bdr:WA0XLB381D7556271 ;
+        :legacyOutlineNodeRID  "O2MS92232MS9497" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW24767_160989 ;
+        :partTreeIndex      "1.1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW24767_E52BC2
+        a                   :Instance ;
+        skos:prefLabel      "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen pos yum ma gcig zhang mo'i don du mdzad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL396ED538CA04652A ;
+        :contentLocationStatement  "v.30, ff. 1r-80r" ;
+        :hasTitle           bdr:TTCA6AA902071F540D , bdr:TTE3EAF5DFE971A022 ;
+        :inRootInstance     bdr:MW24767 ;
+        :instanceOf         bdr:WA0XLE52BC2EA052F ;
+        :legacyOutlineNodeRID  "O2MS92232MS9504" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW24767_233455 ;
+        :partTreeIndex      "3.1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW24767_E68008
+        a                   :Instance ;
+        skos:prefLabel      "Volume 29"@en ;
+        :biblioNote         "sa skya lam 'bras literaturate series: volume 29. volume 2 in printing 'bras gzhung rdo rje'i tshig rkang gi rnam 'grel bcu gcig, the second volume begins with 1) the Bande gśin rje ma, written at the behest of sngags pa bande gśin rje grags of Ṅam śod, and concludes 2) with the sga theng ma, composed for sga theng of Khams."@en ;
+        :hasPart            bdr:MW24767_009088 , bdr:MW24767_3A7CAE ;
+        :inRootInstance     bdr:MW24767 ;
+        :legacyOutlineNodeRID  "O2MS92232MS9500" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW24767 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:O2MS9223  a         :Outline ;
+        :authorshipStatement  "urgyen urgyen. published by michael sheehy."@en ;
+        :legacyOutlineNodeRID  "O2MS9223" ;
+        :outlineOf          bdr:MW24767 ;
+        :outlineType        bdr:OutlineTypeCompositeVolume ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT0E6AD7E6CEC9857B
+        a                   :TitlePageTitle ;
+        rdfs:label          "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la khams pa sga theng gis zhus pa/"@bo-x-ewts .
+    
+    bdr:TT3148048585B59FDC
+        a                   :Title ;
+        rdfs:label          "rdor rje tshig rkang gi 'grel pa khams pa sga theng gis zhus pa/"@bo-x-ewts .
+    
+    bdr:TT36048E7918E89416
+        a                   :Title ;
+        rdfs:label          "rdor rje tshig rkang gi 'grel pa byang chub sems dpa' zla ba rgyal mtshan gyis zhus pa/"@bo-x-ewts .
+    
+    bdr:TT442C73A8A0FFBA7D
+        a                   :TitlePageTitle ;
+        rdfs:label          "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la klog skya dbang phyug grags kyis zhus pa/"@bo-x-ewts .
+    
+    bdr:TT48ACF5EC793049D5
+        a                   :Title ;
+        rdfs:label          "rdor rje tshig rkang gi 'grel pa jo gdan ldan bu mas zhus pa/"@bo-x-ewts .
+    
+    bdr:TT581A46F767D50053
+        a                   :Title ;
+        rdfs:label          "rdor rje tshig rkang gi 'grel pa bande gshen rje mas zhus pa/"@bo-x-ewts .
+    
+    bdr:TT77002197629392EC
+        a                   :Title ;
+        rdfs:label          "rdor rje tshig rkang gi 'grel pa jo mo 'a 'u mas zhus pa/"@bo-x-ewts .
+    
+    bdr:TTA89850E8ACC23B52
+        a                   :TitlePageTitle ;
+        rdfs:label          "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la bande gshen rje mas zhus pa/"@bo-x-ewts .
+    
+    bdr:TTABC0A779A0F47256
+        a                   :TitlePageTitle ;
+        rdfs:label          "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la byang chub sems dpa' zla ba rgyal mtshan gyis zhus pa/"@bo-x-ewts .
+    
+    bdr:TTAF28C25418AA5A8A
+        a                   :TitlePageTitle ;
+        rdfs:label          "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la jo gdan ldan bu mas zhus pa/"@bo-x-ewts .
+    
+    bdr:TTC193A2A042A4AB5D
+        a                   :TitlePageTitle ;
+        rdfs:label          "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor gyi dbang phyug dpal sa skya pa chen po la zhu byas dngos grub kyis zhus pa/"@bo-x-ewts .
+    
+    bdr:TTCA6AA902071F540D
+        a                   :Title ;
+        rdfs:label          "rdor rje tshig rkang gi 'grel pa yum ma gcig zhang mo'i don du mdzad pa/"@bo-x-ewts .
+    
+    bdr:TTE266AA85FE75DADB
+        a                   :TitlePageTitle ;
+        rdfs:label          "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen po la jo mo 'a 'u mas zhus pa/"@bo-x-ewts .
+    
+    bdr:TTE3EAF5DFE971A022
+        a                   :TitlePageTitle ;
+        rdfs:label          "gzhung rdo rje'i tshig rkang gi 'grel pa rnal 'byor dbang phyug dpal sa skya pa chen pos yum ma gcig zhang mo'i don du mdzad pa/"@bo-x-ewts .
+    
+    bdr:TTEE788AB054F98B25
+        a                   :Title ;
+        rdfs:label          "rdor rje tshig rkang gi 'grel pa zhu byas dngos grub kyis zhus pa/"@bo-x-ewts .
+    
+    bdr:TTF278AE14C4365016
+        a                   :Title ;
+        rdfs:label          "rdor rje tshig rkang gi 'grel pa klog skya dbang phyug grags kyis zhus pa/"@bo-x-ewts .
+}

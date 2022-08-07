@@ -1,0 +1,43 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS48849 {
+    bda:LG319AA69B1811A74D
+        a                   adm:WithdrawData ;
+        adm:logDate         "2007-06-19T12:40:46.831Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawn"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LG8C975F91BCB97BAA
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-12-09T14:53:44.685Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrew outline, duplicated on site"@en ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:O1GS48849  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS48849 ;
+        adm:facetIndex      3 ;
+        adm:gitPath         "b6/O1GS48849.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS48849 ;
+        adm:logEntry        bda:LG319AA69B1811A74D , bda:LG8C975F91BCB97BAA ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:O1GS48849  a        :Outline ;
+        :authorshipStatement  "Gene Smith"@en ;
+        :legacyOutlineNodeRID  "O1GS48849" ;
+        :outlineOf          bdr:MW00KG01520 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+}

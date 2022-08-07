@@ -1,0 +1,120 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD181152 {
+    bda:LG3A32B86E9D35C4F5
+        a                   adm:InitialDataImport ;
+        adm:logAgent        "Convert2Outline version 1.5.5" ;
+        adm:logDate         "2015-02-02T11:12:44.746Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00051 .
+    
+    bda:LGD9A2CE0FCF6FB203
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-02-02T13:40:53.786Z"^^xsd:dateTime ;
+        adm:logMessage      "reviewed and released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD181152  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD181152 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "6f/O1PD181152.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD181152 ;
+        adm:logEntry        bda:LG3A32B86E9D35C4F5 , bda:LGD9A2CE0FCF6FB203 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL2571B8A32CEBE98B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  28 ;
+        :contentLocationInstance  bdr:W1PD181152 ;
+        :contentLocationPage  17 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLC46875B1054F04D4
+        a                   :ContentLocation ;
+        :contentLocationEndPage  16 ;
+        :contentLocationInstance  bdr:W1PD181152 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLDDDA42B810AF8940
+        a                   :ContentLocation ;
+        :contentLocationEndPage  40 ;
+        :contentLocationInstance  bdr:W1PD181152 ;
+        :contentLocationPage  29 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW1PD181152  :hasPart  bdr:MW1PD181152_45859B , bdr:MW1PD181152_8F4436 , bdr:MW1PD181152_9434AA .
+    
+    bdr:MW1PD181152_45859B
+        a                   :Instance ;
+        skos:prefLabel      "zhi khro na rag dong sprugs mchog gi sbyin bsregs phan bde rab gsal/"@bo-x-ewts ;
+        :contentLocation    bdr:CLDDDA42B810AF8940 ;
+        :contentLocationStatement  "6 ff. (pp. 27-38)" ;
+        :hasTitle           bdr:TT3690E4B2FC687C9A ;
+        :inRootInstance     bdr:MW1PD181152 ;
+        :instanceOf         bdr:WA0XL45859BEB20F7 ;
+        :legacyOutlineNodeRID  "O1PD181152C2O0005" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1PD181152 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD181152_8F4436
+        a                   :Instance ;
+        skos:prefLabel      "zhi khro'i sgrub khog"@bo-x-ewts ;
+        :contentLocation    bdr:CLC46875B1054F04D4 ;
+        :contentLocationStatement  "7 ff. (pp. 1-14)" ;
+        :hasTitle           bdr:TTE0DBFDBFB516CA88 ;
+        :inRootInstance     bdr:MW1PD181152 ;
+        :instanceOf         bdr:WA0XL8F4436C02F73 ;
+        :legacyOutlineNodeRID  "O1PD181152C2O0003" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1PD181152 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD181152_9434AA
+        a                   :Instance ;
+        skos:prefLabel      "bdag 'jug dri med shel phreng /"@bo-x-ewts ;
+        :contentLocation    bdr:CL2571B8A32CEBE98B ;
+        :contentLocationStatement  "6 ff. (pp. 15-26)" ;
+        :hasTitle           bdr:TT1E6B17BD37F712BC ;
+        :inRootInstance     bdr:MW1PD181152 ;
+        :instanceOf         bdr:WA0XL9434AA752493 ;
+        :legacyOutlineNodeRID  "O1PD181152C2O0004" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1PD181152 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1PD181152  a       :Outline ;
+        :authorshipStatement  "chengdu via TBRC Convert2Outline version: 1.5.5"@en ;
+        :legacyOutlineNodeRID  "O1PD181152" ;
+        :outlineOf          bdr:MW1PD181152 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT1E6B17BD37F712BC
+        a                   :Title ;
+        rdfs:label          "bdag 'jug dri med shel phreng /"@bo-x-ewts .
+    
+    bdr:TT3690E4B2FC687C9A
+        a                   :Title ;
+        rdfs:label          "zhi khro na rag dong sprugs mchog gi sbyin bsregs phan bde rab gsal/"@bo-x-ewts .
+    
+    bdr:TTE0DBFDBFB516CA88
+        a                   :Title ;
+        rdfs:label          "zhi khro'i sgrub khog"@bo-x-ewts .
+}

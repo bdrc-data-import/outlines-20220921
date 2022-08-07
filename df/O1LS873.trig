@@ -1,0 +1,162 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1LS873 {
+    bda:LG0C68418298D18E69
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-08-27T12:11:34.36Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG24889462604B74DF
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-08-27T14:57:16.544Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG9FD08729B354ED3B
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-10-09T11:11:10.994Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LGC12EE665B7828BDA
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-11-11T11:25:09.57Z"^^xsd:dateTime ;
+        adm:logMessage      "released"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:LGD0E6D21CFCA0C038
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-08-27T09:22:21.734Z"^^xsd:dateTime ;
+        adm:logMessage      "Reviewed and released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1LS873  a          adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1LS873 ;
+        adm:facetIndex      14 ;
+        adm:gitPath         "df/O1LS873.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1LS873 ;
+        adm:logEntry        bda:LG0C68418298D18E69 , bda:LG24889462604B74DF , bda:LG9FD08729B354ED3B , bda:LGC12EE665B7828BDA , bda:LGD0E6D21CFCA0C038 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL705A6D8D5D9F989B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  32 ;
+        :contentLocationInstance  bdr:W29550 ;
+        :contentLocationPage  28 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLA51622E0E0272F55
+        a                   :ContentLocation ;
+        :contentLocationEndPage  28 ;
+        :contentLocationInstance  bdr:W29550 ;
+        :contentLocationPage  25 .
+    
+    bdr:CLC24DF9B72ACAC175
+        a                   :ContentLocation ;
+        :contentLocationEndPage  25 ;
+        :contentLocationInstance  bdr:W29550 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLCBF6D7D573AC17D4
+        a                   :ContentLocation ;
+        :contentLocationEndPage  36 ;
+        :contentLocationInstance  bdr:W29550 ;
+        :contentLocationPage  32 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW29550  :hasPart   bdr:MW29550_2BF122 , bdr:MW29550_6F31AE , bdr:MW29550_7C2DD3 , bdr:MW29550_E00123 .
+    
+    bdr:MW29550_2BF122
+        a                   :Instance ;
+        skos:prefLabel      "bdag nyid chen po skyes mchog po to ba'i tshig lab ring mo/"@bo-x-ewts ;
+        :contentLocation    bdr:CLC24DF9B72ACAC175 ;
+        :contentLocationStatement  "ff. 1r-12r (pp. 1-23)" ;
+        :hasTitle           bdr:TT98BFDDBD8DB8D26D ;
+        :inRootInstance     bdr:MW29550 ;
+        :instanceOf         bdr:WA0XL2BF122EEBE08 ;
+        :legacyOutlineNodeRID  "O1LS8731PD137660" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW29550 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW29550_6F31AE
+        a                   :Instance ;
+        skos:prefLabel      "dge ba'i bshes gnyen chen po po to ba'i gnas thig spring yig"@bo-x-ewts ;
+        :colophon           "ces pa 'di yang / dge ba'i bshes gnyen chen po po to ba'i gnas thig spring yig go"@bo-x-ewts ;
+        :contentLocation    bdr:CL705A6D8D5D9F989B ;
+        :contentLocationStatement  "ff. 13v-15v (pp.26-32)" ;
+        :hasTitle           bdr:TT7329A89FF5CFE7E0 ;
+        :inRootInstance     bdr:MW29550 ;
+        :instanceOf         bdr:WA0XL6F31AE0FF285 ;
+        :legacyOutlineNodeRID  "O1LS8731PD137662" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW29550 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW29550_7C2DD3
+        a                   :Instance ;
+        skos:prefLabel      "dge ba'i bshes gnyen chen po po to ba'i gnam thig spring yig"@bo-x-ewts ;
+        :colophon           "dge ba'i bshes gnyen chen po po to ba'i gnam thig spring yig go"@bo-x-ewts ;
+        :contentLocation    bdr:CLA51622E0E0272F55 ;
+        :contentLocationStatement  "ff. 12r-13v (pp.23-26)" ;
+        :hasTitle           bdr:TT3DC56E5E669017BD ;
+        :inRootInstance     bdr:MW29550 ;
+        :instanceOf         bdr:WA0XL7C2DD3EB2A35 ;
+        :legacyOutlineNodeRID  "O1LS8731PD137664" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW29550 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW29550_E00123
+        a                   :Instance ;
+        skos:prefLabel      "byang chub 'od kyi zhal gdams/"@bo-x-ewts ;
+        :colophon           "zhes pa bla ma chen po byang chub 'od kyi gsung dri ma med pa'o"@bo-x-ewts ;
+        :contentLocation    bdr:CLCBF6D7D573AC17D4 ;
+        :contentLocationStatement  "ff. 15v-17r (pp. 32-33)" ;
+        :hasTitle           bdr:TT35479A319CBB5B90 ;
+        :inRootInstance     bdr:MW29550 ;
+        :instanceOf         bdr:WA0XLE00123954A2B ;
+        :legacyOutlineNodeRID  "O1LS8731PD137663" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW29550 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1LS873  a          :Outline ;
+        :authorshipStatement  "Lobsang Shastri : created with the generous support of Dzongsar Khyentse Foundation"@en ;
+        :legacyOutlineNodeRID  "O1LS873" ;
+        :outlineOf          bdr:MW29550 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT35479A319CBB5B90
+        a                   :Title ;
+        rdfs:label          "byang chub 'od kyi zhal gdams/"@bo-x-ewts .
+    
+    bdr:TT3DC56E5E669017BD
+        a                   :Title ;
+        rdfs:label          "dge ba'i bshes gnyen chen po po to ba'i gnam thig spring yig"@bo-x-ewts .
+    
+    bdr:TT7329A89FF5CFE7E0
+        a                   :Title ;
+        rdfs:label          "dge ba'i bshes gnyen chen po po to ba'i gnas thig spring yig"@bo-x-ewts .
+    
+    bdr:TT98BFDDBD8DB8D26D
+        a                   :Title ;
+        rdfs:label          "bdag nyid chen po skyes mchog po to ba'i tshig lab ring mo/"@bo-x-ewts .
+}

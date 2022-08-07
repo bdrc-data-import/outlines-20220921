@@ -1,0 +1,146 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS133702 {
+    bda:LG94945121F9A93FE7
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2008-11-07T15:29:31.07Z"^^xsd:dateTime ;
+        adm:logMessage      "outline completed"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGF4C7E1061C91AA31
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-11-13T09:38:22.239Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:O1GS133702  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS133702 ;
+        adm:facetIndex      12 ;
+        adm:gitPath         "30/O1GS133702.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS133702 ;
+        adm:logEntry        bda:LG94945121F9A93FE7 , bda:LGF4C7E1061C91AA31 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL24D32A34865C38CC
+        a                   :ContentLocation ;
+        :contentLocationEndPage  88 ;
+        :contentLocationInstance  bdr:W25272 ;
+        :contentLocationPage  9 .
+    
+    bdr:CL506C81C6A76AF24B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  298 ;
+        :contentLocationInstance  bdr:W25272 ;
+        :contentLocationPage  89 .
+    
+    bdr:CLBD62E828F7EED8D2
+        a                   :ContentLocation ;
+        :contentLocationEndPage  8 ;
+        :contentLocationInstance  bdr:W25272 ;
+        :contentLocationPage  5 .
+    
+    bdr:CLE1DCE3985FBCEF08
+        a                   :ContentLocation ;
+        :contentLocationEndPage  362 ;
+        :contentLocationInstance  bdr:W25272 ;
+        :contentLocationPage  299 .
+    
+    bdr:MW25272  :hasPart   bdr:MW25272_3D6C76 , bdr:MW25272_B29540 , bdr:MW25272_BFCE05 , bdr:MW25272_EC76CA .
+    
+    bdr:MW25272_3D6C76
+        a                   :Instance ;
+        skos:prefLabel      "rig 'dzin gar dbang rdo rje'i sku bstod byin rlabs kyi sprin phung (oM)"@bo-x-ewts ;
+        :contentLocation    bdr:CLBD62E828F7EED8D2 ;
+        :contentLocationStatement  "2 ff. (pp. 1-4)" ;
+        :hasTitle           bdr:TT22E414B4719FCB61 ;
+        :inRootInstance     bdr:MW25272 ;
+        :instanceOf         bdr:WA0XL3D6C76798B18 ;
+        :legacyOutlineNodeRID  "O1GS1337021GS133703" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW25272 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW25272_B29540
+        a                   :Instance ;
+        skos:prefLabel      "pad+ma'i mchog sprul rig 'dzin gar dbang rdo rje'i thugs rnam par mi rtog pa ye shes chen po'i rnam rol dag snang gi rim pa 'ga' re (sprul sku rig 'dzin chen po gar dbang rdo rje snying po'i gsang ba'i rnam thar gzigs snang gi rim pa) (hUM)"@bo-x-ewts ;
+        :contentLocation    bdr:CLE1DCE3985FBCEF08 ;
+        :contentLocationStatement  "32 ff. (pp. 295-358)" ;
+        :hasTitle           bdr:TTF38E2D599812F7E3 ;
+        :inRootInstance     bdr:MW25272 ;
+        :instanceOf         bdr:WA0XLB29540255E58 ;
+        :legacyOutlineNodeRID  "O1GS1337021GS133706" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW25272 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW25272_BFCE05
+        a                   :Instance ;
+        skos:prefLabel      "sprul sku rig 'dzin chen po gar dbang rdo rje snying po'i nang gi rnam thar nyams mgur gyi rim pa (A)"@bo-x-ewts ;
+        :contentLocation    bdr:CL506C81C6A76AF24B ;
+        :contentLocationStatement  "105 ff. (pp. 85-294)" ;
+        :hasTitle           bdr:TT2C1F61DDAEEB6B1C ;
+        :inRootInstance     bdr:MW25272 ;
+        :instanceOf         bdr:WA0XLBFCE05FF9AF3 ;
+        :legacyOutlineNodeRID  "O1GS1337021GS133705" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW25272 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW25272_EC76CA
+        a                   :Instance ;
+        skos:prefLabel      "sprul sku rig 'dzin chen po gar dbang rdo rje snying po'i phyi'i rnam par thar pa nges don rgya mtsho/"@bo-x-ewts ;
+        :authorshipStatement  "gar dbang rdo rje (signed snyoms las zla ming)"@en ;
+        :contentLocation    bdr:CL24D32A34865C38CC ;
+        :contentLocationStatement  "40 ff. (pp. 5-84)" ;
+        :hasTitle           bdr:TT6246EDB0A1DCDBC0 ;
+        :inRootInstance     bdr:MW25272 ;
+        :instanceOf         bdr:WA0XLEC76CABB1EEE ;
+        :legacyOutlineNodeRID  "O1GS1337021GS133704" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW25272 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:NT0F37FA8844E80C30
+        a                   :Note ;
+        :noteText           "this collection of autobiographical material was compiled in a wood cock year, probably 1705, by mdo sngags bstan 'dzin"@en .
+    
+    bdr:O1GS133702  a       :Outline ;
+        :authorshipStatement  "genesmith; outlined with the gracious support of the trace foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS133702" ;
+        :note               bdr:NT0F37FA8844E80C30 ;
+        :outlineOf          bdr:MW25272 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT22E414B4719FCB61
+        a                   :Title ;
+        rdfs:label          "rig 'dzin gar dbang rdo rje'i sku bstod byin rlabs kyi sprin phung (oM)"@bo-x-ewts .
+    
+    bdr:TT2C1F61DDAEEB6B1C
+        a                   :Title ;
+        rdfs:label          "sprul sku rig 'dzin chen po gar dbang rdo rje snying po'i nang gi rnam thar nyams mgur gyi rim pa (A)"@bo-x-ewts .
+    
+    bdr:TT6246EDB0A1DCDBC0
+        a                   :Title ;
+        rdfs:label          "sprul sku rig 'dzin chen po gar dbang rdo rje snying po'i phyi'i rnam par thar pa nges don rgya mtsho/"@bo-x-ewts .
+    
+    bdr:TTF38E2D599812F7E3
+        a                   :Title ;
+        rdfs:label          "pad+ma'i mchog sprul rig 'dzin gar dbang rdo rje'i thugs rnam par mi rtog pa ye shes chen po'i rnam rol dag snang gi rim pa 'ga' re (sprul sku rig 'dzin chen po gar dbang rdo rje snying po'i gsang ba'i rnam thar gzigs snang gi rim pa) (hUM)"@bo-x-ewts .
+}

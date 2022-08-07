@@ -1,0 +1,165 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS47460 {
+    bda:LG24773D228EEDD0CB
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2007-06-01T16:47:59.227Z"^^xsd:dateTime ;
+        adm:logMessage      "first published"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGE75AC5F839459726
+        a                   adm:WithdrawData ;
+        adm:logDate         "2009-02-05T22:46:58.307Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawn"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:O1GS47460  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS47460 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "d6/O1GS47460.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS47460 ;
+        adm:logEntry        bda:LG24773D228EEDD0CB , bda:LGE75AC5F839459726 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:CL316ED8A981A03D75
+        a                   :ContentLocation ;
+        :contentLocationEndPage  294 ;
+        :contentLocationInstance  bdr:W30450 ;
+        :contentLocationPage  111 .
+    
+    bdr:CL345175DAC2DA5A82
+        a                   :ContentLocation ;
+        :contentLocationEndPage  678 ;
+        :contentLocationInstance  bdr:W30450 ;
+        :contentLocationPage  539 .
+    
+    bdr:CL4A17DD7CA891D243
+        a                   :ContentLocation ;
+        :contentLocationEndPage  110 ;
+        :contentLocationInstance  bdr:W30450 ;
+        :contentLocationPage  7 .
+    
+    bdr:CL4B1F389C3C096D4C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  388 ;
+        :contentLocationInstance  bdr:W30450 ;
+        :contentLocationPage  295 .
+    
+    bdr:CLD4BAE4408799711A
+        a                   :ContentLocation ;
+        :contentLocationEndPage  538 ;
+        :contentLocationInstance  bdr:W30450 ;
+        :contentLocationPage  389 .
+    
+    bdr:MW30450  :hasPart   bdr:MW30450_0591FD , bdr:MW30450_1B6755 , bdr:MW30450_8F27E8 , bdr:MW30450_C0381F , bdr:MW30450_C5E731 .
+    
+    bdr:MW30450_0591FD
+        a                   :Instance ;
+        skos:prefLabel      "btsun mo bka'i thang yig"@bo-x-ewts ;
+        :contentLocation    bdr:CL4B1F389C3C096D4C ;
+        :contentLocationStatement  "47 ff." ;
+        :hasTitle           bdr:TT5A5441FD6A142B3B ;
+        :inRootInstance     bdr:MW30450 ;
+        :instanceOf         bdr:WA0XL0591FD9C90AF ;
+        :legacyOutlineNodeRID  "O1GS474601GS47463" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW30450 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30450_1B6755
+        a                   :Instance ;
+        skos:prefLabel      "blon po bka'i thang yig"@bo-x-ewts ;
+        :contentLocation    bdr:CL345175DAC2DA5A82 ;
+        :contentLocationStatement  "70 ff." ;
+        :hasTitle           bdr:TT2F3F8A6254F75446 ;
+        :inRootInstance     bdr:MW30450 ;
+        :instanceOf         bdr:WA0XL1B6755106969 ;
+        :legacyOutlineNodeRID  "O1GS474601GS47465" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW30450 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30450_8F27E8
+        a                   :Instance ;
+        skos:prefLabel      "lo paN bka'i thang yig"@bo-x-ewts ;
+        :contentLocation    bdr:CLD4BAE4408799711A ;
+        :contentLocationStatement  "75 ff." ;
+        :hasTitle           bdr:TT0B2C126406D64799 ;
+        :inRootInstance     bdr:MW30450 ;
+        :instanceOf         bdr:WA0XL8F27E80E66A8 ;
+        :legacyOutlineNodeRID  "O1GS474601GS47464" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW30450 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30450_C0381F
+        a                   :Instance ;
+        skos:prefLabel      "rgyal po bka'i thang yig"@bo-x-ewts ;
+        :contentLocation    bdr:CL316ED8A981A03D75 ;
+        :contentLocationStatement  "92 ff." ;
+        :hasTitle           bdr:TT8F442CFB521732E6 ;
+        :inRootInstance     bdr:MW30450 ;
+        :instanceOf         bdr:WA0XLC0381FC01FAF ;
+        :legacyOutlineNodeRID  "O1GS474601GS47462" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW30450 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30450_C5E731
+        a                   :Instance ;
+        skos:prefLabel      "lha 'dre bka'i thang yig"@bo-x-ewts ;
+        :contentLocation    bdr:CL4A17DD7CA891D243 ;
+        :contentLocationStatement  "62 ff." ;
+        :hasTitle           bdr:TT9AB61905EC7281C0 ;
+        :inRootInstance     bdr:MW30450 ;
+        :instanceOf         bdr:WA0XLC5E7312AC15C ;
+        :legacyOutlineNodeRID  "O1GS474601GS47461" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW30450 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS47460  a        :Outline ;
+        :authorshipStatement  "Gene Smith"@en ;
+        :legacyOutlineNodeRID  "O1GS47460" ;
+        :outlineOf          bdr:MW30450 ;
+        :outlineType        bdr:OutlineTypeCompositeVolume ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT0B2C126406D64799
+        a                   :Title ;
+        rdfs:label          "lo paN bka'i thang yig"@bo-x-ewts .
+    
+    bdr:TT2F3F8A6254F75446
+        a                   :Title ;
+        rdfs:label          "blon po bka'i thang yig"@bo-x-ewts .
+    
+    bdr:TT5A5441FD6A142B3B
+        a                   :Title ;
+        rdfs:label          "btsun mo bka'i thang yig"@bo-x-ewts .
+    
+    bdr:TT8F442CFB521732E6
+        a                   :Title ;
+        rdfs:label          "rgyal po bka'i thang yig"@bo-x-ewts .
+    
+    bdr:TT9AB61905EC7281C0
+        a                   :Title ;
+        rdfs:label          "lha 'dre bka'i thang yig"@bo-x-ewts .
+}

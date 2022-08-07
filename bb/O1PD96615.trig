@@ -1,0 +1,145 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD96615 {
+    bda:LG8E87858E610B6BAF
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-01-11T15:43:59.615Z"^^xsd:dateTime ;
+        adm:logMessage      "gsar du bcug"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD96615  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD96615 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "bb/O1PD96615.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD96615 ;
+        adm:logEntry        bda:LG8E87858E610B6BAF ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL1516C09176C1A1A6
+        a                   :ContentLocation ;
+        :contentLocationEndPage  621 ;
+        :contentLocationInstance  bdr:W21933 ;
+        :contentLocationPage  469 .
+    
+    bdr:CL522378F963379988
+        a                   :ContentLocation ;
+        :contentLocationEndPage  360 ;
+        :contentLocationInstance  bdr:W21933 ;
+        :contentLocationPage  13 .
+    
+    bdr:CL9486960800A75AE5
+        a                   :ContentLocation ;
+        :contentLocationEndPage  12 ;
+        :contentLocationInstance  bdr:W21933 ;
+        :contentLocationPage  11 .
+    
+    bdr:CLBD32170BC9696389
+        a                   :ContentLocation ;
+        :contentLocationEndPage  468 ;
+        :contentLocationInstance  bdr:W21933 ;
+        :contentLocationPage  361 .
+    
+    bdr:MW21933  :hasPart   bdr:MW21933_947661 , bdr:MW21933_9617C6 , bdr:MW21933_B4FCF9 , bdr:MW21933_C62DAF .
+    
+    bdr:MW21933_947661
+        a                   :Instance ;
+        skos:prefLabel      "gzhi stod kyi skabs/"@bo-x-ewts ;
+        :contentLocation    bdr:CL522378F963379988 ;
+        :contentLocationStatement  "p.1" ;
+        :hasTitle           bdr:TT3C8A19C43F2EE6F9 , bdr:TT7147D7742C45D2B1 ;
+        :inRootInstance     bdr:MW21933 ;
+        :instanceOf         bdr:WA0XL947661CA30B8 ;
+        :legacyOutlineNodeRID  "O1PD966151PD96617" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW21933 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW21933_9617C6
+        a                   :Instance ;
+        skos:prefLabel      "dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CL9486960800A75AE5 ;
+        :hasTitle           bdr:TT75BE9FD325DA2B89 ;
+        :inRootInstance     bdr:MW21933 ;
+        :legacyOutlineNodeRID  "O1PD966151PD96616" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW21933 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW21933_B4FCF9
+        a                   :Instance ;
+        skos:prefLabel      "zhu ba spyir bstan pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLBD32170BC9696389 ;
+        :contentLocationStatement  "p. 349" ;
+        :hasTitle           bdr:TT9F9F29E730E53269 , bdr:TTBAFC2CCA6E9DE3B1 ;
+        :inRootInstance     bdr:MW21933 ;
+        :instanceOf         bdr:WA0XLB4FCF94BD516 ;
+        :legacyOutlineNodeRID  "O1PD966151PD966171PD96620" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW21933 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW21933_C62DAF
+        a                   :Instance ;
+        skos:prefLabel      "gzhi smad kyi skabs/"@bo-x-ewts ;
+        :contentLocation    bdr:CL1516C09176C1A1A6 ;
+        :contentLocationStatement  "p. 457" ;
+        :hasTitle           bdr:TT7F1EF7038E4504FB , bdr:TT8F3CDAA9E5D73EC0 ;
+        :inRootInstance     bdr:MW21933 ;
+        :instanceOf         bdr:WA0XLC62DAF8576C5 ;
+        :legacyOutlineNodeRID  "O1PD966151PD966171PD966201PD96621" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW21933 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1PD96615  a        :Outline ;
+        :authorshipStatement  "paldor; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1PD96615" ;
+        :outlineOf          bdr:MW21933 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT3C8A19C43F2EE6F9
+        a                   :Title ;
+        rdfs:label          "gzhi stod kyi skabs/"@bo-x-ewts .
+    
+    bdr:TT7147D7742C45D2B1
+        a                   :TitlePageTitle ;
+        rdfs:label          "'dul ba rgya mtsho'i dka' gnad mdor bsdus pa nor bu'i phreng ba zhes bya ba'i dgongs 'grel kun bzang zhing gi nyi ma gzhan phan snang ba'i mdzod ces bya las gzhi stod kyi skabs/"@bo-x-ewts .
+    
+    bdr:TT75BE9FD325DA2B89
+        a                   :Title ;
+        rdfs:label          "dkar chag"@bo-x-ewts .
+    
+    bdr:TT7F1EF7038E4504FB
+        a                   :Title ;
+        rdfs:label          "gzhi smad kyi skabs/"@bo-x-ewts .
+    
+    bdr:TT8F3CDAA9E5D73EC0
+        a                   :TitlePageTitle ;
+        rdfs:label          "'dul ba rgya mtsho'i dka' gnad mdor bsdus pa nor bu'i phreng ba zhes bya ba'i dgongs 'grel kun bzang zhing gi nyi ma gzhan phan snang ba'i mdzod ces bya ba las gzhi smad kyi skabs/"@bo-x-ewts .
+    
+    bdr:TT9F9F29E730E53269
+        a                   :Title ;
+        rdfs:label          "zhu ba spyir bstan pa/"@bo-x-ewts .
+    
+    bdr:TTBAFC2CCA6E9DE3B1
+        a                   :TitlePageTitle ;
+        rdfs:label          "'dul ba rgya mtsho'i dka' gnad mdor bsdus pa nor bu'i phreng ba zhes bya ba'i dgongs 'grel kun bzang zhing gi nyi ma gzhan phan snang ba'i mdzod ces bya ba las zhu ba spyir bstan pa/"@bo-x-ewts .
+}

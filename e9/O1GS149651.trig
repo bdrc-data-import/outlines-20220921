@@ -1,0 +1,117 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS149651 {
+    bda:LGF6FE4062AE78F5AA
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-07-07T14:01:01.296Z"^^xsd:dateTime ;
+        adm:logMessage      "completed outline"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS149651  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS149651 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "e9/O1GS149651.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS149651 ;
+        adm:logEntry        bda:LGF6FE4062AE78F5AA ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL5F2F30D685556A03
+        a                   :ContentLocation ;
+        :contentLocationEndPage  164 ;
+        :contentLocationInstance  bdr:W10426 ;
+        :contentLocationPage  7 .
+    
+    bdr:CLEB986614272931E5
+        a                   :ContentLocation ;
+        :contentLocationEndPage  222 ;
+        :contentLocationInstance  bdr:W10426 ;
+        :contentLocationPage  165 .
+    
+    bdr:CLF66D59DB02D51491
+        a                   :ContentLocation ;
+        :contentLocationEndPage  322 ;
+        :contentLocationInstance  bdr:W10426 ;
+        :contentLocationPage  223 .
+    
+    bdr:MW10426  :hasPart   bdr:MW10426_64D86B , bdr:MW10426_874C23 , bdr:MW10426_9B965F .
+    
+    bdr:MW10426_64D86B
+        a                   :Instance ;
+        skos:prefLabel      "btsun mo do ha'i TI ka 'bring po sems kyi rnam thar ston pa'i me long /"@bo-x-ewts ;
+        :colophon           "gsum pa mjug gi don la gnyis/ rdzogs tshig bstan pa dang/ 'gyur byang smos pa'o/ /dang po ni/ mi zad pa'i nas rdzogs so zhes gsungs te/ do ha skor gsum gyi tshig don gyi rnams bshad sems kyi rnam thar gsal bar ston pa'i me long zhes bya ba mang du thos pa'i dge slong chos smra ba karma phrin las pas sbyar ba las gzhung 'di'i mtshan rgya skad du dwa ha ko sha zhes pa'i sgra'i don mi zad pa'i gter mdzod dang u pa de sha gi ti zhes pa'i sgra'i don man ngag gi glu dang na ma zhes pa'i don zhes bya ba ste mtshan dang ldan zhing gnas lugs de kho na nyid rnal du mtshon pa gnyug ma don dam pa'i yi ge pa ni dpal ldan 'byor gyi dang phyug chen po sa ra ha pa'i zhal snga nas mdzad pa ste de'i TI ka dang bcas pa re zhig rdzogs so/ /gnyis pa ni/ bla ma bas po nas bsgur ba'o/ zhes gsungs te/ rgya bod gnyis ka'i skad la legs par byar ba bla ma bal po a su zhes bya bas rgya gar phyag na'i rgya dpe la gtugs te sgra rang 'gyur du bsgyur ba'o/ /sems kyi rang gdangs longs spyod rdzogs pa'i skur/ /rtogs mgur rtsub mo do ha zhes bya'i gzhung/ /rnam par bshad las thob pa'i dge ba de/ /'gro kun gzugs sku mthar thug thob phyir bsngo /"@bo-x-ewts ;
+        :contentLocation    bdr:CLF66D59DB02D51491 ;
+        :contentLocationStatement  "pp. 217-316" ;
+        :hasTitle           bdr:TTB410998B52D39ED0 ;
+        :inRootInstance     bdr:MW10426 ;
+        :instanceOf         bdr:WA0XL64D86B241B8D ;
+        :legacyOutlineNodeRID  "O1GS1496511GS149654" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW10426 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW10426_874C23
+        a                   :Instance ;
+        skos:prefLabel      "rgyal po do ha'i TI ka 'bring po sems kyi rnam thar ston pa'i me long /"@bo-x-ewts ;
+        :contentLocation    bdr:CLEB986614272931E5 ;
+        :contentLocationStatement  "pp. 159-216" ;
+        :hasTitle           bdr:TT5ACCD5664EA2565D ;
+        :inRootInstance     bdr:MW10426 ;
+        :instanceOf         bdr:WA0XL874C233C3677 ;
+        :legacyOutlineNodeRID  "O1GS1496511GS149653" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW10426 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW10426_9B965F
+        a                   :Instance ;
+        skos:prefLabel      "do ha skor gsum gyi TI ka 'bring po/"@bo-x-ewts ;
+        :colophon           "gsum pa 'gyur byang smos pa ni/ bla ma nas bsgyur zhes gsungs te/ bod kyi skad la legs par byang ba'i lo tsa ba bla ma bal po a su'am bal po skye med bdeng chen gyis rgya gar phyag na'i rgya dpe la btugs nas sgra rang 'gyur du bsgyur ba'o/ /de ltar sems kyi rang rtsal sna tshogs las/ cir yang 'char ba sprul skur rtogs pa'i mgur dang/ rdo rje'i tshig 'di cung zad bshad pa yi/ dge des gnas lugs rang zhal mthong bar shog/ /bkra shis/ mi tri dz+nyA na'o"@bo-x-ewts ;
+        :contentLocation    bdr:CL5F2F30D685556A03 ;
+        :contentLocationStatement  "pp. 1-158" ;
+        :hasTitle           bdr:TT9744394319E91B98 , bdr:TTEB397DA087B233E9 ;
+        :inRootInstance     bdr:MW10426 ;
+        :instanceOf         bdr:WA0XL9B965F37870E ;
+        :legacyOutlineNodeRID  "O1GS1496511GS149652" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW10426 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS149651  a       :Outline ;
+        :authorshipStatement  "genesmith: outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS149651" ;
+        :outlineOf          bdr:MW10426 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT5ACCD5664EA2565D
+        a                   :Title ;
+        rdfs:label          "rgyal po do ha'i TI ka 'bring po sems kyi rnam thar ston pa'i me long /"@bo-x-ewts .
+    
+    bdr:TT9744394319E91B98
+        a                   :RunningTitle ;
+        rdfs:label          "do ha skor gsum gyi tshig don gyi rnam bshad sems kyi rnam thar gsal bar ston pa'i me long /"@bo-x-ewts .
+    
+    bdr:TTB410998B52D39ED0
+        a                   :Title ;
+        rdfs:label          "btsun mo do ha'i TI ka 'bring po sems kyi rnam thar ston pa'i me long /"@bo-x-ewts .
+    
+    bdr:TTEB397DA087B233E9
+        a                   :Title ;
+        rdfs:label          "do ha skor gsum gyi TI ka 'bring po/"@bo-x-ewts .
+}

@@ -1,0 +1,124 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD162096 {
+    bda:LGC4B49333B1F459B9
+        a                   adm:WithdrawData ;
+        adm:logDate         "2014-02-18T11:47:11.572Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawned"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD162096  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD162096 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "ec/O1PD162096.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD162096 ;
+        adm:logEntry        bda:LGC4B49333B1F459B9 ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:CL1E6AD4BE41D3AD45
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W1CZ1300 .
+    
+    bdr:CL397D37B8BF9488A5
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W1CZ1300 .
+    
+    bdr:CL5B1E55C775AF807F
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W1CZ1300 .
+    
+    bdr:CLC7090391422F3C58
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W1CZ1300 .
+    
+    bdr:MW1CZ1300  :hasPart  bdr:MW1CZ1300_489BA8 , bdr:MW1CZ1300_8D8AE4 , bdr:MW1CZ1300_ADA5BF , bdr:MW1CZ1300_FDBC2A .
+    
+    bdr:MW1CZ1300_489BA8
+        a                   :Instance ;
+        skos:prefLabel      "ga"@bo-x-ewts ;
+        :contentLocation    bdr:CL397D37B8BF9488A5 ;
+        :hasTitle           bdr:TT9C4C67DC63C42996 ;
+        :inRootInstance     bdr:MW1CZ1300 ;
+        :legacyOutlineNodeRID  "O1PD1620961PD162099" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1CZ1300 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1CZ1300_8D8AE4
+        a                   :Instance ;
+        skos:prefLabel      "bla ma'i rnal 'byor/"@bo-x-ewts ;
+        :contentLocation    bdr:CL5B1E55C775AF807F ;
+        :hasTitle           bdr:TT29FC25E7B90977EE , bdr:TT3DACEC4520E686ED ;
+        :inRootInstance     bdr:MW1CZ1300 ;
+        :instanceOf         bdr:WA0XL8D8AE4685BB5 ;
+        :legacyOutlineNodeRID  "O1PD1620961PD162097" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1CZ1300 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1CZ1300_ADA5BF
+        a                   :Instance ;
+        skos:prefLabel      "nga /"@bo-x-ewts ;
+        :contentLocation    bdr:CL1E6AD4BE41D3AD45 ;
+        :hasTitle           bdr:TTB2AD0BF31F0CBA07 ;
+        :inRootInstance     bdr:MW1CZ1300 ;
+        :legacyOutlineNodeRID  "O1PD1620961PD162100" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1CZ1300 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1CZ1300_FDBC2A
+        a                   :Instance ;
+        skos:prefLabel      "kha/"@bo-x-ewts ;
+        :contentLocation    bdr:CLC7090391422F3C58 ;
+        :hasTitle           bdr:TT023D3830747279D3 ;
+        :inRootInstance     bdr:MW1CZ1300 ;
+        :legacyOutlineNodeRID  "O1PD1620961PD162098" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1CZ1300 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1PD162096  a       :Outline ;
+        :authorshipStatement  "Paldor"@en ;
+        :legacyOutlineNodeRID  "O1PD162096" ;
+        :outlineOf          bdr:MW1CZ1300 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+    
+    bdr:TT023D3830747279D3
+        a                   :Title ;
+        rdfs:label          "kha/"@bo-x-ewts .
+    
+    bdr:TT29FC25E7B90977EE
+        a                   :Title ;
+        rdfs:label          "bla ma'i rnal 'byor/"@bo-x-ewts .
+    
+    bdr:TT3DACEC4520E686ED
+        a                   :TitlePageTitle ;
+        rdfs:label          "ka"@bo-x-ewts .
+    
+    bdr:TT9C4C67DC63C42996
+        a                   :Title ;
+        rdfs:label          "ga"@bo-x-ewts .
+    
+    bdr:TTB2AD0BF31F0CBA07
+        a                   :Title ;
+        rdfs:label          "nga /"@bo-x-ewts .
+}

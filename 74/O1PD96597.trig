@@ -1,0 +1,118 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD96597 {
+    bda:LGA0D5A5B2698A971E
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-01-11T14:32:05.284Z"^^xsd:dateTime ;
+        adm:logMessage      "gsar du bcug"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LGBBA2C9E67B6D615F
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-01-11T16:07:08.072Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD96597  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD96597 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "74/O1PD96597.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD96597 ;
+        adm:logEntry        bda:LGA0D5A5B2698A971E , bda:LGBBA2C9E67B6D615F ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL78FBACD2E2671649
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W21619 .
+    
+    bdr:CL9F787B61A811138D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  248 ;
+        :contentLocationInstance  bdr:W21619 ;
+        :contentLocationPage  9 .
+    
+    bdr:CLC244604591ADBBBA
+        a                   :ContentLocation ;
+        :contentLocationEndPage  412 ;
+        :contentLocationInstance  bdr:W21619 ;
+        :contentLocationPage  248 .
+    
+    bdr:MW21619  :hasPart   bdr:MW21619_69314F , bdr:MW21619_F45320 , bdr:MW21619_F8D8C9 .
+    
+    bdr:MW21619_69314F
+        a                   :Instance ;
+        skos:prefLabel      "dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CL78FBACD2E2671649 ;
+        :contentLocationStatement  "p. 1 (1st group)" ;
+        :hasTitle           bdr:TT4A037A62E548313B , bdr:TTF203161550A9A86F ;
+        :inRootInstance     bdr:MW21619 ;
+        :legacyOutlineNodeRID  "O1PD965972DB95223" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW21619 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW21619_F45320
+        a                   :Instance ;
+        skos:prefLabel      "byang chub sems dpa'i tshul khrims kyi rnam bshad byang chub gzhung lam/"@bo-x-ewts ;
+        :contentLocation    bdr:CL9F787B61A811138D ;
+        :contentLocationStatement  "p. 1 (2nd group)" ;
+        :hasTitle           bdr:TT64A572ABF05DB57B ;
+        :inRootInstance     bdr:MW21619 ;
+        :instanceOf         bdr:WA1NLM234 ;
+        :legacyOutlineNodeRID  "O1PD965972DB95224" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW21619 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW21619_F8D8C9
+        a                   :Instance ;
+        skos:prefLabel      "gsang sngags kyi tshul khrims kyi rnam bshad dngos grub kyi snye ma/"@bo-x-ewts ;
+        :contentLocation    bdr:CLC244604591ADBBBA ;
+        :contentLocationStatement  "p. 241" ;
+        :hasTitle           bdr:TT67F6DEEE9B959215 ;
+        :inRootInstance     bdr:MW21619 ;
+        :instanceOf         bdr:WA0NGMCP68621 ;
+        :legacyOutlineNodeRID  "O1PD965972DB95225" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW21619 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1PD96597  a        :Outline ;
+        :authorshipStatement  "paldor; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1PD96597" ;
+        :outlineOf          bdr:MW21619 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT4A037A62E548313B
+        a                   :TitlePageTitle ;
+        rdfs:label          "ka"@bo-x-ewts .
+    
+    bdr:TT64A572ABF05DB57B
+        a                   :Title ;
+        rdfs:label          "byang chub sems dpa'i tshul khrims kyi rnam bshad byang chub gzhung lam/"@bo-x-ewts .
+    
+    bdr:TT67F6DEEE9B959215
+        a                   :Title ;
+        rdfs:label          "gsang sngags kyi tshul khrims kyi rnam bshad dngos grub kyi snye ma/"@bo-x-ewts .
+    
+    bdr:TTF203161550A9A86F
+        a                   :Title ;
+        rdfs:label          "dkar chag"@bo-x-ewts .
+}

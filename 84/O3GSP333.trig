@@ -1,0 +1,260 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O3GSP333 {
+    bda:LGIMA2E7A6CED0
+        a                   adm:InitialDataImport ;
+        adm:logDate         "2012-03-30T11:00:49.672Z"^^xsd:dateTime ;
+        adm:logMessage      "generated from legacy\n                entries of Gene Smith"@en ;
+        adm:logMethod       bda:BatchMethod ;
+        adm:logWhoStr       "Legacy Converter" .
+    
+    bda:O3GSP333  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O3GSP333 ;
+        adm:facetIndex      24 ;
+        adm:gitPath         "84/O3GSP333.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O3GSP333 ;
+        adm:logEntry        bda:LGIMA2E7A6CED0 ;
+        adm:status          bda:StatusOnHold .
+    
+    bdr:MW3GSP333  :hasPart  bdr:MW3GSP333_116F46 , bdr:MW3GSP333_2507FD , bdr:MW3GSP333_6188E2 , bdr:MW3GSP333_7633D4 , bdr:MW3GSP333_87DE91 , bdr:MW3GSP333_B5F839 , bdr:MW3GSP333_B69AFA , bdr:MW3GSP333_BB6DEC , bdr:MW3GSP333_C734B0 , bdr:MW3GSP333_E02A34 , bdr:MW3GSP333_F09CE4 .
+    
+    bdr:MW3GSP333_116F46
+        a                   :Instance ;
+        skos:prefLabel      "lha chos mi chos 'brel ba'i bslab bya nor phreng /"@bo-x-ewts ;
+        :hasTitle           bdr:TT0CAF37ED9DD76D5C , bdr:TT5BCD9D970AF1963E ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XL116F468A5DC5 ;
+        :legacyOutlineNodeRID  "O3GSP333W7546" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "07" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_2507FD
+        a                   :Instance ;
+        skos:prefLabel      "'jigs byed kyi bka' bsgo bya tshul sogs/"@bo-x-ewts ;
+        :hasTitle           bdr:TT520AC9536E6485EF , bdr:TTCF680BB55DD1A499 ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XL2507FD52BF86 ;
+        :legacyOutlineNodeRID  "O3GSP333W7550" ;
+        :partIndex          11 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "11" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_6188E2
+        a                   :Instance ;
+        skos:prefLabel      "thub bstan rin po che la log par spyod pa bsun 'byin/"@bo-x-ewts ;
+        :hasTitle           bdr:TTC1C4B82C130CBAD9 , bdr:TTDAD6D53EE05DEE48 ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XL6188E246D477 ;
+        :legacyOutlineNodeRID  "O3GSP333W7543" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "05" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_7633D4
+        a                   :Instance ;
+        skos:prefLabel      "gtor ma brgya rtsa cha lag tshang ba'i lhan thabs/"@bo-x-ewts ;
+        :hasTitle           bdr:TTCEE85EDB822BEAFB , bdr:TTFD2F36C6622B6B1A ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XL7633D4964124 ;
+        :legacyOutlineNodeRID  "O3GSP333W7541" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "03" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_87DE91
+        a                   :Instance ;
+        skos:prefLabel      "ngag dbang rdo rje'i bsam spyod nges gtam/"@bo-x-ewts ;
+        :hasTitle           bdr:TT0B53203B91193C76 , bdr:TT3D6D8D14A06FB13B ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XL87DE91D57AE7 ;
+        :legacyOutlineNodeRID  "O3GSP333W7549" ;
+        :partIndex          10 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "10" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_B5F839
+        a                   :Instance ;
+        skos:prefLabel      "shes bya ngo sprod tshig tu sgrigs pa/"@bo-x-ewts ;
+        :hasTitle           bdr:TTAA62F25CAC38F303 , bdr:TTE5E08D2F66E63AAF ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XLB5F839AB7AAE ;
+        :legacyOutlineNodeRID  "O3GSP333W7547" ;
+        :partIndex          8 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "08" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_B69AFA
+        a                   :Instance ;
+        skos:prefLabel      "bod kyi brda'i bye brag dag byed gsal ba'i me long /"@bo-x-ewts ;
+        :hasTitle           bdr:TT9DA84B2EB56AE1BA , bdr:TTCF6E59F19451539D ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XLB69AFAA98E5F ;
+        :legacyOutlineNodeRID  "O3GSP333W7544" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "06" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_BB6DEC
+        a                   :Instance ;
+        skos:prefLabel      "'chi ba bslu ba'i tshul du gtong ba/"@bo-x-ewts ;
+        :hasTitle           bdr:TT97A1C991AEC251A3 , bdr:TTB0109BB2D6387EC6 ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XLBB6DEC42D76C ;
+        :legacyOutlineNodeRID  "O3GSP333W7548" ;
+        :partIndex          9 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "09" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_C734B0
+        a                   :Instance ;
+        skos:prefLabel      "'dul ba'i cho ga las deng dus mkho ba 'ga' zhig"@bo-x-ewts ;
+        :hasTitle           bdr:TT029252267C2DE5F2 , bdr:TT19DF212836E7AE93 ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XLC734B078D914 ;
+        :legacyOutlineNodeRID  "O3GSP333W7539" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "01" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_E02A34
+        a                   :Instance ;
+        skos:prefLabel      "po stod kyi 'grel pa/"@bo-x-ewts ;
+        :hasTitle           bdr:TT8DE03BEEA266EF21 , bdr:TTEF31E516C9A06E43 ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XLE02A3499FDAB ;
+        :legacyOutlineNodeRID  "O3GSP333W7540" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "02" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW3GSP333_F09CE4
+        a                   :Instance ;
+        skos:prefLabel      "gtor ma'i bshad khrid legs bshad don bsdus/"@bo-x-ewts ;
+        :hasTitle           bdr:TT72857F667020DD62 , bdr:TTCE6700FAE58F81AF ;
+        :inRootInstance     bdr:MW3GSP333 ;
+        :instanceOf         bdr:WA0XLF09CE480003B ;
+        :legacyOutlineNodeRID  "O3GSP333W7542" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW3GSP333 ;
+        :partTreeIndex      "04" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O3GSP333  a         :Outline ;
+        :authorshipStatement  "Works to Outline generator"@en ;
+        :legacyOutlineNodeRID  "O3GSP333" ;
+        :outlineOf          bdr:MW3GSP333 ;
+        :outlineType        bdr:OutlineTypeGsungBum ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT029252267C2DE5F2
+        a                   :TitlePageTitle ;
+        rdfs:label          "'dul ba'i cho ga las deng dus mkho ba'i 'ga' zhig zur du bkod pa/"@bo-x-ewts .
+    
+    bdr:TT0B53203B91193C76
+        a                   :TitlePageTitle ;
+        rdfs:label          "rje mkhas grub dam pa ngag dbang rdo rje'i bsam spyod nges gtam/"@bo-x-ewts .
+    
+    bdr:TT0CAF37ED9DD76D5C
+        a                   :TitlePageTitle ;
+        rdfs:label          "lha chos dang /_mi chos 'brel ba'i bslab bya nor phreng /"@bo-x-ewts .
+    
+    bdr:TT19DF212836E7AE93
+        a                   :Title ;
+        rdfs:label          "'dul ba'i cho ga las deng dus mkho ba 'ga' zhig"@bo-x-ewts .
+    
+    bdr:TT3D6D8D14A06FB13B
+        a                   :Title ;
+        rdfs:label          "ngag dbang rdo rje'i bsam spyod nges gtam/"@bo-x-ewts .
+    
+    bdr:TT520AC9536E6485EF
+        a                   :Title ;
+        rdfs:label          "'jigs byed kyi bka' bsgo bya tshul sogs/"@bo-x-ewts .
+    
+    bdr:TT5BCD9D970AF1963E
+        a                   :Title ;
+        rdfs:label          "lha chos mi chos 'brel ba'i bslab bya nor phreng /"@bo-x-ewts .
+    
+    bdr:TT72857F667020DD62
+        a                   :Title ;
+        rdfs:label          "gtor ma'i bshad khrid legs bshad don bsdus/"@bo-x-ewts .
+    
+    bdr:TT8DE03BEEA266EF21
+        a                   :TitlePageTitle ;
+        rdfs:label          "'phags pa spyan ras gzigs kyi bstod pa po bstod kyi 'grel pa don yod rdo rjes mdzad pa/"@bo-x-ewts .
+    
+    bdr:TT97A1C991AEC251A3
+        a                   :Title ;
+        rdfs:label          "'chi ba bslu ba'i tshul du gtong ba/"@bo-x-ewts .
+    
+    bdr:TT9DA84B2EB56AE1BA
+        a                   :Title ;
+        rdfs:label          "bod kyi brda'i bye brag dag byed gsal ba'i me long /"@bo-x-ewts .
+    
+    bdr:TTAA62F25CAC38F303
+        a                   :Title ;
+        rdfs:label          "shes bya ngo sprod tshig tu sgrigs pa/"@bo-x-ewts .
+    
+    bdr:TTB0109BB2D6387EC6
+        a                   :TitlePageTitle ;
+        rdfs:label          "'chi bdag 'byung po'i gtor ma rang gzhan gyi 'chi ba blu ba'i tshul du gtong ba/"@bo-x-ewts .
+    
+    bdr:TTC1C4B82C130CBAD9
+        a                   :TitlePageTitle ;
+        rdfs:label          "thub bstan rin po che la log par spyod pa cung zad bsun 'byin/"@bo-x-ewts .
+    
+    bdr:TTCE6700FAE58F81AF
+        a                   :TitlePageTitle ;
+        rdfs:label          "gtor ma'i bshad khrid legs bshad don bsdus gzhan phan rab gsal/"@bo-x-ewts .
+    
+    bdr:TTCEE85EDB822BEAFB
+        a                   :TitlePageTitle ;
+        rdfs:label          "gtor ma brgya rtsa cha lag tshang ba thams cad mkhyen pa dben sa pas mdzad pa lhan thabs dang bsres pa/"@bo-x-ewts .
+    
+    bdr:TTCF680BB55DD1A499
+        a                   :TitlePageTitle ;
+        rdfs:label          "yi dam chen po rdo rje 'jigs byed kyi bka' bsgo bya tshul dang /_gzungs bzhugs 'bul tshul gyi phyag len rnam par dag pa/"@bo-x-ewts .
+    
+    bdr:TTCF6E59F19451539D
+        a                   :TitlePageTitle ;
+        rdfs:label          "bod kyi brda'i bye brag so sor phye ba dag byed gsal ba'i me long /"@bo-x-ewts .
+    
+    bdr:TTDAD6D53EE05DEE48
+        a                   :Title ;
+        rdfs:label          "thub bstan rin po che la log par spyod pa bsun 'byin/"@bo-x-ewts .
+    
+    bdr:TTE5E08D2F66E63AAF
+        a                   :TitlePageTitle ;
+        rdfs:label          "blo gros kyi 'jug sgo 'byed par byed pa'i thabs shes bya ngo sprod tshig tu sgrigs pa/"@bo-x-ewts .
+    
+    bdr:TTEF31E516C9A06E43
+        a                   :Title ;
+        rdfs:label          "po stod kyi 'grel pa/"@bo-x-ewts .
+    
+    bdr:TTFD2F36C6622B6B1A
+        a                   :Title ;
+        rdfs:label          "gtor ma brgya rtsa cha lag tshang ba'i lhan thabs/"@bo-x-ewts .
+}

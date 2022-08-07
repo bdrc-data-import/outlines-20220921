@@ -1,0 +1,102 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1VI3 {
+    bda:LG31C4E77F8A8679AD
+        a                   adm:UpdateData ;
+        adm:logDate         "2012-05-08T08:07:56.032Z"^^xsd:dateTime ;
+        adm:logMessage      "published into DLMS"@en ;
+        adm:logWho          bdu:U00012 .
+    
+    bda:LG646E8BF0D43085ED
+        a                   adm:InitialDataCreation ;
+        adm:logMessage      "Published provisional from Vienna (complete 1 volume)"@en ;
+        adm:logWho          bdu:U00050 .
+    
+    bda:O1VI3  a            adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1VI3 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "21/O1VI3.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1VI3 ;
+        adm:logEntry        bda:LG31C4E77F8A8679AD , bda:LG646E8BF0D43085ED ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CLC4EA05085EB8BF68
+        a                   :ContentLocation ;
+        :contentLocationEndPage  252 ;
+        :contentLocationInstance  bdr:W1PD127771 ;
+        :contentLocationPage  155 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLF98E00BBD9B8C0C4
+        a                   :ContentLocation ;
+        :contentLocationEndPage  154 ;
+        :contentLocationInstance  bdr:W1PD127771 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW1PD127771  :hasPart  bdr:MW1PD127771_88EE37 , bdr:MW1PD127771_96D0AF .
+    
+    bdr:MW1PD127771_88EE37
+        a                   :Instance ;
+        skos:prefLabel      "zab chos zhi khro dgongs pa rang grol las chos nyid bar do'i gsal 'debs thos grol chen mo/"@bo-x-ewts , "-"@sa-alalc97 ;
+        :contentLocation    bdr:CLF98E00BBD9B8C0C4 ;
+        :contentLocationStatement  "1b1-74b1" ;
+        :hasTitle           bdr:TT1435B1BEB0BFE18B , bdr:TT82FCE99880E10543 ;
+        :inRootInstance     bdr:MW1PD127771 ;
+        :instanceOf         bdr:WA0XLFFC09052D37F ;
+        :legacyOutlineNodeRID  "O1VI3VI2" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1PD127771 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1PD127771_96D0AF
+        a                   :Instance ;
+        skos:prefLabel      "zab chos zhi khro dgongs pa rang grol las bar do thos grol chen mo las srid pa bar do'i ngo sprod/"@bo-x-ewts , "-"@sa-alalc97 ;
+        :contentLocation    bdr:CLC4EA05085EB8BF68 ;
+        :contentLocationStatement  "1b1-47a2" ;
+        :hasTitle           bdr:TT3FE3A395D40D549C , bdr:TTB62226DF33126C76 ;
+        :inRootInstance     bdr:MW1PD127771 ;
+        :instanceOf         bdr:WA0XL96D0AF4BD6A1 ;
+        :legacyOutlineNodeRID  "O1VI3VI3" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1PD127771 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1VI3  a            :Outline ;
+        :authorshipStatement  "Bruno Lainé"@en ;
+        :legacyOutlineNodeRID  "O1VI3" ;
+        :outlineOf          bdr:MW1PD127771 ;
+        :outlineType        bdr:OutlineTypeCompositeVolume ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT1435B1BEB0BFE18B
+        a                   :Title ;
+        rdfs:label          "-"@sa-alalc97 .
+    
+    bdr:TT3FE3A395D40D549C
+        a                   :Title ;
+        rdfs:label          "-"@sa-alalc97 .
+    
+    bdr:TT82FCE99880E10543
+        a                   :Title ;
+        rdfs:label          "zab chos zhi khro dgongs pa rang grol las chos nyid bar do'i gsal 'debs thos grol chen mo/"@bo-x-ewts .
+    
+    bdr:TTB62226DF33126C76
+        a                   :Title ;
+        rdfs:label          "zab chos zhi khro dgongs pa rang grol las bar do thos grol chen mo las srid pa bar do'i ngo sprod/"@bo-x-ewts .
+}

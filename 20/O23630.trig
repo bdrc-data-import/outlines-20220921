@@ -1,0 +1,148 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O23630 {
+    bda:LG034ECDE8767FA31E
+        a                   adm:InitialDataCreation ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LG96B7FACA4D9712C7
+        a                   adm:InitialDataImport ;
+        adm:logAgent        "Convert2Outline version 1.5.5" ;
+        adm:logDate         "2014-02-13T15:32:20.282Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00051 .
+    
+    bda:LGD8B1815F3DD07233
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-02-13T15:43:37.572Z"^^xsd:dateTime ;
+        adm:logMessage      "reviewed and released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O23630  a           adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O23630 ;
+        adm:facetIndex      12 ;
+        adm:gitPath         "20/O23630.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O23630 ;
+        adm:logEntry        bda:LG034ECDE8767FA31E , bda:LG96B7FACA4D9712C7 , bda:LGD8B1815F3DD07233 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL1635E2A95A1DF0EF
+        a                   :ContentLocation ;
+        :contentLocationEndPage  938 ;
+        :contentLocationInstance  bdr:W23630 ;
+        :contentLocationPage  680 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL877652A767725371
+        a                   :ContentLocation ;
+        :contentLocationEndPage  7 ;
+        :contentLocationInstance  bdr:W23630 ;
+        :contentLocationPage  7 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL9EA34064AE895E2B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  679 ;
+        :contentLocationInstance  bdr:W23630 ;
+        :contentLocationPage  9 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLABA451FFE2184F01
+        a                   :ContentLocation ;
+        :contentLocationEndPage  1145 ;
+        :contentLocationInstance  bdr:W23630 ;
+        :contentLocationPage  939 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW23630  :hasPart   bdr:MW23630_7AF46F , bdr:MW23630_7B6B66 , bdr:MW23630_83A1D5 , bdr:MW23630_D1B35E .
+    
+    bdr:MW23630_7AF46F
+        a                   :Instance ;
+        skos:prefLabel      "bsdus pa che ba rigs pa'i de nyid rnam par nges pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL1635E2A95A1DF0EF ;
+        :contentLocationStatement  "130 ff. (pp. 673-930)" ;
+        :hasTitle           bdr:TTF5EABBD3DC16D741 ;
+        :inRootInstance     bdr:MW23630 ;
+        :instanceOf         bdr:WA0XL7AF46FA87664 ;
+        :legacyOutlineNodeRID  "O23630C2O0005" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW23630 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23630_7B6B66
+        a                   :Instance ;
+        skos:prefLabel      "tshad ma rnam 'grel gyi 'grel pa legs par bshad pa'i snying po/"@bo-x-ewts ;
+        :contentLocation    bdr:CL9EA34064AE895E2B ;
+        :contentLocationStatement  "336 ff. (pp. 1-672)" ;
+        :hasTitle           bdr:TT7E1C2DDFE622AE28 ;
+        :inRootInstance     bdr:MW23630 ;
+        :instanceOf         bdr:WA0XLD73B9E643CD3 ;
+        :legacyOutlineNodeRID  "O23630C2O0004" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW23630 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23630_83A1D5
+        a                   :Instance ;
+        skos:prefLabel      "pod da pa'i dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CL877652A767725371 ;
+        :contentLocationStatement  "1 ff. (pp. 2-2)" ;
+        :hasTitle           bdr:TT60690EA73DC4CEA0 ;
+        :inRootInstance     bdr:MW23630 ;
+        :legacyOutlineNodeRID  "O23630C2O0003" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW23630 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW23630_D1B35E
+        a                   :Instance ;
+        skos:prefLabel      "sde bdun gyi snying po rigs pa'i de kho na nyid rab tu gsal ba/"@bo-x-ewts ;
+        :contentLocation    bdr:CLABA451FFE2184F01 ;
+        :contentLocationStatement  "104 ff. (pp. 931-1138)" ;
+        :hasTitle           bdr:TT0D3D8FAAFDA0A786 ;
+        :inRootInstance     bdr:MW23630 ;
+        :instanceOf         bdr:WA0XLD1B35EC4F426 ;
+        :legacyOutlineNodeRID  "O23630C2O0006" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW23630 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O23630  a           :Outline ;
+        :authorshipStatement  "chengdu via TBRC Convert2Outline version: 1.5.5"@en ;
+        :legacyOutlineNodeRID  "O23630" ;
+        :outlineOf          bdr:MW23630 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT0D3D8FAAFDA0A786
+        a                   :Title ;
+        rdfs:label          "sde bdun gyi snying po rigs pa'i de kho na nyid rab tu gsal ba/"@bo-x-ewts .
+    
+    bdr:TT60690EA73DC4CEA0
+        a                   :Title ;
+        rdfs:label          "pod da pa'i dkar chag"@bo-x-ewts .
+    
+    bdr:TT7E1C2DDFE622AE28
+        a                   :Title ;
+        rdfs:label          "tshad ma rnam 'grel gyi 'grel pa legs par bshad pa'i snying po/"@bo-x-ewts .
+    
+    bdr:TTF5EABBD3DC16D741
+        a                   :Title ;
+        rdfs:label          "bsdus pa che ba rigs pa'i de nyid rnam par nges pa/"@bo-x-ewts .
+}

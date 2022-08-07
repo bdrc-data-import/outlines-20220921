@@ -1,0 +1,131 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS151641 {
+    bda:LG1B60F3C1C4CAC2F4
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-07-16T14:45:03.296Z"^^xsd:dateTime ;
+        adm:logMessage      "outline completed"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGEB978EDD82406EFB
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-07-18T10:15:08.906Z"^^xsd:dateTime ;
+        adm:logMessage      "changed authorship of 4th work in the volume"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS151641  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS151641 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "e2/O1GS151641.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS151641 ;
+        adm:logEntry        bda:LG1B60F3C1C4CAC2F4 , bda:LGEB978EDD82406EFB ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL48E8E6F1FB04CDAB
+        a                   :ContentLocation ;
+        :contentLocationEndPage  224 ;
+        :contentLocationInstance  bdr:W29252 ;
+        :contentLocationPage  9 .
+    
+    bdr:CL84FFC7211F05C25C
+        a                   :ContentLocation ;
+        :contentLocationEndPage  250 ;
+        :contentLocationInstance  bdr:W29252 ;
+        :contentLocationPage  225 .
+    
+    bdr:CL9A63453DF08FADF3
+        a                   :ContentLocation ;
+        :contentLocationEndPage  482 ;
+        :contentLocationInstance  bdr:W29252 ;
+        :contentLocationPage  243 .
+    
+    bdr:MW29252  :hasPart   bdr:MW29252_079846 , bdr:MW29252_686906 , bdr:MW29252_BE1C57 .
+    
+    bdr:MW29252_079846
+        a                   :Instance ;
+        skos:prefLabel      "skyabs rje pha bong kha pa chab mdor bzhugs skabs snyan sgron du gsol zer ba'i yig rdzus kyi dpyad don mchan bus bkrol ba dpyod ldan bzhin 'dzum dgod pa'i thal skad rnga chen bskul ba'i dbyu gu (dpyad don)"@bo-x-ewts ;
+        :authorshipStatement  "signed by 'dan ma su ma ti badz.ra (blo bzang rdo rje) and written in 1949"@en ;
+        :colophon           "ces pa'ang dgag mchan rtsom pa pos rang phyogs kyi mkhas pa rnams la snyan sgron du gsol ba'o/ /'di nyid par du bskrun skabs gong gsal bskul ba po drung blo bzang nor bu nas dngul srang nyis brgya lnga bcu tham pa dang/ sger sa 'du tshang nas dngul srang chig stong tham pa/ thong khang bu bsod nams stobs rgyas nas dngul srang nyis brgya/ chab mdo tshang tshong bkra nas dngul srang brgya/ de'i spun tshong ngag dbang sbyin pa nas dngul srang brgya/ sger lha lung zur lci'i mi ngo ser smad kong dge chos byams pa mkhyen rab nas dngul srang brgya thams pa bcas zhal 'debs phul/ /sarba mang+ga laM/ /yang ser byed tre hor mkhan zur thub bstan bsam gtan rin po che nas zhal 'debs dngul srang brgya dang lnga bcu tham pa bstsal ba dge"@bo-x-ewts ;
+        :contentLocation    bdr:CL48E8E6F1FB04CDAB ;
+        :contentLocationStatement  "108 ff. (pp. 1-216)" ;
+        :hasTitle           bdr:TTD84987276CB3A56A ;
+        :inRootInstance     bdr:MW29252 ;
+        :instanceOf         bdr:WA0XL0798466073EA ;
+        :legacyOutlineNodeRID  "O1GS1516411GS151642" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW29252 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW29252_686906
+        a                   :Instance ;
+        skos:prefLabel      "rje'i bstod tshogs kyi skor 'ga' zhig phyogs gcig tu bkod pa (rje bstod)"@bo-x-ewts ;
+        :authorshipStatement  "various authors"@en ;
+        :contentLocation    bdr:CL84FFC7211F05C25C ;
+        :contentLocationStatement  "13 ff (pp. 217-241)" ;
+        :hasTitle           bdr:TT74BA58AC858CDBE6 , bdr:TTA39487049ACF24EC ;
+        :inRootInstance     bdr:MW29252 ;
+        :instanceOf         bdr:WA0XL68690648DD3B ;
+        :legacyOutlineNodeRID  "O1GS1516411GS151643" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW29252 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW29252_BE1C57
+        a                   :Instance ;
+        skos:prefLabel      "mnyam med dga' ldan pa'i bstan la tshad ma'i gsung gis nges pa skyed pa lung bstan yang gsal me long (yang gsal me long)"@bo-x-ewts ;
+        :authorshipStatement  "this text is signed by one 'dan ma mi bskyod rdo rje and was completed in 1946; ldan ma mi bskyod rdo rje is another name for ldan ma blo bzang rdo rje"@en ;
+        :colophon           "ces mnyam med dga' ldan pa'i bstan la tshad ma'i gsung gis nges pa skyed pa lung bstan yang gsal me long zhes bya ba 'di ni/ snga dus chab mdo dge ldan byams pa gling du dus 'khor sprul sku dang/ dge rgan a bstan bcas nas rigs brgya'i khyab bdag rdo rje sems dpa'i ngo bo rje pha bong kha pa'i mdun du lung bstan gsal ba'i me long nyid rgyas spros su mdzad pa zhig dgos tshul nan gtud zhus par zhal bzhes gsal thon gyi don thugs la brnag kyang/ phyis nas chos 'khor rgya che'i mdzad pa gtso bor bskyangs pas ljags rtsom gyi rigs la de tsam ched rtsol ma mdzad pa/ da lam rab byung bcu drug a'i me khyi lor pha bla ma rdo rje 'chang bka' 'drin 'khor med chen po'i zhabs rdul spyi or len pa'i bka' 'bangs yongs kyi tha shal 'dan grwa'i mi bskyod rdo rje drin can bla ma rdo rje 'chang de nyid kyi dgongs su bskang phyir/ rtsod med kyi skyes chen mkhas grub du ma'i gsung gi cha shas tsam btus te phyogs gcig tu bkod pa 'gro don rgya cher 'phel// //'di nyid spar du bskrun skabs khri byang bla brang nas zhal 'debs spar shing grangs 40 bstsal/ yang/ 'bras dgon lung grwa dkon mchog rgya mtsho dngul srang 30 lha rdzong g.ye stod lding dpon tshang gi bu mo don grub chos sgron nas srang 105 lha ldan gzim zhol khang pa'i sras mo smin skyid chos sgron lags nas sar shing grangs 75 dang/ dngul srang 422/5/ gzim pho lha ba'i phyag mdzod bkra shis don grub nas dngos srang 30 bcas zhal 'debs phul/ spar 'di lha ldan gnas chen pha bong kha'i yang dben bkra shis chos gling du bzhugs/"@bo-x-ewts ;
+        :contentLocation    bdr:CL9A63453DF08FADF3 ;
+        :contentLocationStatement  "115 ff. (pp. 243-474)" ;
+        :hasTitle           bdr:TT5E0EAD583F3C3B2A ;
+        :inRootInstance     bdr:MW29252 ;
+        :instanceOf         bdr:WA0XLBE1C57507AC0 ;
+        :legacyOutlineNodeRID  "O1GS1516411GS151644" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW29252 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:NTCF3BA1E74276244F
+        a                   :Note ;
+        :noteText           "these prints from pha bong kha bkra shis chos gling were from the library of the ven. gro mo dge bshes rin po che. All three were from blocks carved during the late 1940s and prints from all three are reasonably rare. Unfortunately gro mo dge bshes rin po che's set is missing the 61 folia dris lan skor which comprises a continuation of the first text reproduced in this volume"@en .
+    
+    bdr:O1GS151641  a       :Outline ;
+        :authorshipStatement  "genesmith; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS151641" ;
+        :note               bdr:NTCF3BA1E74276244F ;
+        :outlineOf          bdr:MW29252 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT5E0EAD583F3C3B2A
+        a                   :Title ;
+        rdfs:label          "mnyam med dga' ldan pa'i bstan la tshad ma'i gsung gis nges pa skyed pa lung bstan yang gsal me long (yang gsal me long)"@bo-x-ewts .
+    
+    bdr:TT74BA58AC858CDBE6
+        a                   :Title ;
+        rdfs:label          "rje'i bstod tshogs kyi skor 'ga' zhig phyogs gcig tu bkod pa (rje bstod)"@bo-x-ewts .
+    
+    bdr:TTA39487049ACF24EC
+        a                   :TitlePageTitle ;
+        rdfs:label          "rje thams cad mkhyen pa shar tsong kha pa blo bzang grags pa'i dpal gyi ngang tshul mdo tsam brjod pa dad pa'i pad ma rgyas par byed pa'i bstod tshig nyi ma zhes bya ba sa skya pa'i paN chen gtsang stag tshang lo tsA bas mdzad pa sogs rje'i bstod tshogs kyi skor 'ga' zhig phyogs gcig tu bkod pa (rje bstod)"@bo-x-ewts .
+    
+    bdr:TTD84987276CB3A56A
+        a                   :Title ;
+        rdfs:label          "skyabs rje pha bong kha pa chab mdor bzhugs skabs snyan sgron du gsol zer ba'i yig rdzus kyi dpyad don mchan bus bkrol ba dpyod ldan bzhin 'dzum dgod pa'i thal skad rnga chen bskul ba'i dbyu gu (dpyad don)"@bo-x-ewts .
+}

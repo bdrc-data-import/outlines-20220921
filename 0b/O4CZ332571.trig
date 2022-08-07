@@ -1,0 +1,139 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ332571 {
+    bda:LG68581D819CA10487
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2019-04-01T10:48:48.044Z"^^xsd:dateTime ;
+        adm:logMessage      "new outline for usaid"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:O4CZ332571  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ332571 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "0b/O4CZ332571.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ332571 ;
+        adm:logEntry        bda:LG68581D819CA10487 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL0C91D598D6384BA6
+        a                   :ContentLocation ;
+        :contentLocationEndPage  118 ;
+        :contentLocationInstance  bdr:W4CZ332277 ;
+        :contentLocationPage  3 .
+    
+    bdr:CL6B4DC3FA744864B3
+        a                   :ContentLocation ;
+        :contentLocationEndPage  168 ;
+        :contentLocationInstance  bdr:W4CZ332277 ;
+        :contentLocationPage  121 .
+    
+    bdr:CL839918FAB6F9695D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  412 ;
+        :contentLocationInstance  bdr:W4CZ332277 ;
+        :contentLocationPage  169 .
+    
+    bdr:CLCC17E994A8DD0749
+        a                   :ContentLocation ;
+        :contentLocationEndPage  120 ;
+        :contentLocationInstance  bdr:W4CZ332277 ;
+        :contentLocationPage  119 .
+    
+    bdr:MW4CZ332277  :hasPart  bdr:MW4CZ332277_426EA5 , bdr:MW4CZ332277_447F15 , bdr:MW4CZ332277_BFD62D , bdr:MW4CZ332277_C35095 .
+    
+    bdr:MW4CZ332277_426EA5
+        a                   :Instance ;
+        skos:prefLabel      "byang chub sgrub thabs kyi bon tshigs su bcad pa sum brgya nyi shu/"@bo-x-ewts ;
+        :contentLocation    bdr:CL6B4DC3FA744864B3 ;
+        :contentLocationStatement  "29 ff." ;
+        :hasTitle           bdr:TT8D4CE305AB1FA8D4 ;
+        :inRootInstance     bdr:MW4CZ332277 ;
+        :instanceOf         bdr:WA0XL426EA5A90315 ;
+        :legacyOutlineNodeRID  "O4CZ3325714CZ332574" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW4CZ332277 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW4CZ332277_447F15
+        a                   :Instance ;
+        skos:prefLabel      "byams ma chen mo rtsa ba'i 'bum/"@bo-x-ewts ;
+        :contentLocation    bdr:CL0C91D598D6384BA6 ;
+        :contentLocationStatement  "116 p." ;
+        :hasTitle           bdr:TT32455B1A73448FAF ;
+        :inRootInstance     bdr:MW4CZ332277 ;
+        :instanceOf         bdr:WA0XL9FE53474682F ;
+        :legacyOutlineNodeRID  "O4CZ3325714CZ332572" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW4CZ332277 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW4CZ332277_BFD62D
+        a                   :Instance ;
+        skos:prefLabel      "tshigs su bcad pa sum brgya nyi shu pa'i rnambshad gzhan phan snying po/"@bo-x-ewts ;
+        :contentLocation    bdr:CL839918FAB6F9695D ;
+        :contentLocationStatement  "121 ff." ;
+        :hasTitle           bdr:TT33AF2ECD855C708F , bdr:TT85F52C395E3041F6 ;
+        :inRootInstance     bdr:MW4CZ332277 ;
+        :instanceOf         bdr:WA0XLBFD62D6DFFD4 ;
+        :legacyOutlineNodeRID  "O4CZ3325714CZ332575" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW4CZ332277 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW4CZ332277_C35095
+        a                   :Instance ;
+        skos:prefLabel      "byams ma bum lnga'i yang snying /"@bo-x-ewts ;
+        :contentLocation    bdr:CLCC17E994A8DD0749 ;
+        :contentLocationStatement  "1 f." ;
+        :hasTitle           bdr:TT59F336F683B94D9D ;
+        :inRootInstance     bdr:MW4CZ332277 ;
+        :instanceOf         bdr:WA0XLC35095FC0ED6 ;
+        :legacyOutlineNodeRID  "O4CZ3325714CZ332573" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW4CZ332277 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O4CZ332571  a       :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ332571" ;
+        :outlineOf          bdr:MW4CZ332277 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT32455B1A73448FAF
+        a                   :Title ;
+        rdfs:label          "byams ma chen mo rtsa ba'i 'bum/"@bo-x-ewts .
+    
+    bdr:TT33AF2ECD855C708F
+        a                   :Title ;
+        rdfs:label          "tshigs su bcad pa sum brgya nyi shu pa'i rnambshad gzhan phan snying po/"@bo-x-ewts .
+    
+    bdr:TT59F336F683B94D9D
+        a                   :Title ;
+        rdfs:label          "byams ma bum lnga'i yang snying /"@bo-x-ewts .
+    
+    bdr:TT85F52C395E3041F6
+        a                   :TitlePageTitle ;
+        rdfs:label          "byang chub sgrub thabs kyi bon tshigs su bcad pa sum brgya nyi shu pa'i rnambshad gzhan phan snying po/"@bo-x-ewts .
+    
+    bdr:TT8D4CE305AB1FA8D4
+        a                   :Title ;
+        rdfs:label          "byang chub sgrub thabs kyi bon tshigs su bcad pa sum brgya nyi shu/"@bo-x-ewts .
+}

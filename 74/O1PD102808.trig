@@ -1,0 +1,94 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1PD102808 {
+    bda:LGF70419A233EA0BC9
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-04-26T14:31:02.073Z"^^xsd:dateTime ;
+        adm:logMessage      "bcos"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1PD102808  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1PD102808 ;
+        adm:facetIndex      5 ;
+        adm:gitPath         "74/O1PD102808.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1PD102808 ;
+        adm:logEntry        bda:LGF70419A233EA0BC9 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL11C39E10F19A9A15
+        a                   :ContentLocation ;
+        :contentLocationEndPage  44 ;
+        :contentLocationInstance  bdr:W15649 ;
+        :contentLocationPage  31 .
+    
+    bdr:CLBCC35F0662C2803D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  55 ;
+        :contentLocationInstance  bdr:W15649 ;
+        :contentLocationPage  44 .
+    
+    bdr:CLD6F5AF1B8821DD7B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  31 ;
+        :contentLocationInstance  bdr:W15649 ;
+        :contentLocationPage  6 .
+    
+    bdr:MW15649  :hasPart   bdr:MW15649_04D5D2 , bdr:MW15649_818B37 , bdr:MW15649_DC9057 .
+    
+    bdr:MW15649_04D5D2
+        a                   :Instance ;
+        skos:prefLabel      "sras mkhar dgu thog gtsug lag khang gi rten brten pa bcas pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLD6F5AF1B8821DD7B ;
+        :contentLocationStatement  "ff. 1v-14r" ;
+        :inRootInstance     bdr:MW15649 ;
+        :legacyOutlineNodeRID  "O1PD1028081PD102897" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW15649 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW15649_818B37
+        a                   :Instance ;
+        skos:prefLabel      "lho gnas mchog dpal gyi gro bo lung /"@bo-x-ewts ;
+        :contentLocation    bdr:CL11C39E10F19A9A15 ;
+        :contentLocationStatement  "ff. 14r-17v" ;
+        :inRootInstance     bdr:MW15649 ;
+        :legacyOutlineNodeRID  "O1PD1028081PD102898" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW15649 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:MW15649_DC9057
+        a                   :Instance ;
+        skos:altLabel       "dpal gro bo lung gi yang dben gnya' gnya' zhes pa'i lo rgyus/"@bo-x-ewts ;
+        skos:prefLabel      "zangs phug ltag gnya'"@bo-x-ewts ;
+        :contentLocation    bdr:CLBCC35F0662C2803D ;
+        :contentLocationStatement  "ff. 20v-27r" ;
+        :inRootInstance     bdr:MW15649 ;
+        :legacyOutlineNodeRID  "O1PD1028081PD102899" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW15649 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:O1PD102808  a       :Outline ;
+        :authorshipStatement  "paldor; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1PD102808" ;
+        :outlineOf          bdr:MW15649 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+}

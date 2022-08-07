@@ -1,0 +1,108 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS149725 {
+    bda:LGB281587D7362E090
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-07-07T16:38:54.859Z"^^xsd:dateTime ;
+        adm:logMessage      "changed author of second work"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:LGC11F319E7F4432EF
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-07-07T17:34:12.5Z"^^xsd:dateTime ;
+        adm:logMessage      "changed relative to absolute"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS149725  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS149725 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "b5/O1GS149725.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS149725 ;
+        adm:logEntry        bda:LGB281587D7362E090 , bda:LGC11F319E7F4432EF ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL7D2136E50A5B8A3B
+        a                   :ContentLocation ;
+        :contentLocationEndPage  526 ;
+        :contentLocationInstance  bdr:W23800 ;
+        :contentLocationPage  312 .
+    
+    bdr:CLE9AAC66A757AE2F4
+        a                   :ContentLocation ;
+        :contentLocationEndPage  311 ;
+        :contentLocationInstance  bdr:W23800 ;
+        :contentLocationPage  11 .
+    
+    bdr:MW23800  :hasPart   bdr:MW23800_779EB7 , bdr:MW23800_FCBF5B .
+    
+    bdr:MW23800_779EB7
+        a                   :Instance ;
+        skos:prefLabel      "zung 'jug grub pa'i dpa' bo thar pa'i rgyal mtshan gyi mdzad pa thun mong ba'i rnam par thar pa zung 'jug rin chen 'dren pa'i shing rta/"@bo-x-ewts ;
+        :authorshipStatement  "written by one dge slong ngag gi dbang po at the behest of a number of imortant religious figures in 1795"@en ;
+        :colophon           "ces zung 'jug grub pa'i dpa' bo thar pa'i rgyal mtshan gyi rnam par thar pa zung 'jug rin chen 'dren pa'i shing rta 'di chos byin rgyun spel ched du par gsar bskrun gyi phrin las mdzad pa po ser smad mkhan po yongs kyi dge ba'i bses gnyen grags pa mkhas grub/ lha btsun sku mched bcas nas 'gan bzhes dang/ dad ldan spong ba pa dge slong ngag dbang grags pas par shing rnams bsgrub rtsol thog a ra khams tshan spyi dang gong gsal sogs dad ldan mang pos zhal 'debs byas pa'i dge ba rnams rdzogs byang du bsngo ba'i smon tshig 'di lta bu zhig dgos zhes bshes gnyen mchog na bskul ba ltar/ bya bral ngag gi dbang pos ser smad bla brang du bsdebs pa'o/ /ser smad du bzhugs/"@bo-x-ewts ;
+        :contentLocation    bdr:CL7D2136E50A5B8A3B ;
+        :contentLocationStatement  "pp. 302-516" ;
+        :hasTitle           bdr:TT8AE800EBB3258303 , bdr:TT9EFAD6518FD53F71 ;
+        :inRootInstance     bdr:MW23800 ;
+        :instanceOf         bdr:WA0XL779EB749413B ;
+        :legacyOutlineNodeRID  "O1GS1497251GS149727" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW23800 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23800_FCBF5B
+        a                   :Instance ;
+        skos:prefLabel      "rwa lo tsa ba'i rnam thar/"@bo-x-ewts ;
+        :authorshipStatement  "written by his great-grandson, rwa ye shes seng+ge at the behest of some people from kham"@en ;
+        :contentLocation    bdr:CLE9AAC66A757AE2F4 ;
+        :contentLocationStatement  "pp. 1-301" ;
+        :hasTitle           bdr:TT226C63C9DEB3DEE6 , bdr:TT6514FBD775F2BA9C , bdr:TT7A2D60C768141EE6 ;
+        :inRootInstance     bdr:MW23800 ;
+        :instanceOf         bdr:WA1TLMTGA001164 ;
+        :legacyOutlineNodeRID  "O1GS1497251GS149726" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW23800 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS149725  a       :Outline ;
+        :authorshipStatement  "genesmith; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS149725" ;
+        :outlineOf          bdr:MW23800 ;
+        :outlineType        bdr:OutlineTypeCompositeVolume ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT226C63C9DEB3DEE6
+        a                   :TitlePageTitle ;
+        rdfs:label          "mthu stobs dbang phyug rje btsun rwa lo tsA ba'i rnam par thar pa kun khyab snyan pa'i rnga sgra/"@bo-x-ewts .
+    
+    bdr:TT6514FBD775F2BA9C
+        a                   :RunningTitle ;
+        rdfs:label          "rwa lo'i rnam thar/"@bo-x-ewts .
+    
+    bdr:TT7A2D60C768141EE6
+        a                   :Title ;
+        rdfs:label          "rwa lo tsa ba'i rnam thar/"@bo-x-ewts .
+    
+    bdr:TT8AE800EBB3258303
+        a                   :RunningTitle ;
+        rdfs:label          "thar rnam/"@bo-x-ewts .
+    
+    bdr:TT9EFAD6518FD53F71
+        a                   :Title ;
+        rdfs:label          "zung 'jug grub pa'i dpa' bo thar pa'i rgyal mtshan gyi mdzad pa thun mong ba'i rnam par thar pa zung 'jug rin chen 'dren pa'i shing rta/"@bo-x-ewts .
+}

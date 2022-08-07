@@ -1,0 +1,151 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1GS134374 {
+    bda:LG766BED8B86CD220E
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2008-11-10T14:56:36.432Z"^^xsd:dateTime ;
+        adm:logMessage      "outline completed"@en ;
+        adm:logWho          bdu:U00001 .
+    
+    bda:O1GS134374  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1GS134374 ;
+        adm:facetIndex      10 ;
+        adm:gitPath         "ab/O1GS134374.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1GS134374 ;
+        adm:logEntry        bda:LG766BED8B86CD220E ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL043B35B378223841
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W23946 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL14AB27C3A81E1A18
+        a                   :ContentLocation ;
+        :contentLocationEndPage  746 ;
+        :contentLocationInstance  bdr:W23946 ;
+        :contentLocationPage  5 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL6D45E42143E36161
+        a                   :ContentLocation ;
+        :contentLocationEndPage  488 ;
+        :contentLocationInstance  bdr:W23946 ;
+        :contentLocationPage  357 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CL6D78AAF0CE4B9F23
+        a                   :ContentLocation ;
+        :contentLocationEndPage  356 ;
+        :contentLocationInstance  bdr:W23946 ;
+        :contentLocationPage  5 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CLD649AD307D2DB0FF
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W23946 ;
+        :contentLocationVolume  2 .
+    
+    bdr:MW23946  :hasPart   bdr:MW23946_345B54 , bdr:MW23946_6F4780 .
+    
+    bdr:MW23946_345B54
+        a                   :Instance ;
+        skos:prefLabel      "2 (kha)"@bo-x-ewts ;
+        :contentLocation    bdr:CLD649AD307D2DB0FF ;
+        :hasPart            bdr:MW23946_750CEE , bdr:MW23946_9BF141 ;
+        :inRootInstance     bdr:MW23946 ;
+        :legacyOutlineNodeRID  "O1GS1343741GS134376" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW23946 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW23946_57D951
+        a                   :Instance ;
+        skos:prefLabel      "byang chub sems dpa'i spyod pa la 'jug pa'i tshig 'grel 'jam dbyangs bla ma'i zhal lung bdud rtsi'i thigs pa (ka spyod 'jug mkhan po kun dpal bka' 'bum)"@bo-x-ewts ;
+        :authorshipStatement  "signed by kun bzang chos grags alias kun bzang dpal ldan"@en ;
+        :contentLocation    bdr:CL14AB27C3A81E1A18 ;
+        :contentLocationStatement  "371 ff." ;
+        :hasTitle           bdr:TTE8B4F038D3BD8CA4 ;
+        :inRootInstance     bdr:MW23946 ;
+        :instanceOf         bdr:WA3CN5402 ;
+        :legacyOutlineNodeRID  "O1GS1343741GS134377" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW23946_6F4780 ;
+        :partTreeIndex      "1.1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23946_6F4780
+        a                   :Instance ;
+        skos:prefLabel      "1 (ka)"@bo-x-ewts ;
+        :contentLocation    bdr:CL043B35B378223841 ;
+        :hasPart            bdr:MW23946_57D951 ;
+        :inRootInstance     bdr:MW23946 ;
+        :legacyOutlineNodeRID  "O1GS1343741GS134375" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW23946 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW23946_750CEE
+        a                   :Instance ;
+        skos:prefLabel      "o rgyan 'jigs med chos kyi dbang po'i rnam thar dad pa'i gsos sman bdud rtsi'i bum bcud (dpal sprul rnam thar)"@bo-x-ewts ;
+        :authorshipStatement  "colophon signed by thub bstan kun bzang chos grags with dge tshul blo gsal phur pa tshe ring and zhal bshus gnyis pa dkon mchog chos 'phel as scribes"@en ;
+        :contentLocation    bdr:CL6D45E42143E36161 ;
+        :contentLocationStatement  "66 ff." ;
+        :hasTitle           bdr:TT01F56C278798098B ;
+        :inRootInstance     bdr:MW23946 ;
+        :instanceOf         bdr:WA0XL750CEE783E3A ;
+        :legacyOutlineNodeRID  "O1GS1343741GS134379" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW23946_345B54 ;
+        :partTreeIndex      "2.2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW23946_9BF141
+        a                   :Instance ;
+        skos:prefLabel      "chos 'dul ba rin po che'i gleng gzhi bsdus pa blo gsal gzhon nu'i mgul rgyan (mkhan po kun dpal bka' 'bum/"@bo-x-ewts ;
+        :authorshipStatement  "signed by shAkya'i btsun gzugs pa man+ta d+harma kI r+ti in his 73rd year at dge gong dgon bkra shis chos gling"@en ;
+        :contentLocation    bdr:CL6D78AAF0CE4B9F23 ;
+        :contentLocationStatement  "176 ff." ;
+        :hasTitle           bdr:TTCB13B2709ED46959 ;
+        :inRootInstance     bdr:MW23946 ;
+        :instanceOf         bdr:WA0XL9BF141AC3B9A ;
+        :legacyOutlineNodeRID  "O1GS1343741GS134378" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW23946_345B54 ;
+        :partTreeIndex      "2.1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1GS134374  a       :Outline ;
+        :authorshipStatement  "genesmith; outlined with the gracious support of the trace foundation"@en ;
+        :legacyOutlineNodeRID  "O1GS134374" ;
+        :outlineOf          bdr:MW23946 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT01F56C278798098B
+        a                   :Title ;
+        rdfs:label          "o rgyan 'jigs med chos kyi dbang po'i rnam thar dad pa'i gsos sman bdud rtsi'i bum bcud (dpal sprul rnam thar)"@bo-x-ewts .
+    
+    bdr:TTCB13B2709ED46959
+        a                   :Title ;
+        rdfs:label          "chos 'dul ba rin po che'i gleng gzhi bsdus pa blo gsal gzhon nu'i mgul rgyan (mkhan po kun dpal bka' 'bum/"@bo-x-ewts .
+    
+    bdr:TTE8B4F038D3BD8CA4
+        a                   :Title ;
+        rdfs:label          "byang chub sems dpa'i spyod pa la 'jug pa'i tshig 'grel 'jam dbyangs bla ma'i zhal lung bdud rtsi'i thigs pa (ka spyod 'jug mkhan po kun dpal bka' 'bum)"@bo-x-ewts .
+}

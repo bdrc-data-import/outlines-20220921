@@ -1,0 +1,163 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1LS5344 {
+    bda:LG41E2F890EF58E020
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-08-16T10:17:25.591Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LG66CFC4731E5094CD
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2010-02-10T14:44:33.094Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:O1LS5344  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1LS5344 ;
+        adm:facetIndex      13 ;
+        adm:gitPath         "8b/O1LS5344.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1LS5344 ;
+        adm:logEntry        bda:LG41E2F890EF58E020 , bda:LG66CFC4731E5094CD ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL3141C9EE8BEA09BE
+        a                   :ContentLocation ;
+        :contentLocationEndPage  37 ;
+        :contentLocationInstance  bdr:W00KG03795 ;
+        :contentLocationPage  13 .
+    
+    bdr:CL680B822B09A0EC9D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  13 ;
+        :contentLocationInstance  bdr:W00KG03795 ;
+        :contentLocationPage  11 .
+    
+    bdr:CL7A4DD9211AF1B15E
+        a                   :ContentLocation ;
+        :contentLocationEndPage  11 ;
+        :contentLocationInstance  bdr:W00KG03795 ;
+        :contentLocationPage  10 .
+    
+    bdr:CLBE2FCA76DBD87136
+        a                   :ContentLocation ;
+        :contentLocationEndPage  13 ;
+        :contentLocationInstance  bdr:W00KG03795 ;
+        :contentLocationPage  13 .
+    
+    bdr:CLFA2709CFE3845CC8
+        a                   :ContentLocation ;
+        :contentLocationEndPage  39 ;
+        :contentLocationInstance  bdr:W00KG03795 ;
+        :contentLocationPage  38 .
+    
+    bdr:MW00KG03795  :hasPart  bdr:MW00KG03795_07083E , bdr:MW00KG03795_20A710 , bdr:MW00KG03795_4EF003 , bdr:MW00KG03795_C24D49 , bdr:MW00KG03795_E66B8E .
+    
+    bdr:MW00KG03795_07083E
+        a                   :Instance ;
+        skos:prefLabel      "gter sgrom gnas kyi chags yul/"@bo-x-ewts ;
+        :contentLocation    bdr:CLBE2FCA76DBD87136 ;
+        :contentLocationStatement  "pp. 8" ;
+        :hasTitle           bdr:TTF5C68A9AB9EF0C8E ;
+        :inRootInstance     bdr:MW00KG03795 ;
+        :instanceOf         bdr:WA0XL07083ED695C8 ;
+        :legacyOutlineNodeRID  "O1LS53441LS5348" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW00KG03795 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00KG03795_20A710
+        a                   :Instance ;
+        skos:prefLabel      "gter sgrom gnas kyi gsol 'debs/"@bo-x-ewts ;
+        :contentLocation    bdr:CL7A4DD9211AF1B15E ;
+        :contentLocationStatement  "pp. 3-5" ;
+        :hasTitle           bdr:TTA3A46DD7C411F080 ;
+        :inRootInstance     bdr:MW00KG03795 ;
+        :instanceOf         bdr:WA0XL20A710B3BBA6 ;
+        :legacyOutlineNodeRID  "O1LS53441LS5346" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW00KG03795 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00KG03795_4EF003
+        a                   :Instance ;
+        skos:prefLabel      "gter sgrom gnas kyi snod bcud kyi bkod pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL3141C9EE8BEA09BE ;
+        :contentLocationStatement  "pp. 9-57" ;
+        :hasTitle           bdr:TT156553A36BAED97D ;
+        :inRootInstance     bdr:MW00KG03795 ;
+        :instanceOf         bdr:WA0XL4EF003A408BE ;
+        :legacyOutlineNodeRID  "O1LS53441LS5349" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW00KG03795 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00KG03795_C24D49
+        a                   :Instance ;
+        skos:prefLabel      "gter sgrom gnas ji ltar byin gyis brlabs tshul/"@bo-x-ewts ;
+        :contentLocation    bdr:CL680B822B09A0EC9D ;
+        :contentLocationStatement  "pp. 5-8" ;
+        :hasTitle           bdr:TTC0C899C97B9E30CE ;
+        :inRootInstance     bdr:MW00KG03795 ;
+        :instanceOf         bdr:WA0XLC24D490F5E3F ;
+        :legacyOutlineNodeRID  "O1LS53441LS5347" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW00KG03795 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00KG03795_E66B8E
+        a                   :Instance ;
+        skos:prefLabel      "gnas kyi phan yon bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLFA2709CFE3845CC8 ;
+        :contentLocationStatement  "pp. 58-61" ;
+        :hasTitle           bdr:TTCE056AF8D8DF8F22 ;
+        :inRootInstance     bdr:MW00KG03795 ;
+        :instanceOf         bdr:WA0XLE66B8E8EC663 ;
+        :legacyOutlineNodeRID  "O1LS53441LS5350" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW00KG03795 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1LS5344  a         :Outline ;
+        :authorshipStatement  "lobsang shastri with the generous support of khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1LS5344" ;
+        :outlineOf          bdr:MW00KG03795 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT156553A36BAED97D
+        a                   :TitlePageTitle ;
+        rdfs:label          "gter sgrom gnas kyi snod bcud kyi bkod pa/"@bo-x-ewts .
+    
+    bdr:TTA3A46DD7C411F080
+        a                   :TitlePageTitle ;
+        rdfs:label          "gter sgrom gnas kyi gsol 'debs/"@bo-x-ewts .
+    
+    bdr:TTC0C899C97B9E30CE
+        a                   :TitlePageTitle ;
+        rdfs:label          "gter sgrom gnas ji ltar byin gyis brlabs tshul/"@bo-x-ewts .
+    
+    bdr:TTCE056AF8D8DF8F22
+        a                   :TitlePageTitle ;
+        rdfs:label          "gnas kyi phan yon bshad pa/"@bo-x-ewts .
+    
+    bdr:TTF5C68A9AB9EF0C8E
+        a                   :TitlePageTitle ;
+        rdfs:label          "gter sgrom gnas kyi chags yul/"@bo-x-ewts .
+}

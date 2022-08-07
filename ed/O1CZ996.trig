@@ -1,0 +1,145 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1CZ996 {
+    bda:LGD92DBC5509F131C8
+        a                   adm:InitialDataImport ;
+        adm:logAgent        "Convert2Outline version 1.5.5" ;
+        adm:logDate         "2014-01-15T11:59:06.315Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00051 .
+    
+    bda:LGD9EC502FBA552E31
+        a                   adm:UpdateData ;
+        adm:logDate         "2014-01-16T10:16:45.573Z"^^xsd:dateTime ;
+        adm:logMessage      "reviewed and released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:O1CZ996  a          adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1CZ996 ;
+        adm:facetIndex      11 ;
+        adm:gitPath         "ed/O1CZ996.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1CZ996 ;
+        adm:logEntry        bda:LGD92DBC5509F131C8 , bda:LGD9EC502FBA552E31 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL23447EFC03AD30E6
+        a                   :ContentLocation ;
+        :contentLocationEndPage  16 ;
+        :contentLocationInstance  bdr:W1CZ996 ;
+        :contentLocationPage  3 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL6C1573831A55421A
+        a                   :ContentLocation ;
+        :contentLocationEndPage  138 ;
+        :contentLocationInstance  bdr:W1CZ996 ;
+        :contentLocationPage  71 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL6FCE27CDFA93B60D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  30 ;
+        :contentLocationInstance  bdr:W1CZ996 ;
+        :contentLocationPage  17 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL8E822C0EB3A647B1
+        a                   :ContentLocation ;
+        :contentLocationEndPage  70 ;
+        :contentLocationInstance  bdr:W1CZ996 ;
+        :contentLocationPage  30 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW1CZ996  :hasPart  bdr:MW1CZ996_0A0478 , bdr:MW1CZ996_13B13C , bdr:MW1CZ996_176169 , bdr:MW1CZ996_44BD6C .
+    
+    bdr:MW1CZ996_0A0478
+        a                   :Instance ;
+        skos:prefLabel      "nges donal bskul ba nam mkha'i nor bu/____phyi/___la/___478"@bo-x-ewts ;
+        :contentLocation    bdr:CL6FCE27CDFA93B60D ;
+        :contentLocationStatement  "7 ff. (pp. 1a-7b)" ;
+        :hasTitle           bdr:TTD09A925C0ECDBB13 ;
+        :inRootInstance     bdr:MW1CZ996 ;
+        :instanceOf         bdr:WA0XL0A04784001D1 ;
+        :legacyOutlineNodeRID  "O1CZ996C2O0003" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1CZ996 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1CZ996_13B13C
+        a                   :Instance ;
+        skos:prefLabel      "nges don gyi chos la bskul ba nam mkha'i nor bu/____phyi/___la/___478"@bo-x-ewts ;
+        :contentLocation    bdr:CL23447EFC03AD30E6 ;
+        :contentLocationStatement  "7 ff. (pp. 1a-7b)" ;
+        :hasTitle           bdr:TT1759C1C917DE0E08 ;
+        :inRootInstance     bdr:MW1CZ996 ;
+        :instanceOf         bdr:WA0XL13B13C22E21B ;
+        :legacyOutlineNodeRID  "O1CZ996C2O0002" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1CZ996 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1CZ996_176169
+        a                   :Instance ;
+        skos:prefLabel      "chos dbyings gsal sgron/____phyi/__la/___478"@bo-x-ewts ;
+        :contentLocation    bdr:CL6C1573831A55421A ;
+        :contentLocationStatement  "34 ff. (pp. 1a-35b)" ;
+        :hasTitle           bdr:TT9707896077CF51E9 ;
+        :inRootInstance     bdr:MW1CZ996 ;
+        :instanceOf         bdr:WA0XL176169B4F45A ;
+        :legacyOutlineNodeRID  "O1CZ996C2O0005" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1CZ996 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW1CZ996_44BD6C
+        a                   :Instance ;
+        skos:prefLabel      "nges don la bskul ba nam mkha'i nor bu'i skabs su 'debs rgyu'i lung bsdus/"@bo-x-ewts ;
+        :contentLocation    bdr:CL8E822C0EB3A647B1 ;
+        :contentLocationStatement  "21 ff. (pp. 7b-27b)" ;
+        :hasTitle           bdr:TTDB0073F813D3B30B ;
+        :inRootInstance     bdr:MW1CZ996 ;
+        :instanceOf         bdr:WA0XL44BD6C20F7F0 ;
+        :legacyOutlineNodeRID  "O1CZ996C2O0004" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1CZ996 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1CZ996  a          :Outline ;
+        :authorshipStatement  "chengdu via TBRC Convert2Outline version: 1.5.5"@en ;
+        :legacyOutlineNodeRID  "O1CZ996" ;
+        :outlineOf          bdr:MW1CZ996 ;
+        :outlineType        bdr:OutlineTypeSubjectCollection ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT1759C1C917DE0E08
+        a                   :Title ;
+        rdfs:label          "nges don gyi chos la bskul ba nam mkha'i nor bu/____phyi/___la/___478"@bo-x-ewts .
+    
+    bdr:TT9707896077CF51E9
+        a                   :Title ;
+        rdfs:label          "chos dbyings gsal sgron/____phyi/__la/___478"@bo-x-ewts .
+    
+    bdr:TTD09A925C0ECDBB13
+        a                   :Title ;
+        rdfs:label          "nges donal bskul ba nam mkha'i nor bu/____phyi/___la/___478"@bo-x-ewts .
+    
+    bdr:TTDB0073F813D3B30B
+        a                   :Title ;
+        rdfs:label          "nges don la bskul ba nam mkha'i nor bu'i skabs su 'debs rgyu'i lung bsdus/"@bo-x-ewts .
+}

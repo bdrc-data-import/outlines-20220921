@@ -1,0 +1,129 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ356666 {
+    bda:LG95AE5A393D9D0B45
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2020-04-17T15:30:15.741Z"^^xsd:dateTime ;
+        adm:logMessage      "reviewed and released"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:O4CZ356666  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ356666 ;
+        adm:facetIndex      7 ;
+        adm:gitPath         "b6/O4CZ356666.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ356666 ;
+        adm:logEntry        bda:LG95AE5A393D9D0B45 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL4E8C3FF2D1046230
+        a                   :ContentLocation ;
+        :contentLocationEndPage  938 ;
+        :contentLocationInstance  bdr:W1NLM1307 ;
+        :contentLocationPage  627 .
+    
+    bdr:CL86ADA2DB05D9FDAC
+        a                   :ContentLocation ;
+        :contentLocationEndPage  440 ;
+        :contentLocationInstance  bdr:W1NLM1307 ;
+        :contentLocationPage  317 .
+    
+    bdr:CL9265191FE2F49086
+        a                   :ContentLocation ;
+        :contentLocationEndPage  212 ;
+        :contentLocationInstance  bdr:W1NLM1307 ;
+        :contentLocationPage  1 .
+    
+    bdr:CL994E55B873A17860
+        a                   :ContentLocation ;
+        :contentLocationEndPage  626 ;
+        :contentLocationInstance  bdr:W1NLM1307 ;
+        :contentLocationPage  441 .
+    
+    bdr:CLFB07B6245C67CA41
+        a                   :ContentLocation ;
+        :contentLocationEndPage  316 ;
+        :contentLocationInstance  bdr:W1NLM1307 ;
+        :contentLocationPage  213 .
+    
+    bdr:MW1NLM1307  :hasPart  bdr:MW1NLM1307_3AF52F , bdr:MW1NLM1307_445D35 , bdr:MW1NLM1307_6DCB59 , bdr:MW1NLM1307_ABE05C , bdr:MW1NLM1307_BFCFEE .
+    
+    bdr:MW1NLM1307_3AF52F
+        a                   :Instance ;
+        skos:prefLabel      "rgyud thams cad kyi rgyal po dpal gsang ba 'dus pa'i rtsa ba'i rgyud kyi sgron ma rab tu gsal bar byed pa'i rgya cher bshad pa'i 'chad pa las le'u bcu bzhi pa nas bcu bdun pa'i bar gyi rgya cher bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL4E8C3FF2D1046230 ;
+        :contentLocationStatement  "156 ff." ;
+        :inRootInstance     bdr:MW1NLM1307 ;
+        :legacyOutlineNodeRID  "O4CZ3566664CZ356671" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW1NLM1307 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW1NLM1307_445D35
+        a                   :Instance ;
+        skos:prefLabel      "rgyud thams cad kyi rgyal po dpal gsang ba 'dus pa'i rtsa ba'i rgyud kyi sgron ma rab tu gsal bar byed pa'i rgya cher bshad pa'i 'chad pa las le'u bcu pa nas bcu pa'i gsum pa'i bar gyi rgya cher bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL994E55B873A17860 ;
+        :contentLocationStatement  "91 ff." ;
+        :inRootInstance     bdr:MW1NLM1307 ;
+        :legacyOutlineNodeRID  "O4CZ3566664CZ356672" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW1NLM1307 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW1NLM1307_6DCB59
+        a                   :Instance ;
+        skos:prefLabel      "rgyud thams cad kyi rgyal po dpal gsang ba 'dus pa'i rtsa ba'i rgyud kyi sgron ma rab tu gsal bar byed pa'i rgya cher bshad pa'i 'chad pa las le'u dang po rgya cher bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL9265191FE2F49086 ;
+        :contentLocationStatement  "106 ff." ;
+        :inRootInstance     bdr:MW1NLM1307 ;
+        :legacyOutlineNodeRID  "O4CZ3566664CZ356667" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW1NLM1307 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW1NLM1307_ABE05C
+        a                   :Instance ;
+        skos:prefLabel      "rgyud thams cad kyi rgyal po dpal gsang ba 'dus pa'i rtsa ba'i rgyud kyi sgron ma rab tu gsal bar byed pa'i rgya cher bshad pa'i 'chad pa las le'u drug pa nas bar gyi rgya cher bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL86ADA2DB05D9FDAC ;
+        :contentLocationStatement  "62 ff." ;
+        :inRootInstance     bdr:MW1NLM1307 ;
+        :legacyOutlineNodeRID  "O4CZ3566664CZ356669" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW1NLM1307 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:MW1NLM1307_BFCFEE
+        a                   :Instance ;
+        skos:prefLabel      "rgyud thams cad kyi rgyal po dpal gsang ba 'dus pa'i rtsa ba'i rgyud kyi sgron ma rab tu gsal bar byed pa'i rgya cher bshad pa'i 'chad pa las le'u gnyis pa nas lnga pa'i bar gyi rgya cher bshad pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLFB07B6245C67CA41 ;
+        :contentLocationStatement  "52 ff." ;
+        :inRootInstance     bdr:MW1NLM1307 ;
+        :legacyOutlineNodeRID  "O4CZ3566664CZ356668" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW1NLM1307 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeSection .
+    
+    bdr:O4CZ356666  a       :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ356666" ;
+        :outlineOf          bdr:MW1NLM1307 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationRelative .
+}

@@ -1,0 +1,101 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O4CZ332382 {
+    bda:LG1CCBB8130D63CF9C
+        a                   adm:UpdateData ;
+        adm:logDate         "2019-04-01T14:17:00.678Z"^^xsd:dateTime ;
+        adm:logMessage      "added info"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:LG9C12EB18E6B80233
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2019-04-01T10:48:43.539Z"^^xsd:dateTime ;
+        adm:logMessage      "new outline for usaid"@en ;
+        adm:logWho          bdu:U00017 .
+    
+    bda:O4CZ332382  a       adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O4CZ332382 ;
+        adm:facetIndex      9 ;
+        adm:gitPath         "ea/O4CZ332382.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O4CZ332382 ;
+        adm:logEntry        bda:LG1CCBB8130D63CF9C , bda:LG9C12EB18E6B80233 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL9FD2B3D15A7220E3
+        a                   :ContentLocation ;
+        :contentLocationEndPage  506 ;
+        :contentLocationInstance  bdr:W4CZ332265 ;
+        :contentLocationPage  3 .
+    
+    bdr:CLD82E3DBCCDCC4EAE
+        a                   :ContentLocation ;
+        :contentLocationEndPage  990 ;
+        :contentLocationInstance  bdr:W4CZ332265 ;
+        :contentLocationPage  507 .
+    
+    bdr:MW4CZ332265  :hasPart  bdr:MW4CZ332265_39E9AA , bdr:MW4CZ332265_6BD9DD .
+    
+    bdr:MW4CZ332265_39E9AA
+        a                   :Instance ;
+        skos:prefLabel      "mdo zer mig (ka)"@bo-x-ewts ;
+        :contentLocation    bdr:CL9FD2B3D15A7220E3 ;
+        :contentLocationStatement  "152 ff." ;
+        :hasTitle           bdr:TT4492C39E721B7EE0 , bdr:TT7830759584E199E3 ;
+        :inRootInstance     bdr:MW4CZ332265 ;
+        :instanceOf         bdr:WA0XL39E9AA5732AA ;
+        :legacyOutlineNodeRID  "O4CZ3323824CZ332383" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW4CZ332265 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW4CZ332265_6BD9DD
+        a                   :Instance ;
+        skos:prefLabel      "mdo zer mig (kha)"@bo-x-ewts ;
+        :colophon           "dge la dad ldan rin chen rgyal mtshan sku mched/ yab sras kyis drin can pha mas thog drangs 'gro drug sems can rnams kyi don slad du/ rong mo a rgyal gyi kar rtsi la/ bka'i mchog gyur bon mdo bzhengs/"@bo-x-ewts ;
+        :contentLocation    bdr:CLD82E3DBCCDCC4EAE ;
+        :contentLocationStatement  "242 ff." ;
+        :hasTitle           bdr:TTB44F1B0DC8ACFCE3 , bdr:TTBFCD92FED938A7E7 ;
+        :inRootInstance     bdr:MW4CZ332265 ;
+        :legacyOutlineNodeRID  "O4CZ3323824CZ332384" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW4CZ332265 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeChapter .
+    
+    bdr:O4CZ332382  a       :Outline ;
+        :authorshipStatement  "Kelsang Lhamo"@en ;
+        :legacyOutlineNodeRID  "O4CZ332382" ;
+        :outlineOf          bdr:MW4CZ332265 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT4492C39E721B7EE0
+        a                   :Title ;
+        rdfs:label          "mdo zer mig (ka)"@bo-x-ewts .
+    
+    bdr:TT7830759584E199E3
+        a                   :TitlePageTitle ;
+        rdfs:label          "'dus pa rin po che'i rgyud gzer mig le'u bco brgyad pa/"@bo-x-ewts .
+    
+    bdr:TTB44F1B0DC8ACFCE3
+        a                   :TitlePageTitle ;
+        rdfs:label          "gshen rab kyi dkyil 'khor la bdud kyi cho 'phrul bstan pa'i le'u/"@bo-x-ewts .
+    
+    bdr:TTBFCD92FED938A7E7
+        a                   :Title ;
+        rdfs:label          "mdo zer mig (kha)"@bo-x-ewts .
+}

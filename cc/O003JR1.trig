@@ -1,0 +1,597 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O003JR1 {
+    bda:LG24269D6B5541B9E6
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2007-03-29T17:12:58.72Z"^^xsd:dateTime ;
+        adm:logMessage      "just beginning; jann"@en ;
+        adm:logWho          bdu:U00011 .
+    
+    bda:LG7724B6A06B0EC9A9
+        a                   adm:UpdateData ;
+        adm:logDate         "2007-03-30T20:49:03.049Z"^^xsd:dateTime ;
+        adm:logMessage      "unreleased; jann"@en ;
+        adm:logWho          bdu:U00011 .
+    
+    bda:LG82BF032EB7AE3147
+        a                   adm:UpdateData ;
+        adm:logDate         "2009-12-03T15:24:03.964Z"^^xsd:dateTime ;
+        adm:logMessage      "checked status"@en ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:LGB104C0D80AF1189A
+        a                   adm:WithdrawData ;
+        adm:logDate         "2009-12-17T10:23:33.801Z"^^xsd:dateTime ;
+        adm:logMessage      "withdrawn"@en ;
+        adm:logWho          bdu:U00020 .
+    
+    bda:LGB57E25E4DB998C5A
+        a                   adm:UpdateData ;
+        adm:logDate         "2008-09-15T23:39:31.74Z"^^xsd:dateTime ;
+        adm:logMessage      "no change"@en .
+    
+    bda:O003JR1  a          adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O003JR1 ;
+        adm:facetIndex      52 ;
+        adm:gitPath         "cc/O003JR1.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O003JR1 ;
+        adm:logEntry        bda:LG24269D6B5541B9E6 , bda:LG7724B6A06B0EC9A9 , bda:LG82BF032EB7AE3147 , bda:LGB104C0D80AF1189A , bda:LGB57E25E4DB998C5A ;
+        adm:status          bda:StatusWithdrawn .
+    
+    bdr:CL000A38DBA43FD224
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL16686BCCCE78FF60
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL16C3714BAC02138C
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL22AF3CC8087326FF
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  3 .
+    
+    bdr:CL24BF759F83A45EEA
+        a                   :ContentLocation ;
+        :contentLocationEndPage  16 ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationPage  5 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL2D37F777377B9920
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL3648C91EB242A313
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL3C81722DAA48C9E8
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL446E5F08A55EAD51
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  4 .
+    
+    bdr:CL59188F1288F2584B
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL5D8359BE2944A476
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  10 .
+    
+    bdr:CL6F2BA64B4C4605B7
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  8 .
+    
+    bdr:CL7FDF30D98EA30C67
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  7 .
+    
+    bdr:CL82E90A5E392FDC9B
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL87570C057A909411
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CL8A12647C1000A7D3
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  9 .
+    
+    bdr:CLA186AA0B00DE517B
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLA90A63CF9000D07E
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  2 .
+    
+    bdr:CLAC7F16DD5F65BEBA
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLB4D920BF8D33F71F
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLBF98762CC37CA959
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  5 .
+    
+    bdr:CLCE05708B79B40B5F
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLD7FF152357E12C7E
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLE85558050CED9D83
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLEAD3348CA80924B6
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  1 .
+    
+    bdr:CLFC85EAEEE7172F70
+        a                   :ContentLocation ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationVolume  6 .
+    
+    bdr:CLFFA1D4CE4B4CFFA7
+        a                   :ContentLocation ;
+        :contentLocationEndPage  78 ;
+        :contentLocationInstance  bdr:W15098 ;
+        :contentLocationPage  17 ;
+        :contentLocationVolume  1 .
+    
+    bdr:MW15098  :hasPart   bdr:MW15098_036F13 , bdr:MW15098_74FCFF , bdr:MW15098_79D4F0 , bdr:MW15098_9C4BBF , bdr:MW15098_D6A870 , bdr:MW15098_D778B0 , bdr:MW15098_D95458 , bdr:MW15098_E2FDE6 , bdr:MW15098_EB4EEC , bdr:MW15098_F0719E .
+    
+    bdr:MW15098_036F13
+        a                   :Instance ;
+        skos:prefLabel      "7 (ja)"@bo-x-ewts ;
+        :contentLocation    bdr:CL7FDF30D98EA30C67 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR18" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "07" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_12ADCC
+        a                   :Instance ;
+        skos:prefLabel      "ma/"@bo-x-ewts ;
+        :contentLocation    bdr:CL16686BCCCE78FF60 ;
+        :hasTitle           bdr:TTA71BDC04542E3C19 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR144" ;
+        :partIndex          16 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.16" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_184455
+        a                   :Instance ;
+        skos:prefLabel      "'gyur med tshe dbang mchog grub kyi gsung 'bum dkar chag"@bo-x-ewts ;
+        :colophon           "ces kun mkhyen bla ma'i gsung 'bum gyi phyi mo la mes 'jig byung bas pus+ta ka brgyad du longs pa'i sdeb grangs chud zos par slar yang 'jigs bral bdud 'dul rdo rje lnga pa yongs rdzogs bstan pa'i sgron me mtshungs zla dang bral ba'i 'jigs med yon tan mgon pos gtong phod kyi sgo 'phar phyes te thugs rtsom chen pos par gyi nyams gso gnang ba na glegs bam bzhugs byang 'di ltar dgongs zhes bka' mi ldog tsam du tA'i si tu'i sku skyer bod pa'i 'du shes gsum pa chos kyi blo gros kyis sbyar ba/"@bo-x-ewts ;
+        :contentLocation    bdr:CL24BF759F83A45EEA ;
+        :contentLocationStatement  "v. 1, 6 ff. (pp. 1-11)" ;
+        :hasTitle           bdr:TT93649BAC23C9C76F , bdr:TTE737DE3862728F95 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR129" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.01" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:MW15098_2C4206
+        a                   :Instance ;
+        skos:prefLabel      "grub mtha' chen po bzhi'i rnam gzhag"@bo-x-ewts ;
+        :colophon           "de ltar nang pa'i grub mtha' bzhi'i gnas lugs gsal bar byed pa'i yi ge nyung du zhig cis kyang dgos zhes/_skyabs mgon rje btsun bka' drin mtshungs zla ma mchis pa de nyid kyi mchog gi sprul pa'i sku 'jigs med rig 'dzin mgon po'i bka' stsal gser gyi me tog gtsug gis mchod de gyi 'da' pa la 'gyur med tshe dbang mchog grub nges don bstan 'phel zhes pas rgyal ba gnyis pa kun mkhyen ngag gi dbang po gtso bor gyur pa tshad ma'i skyes mchog rnams kyi zhal lung bzhin go bder cung zad bkral ba'i yi ge pa ni sngags rams pa/_'gyur med mchog ldan gyis 'dus byas pa 'dis kyang chos rnams la rmongs pa med pa'i shes rab kyis srid mtsho brgal nus par gyur cig/_rgyas par ni gzhung chen po las rtogs par bya dgos so/"@bo-x-ewts ;
+        :contentLocation    bdr:CLFFA1D4CE4B4CFFA7 ;
+        :contentLocationStatement  "v. 1, 31 ff. (pp. 13-74)" ;
+        :hasTitle           bdr:TTBAA5AC2BDACD9617 , bdr:TTC635D57FE398E588 ;
+        :inRootInstance     bdr:MW15098 ;
+        :instanceOf         bdr:WA0XL2C4206175BAF ;
+        :legacyOutlineNodeRID  "O003JR130" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.02" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_3FAB72
+        a                   :Instance ;
+        skos:prefLabel      "cha/"@bo-x-ewts ;
+        :contentLocation    bdr:CLD7FF152357E12C7E ;
+        :hasTitle           bdr:TTA77A4ADDF8D0C06F ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR134" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.06" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_410C43
+        a                   :Instance ;
+        skos:prefLabel      "pa/"@bo-x-ewts ;
+        :contentLocation    bdr:CLA186AA0B00DE517B ;
+        :hasTitle           bdr:TT6EE1A1EF98F9B3B0 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR141" ;
+        :partIndex          13 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.13" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_46DED7
+        a                   :Instance ;
+        skos:prefLabel      "tsa/"@bo-x-ewts ;
+        :contentLocation    bdr:CL16C3714BAC02138C ;
+        :hasTitle           bdr:TTAD6C6D5F91DFC5A4 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR145" ;
+        :partIndex          17 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.17" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_599820
+        a                   :Instance ;
+        skos:prefLabel      "ga"@bo-x-ewts ;
+        :contentLocation    bdr:CL82E90A5E392FDC9B ;
+        :hasTitle           bdr:TTBA79B8FE494484E7 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR131" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.03" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_662D65
+        a                   :Instance ;
+        skos:prefLabel      "na/"@bo-x-ewts ;
+        :contentLocation    bdr:CL59188F1288F2584B ;
+        :hasTitle           bdr:TTF407DA7779A688FF ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR140" ;
+        :partIndex          12 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.12" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_6FE367
+        a                   :Instance ;
+        skos:prefLabel      "ta/"@bo-x-ewts ;
+        :contentLocation    bdr:CL000A38DBA43FD224 ;
+        :hasTitle           bdr:TTAE1DE0E53CD266F0 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR137" ;
+        :partIndex          9 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.09" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_6FF21C
+        a                   :Instance ;
+        skos:prefLabel      "ba/"@bo-x-ewts ;
+        :contentLocation    bdr:CL3C81722DAA48C9E8 ;
+        :hasTitle           bdr:TT4452E888000CA9C1 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR143" ;
+        :partIndex          15 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.15" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_738E8B
+        a                   :Instance ;
+        skos:prefLabel      "tha/"@bo-x-ewts ;
+        :contentLocation    bdr:CLE85558050CED9D83 ;
+        :hasTitle           bdr:TT07ABF460ED808686 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR138" ;
+        :partIndex          10 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.10" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_74FCFF
+        a                   :Instance ;
+        skos:prefLabel      "6 (cha)"@bo-x-ewts ;
+        :contentLocation    bdr:CLFC85EAEEE7172F70 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR17" ;
+        :partIndex          6 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "06" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_760341
+        a                   :Instance ;
+        skos:prefLabel      "nga /"@bo-x-ewts ;
+        :contentLocation    bdr:CL3648C91EB242A313 ;
+        :hasTitle           bdr:TT9F4BDAFC19DB0CEA ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR132" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.04" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_79D4F0
+        a                   :Instance ;
+        skos:prefLabel      "3 (ga)"@bo-x-ewts ;
+        :contentLocation    bdr:CL22AF3CC8087326FF ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR14" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "03" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_7C5CD3
+        a                   :Instance ;
+        skos:prefLabel      "pha/"@bo-x-ewts ;
+        :contentLocation    bdr:CLCE05708B79B40B5F ;
+        :hasTitle           bdr:TT54B2EB19046FE0E5 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR142" ;
+        :partIndex          14 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.14" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_9C4BBF
+        a                   :Instance ;
+        skos:prefLabel      "5 (ca)"@bo-x-ewts ;
+        :contentLocation    bdr:CLBF98762CC37CA959 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR16" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "05" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_A99B6F
+        a                   :Instance ;
+        skos:prefLabel      "da/"@bo-x-ewts ;
+        :contentLocation    bdr:CL2D37F777377B9920 ;
+        :hasTitle           bdr:TT5A9AEE089AEA15DD ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR139" ;
+        :partIndex          11 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.11" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_C19087
+        a                   :Instance ;
+        skos:prefLabel      "ja/"@bo-x-ewts ;
+        :contentLocation    bdr:CLAC7F16DD5F65BEBA ;
+        :hasTitle           bdr:TT73288817EE3D8B58 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR135" ;
+        :partIndex          7 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.07" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_D6A870
+        a                   :Instance ;
+        skos:prefLabel      "ka"@bo-x-ewts ;
+        :contentLocation    bdr:CLB4D920BF8D33F71F ;
+        :hasPart            bdr:MW15098_12ADCC , bdr:MW15098_184455 , bdr:MW15098_2C4206 , bdr:MW15098_3FAB72 , bdr:MW15098_410C43 , bdr:MW15098_46DED7 , bdr:MW15098_599820 , bdr:MW15098_662D65 , bdr:MW15098_6FE367 , bdr:MW15098_6FF21C , bdr:MW15098_738E8B , bdr:MW15098_760341 , bdr:MW15098_7C5CD3 , bdr:MW15098_A99B6F , bdr:MW15098_C19087 , bdr:MW15098_EE55DD , bdr:MW15098_FE14E4 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR12" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "01" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_D778B0
+        a                   :Instance ;
+        skos:prefLabel      "10 (a)"@bo-x-ewts ;
+        :contentLocation    bdr:CL5D8359BE2944A476 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR111" ;
+        :partIndex          10 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "10" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_D95458
+        a                   :Instance ;
+        skos:prefLabel      "2 (kha)"@bo-x-ewts ;
+        :contentLocation    bdr:CLA90A63CF9000D07E ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR13" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "02" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_E2FDE6
+        a                   :Instance ;
+        skos:prefLabel      "4 (nga)"@bo-x-ewts ;
+        :contentLocation    bdr:CL446E5F08A55EAD51 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR15" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "04" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_EB4EEC
+        a                   :Instance ;
+        skos:prefLabel      "9 (ta)"@bo-x-ewts ;
+        :contentLocation    bdr:CL8A12647C1000A7D3 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR110" ;
+        :partIndex          9 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "09" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_EE55DD
+        a                   :Instance ;
+        skos:prefLabel      "ca/"@bo-x-ewts ;
+        :contentLocation    bdr:CLEAD3348CA80924B6 ;
+        :hasTitle           bdr:TT90234FA98A463CF4 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR133" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.05" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW15098_F0719E
+        a                   :Instance ;
+        skos:prefLabel      "8 (nya)"@bo-x-ewts ;
+        :contentLocation    bdr:CL6F2BA64B4C4605B7 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR19" ;
+        :partIndex          8 ;
+        :partOf             bdr:MW15098 ;
+        :partTreeIndex      "08" ;
+        :partType           bdr:PartTypeVolume .
+    
+    bdr:MW15098_FE14E4
+        a                   :Instance ;
+        skos:prefLabel      "nya/"@bo-x-ewts ;
+        :contentLocation    bdr:CL87570C057A909411 ;
+        :hasTitle           bdr:TT5531A1D53EDCE0F7 ;
+        :inRootInstance     bdr:MW15098 ;
+        :legacyOutlineNodeRID  "O003JR136" ;
+        :partIndex          8 ;
+        :partOf             bdr:MW15098_D6A870 ;
+        :partTreeIndex      "01.08" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O003JR1  a          :Outline ;
+        :authorshipStatement  "Jann Ronis"@en ;
+        :legacyOutlineNodeRID  "O003JR1" ;
+        :outlineOf          bdr:MW15098 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT07ABF460ED808686
+        a                   :Title ;
+        rdfs:label          "tha/"@bo-x-ewts .
+    
+    bdr:TT4452E888000CA9C1
+        a                   :Title ;
+        rdfs:label          "ba/"@bo-x-ewts .
+    
+    bdr:TT54B2EB19046FE0E5
+        a                   :Title ;
+        rdfs:label          "pha/"@bo-x-ewts .
+    
+    bdr:TT5531A1D53EDCE0F7
+        a                   :Title ;
+        rdfs:label          "nya/"@bo-x-ewts .
+    
+    bdr:TT5A9AEE089AEA15DD
+        a                   :Title ;
+        rdfs:label          "da/"@bo-x-ewts .
+    
+    bdr:TT6EE1A1EF98F9B3B0
+        a                   :Title ;
+        rdfs:label          "pa/"@bo-x-ewts .
+    
+    bdr:TT73288817EE3D8B58
+        a                   :Title ;
+        rdfs:label          "ja/"@bo-x-ewts .
+    
+    bdr:TT90234FA98A463CF4
+        a                   :Title ;
+        rdfs:label          "ca/"@bo-x-ewts .
+    
+    bdr:TT93649BAC23C9C76F
+        a                   :Title ;
+        rdfs:label          "'gyur med tshe dbang mchog grub kyi gsung 'bum dkar chag"@bo-x-ewts .
+    
+    bdr:TT9F4BDAFC19DB0CEA
+        a                   :Title ;
+        rdfs:label          "nga /"@bo-x-ewts .
+    
+    bdr:TTA71BDC04542E3C19
+        a                   :Title ;
+        rdfs:label          "ma/"@bo-x-ewts .
+    
+    bdr:TTA77A4ADDF8D0C06F
+        a                   :Title ;
+        rdfs:label          "cha/"@bo-x-ewts .
+    
+    bdr:TTAD6C6D5F91DFC5A4
+        a                   :Title ;
+        rdfs:label          "tsa/"@bo-x-ewts .
+    
+    bdr:TTAE1DE0E53CD266F0
+        a                   :Title ;
+        rdfs:label          "ta/"@bo-x-ewts .
+    
+    bdr:TTBA79B8FE494484E7
+        a                   :Title ;
+        rdfs:label          "ga"@bo-x-ewts .
+    
+    bdr:TTBAA5AC2BDACD9617
+        a                   :TitlePageTitle ;
+        rdfs:label          "grub mtha' chen po bzhi'i rnam par gzhag pa mdo tsam phye ba nges don dgongs pa gsal byed/"@bo-x-ewts .
+    
+    bdr:TTC635D57FE398E588
+        a                   :Title ;
+        rdfs:label          "grub mtha' chen po bzhi'i rnam gzhag"@bo-x-ewts .
+    
+    bdr:TTE737DE3862728F95
+        a                   :TitlePageTitle ;
+        rdfs:label          "thams cad mkhyen pa tshe dbang mchog grub kyi gsung 'bum gyi dkar chag gsung rab sgo brgya 'byed pa'i lde mig"@bo-x-ewts .
+    
+    bdr:TTF407DA7779A688FF
+        a                   :Title ;
+        rdfs:label          "na/"@bo-x-ewts .
+}

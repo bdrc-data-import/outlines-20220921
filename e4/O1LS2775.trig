@@ -1,0 +1,99 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O1LS2775 {
+    bda:LG5F824C3CC2F07FA7
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-08-31T14:48:48.515Z"^^xsd:dateTime ;
+        adm:logMessage      "subject class changed from T1958 to T2481"@en ;
+        adm:logWho          bdu:U00016 .
+    
+    bda:LG6CA191745CFEF8A5
+        a                   adm:UpdateData ;
+        adm:logDate         "2010-08-12T11:02:15.523Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:LGE5F6013B756701C0
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2009-12-18T16:54:29.564Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00019 .
+    
+    bda:O1LS2775  a         adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O1LS2775 ;
+        adm:facetIndex      8 ;
+        adm:gitPath         "e4/O1LS2775.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O1LS2775 ;
+        adm:logEntry        bda:LG5F824C3CC2F07FA7 , bda:LG6CA191745CFEF8A5 , bda:LGE5F6013B756701C0 ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL50FD8095DAB83F0F
+        a                   :ContentLocation ;
+        :contentLocationEndPage  124 ;
+        :contentLocationInstance  bdr:W00KG08364 ;
+        :contentLocationPage  114 .
+    
+    bdr:CLAF503161F93B37B9
+        a                   :ContentLocation ;
+        :contentLocationEndPage  132 ;
+        :contentLocationInstance  bdr:W00KG08364 ;
+        :contentLocationPage  125 .
+    
+    bdr:MW00KG08364  :hasPart  bdr:MW00KG08364_968176 , bdr:MW00KG08364_A93606 .
+    
+    bdr:MW00KG08364_968176
+        a                   :Instance ;
+        skos:prefLabel      "gzhung brgya smra ba'i mkhas mchog lha mo blo bzang tshul khrims rgya mtsho tshang gi mdzad rjes mdo tsam brjod pa/"@bo-x-ewts ;
+        :authorshipStatement  "mkha' 'gro 'tsho"@en ;
+        :contentLocation    bdr:CLAF503161F93B37B9 ;
+        :contentLocationStatement  "pp. 117-124" ;
+        :hasTitle           bdr:TT1B1304979F207B6F ;
+        :inRootInstance     bdr:MW00KG08364 ;
+        :instanceOf         bdr:WA0XL968176F058E2 ;
+        :legacyOutlineNodeRID  "O1LS27751LS2778" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW00KG08364 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW00KG08364_A93606
+        a                   :Instance ;
+        skos:prefLabel      "shar phyogs gnas chen ri bo dwangs bsil la mjal ba'i mthong thos brjod pa ngo mtshar gtam gyi rang sgra/"@bo-x-ewts ;
+        :authorshipStatement  "mkha' 'gro 'tsho"@en ;
+        :contentLocation    bdr:CL50FD8095DAB83F0F ;
+        :contentLocationStatement  "pp. 106-116" ;
+        :hasTitle           bdr:TTE7BD133D5A091B81 ;
+        :inRootInstance     bdr:MW00KG08364 ;
+        :instanceOf         bdr:WA0XLA936061A6CDC ;
+        :legacyOutlineNodeRID  "O1LS27751LS2777" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW00KG08364 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:O1LS2775  a         :Outline ;
+        :authorshipStatement  "lobsang shastri created with the generous support of khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O1LS2775" ;
+        :outlineOf          bdr:MW00KG08364 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT1B1304979F207B6F
+        a                   :TitlePageTitle ;
+        rdfs:label          "gzhung brgya smra ba'i mkhas mchog lha mo blo bzang tshul khrims rgya mtsho tshang gi mdzad rjes mdo tsam brjod pa/"@bo-x-ewts .
+    
+    bdr:TTE7BD133D5A091B81
+        a                   :TitlePageTitle ;
+        rdfs:label          "shar phyogs gnas chen ri bo dwangs bsil la mjal ba'i mthong thos brjod pa ngo mtshar gtam gyi rang sgra/"@bo-x-ewts .
+}

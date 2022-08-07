@@ -1,0 +1,187 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdg:O2DB94328 {
+    bda:LG2B2C29643E33B616
+        a                   adm:UpdateData ;
+        adm:logDate         "2011-05-24T16:55:56.64Z"^^xsd:dateTime ;
+        adm:logMessage      "released"@en ;
+        adm:logWho          bdu:U00021 .
+    
+    bda:LG3900E0A570CDAC73
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-09-17T19:34:44.555Z"^^xsd:dateTime ;
+        adm:logMessage      "subject class changed from T1CZ55 to T942"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LG96A6E4686D225378
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-09-17T19:34:44.555Z"^^xsd:dateTime ;
+        adm:logMessage      "subject class changed from T1CZ55 to T942"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LGAC9D1D2B9673E417
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-09-17T19:34:44.555Z"^^xsd:dateTime ;
+        adm:logMessage      "subject class changed from T1CZ55 to T942"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LGBB009827759FA20E
+        a                   adm:UpdateData ;
+        adm:logDate         "2015-09-17T19:34:44.555Z"^^xsd:dateTime ;
+        adm:logMessage      "subject class changed from T1CZ55 to T942"@en ;
+        adm:logWho          bdu:U00007 .
+    
+    bda:LGE6F4FF47BCC0F3FD
+        a                   adm:InitialDataCreation ;
+        adm:logDate         "2011-02-12T15:43:10.681Z"^^xsd:dateTime ;
+        adm:logWho          bdu:U00003 .
+    
+    bda:O2DB94328  a        adm:AdminData ;
+        :isRoot             true ;
+        adm:adminAbout      bdr:O2DB94328 ;
+        adm:facetIndex      17 ;
+        adm:gitPath         "76/O2DB94328.trig" ;
+        adm:gitRepo         bda:GR0016 ;
+        adm:graphId         bdg:O2DB94328 ;
+        adm:logEntry        bda:LG2B2C29643E33B616 , bda:LG3900E0A570CDAC73 , bda:LG96A6E4686D225378 , bda:LGAC9D1D2B9673E417 , bda:LGBB009827759FA20E , bda:LGE6F4FF47BCC0F3FD ;
+        adm:status          bda:StatusReleased .
+    
+    bdr:CL03146CC8FDCBDE0D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  9 ;
+        :contentLocationInstance  bdr:W30514 ;
+        :contentLocationPage  9 .
+    
+    bdr:CL0C2D6C080786C916
+        a                   :ContentLocation ;
+        :contentLocationEndPage  615 ;
+        :contentLocationInstance  bdr:W30514 ;
+        :contentLocationPage  320 .
+    
+    bdr:CL366C4CC1B4F81A14
+        a                   :ContentLocation ;
+        :contentLocationEndPage  658 ;
+        :contentLocationInstance  bdr:W30514 ;
+        :contentLocationPage  616 .
+    
+    bdr:CL85109B27475293BF
+        a                   :ContentLocation ;
+        :contentLocationEndPage  319 ;
+        :contentLocationInstance  bdr:W30514 ;
+        :contentLocationPage  173 .
+    
+    bdr:CL883D812BFC78942D
+        a                   :ContentLocation ;
+        :contentLocationEndPage  172 ;
+        :contentLocationInstance  bdr:W30514 ;
+        :contentLocationPage  11 .
+    
+    bdr:MW30514  :hasPart   bdr:MW30514_1EF53E , bdr:MW30514_5FC65E , bdr:MW30514_92803D , bdr:MW30514_BD372C , bdr:MW30514_CB16AE .
+    
+    bdr:MW30514_1EF53E
+        a                   :Instance ;
+        skos:prefLabel      "drang ba dang nges pa'i don rnam par 'byed pa'i mtha' dpyod 'khrul bral lung rigs bai DUrya dkar po'i gan mdzod skal bzang re ba kun skong /"@bo-x-ewts ;
+        :contentLocation    bdr:CL0C2D6C080786C916 ;
+        :contentLocationStatement  "p. 310" ;
+        :hasTitle           bdr:TT19A64144D382BB10 ;
+        :inRootInstance     bdr:MW30514 ;
+        :instanceOf         bdr:WA0XL1EF53E00595D ;
+        :legacyOutlineNodeRID  "O2DB943282DB94332" ;
+        :partIndex          4 ;
+        :partOf             bdr:MW30514 ;
+        :partTreeIndex      "4" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30514_5FC65E
+        a                   :Instance ;
+        skos:prefLabel      "drang nges rnam 'byed kyi zin bris/"@bo-x-ewts ;
+        :contentLocation    bdr:CL366C4CC1B4F81A14 ;
+        :contentLocationStatement  "p. 605" ;
+        :hasTitle           bdr:TTEC7323F6F2D433A5 ;
+        :inRootInstance     bdr:MW30514 ;
+        :instanceOf         bdr:WA0XLDBF57E0C2B5F ;
+        :legacyOutlineNodeRID  "O2DB943282DB94333" ;
+        :partIndex          5 ;
+        :partOf             bdr:MW30514 ;
+        :partTreeIndex      "5" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30514_92803D
+        a                   :Instance ;
+        skos:prefLabel      "drang nges rnam 'byed kyi spyi don rgol ngan tshar gcod rin po che'i phreng ba/"@bo-x-ewts ;
+        :contentLocation    bdr:CL883D812BFC78942D ;
+        :contentLocationStatement  "p. 1 (2nd group)" ;
+        :hasTitle           bdr:TTB59FA00EEF228A4E ;
+        :inRootInstance     bdr:MW30514 ;
+        :instanceOf         bdr:WA1NLM1247 ;
+        :legacyOutlineNodeRID  "O2DB943282DB94330" ;
+        :partIndex          2 ;
+        :partOf             bdr:MW30514 ;
+        :partTreeIndex      "2" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30514_BD372C
+        a                   :Instance ;
+        skos:prefLabel      "gsung rab kun gyi drang ba dang nges pa'i don rnam par 'byed pa legs par bshad pa'i snying po'i dgongs pa brgal lan gyis rnam par 'byed pa ut+pa la'i 'phreng ba/"@bo-x-ewts ;
+        :contentLocation    bdr:CL85109B27475293BF ;
+        :contentLocationStatement  "p. 163" ;
+        :hasTitle           bdr:TT45744E549A8F9E06 ;
+        :inRootInstance     bdr:MW30514 ;
+        :instanceOf         bdr:WA0XLBD372C026C21 ;
+        :legacyOutlineNodeRID  "O2DB943282DB94331" ;
+        :partIndex          3 ;
+        :partOf             bdr:MW30514 ;
+        :partTreeIndex      "3" ;
+        :partType           bdr:PartTypeText .
+    
+    bdr:MW30514_CB16AE
+        a                   :Instance ;
+        skos:prefLabel      "dkar chag"@bo-x-ewts ;
+        :contentLocation    bdr:CL03146CC8FDCBDE0D ;
+        :contentLocationStatement  "p. 1 (1st group)" ;
+        :hasTitle           bdr:TTA0FDE7E3EA9FD00A ;
+        :inRootInstance     bdr:MW30514 ;
+        :legacyOutlineNodeRID  "O2DB943282DB94329" ;
+        :partIndex          1 ;
+        :partOf             bdr:MW30514 ;
+        :partTreeIndex      "1" ;
+        :partType           bdr:PartTypeTableOfContent .
+    
+    bdr:O2DB94328  a        :Outline ;
+        :authorshipStatement  "Bumu Dega; outlined with the gracious support of the khyentse foundation"@en ;
+        :legacyOutlineNodeRID  "O2DB94328" ;
+        :outlineOf          bdr:MW30514 ;
+        :outlineType        bdr:OutlineTypeNoType ;
+        :paginationType     bdr:PaginationAbsolute .
+    
+    bdr:TT19A64144D382BB10
+        a                   :Title ;
+        rdfs:label          "drang ba dang nges pa'i don rnam par 'byed pa'i mtha' dpyod 'khrul bral lung rigs bai DUrya dkar po'i gan mdzod skal bzang re ba kun skong /"@bo-x-ewts .
+    
+    bdr:TT45744E549A8F9E06
+        a                   :Title ;
+        rdfs:label          "gsung rab kun gyi drang ba dang nges pa'i don rnam par 'byed pa legs par bshad pa'i snying po'i dgongs pa brgal lan gyis rnam par 'byed pa ut+pa la'i 'phreng ba/"@bo-x-ewts .
+    
+    bdr:TTA0FDE7E3EA9FD00A
+        a                   :Title ;
+        rdfs:label          "dkar chag"@bo-x-ewts .
+    
+    bdr:TTB59FA00EEF228A4E
+        a                   :Title ;
+        rdfs:label          "drang nges rnam 'byed kyi spyi don rgol ngan tshar gcod rin po che'i phreng ba/"@bo-x-ewts .
+    
+    bdr:TTEC7323F6F2D433A5
+        a                   :Title ;
+        rdfs:label          "drang nges rnam 'byed kyi zin bris/"@bo-x-ewts .
+}
